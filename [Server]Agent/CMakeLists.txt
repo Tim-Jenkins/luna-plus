@@ -73,4 +73,4 @@ target_include_directories(AgentServer PRIVATE
 )
 luna_legacy_target(AgentServer MBCS)
 target_compile_definitions(AgentServer PRIVATE _AGENTSERVER _AES_FILE_)
-target_link_libraries(AgentServer PRIVATE YHLibrary)
+target_link_libraries(AgentServer PRIVATE YHLibrary 4DyuchiGXGFunc)

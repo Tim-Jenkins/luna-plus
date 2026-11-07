@@ -42,4 +42,4 @@ target_include_directories(DistributeServer PRIVATE
 )
 luna_legacy_target(DistributeServer MBCS)
 target_compile_definitions(DistributeServer PRIVATE _DISTRIBUTESERVER_ _AES_FILE_)
-target_link_libraries(DistributeServer PRIVATE YHLibrary CURL::libcurl)
+target_link_libraries(DistributeServer PRIVATE YHLibrary 4DyuchiGXGFunc CURL::libcurl)

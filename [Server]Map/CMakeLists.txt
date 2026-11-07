@@ -310,4 +310,4 @@ target_include_directories(MapServer PRIVATE
 )
 luna_legacy_target(MapServer MBCS)
 target_compile_definitions(MapServer PRIVATE _MAPSERVER_ _AES_FILE_)
-target_link_libraries(MapServer PRIVATE YHLibrary)
+target_link_libraries(MapServer PRIVATE YHLibrary 4DyuchiGXGFunc)

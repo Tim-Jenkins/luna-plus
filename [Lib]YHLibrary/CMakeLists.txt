@@ -18,3 +18,8 @@ add_library(YHLibrary STATIC
 target_include_directories(YHLibrary PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}")
 luna_legacy_target(YHLibrary MBCS)
 target_compile_definitions(YHLibrary PRIVATE _LIB)
+
+# CIndexGenerator only exists as a prebuilt VS2003 static library (no source in the repo).
+# It asks for the old single-threaded CRT (LIBC), which no longer exists, so skip that.
+target_link_libraries(YHLibrary INTERFACE "${CMAKE_CURRENT_SOURCE_DIR}/IndexGenerator.lib")
+target_link_options(YHLibrary INTERFACE /NODEFAULTLIB:libc.lib)

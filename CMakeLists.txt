@@ -25,6 +25,7 @@ set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/lib")
 add_subdirectory("[Lib]YHLibrary")
 add_subdirectory("[Lib]DBThread")
 add_subdirectory("4DyuchiNET_Latest")
+add_subdirectory("4DyuchiGXGFunc")
 
 # Servers
 add_subdirectory("[Server]Agent")

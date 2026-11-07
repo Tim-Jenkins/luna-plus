@@ -1,7 +1,7 @@
 // MemoryPool.cpp: implementation of the CMemoryPool class.
 //
 //////////////////////////////////////////////////////////////////////
-#define _WIN32_WINNT 0x0500
+#define _WIN32_WINNT 0x0501
 
 #include "stdafx.h"
 #include "MemoryPool.h"

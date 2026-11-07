@@ -1268,7 +1268,7 @@ void cSkillManager::ReleaseSkillObject(cSkillObject* pSkillObject)
 
 DWORD cSkillManager::GetNewSkillObjectID()
 {
-	static tempID = SKILLOBJECT_ID_START;
+	static int tempID = SKILLOBJECT_ID_START;
 	if(++tempID >= SKILLOBJECT_ID_MAX)
 		tempID = SKILLOBJECT_ID_START;
 	return tempID;

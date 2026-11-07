@@ -3186,7 +3186,7 @@ void CPlayer::StateProcess()
 
 void CPlayer::SetWearedItemIdx(DWORD WearedPosition,DWORD ItemIdx)
 {	
-	const size = sizeof( m_HeroCharacterInfo.WearedItemIdx ) / sizeof( DWORD );
+	const int size = sizeof( m_HeroCharacterInfo.WearedItemIdx ) / sizeof( DWORD );
 
 	if( size > WearedPosition )
 	{

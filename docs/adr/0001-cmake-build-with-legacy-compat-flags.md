@@ -36,4 +36,6 @@ The code was written for the VS2003 compiler and runtime, and the servers and cl
 - Struct layout and string bytes match the original build, so the converted servers stay compatible with the original client.
 - Each project's `CMakeLists.txt` lists sources explicitly, copied from its `.vcproj` Release configuration, so the build doesn't pick up stray files.
 - `/Zc:forScope-` is deprecated in MSVC. If it is removed, the affected loops need fixing in code.
+- `CIndexGenerator` exists only as a prebuilt VS2003 library (`[Lib]YHLibrary/IndexGenerator.lib`). Executables linking it need `/NODEFAULTLIB:libc.lib` and `/SAFESEH:NO`. Rewriting it from source would remove both.
+- `4DyuchiGXGFunc` is built as `SS3DGFunc.dll`, the name in the prebuilt import library the original servers linked against.
 - Servers load `DBThread` and `4DyuchiNET` as registered COM DLLs (`CoCreateInstance`), so running them still needs `regsvr32` on those DLLs. Not a build concern, but a deployment step.

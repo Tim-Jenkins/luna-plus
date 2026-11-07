@@ -14,6 +14,7 @@ function(luna_legacy_target target)
     _CRT_NON_CONFORMING_SWPRINTFS
     _SCL_SECURE_NO_WARNINGS
     _WINSOCK_DEPRECATED_NO_WARNINGS
+    _SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS  # <hash_map>/<hash_set> are still available
   )
   if(ARG_MBCS)
     target_compile_definitions(${target} PRIVATE _MBCS)

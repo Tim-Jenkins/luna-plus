@@ -83,7 +83,7 @@ BOOL CEngineCloud::Init(DWORD CloudNum,float x,float z)
 	if(m_GXOHandle == NULL)
 	{
 		char temp[256];
-		sprintf(temp,"Fail To Create Cloud : %s",m_CloudFileName[CloudNum]);
+		sprintf(temp,"Fail To Create Cloud : %s",(LPCTSTR)m_CloudFileName[CloudNum]);
 		MessageBox(NULL,temp,NULL,NULL);
 		DIRECTORYMGR->SetLoadMode(eLM_Root);
 		return FALSE;		

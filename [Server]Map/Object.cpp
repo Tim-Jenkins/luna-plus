@@ -154,7 +154,7 @@ void CObject::GetSendMoveInfo(SEND_MOVEINFO* pRtInfo,CAddableInfoList* pAddInfoL
 		if(pAddInfoList == NULL)
 		{
 			char temp[256];
-			sprintf(temp,"Object %s,  Invalid Move State (Not Inited But Moving)");
+			sprintf(temp,"Object %s,  Invalid Move State (Not Inited But Moving)", GetObjectName());
 			ASSERTMSG(0,temp);
 			for(BYTE i=0;i<m_MoveInfo.GetMaxTargetPosIdx();++i)
 			{

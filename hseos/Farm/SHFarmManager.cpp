@@ -707,7 +707,7 @@ BOOL CSHFarmManager::LoadFarmInfo( MAPTYPE mapType, int nType)
 				char szTmp[256];
 				float nValue[13];
 
-				sscanf(szLine, "%s %u %f %f %f %f %f %f %f %f %f %f %f", szTmp,	&nValue[1], &nValue[2], &nValue[3], &nValue[4],
+				sscanf(szLine, "%s %f %f %f %f %f %f %f %f %f %f %f %f", szTmp,	&nValue[1], &nValue[2], &nValue[3], &nValue[4],
 																				&nValue[5], &nValue[6], &nValue[7], &nValue[8],
 																				&nValue[9], &nValue[10], &nValue[11], &nValue[12]);
 				stPos.x = nValue[5];
@@ -736,7 +736,7 @@ BOOL CSHFarmManager::LoadFarmInfo( MAPTYPE mapType, int nType)
 				char szTmp[256];
 				float nValue[13];
 
-				sscanf(szLine, "%s %u %f %f %f %f %f %f %f %f %f %f %f", szTmp,	&nValue[1], &nValue[2], &nValue[3], &nValue[4],
+				sscanf(szLine, "%s %f %f %f %f %f %f %f %f %f %f %f %f", szTmp,	&nValue[1], &nValue[2], &nValue[3], &nValue[4],
 																				&nValue[5], &nValue[6], &nValue[7], &nValue[8],
 																				&nValue[9], &nValue[10], &nValue[11], &nValue[12]);
 				stPos.x = nValue[5];
@@ -765,7 +765,7 @@ BOOL CSHFarmManager::LoadFarmInfo( MAPTYPE mapType, int nType)
 				char szTmp[256];
 				float nValue[13];
 
-				sscanf(szLine, "%s %u %f %f %f %f %f %f %f %f %f %f %f", szTmp,	&nValue[1], &nValue[2], &nValue[3], &nValue[4],
+				sscanf(szLine, "%s %f %f %f %f %f %f %f %f %f %f %f %f", szTmp,	&nValue[1], &nValue[2], &nValue[3], &nValue[4],
 																				&nValue[5], &nValue[6], &nValue[7], &nValue[8],
 																				&nValue[9], &nValue[10], &nValue[11], &nValue[12]);
 				stPos.x = nValue[5];
@@ -794,7 +794,7 @@ BOOL CSHFarmManager::LoadFarmInfo( MAPTYPE mapType, int nType)
 				char szTmp[256];
 				float nValue[13];
 
-				sscanf(szLine, "%s %u %f %f %f %f %f %f %f %f %f %f %f", szTmp,	&nValue[1], &nValue[2], &nValue[3], &nValue[4],
+				sscanf(szLine, "%s %f %f %f %f %f %f %f %f %f %f %f %f", szTmp,	&nValue[1], &nValue[2], &nValue[3], &nValue[4],
 																				&nValue[5], &nValue[6], &nValue[7], &nValue[8],
 																				&nValue[9], &nValue[10], &nValue[11], &nValue[12]);
 
@@ -969,7 +969,7 @@ BOOL CSHFarmManager::LoadFarmInfo( MAPTYPE mapType, int nType)
 			m_pstBFarm[nCnt].nMapNum = mapType;
 			sscanf(
 				szLine,
-				"%d %s %d",
+				"%hu %s %hu",
 				&m_pstBFarm[nCnt].nKind,
                 m_pstBFarm[nCnt].szName,
 				&m_pstBFarm[nCnt].nID);
@@ -7029,7 +7029,7 @@ VOID CSHFarmManager::SRV_SaveAnimalInfoToDB(WORD nFarmZone, WORD nFarmID, CAnima
 		fp = fopen(szFile, "wt");
 		if (fp)
 		{
-			fprintf(fp, "%d %d %d %d %d\n",
+			fprintf(fp, "%d %d %d %d %d %d %d\n",
 				pAnimal->GetOwner(),
 				pAnimal->GetStep(),
 				pAnimal->GetLife(),
@@ -7102,7 +7102,7 @@ VOID CSHFarmManager::SRV_SetAnimalInfoFromDBQueue(CPlayer* pPlayer, CSHFarmManag
 	if (fp)
 	{
 		int nOwner = 0, nStep = 0, nLife = 0, nKind = 0, nNextStepTime = 0, nAnimalContentment = 0, nAnimalInterest = 0;
-		fscanf(fp, "%d %d %d %d %d %d %d %d", 
+		fscanf(fp, "%d %d %d %d %d %d %d", 
 			&nOwner,
 			&nStep,
 			&nLife,
@@ -7144,7 +7144,7 @@ VOID CSHFarmManager::SRV_SetAnimalInfoFromDBQueue(CPlayer* pPlayer, CSHFarmManag
 	fp = fopen(szFile, "a+");
 	if (fp)
 	{
-		fprintf(fp, "ZONE:%d FARM:%d CROP:%d OWNER:%d STEP:%d LIFE:%d SEEDGRD:%d KIND:%d NEXTSTEPTIME:%d CONTENTMENT:%d INTEREST:%d\n",
+		fprintf(fp, "ZONE:%d FARM:%d CROP:%d OWNER:%d STEP:%d LIFE:%d KIND:%d NEXTSTEPTIME:%d CONTENTMENT:%d INTEREST:%d\n",
 			pPacket->nFarmZone,
 			pcsFarm->GetID(),
 			pcsAnimal->GetID(),

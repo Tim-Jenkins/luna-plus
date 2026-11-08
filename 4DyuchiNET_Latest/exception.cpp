@@ -40,7 +40,7 @@ BOOL DumpException(LPEXCEPTION_POINTERS lpExcep,char* szOutMsg)
 	fp = fopen("exception.dump","at");
 
 	fprintf(fp,"%d year, %d month, %d day,%d hour, %d minute, %d second\n",
-		time.wYear,time.wMonth,time.wDay,time.wMinute,time.wSecond);
+		time.wYear,time.wMonth,time.wDay,time.wHour,time.wMinute,time.wSecond);
 	
 	fprintf(fp,"%s\n",szOutMsg);
 	fprintf(fp,"Crashed address %xh \n",dwExceptionAddress);

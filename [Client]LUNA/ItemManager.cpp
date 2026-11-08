@@ -6932,7 +6932,7 @@ void CItemManager::AddSetToolTip( cIcon& icon, const ITEMBASE& item )
 				}
 				else if( value.mPlus )
 				{
-					sprintf( line, "%s%s %+.0f%", prefix, CHATMGR->GetChatMsg( 671 ), value.mPlus );
+					sprintf( line, "%s%s %+.0f%%", prefix, CHATMGR->GetChatMsg( 671 ), value.mPlus );
 					strcat( line, " " );	// 파싱 버그일까? 웬일인지 위의 sprintf에서 뒤의 여백은 무시가 된다...
 					icon.AddToolTipLine( line, color );
 
@@ -6953,7 +6953,7 @@ void CItemManager::AddSetToolTip( cIcon& icon, const ITEMBASE& item )
 				}
 				else if( value.mPlus )
 				{
-					sprintf( line, "%s%s %+.0f%", prefix, CHATMGR->GetChatMsg( 672 ), value.mPlus );
+					sprintf( line, "%s%s %+.0f%%", prefix, CHATMGR->GetChatMsg( 672 ), value.mPlus );
 					strcat( line, " " );
 					icon.AddToolTipLine( line, color );
 
@@ -6995,7 +6995,7 @@ void CItemManager::AddSetToolTip( cIcon& icon, const ITEMBASE& item )
 				}
 				else if( value.mPlus )
 				{
-					sprintf( line, "%s%s %+.0f%", prefix, CHATMGR->GetChatMsg( 674 ), value.mPlus );
+					sprintf( line, "%s%s %+.0f%%", prefix, CHATMGR->GetChatMsg( 674 ), value.mPlus );
 					strcat( line, " " );
 					icon.AddToolTipLine( line, color );
 
@@ -7016,7 +7016,7 @@ void CItemManager::AddSetToolTip( cIcon& icon, const ITEMBASE& item )
 				}
 				else if( value.mPlus )
 				{
-					sprintf( line, "%s%s %+.0f%", prefix, CHATMGR->GetChatMsg( 676 ), value.mPlus );
+					sprintf( line, "%s%s %+.0f%%", prefix, CHATMGR->GetChatMsg( 676 ), value.mPlus );
 					strcat( line, " " );
 					icon.AddToolTipLine( line, color );
 
@@ -7037,7 +7037,7 @@ void CItemManager::AddSetToolTip( cIcon& icon, const ITEMBASE& item )
 				}
 				else if( value.mPlus )
 				{
-					sprintf( line, "%s%s %+.0f%", prefix, CHATMGR->GetChatMsg( 677 ), value.mPlus );
+					sprintf( line, "%s%s %+.0f%%", prefix, CHATMGR->GetChatMsg( 677 ), value.mPlus );
 					strcat( line, " " );
 					icon.AddToolTipLine( line, color );
 
@@ -7058,7 +7058,7 @@ void CItemManager::AddSetToolTip( cIcon& icon, const ITEMBASE& item )
 				}
 				else if( value.mPlus )
 				{
-					sprintf( line, "%s%s %+.0f%", prefix, CHATMGR->GetChatMsg( 678 ), value.mPlus );
+					sprintf( line, "%s%s %+.0f%%", prefix, CHATMGR->GetChatMsg( 678 ), value.mPlus );
 					strcat( line, " " );
 					icon.AddToolTipLine( line, color );
 
@@ -7079,7 +7079,7 @@ void CItemManager::AddSetToolTip( cIcon& icon, const ITEMBASE& item )
 				}
 				else if( value.mPlus )
 				{
-					sprintf( line, "%s%s %+.0f%", prefix, CHATMGR->GetChatMsg( 679 ), value.mPlus );
+					sprintf( line, "%s%s %+.0f%%", prefix, CHATMGR->GetChatMsg( 679 ), value.mPlus );
 					strcat( line, " " );
 					icon.AddToolTipLine( line, color );
 
@@ -7100,7 +7100,7 @@ void CItemManager::AddSetToolTip( cIcon& icon, const ITEMBASE& item )
 				}
 				else if( value.mPlus )
 				{
-					sprintf( line, "%s%s %+.0f%", prefix, CHATMGR->GetChatMsg( 680 ), value.mPlus );
+					sprintf( line, "%s%s %+.0f%%", prefix, CHATMGR->GetChatMsg( 680 ), value.mPlus );
 					strcat( line, " " );
 					icon.AddToolTipLine( line, color );
 
@@ -7121,7 +7121,7 @@ void CItemManager::AddSetToolTip( cIcon& icon, const ITEMBASE& item )
 				}
 				else if( value.mPlus )
 				{
-					sprintf( line, "%s%s %+.0f%", prefix, CHATMGR->GetChatMsg( 681 ), value.mPlus );
+					sprintf( line, "%s%s %+.0f%%", prefix, CHATMGR->GetChatMsg( 681 ), value.mPlus );
 					strcat( line, " " );
 					icon.AddToolTipLine( line, color );
 
@@ -7142,7 +7142,7 @@ void CItemManager::AddSetToolTip( cIcon& icon, const ITEMBASE& item )
 				}
 				else if( value.mPlus )
 				{
-					sprintf( line, "%s%s %+.0f%", prefix, CHATMGR->GetChatMsg( 682 ), value.mPlus );
+					sprintf( line, "%s%s %+.0f%%", prefix, CHATMGR->GetChatMsg( 682 ), value.mPlus );
 					strcat( line, " " );
 					icon.AddToolTipLine( line, color );
 
@@ -7163,7 +7163,7 @@ void CItemManager::AddSetToolTip( cIcon& icon, const ITEMBASE& item )
 				}
 				else if( value.mPlus )
 				{
-					sprintf( line, "%s%s %+.0f%", prefix, RESRCMGR->GetMsg( 634 ), value.mPlus );
+					sprintf( line, "%s%s %+.0f%%", prefix, RESRCMGR->GetMsg( 634 ), value.mPlus );
 					strcat( line, " " );
 					icon.AddToolTipLine( line, color );
 
@@ -7184,7 +7184,7 @@ void CItemManager::AddSetToolTip( cIcon& icon, const ITEMBASE& item )
 				}
 				else if( value.mPlus )
 				{
-					sprintf( line, "%s%s %+.0f%", prefix, RESRCMGR->GetMsg( 635 ), value.mPlus );
+					sprintf( line, "%s%s %+.0f%%", prefix, RESRCMGR->GetMsg( 635 ), value.mPlus );
 					strcat( line, " " );
 					icon.AddToolTipLine( line, color );
 
@@ -7205,7 +7205,7 @@ void CItemManager::AddSetToolTip( cIcon& icon, const ITEMBASE& item )
 				}
 				else if( value.mPlus )
 				{
-					sprintf( line, "%s%s %+.0f%", prefix, RESRCMGR->GetMsg( 282 ), value.mPlus );
+					sprintf( line, "%s%s %+.0f%%", prefix, RESRCMGR->GetMsg( 282 ), value.mPlus );
 					strcat( line, " " );
 					icon.AddToolTipLine( line, color );
 
@@ -7226,7 +7226,7 @@ void CItemManager::AddSetToolTip( cIcon& icon, const ITEMBASE& item )
 				}
 				else if( value.mPlus )
 				{
-					sprintf( line, "%s%s %+.0f%", prefix, RESRCMGR->GetMsg( 281 ), value.mPlus );
+					sprintf( line, "%s%s %+.0f%%", prefix, RESRCMGR->GetMsg( 281 ), value.mPlus );
 					strcat( line, " " );
 					icon.AddToolTipLine( line, color );
 
@@ -7247,7 +7247,7 @@ void CItemManager::AddSetToolTip( cIcon& icon, const ITEMBASE& item )
 				}
 				else if( value.mPlus )
 				{
-					sprintf( line, "%s%s %+.0f%", prefix, CHATMGR->GetChatMsg( 842 ), value.mPlus );
+					sprintf( line, "%s%s %+.0f%%", prefix, CHATMGR->GetChatMsg( 842 ), value.mPlus );
 					strcat( line, " " );
 					icon.AddToolTipLine( line, color );
 
@@ -7268,7 +7268,7 @@ void CItemManager::AddSetToolTip( cIcon& icon, const ITEMBASE& item )
 				}
 				else if( value.mPlus )
 				{
-					sprintf( line, "%s%s %+.0f%", prefix, CHATMGR->GetChatMsg( 843 ), value.mPlus );
+					sprintf( line, "%s%s %+.0f%%", prefix, CHATMGR->GetChatMsg( 843 ), value.mPlus );
 					strcat( line, " " );
 					icon.AddToolTipLine( line, color );
 
@@ -7289,7 +7289,7 @@ void CItemManager::AddSetToolTip( cIcon& icon, const ITEMBASE& item )
 				}
 				else if( value.mPlus )
 				{
-					sprintf( line, "%s%s %+.0f%", prefix, CHATMGR->GetChatMsg( 840 ), value.mPlus );
+					sprintf( line, "%s%s %+.0f%%", prefix, CHATMGR->GetChatMsg( 840 ), value.mPlus );
 					strcat( line, " " );
 					icon.AddToolTipLine( line, color );
 

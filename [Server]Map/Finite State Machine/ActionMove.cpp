@@ -78,7 +78,7 @@ namespace FiniteStateMachine
 		VECTOR3 currentPosition = {0};
 		monsterObject->GetPosition(
 			&currentPosition);
-		const isOnTarget = (50.0f > CalcDistance(&currentPosition, &targetPosition));
+		const int isOnTarget = (50.0f > CalcDistance(&currentPosition, &targetPosition));
 
 		if(isOnTarget)
 		{

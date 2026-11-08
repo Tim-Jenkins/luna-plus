@@ -1,0 +1,11 @@
+{
+  "name": "luna-plus",
+  "version-string": "0.0.0",
+  "dependencies": [
+    {
+      "name": "curl",
+      "default-features": false
+    }
+  ],
+  "builtin-baseline": "9eec002df1cd109f8f104cd966a763daf9751489"
+}

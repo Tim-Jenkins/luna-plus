@@ -28,6 +28,7 @@
 #include <string>
 #include <vector>
 #include <stack>
+#include <fstream>
 #include <algorithm>
 #include <functional>
 #include <stack>

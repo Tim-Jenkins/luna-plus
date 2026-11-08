@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "configurePresets": [
+    {
+      "name": "win32",
+      "displayName": "Windows 32-bit (Visual Studio)",
+      "generator": "Visual Studio 17 2022",
+      "architecture": "Win32",
+      "binaryDir": "${sourceDir}/build/win32",
+      "toolchainFile": "$env{VCPKG_ROOT}/scripts/buildsystems/vcpkg.cmake",
+      "cacheVariables": {
+        "VCPKG_TARGET_TRIPLET": "x86-windows-static"
+      }
+    }
+  ],
+  "buildPresets": [
+    { "name": "win32-release", "configurePreset": "win32", "configuration": "Release" },
+    { "name": "win32-debug", "configurePreset": "win32", "configuration": "Debug" }
+  ]
+}

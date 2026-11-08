@@ -2341,7 +2341,7 @@ int convertCharToInt(char c)
 	return 0;
 }
 
-HexToByte(char* pStr)
+int HexToByte(char* pStr)
 {
 	int n1 = convertCharToInt(pStr[0]);
 	int n2 = convertCharToInt(pStr[1]);

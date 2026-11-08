@@ -9,6 +9,7 @@
 #pragma once
 #endif // _MSC_VER > 1000
 
+#include <memory>
 #include "../4dyuchigxgfunc/global.h"
 #include "UserTable.h"
 

@@ -1,0 +1,62 @@
+# Converted from 4DyuchiGX_Render.vcproj (Release|Win32). Direct3D 9 renderer, a COM DLL
+# loaded by Executive.dll. Uses the DirectX SDK (March 2009) bundled in d3d9/; at runtime it
+# needs d3dx9_41.dll from the DirectX End-User Runtime.
+add_library(4DyuchiGX_Render SHARED
+  "4DyuchiGX_Render.def"
+  "dllmain.cpp"
+  "factory.cpp"
+  "hashsearch.cpp"
+  "Script1.rc"
+  "circle.cpp"
+  "LMMeshObject.cpp"
+  "font.cpp"
+  "FontCache.cpp"
+  "FontHash.cpp"
+  "FontObject.cpp"
+  "PLMeshObject.cpp"
+  "VLMeshObject.cpp"
+  "VLSMeshObject.cpp"
+  "Base_facegroup.cpp"
+  "BaseFontObject.cpp"
+  "BaseMeshObject.cpp"
+  "CTexture.cpp"
+  "d3dtexture.cpp"
+  "IndexBuffer.cpp"
+  "LMFaceGRoup.cpp"
+  "RenderTexture.cpp"
+  "VertexBuffer.cpp"
+  "VLFaceGroup.cpp"
+  "HFieldManager.cpp"
+  "HFieldObject.cpp"
+  "3DSprite.cpp"
+  "BiiBoard.cpp"
+  "ImmMeshObject.cpp"
+  "d3d_helper.cpp"
+  "image.cpp"
+  "TIF.CPP"
+  "VariableBuffer.cpp"
+  "CoD3DDevice.cpp"
+  "D3DResourceBufferHeap.cpp"
+  "D3DResourceManager.cpp"
+  "IBCache.cpp"
+  "IBHeap.cpp"
+  "MaterialManager.cpp"
+  "RenderTexturePool.cpp"
+  "StaticD3DResourcePool.cpp"
+  "StaticIBPool.cpp"
+  "StaticVBPool.cpp"
+  "texture_manager.cpp"
+  "VBCache.cpp"
+  "VBHeap.cpp"
+  "RenderQ.cpp"
+  "RenderTriBuffer.cpp"
+  "SpriteBuffer.cpp"
+  "TextBuffer.cpp"
+  "ProjectionLight.cpp"
+)
+set_target_properties(4DyuchiGX_Render PROPERTIES OUTPUT_NAME Renderer)
+target_compile_definitions(4DyuchiGX_Render PRIVATE _WINDOWS _USRDLL MY4DYUCHIGX_RENDER_EXPORTS)
+target_include_directories(4DyuchiGX_Render PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/d3d9/Include")
+target_link_directories(4DyuchiGX_Render PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/d3d9/Lib/x86")
+target_link_libraries(4DyuchiGX_Render PRIVATE 4DyuchiGXGFunc d3d9 d3dx9)
+luna_legacy_target(4DyuchiGX_Render MBCS)

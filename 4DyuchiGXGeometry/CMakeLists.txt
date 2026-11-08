@@ -1,0 +1,47 @@
+# Converted from 4DyuchiGXGeometry.vcproj (Release|Win32). Models, motion, height fields and
+# collision, a COM DLL loaded by Executive.dll.
+add_library(4DyuchiGXGeometry SHARED
+  "4DyuchiGXGEOMETRY.def"
+  "dllmain.cpp"
+  "factory.cpp"
+  "geometry_global.cpp"
+  "Script1.rc"
+  "bone_object.cpp"
+  "camera_obj.cpp"
+  "face_group.cpp"
+  "geom_obj.cpp"
+  "light_obj.cpp"
+  "LightTexture.cpp"
+  "material.cpp"
+  "MaterialList.cpp"
+  "object.cpp"
+  "Physique.cpp"
+  "bintree.cpp"
+  "SimpleMemoryPool.cpp"
+  "CoGeometry.cpp"
+  "ModelRefManager.cpp"
+  "SkyMesh.cpp"
+  "CoStaticModel.cpp"
+  "HeightField.cpp"
+  "HFieldObject.cpp"
+  "HFieldTools.cpp"
+  "MeshQuadTree.cpp"
+  "TileObject.cpp"
+  "MOTION.CPP"
+  "motion_obj.cpp"
+  "model.cpp"
+  "MaterialLib.cpp"
+  "CollisionMeshObjectTree.cpp"
+  "CollisionStaticModel.cpp"
+  "colmeshobj.cpp"
+  "SearchGrid.cpp"
+  "SearchGridTree.cpp"
+  "../4DYUCHIGRX_MYSELF97/CheckClock.cpp"
+  "../4DyuchiGRX_myself97/CollisionTest/CollisionTestMovingEllipsoidMeetTriangle.cpp"
+  "../4DyuchiGRX_myself97/CollisionTest/CollisionTestMovingSphereMeetTriangle.cpp"
+  "../4DyuchiGRX_myself97/Myself97Common.cpp"
+)
+set_target_properties(4DyuchiGXGeometry PROPERTIES OUTPUT_NAME Geometry)
+target_compile_definitions(4DyuchiGXGeometry PRIVATE _WINDOWS _USRDLL MY4DYUCHIGXGEOMETRY_EXPORTS)
+target_link_libraries(4DyuchiGXGeometry PRIVATE 4DyuchiGXGFunc)
+luna_legacy_target(4DyuchiGXGeometry MBCS)

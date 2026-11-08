@@ -26,8 +26,16 @@ add_subdirectory("[Lib]YHLibrary")
 add_subdirectory("[Lib]DBThread")
 add_subdirectory("4DyuchiNET_Latest")
 add_subdirectory("4DyuchiGXGFunc")
+add_subdirectory("4DyuchiFileStorage")
+add_subdirectory("4DYUCHIGX_RENDER")
+add_subdirectory("4DyuchiGXGeometry")
+add_subdirectory("4DYUCHIGXEXECUTIVE")
+add_subdirectory("SoundLib")
 
 # Servers
 add_subdirectory("[Server]Agent")
 add_subdirectory("[Server]Distribute")
 add_subdirectory("[Server]Map")
+
+# Client
+add_subdirectory("[Client]LUNA")

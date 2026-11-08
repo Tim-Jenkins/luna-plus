@@ -1086,7 +1086,7 @@ void CReinforceDlg::Send()
 {
 	Submit( FALSE );
 
-	static const MSG_ITEM_REINFORCE_SYN emptyMessage;
+	static const MSG_ITEM_REINFORCE_SYN emptyMessage = MSG_ITEM_REINFORCE_SYN();
 
 	if( ! memcmp( &emptyMessage, &mMessage, sizeof( emptyMessage ) ) )
 	{

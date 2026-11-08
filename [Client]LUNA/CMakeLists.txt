@@ -31,7 +31,6 @@ add_executable(LUNAClient WIN32
   "interface/UiSettingManager.cpp"
   "interface/cAni.cpp"
   "interface/cAnimationManager.cpp"
-  "cBrowser.cpp"
   "interface/cButton.cpp"
   "interface/cCheckBox.cpp"
   "interface/cComboBox.cpp"
@@ -56,7 +55,6 @@ add_executable(LUNAClient WIN32
   "interface/cPushupButton.cpp"
   "interface/cResourceManager.cpp"
   "cRITEMEx.cpp"
-  "interface/cScriptManager.cpp"
   "cScrollIconGridDialog.cpp"
   "interface/cSpin.cpp"
   "interface/cStatic.cpp"
@@ -72,7 +70,6 @@ add_executable(LUNAClient WIN32
   "FadeDlg.cpp"
   "GameRatingDialog.cpp"
   "ImageNumber.cpp"
-  "ItemShopDlg.cpp"
   "LoadingDlg.cpp"
   "MainSystemDlg.cpp"
   "ObjectGuagen.cpp"
@@ -343,7 +340,6 @@ add_executable(LUNAClient WIN32
   "cHousingStoredIcon.cpp"
   "cHousingWarehouseButtonDlg.cpp"
   "cHousingWarehouseDlg.cpp"
-  "cHousingWebDlg.cpp"
   "HousingRevolDlg.cpp"
   "DungeonMgr.cpp"
   "Trigger/Manager.cpp"
@@ -500,19 +496,34 @@ add_executable(LUNAClient WIN32
   "NProtectManager.cpp"
   "ThaiBreaker.cpp"
 )
-target_compile_definitions(LUNAClient PRIVATE _WINDOWS _AES_FILE_)
-target_include_directories(LUNAClient PRIVATE
-  "${CMAKE_CURRENT_SOURCE_DIR}"
-  "${LUNA_ROOT}/[Lib]YHLibrary"
-  "${CMAKE_CURRENT_SOURCE_DIR}/interface"
-  "${LUNA_ROOT}/[CC]BattleSystem"
-  "${LUNA_ROOT}/[CC]Skill"
-  "${LUNA_ROOT}/[CC]Header"
-  "${CMAKE_CURRENT_SOURCE_DIR}/Audio"
+
+# These four include cBrowser.h, which uses #import <shdocvw.dll>; #import can't be
+# compiled with /MP, so they build separately without it.
+add_library(LUNAClientBrowser OBJECT
+  "cBrowser.cpp"
+  "cHousingWebDlg.cpp"
+  "interface/cScriptManager.cpp"
+  "ItemShopDlg.cpp"
 )
+
+foreach(target LUNAClient LUNAClientBrowser)
+  target_compile_definitions(${target} PRIVATE _WINDOWS _AES_FILE_)
+  target_include_directories(${target} PRIVATE
+    "${CMAKE_CURRENT_SOURCE_DIR}"
+    "${LUNA_ROOT}/[Lib]YHLibrary"
+    "${CMAKE_CURRENT_SOURCE_DIR}/interface"
+    "${LUNA_ROOT}/[CC]BattleSystem"
+    "${LUNA_ROOT}/[CC]Skill"
+    "${LUNA_ROOT}/[CC]Header"
+    "${CMAKE_CURRENT_SOURCE_DIR}/Audio"
+  )
+  target_link_libraries(${target} PRIVATE YHLibrary 4DyuchiGXGFunc SoundLib)
+endforeach()
+luna_legacy_target(LUNAClient MBCS)
+luna_legacy_target(LUNAClientBrowser MBCS NO_MP)
+
 target_link_libraries(LUNAClient PRIVATE
-  YHLibrary 4DyuchiGXGFunc SoundLib
+  LUNAClientBrowser
   comctl32 strmiids vfw32 imm32 wsock32 dinput8 dxguid version
 )
 add_dependencies(LUNAClient 4DyuchiGXExecutive 4DyuchiGX_Render 4DyuchiGXGeometry 4DyuchiFileStorage)
-luna_legacy_target(LUNAClient MBCS)

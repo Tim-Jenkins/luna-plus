@@ -7932,9 +7932,9 @@ BOOL CItemManager::AddCoolTime( DWORD playerIndex, DWORD itemIndex )
 
 		const CoolTimeScript::Unit& unit = it->second;
 
-		mCoolTimeQueue.push( CoolTimeSort::Tick() );
-
-		CoolTimeSort::Tick& tick		= mCoolTimeQueue.top();
+		// Fill the tick before pushing it: priority_queue::top() is const, and editing
+		// the top in place would break the heap order.
+		CoolTimeSort::Tick tick		= CoolTimeSort::Tick();
 		const DWORD			tickCount	= GetTickCount();
 
 		tick.mCoolTimeGroup	= groupIndex;
@@ -7942,6 +7942,7 @@ BOOL CItemManager::AddCoolTime( DWORD playerIndex, DWORD itemIndex )
 		tick.mEnd			= tickCount + unit.mTime;
 		tick.mPlayerIndex	= playerIndex;
 
+		mCoolTimeQueue.push( tick );
 
 		std::pair<DWORD, CoolTimeSort::Tick> pairData;
 		pairData.first = groupIndex;

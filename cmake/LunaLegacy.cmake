@@ -1,10 +1,11 @@
 # Compatibility settings for code written for the Visual Studio .NET 2003 compiler.
 # See docs/adr/0001-cmake-build-with-legacy-compat-flags.md for the reasoning behind each one.
 
-# luna_legacy_target(<target> [MBCS])
+# luna_legacy_target(<target> [MBCS] [NO_MP])
 #   MBCS: the original project used the multi-byte character set (CharacterSet="2").
+#   NO_MP: compile without /MP (needed for files that use #import).
 function(luna_legacy_target target)
-  cmake_parse_arguments(ARG "MBCS" "" "" ${ARGN})
+  cmake_parse_arguments(ARG "MBCS;NO_MP" "" "" ${ARGN})
 
   target_compile_definitions(${target} PRIVATE
     _USE_32BIT_TIME_T
@@ -24,11 +25,13 @@ function(luna_legacy_target target)
     /source-charset:.949
     /execution-charset:.949
     /Zc:forScope-
-    /MP
     /W3
     /wd4996  # deprecated CRT functions
     /wd4819  # character that can't be represented in the current code page
   )
+  if(NOT ARG_NO_MP)
+    target_compile_options(${target} PRIVATE /MP)
+  endif()
 
   # VS2003 linked these by default; CMake's default library list lacks the ODBC ones.
   target_link_libraries(${target} PRIVATE odbc32 odbccp32 winmm)

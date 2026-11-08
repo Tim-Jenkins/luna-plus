@@ -22,7 +22,8 @@
 #include "factory.h"
 #include "CoGeometry.h"
 
-#pragma comment(lib, "..\\lib\\for_sse_debug\\SS3DGFunc.lib")
+// CMake links 4DyuchiGXGFunc (SS3DGFunc.dll) directly.
+// #pragma comment(lib, "..\\lib\\for_sse_debug\\SS3DGFunc.lib")
 
 LONG		g_lComponent	= 0;
 HINSTANCE g_hDllInst = NULL;

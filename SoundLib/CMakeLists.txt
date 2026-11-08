@@ -13,7 +13,7 @@ add_library(SoundLib SHARED
 )
 target_compile_definitions(SoundLib PRIVATE _WINDOWS _USRDLL SOUNDLIB_EXPORTS)
 target_include_directories(SoundLib INTERFACE "${CMAKE_CURRENT_SOURCE_DIR}")
-target_link_libraries(SoundLib PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/mss/mss32.lib")
+target_link_libraries(SoundLib PRIVATE 4DyuchiGXGFunc "${CMAKE_CURRENT_SOURCE_DIR}/mss/mss32.lib")
 luna_legacy_target(SoundLib MBCS)
 # mss32.lib's static stubs predate SafeSEH.
 target_link_options(SoundLib PRIVATE /SAFESEH:NO)

@@ -20,7 +20,8 @@
 #include "factory.h"
 #include "executive.h"
 
-#pragma comment(lib, "..\\lib\\for_sse_debug\\SS3DGFunc.lib")
+// CMake links 4DyuchiGXGFunc (SS3DGFunc.dll) directly.
+// #pragma comment(lib, "..\\lib\\for_sse_debug\\SS3DGFunc.lib")
 
 HINSTANCE g_hDllInst = NULL;
 

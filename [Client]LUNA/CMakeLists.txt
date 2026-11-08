@@ -524,6 +524,13 @@ luna_legacy_target(LUNAClientBrowser MBCS NO_MP)
 
 target_link_libraries(LUNAClient PRIVATE
   LUNAClientBrowser
+  "${CMAKE_CURRENT_SOURCE_DIR}/FreeImage/FreeImage.lib"
   comctl32 strmiids vfw32 imm32 wsock32 dinput8 dxguid version
 )
 add_dependencies(LUNAClient 4DyuchiGXExecutive 4DyuchiGX_Render 4DyuchiGXGeometry 4DyuchiFileStorage)
+
+# FreeImage (guild/family marks, screenshots) is a prebuilt third-party DLL kept in the repo.
+add_custom_command(TARGET LUNAClient POST_BUILD
+  COMMAND ${CMAKE_COMMAND} -E copy_if_different
+    "${CMAKE_CURRENT_SOURCE_DIR}/FreeImage/FreeImage.dll" "$<TARGET_FILE_DIR:LUNAClient>"
+)

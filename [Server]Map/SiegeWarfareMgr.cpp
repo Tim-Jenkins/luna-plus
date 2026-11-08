@@ -146,7 +146,7 @@ VOID CSiegeWarfareMgr::LoadMapInfo()
 			break;
 		// 081017 LYW --- SiegeWarfareMgr : 각인을 허용하는 거리 값을 받는다.
 		case eSiegeWarfare_Info_Craving_Distance :
-			sscanf(szLine, "%u", &m_wCravingDistance) ;
+			sscanf(szLine, "%hu", &m_wCravingDistance) ;
 			break ;
 		case eSiegeWarfare_Info_VilageInfo:
 			sscanf(szLine, "%d %f %f", &m_stCastleVilage.MapNum, &m_stCastleVilage.PosX, &m_stCastleVilage.PosZ);
@@ -182,7 +182,7 @@ VOID CSiegeWarfareMgr::LoadMapInfo()
 		}
 		SYSTEMTIME stStartTime, stEndTime;
 		// (일:0  월:1  화:2  수:3  목:4  금:5  토:6)
-		sscanf(szLine, "%d %d %d %d %d %d", &stStartTime.wDayOfWeek, &stStartTime.wHour, &stStartTime.wMinute, &stEndTime.wDayOfWeek, &stEndTime.wHour, &stEndTime.wMinute);
+		sscanf(szLine, "%hu %hu %hu %hu %hu %hu", &stStartTime.wDayOfWeek, &stStartTime.wHour, &stStartTime.wMinute, &stEndTime.wDayOfWeek, &stEndTime.wHour, &stEndTime.wMinute);
 
 		m_ScheduleStartTime[eSiegeWarfare_Type_Nera].push_back(stStartTime);
 		m_ScheduleEndTime[eSiegeWarfare_Type_Nera].push_back(stEndTime);
@@ -216,7 +216,7 @@ VOID CSiegeWarfareMgr::LoadMapInfo()
 
 		memset(&stMapInfo, NULL, sizeof(SiegeWarfareKindMapInfo));
 
-		sscanf(szLine, "%hd %hd %hd %f %f", &stMapInfo.WarfareType, &stMapInfo.MapNum, &stMapInfo.MapType, &stMapInfo.PosX, &stMapInfo.PosZ);
+		sscanf(szLine, "%hu %u %hu %f %f", &stMapInfo.WarfareType, &stMapInfo.MapNum, &stMapInfo.MapType, &stMapInfo.PosX, &stMapInfo.PosZ);
 
 		m_SiegeWarfareKindMapList.push_back(stMapInfo);
 	}

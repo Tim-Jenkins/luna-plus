@@ -127,7 +127,7 @@ void CSiegeWarfareMgr::LoadInfo()
 
 			// 081017 LYW --- SiegeWarfareMgr : 각인을 허용하는 거리 값을 받는다.
 			case eSiegeWarfare_Info_Craving_Distance :
-			sscanf(szLine, "%u", &m_wCravingDistance) ;
+			sscanf(szLine, "%hu", &m_wCravingDistance) ;
 			break ;
 
 			case eSiegeWarfare_Info_VilageInfo:
@@ -165,7 +165,7 @@ void CSiegeWarfareMgr::LoadInfo()
 
 		memset(&stMapInfo, NULL, sizeof(SiegeWarfareKindMapInfo));
 
-		sscanf(szLine, "%hd %hd %hd %f %f", &stMapInfo.WarfareType, &stMapInfo.MapNum, &stMapInfo.MapType, &stMapInfo.PosX, &stMapInfo.PosZ);
+		sscanf(szLine, "%hu %u %hu %f %f", &stMapInfo.WarfareType, &stMapInfo.MapNum, &stMapInfo.MapType, &stMapInfo.PosX, &stMapInfo.PosZ);
 
 		m_SiegeWarfareKindMapList.push_back(stMapInfo);
 

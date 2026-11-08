@@ -579,7 +579,7 @@ void CPCRoomManager::ProvideItem( DWORD dwPlayerIdx )
 	}
 
 	char txt[1024] = {0,};
-	sprintf(txt, "EXEC dbo.MP_GAMEROOM_PROVIDE_ITEM %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d ", 
+	sprintf(txt, "EXEC dbo.MP_GAMEROOM_PROVIDE_ITEM %d, %d, %d, %d, %lld, %d, %d, %d, %lld, %d, %d, %d, %lld, %d, %d, %d, %lld, %d, %d, %d, %lld ", 
 		dwPlayerIdx,
 		dwItemIdx[0], wItemCnt[0], wSealType[0], dwEndTime[0],
 		dwItemIdx[1], wItemCnt[1], wSealType[1], dwEndTime[1], 

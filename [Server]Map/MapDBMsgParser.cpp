@@ -1005,7 +1005,7 @@ void SaveMapChangePointUpdate_SiegeWarfare( DWORD CharacterIDX, WORD MapNum, flo
 	// 081012 LUJ, 일부 로컬은 프로시저 호출 시 대소문자까지 일치해야 한다. 단, dbo는 소문자로 해야함. 이에 모든 프로시저 이름을 수정함
 	// 081103 LYW --- MapDBMsgParser : db 쿼리문 에러를 수정한다.
 	//sprintf( txt, "EXEC %s %d %d %d %d", "dbo.MP_CHARACTER_MAPCHANGEPOINTUPDATE_SIEGEWARFARE", CharacterIDX, MapNum, fXpos, fZpos ) ;
-	sprintf( txt, "EXEC %s %d, %d, %d, %d", "dbo.MP_CHARACTER_MAPCHANGEPOINTUPDATE_SIEGEWARFARE", CharacterIDX, MapNum, fXpos, fZpos ) ;
+	sprintf( txt, "EXEC %s %d, %d, %d, %d", "dbo.MP_CHARACTER_MAPCHANGEPOINTUPDATE_SIEGEWARFARE", CharacterIDX, MapNum, (int)fXpos, (int)fZpos ) ;
 	g_DB.Query( eQueryType_FreeQuery, eSavePointSiegeWarfare, 0, txt, CharacterIDX ) ;
 }
 
@@ -1897,7 +1897,7 @@ void RCharacterNumSendAndCharacterInfo(LPQUERY pData, LPDBMESSAGE pMessage)
 				SYSTEMTIME sysTime;
 				GetLocalTime( &sysTime );
 
-				fprintf( fpLog, "[%04d-%02d-%02d %02d:%02d:%02d] Map:d, PlayerID:%d, PlayerName:%s, MapChangePoint:%d, RevivePoint:(%.2f,%.2f)\n", 
+				fprintf( fpLog, "[%04d-%02d-%02d %02d:%02d:%02d] Map:%d, PlayerID:%d, PlayerName:%s, MapChangePoint:%d, RevivePoint:(%.2f,%.2f)\n", 
 					sysTime.wYear, sysTime.wMonth, sysTime.wDay, sysTime.wHour, sysTime.wMinute, sysTime.wSecond,
 					GAMERESRCMNGR->GetLoadMapNum(),
 					pPlayer->GetID(),
@@ -5714,7 +5714,7 @@ void CharacterBuffUpdate( DWORD characteridx, DWORD skillidx, DWORD remaintime, 
 	if(g_csFamilyManager.IsFamilyRewardBuff(skillidx))
 		return;
 
-	sprintf(txt, "EXEC dbo.MP_CHARACTER_BUFF_UPDATE %d, %d, %u, %d, %d", characteridx, skillidx, remaintime, count );
+	sprintf(txt, "EXEC dbo.MP_CHARACTER_BUFF_UPDATE %d, %d, %u, %d, %d", characteridx, skillidx, remaintime, count, 0 );
 	g_DB.Query(eQueryType_FreeQuery, eCharacterBuffUpdate, characteridx, txt, characteridx);
 }
 

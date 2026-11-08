@@ -433,7 +433,7 @@ void CHero::SetMaxExpPoint(EXPTYPE dwPoint)
 	char szValue[50];
 	// 070124 LYW --- Modified this line.
 	//sprintf( szValue, "%d / %d", GetExpPoint(), dwPoint );
-	sprintf( szValue, "%d/%d", GetExpPoint(), dwPoint );
+	sprintf( szValue, "%llu/%llu", GetExpPoint(), dwPoint );
 	cStatic* ps = (cStatic *)GAMEIN->GetGuageDlg()->GetWindowForID(CG_GUAGEEXPPOINTTEXT);
 	if( ps )	ps->SetStaticText( szValue );
 }

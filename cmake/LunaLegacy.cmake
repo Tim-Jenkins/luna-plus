@@ -28,6 +28,8 @@ function(luna_legacy_target target)
     /W3
     /wd4996  # deprecated CRT functions
     /wd4819  # character that can't be represented in the current code page
+    /we4477  # printf/scanf format string doesn't match the argument type
+    /we4473  # printf/scanf has fewer arguments than the format string needs
   )
   if(NOT ARG_NO_MP)
     target_compile_options(${target} PRIVATE /MP)

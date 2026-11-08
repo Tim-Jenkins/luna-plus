@@ -35,9 +35,9 @@ void CGrid::AddObject(CObject* pObject)
 	if(pPreObject)
 	{
 		char temp[256];
-		sprintf(temp,"PreObj %d,  %s,   %d", pPreObject->GetID(),pPreObject->GetObjectName(),pPreObject);
+		sprintf(temp,"PreObj %d,  %s,   %p", pPreObject->GetID(),pPreObject->GetObjectName(),pPreObject);
 		ASSERTMSG(0,temp);
-		sprintf(temp,"NewObj %d,  %s,   %d", pObject->GetID(),pObject->GetObjectName(),pObject);
+		sprintf(temp,"NewObj %d,  %s,   %p", pObject->GetID(),pObject->GetObjectName(),pObject);
 		ASSERTMSG(0,temp);
 		return;
 	}

@@ -15,7 +15,7 @@
 #include "../Interface\cWindowManager.h"
 #include "../Interface\cEditBox.h"
 #include "../WindowIDEnum.h"
-#include <WinAble.h>
+// WinAble.h was folded into winuser.h in later Windows SDKs.
 #include "CameraRotate.inl"
 #include "CameraWheelZoom.inl"
 

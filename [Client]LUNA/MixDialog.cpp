@@ -1127,7 +1127,7 @@ void CMixDialog::Send()
 {
 	Submit( mMessage.mMixSize, FALSE );
 
-	static const MSG_ITEM_MIX_SYN emptyMessage;
+	static const MSG_ITEM_MIX_SYN emptyMessage = MSG_ITEM_MIX_SYN();
 
 	if( ! memcmp( &emptyMessage, &mMessage, sizeof( emptyMessage ) ) )
 	{

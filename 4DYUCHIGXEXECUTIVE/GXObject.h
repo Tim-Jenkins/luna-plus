@@ -74,7 +74,7 @@ public:
 //	void SetAcceleratedVelocity( VECTOR3* pv3Velocity);
 	void InterpolatePosition( float fTime);
 
-	friend	void	CoExecutive::ResourceCheck();
+	friend	class	CoExecutive;	// was: friend void CoExecutive::ResourceCheck(), which is private
 	
 	void				SetScheduleProc(GXSchedulePROC pProc) {m_pProc = pProc;}
 	GXSchedulePROC		GetScheduleProc() {return m_pProc;}

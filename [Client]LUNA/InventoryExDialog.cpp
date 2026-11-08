@@ -918,7 +918,7 @@ void CInventoryExDialog::UseItem(CItem* pItem)
 					char tempBuf[128] = {0, } ;
 					char newItemName[128] = {0, } ;
 
-					char* pPersent = NULL ;
+					const char* pPersent = NULL ;
 
 					pPersent = strchr( pInfo->ItemName, '%' ) ;
 					if( !pPersent )

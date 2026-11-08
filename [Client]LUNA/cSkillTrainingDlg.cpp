@@ -599,7 +599,7 @@ void cSkillTrainingDlg::OpenDialog()
 	DisplayGuildSkill() ;
 
 	const LONG count = m_SkillListDlg->GetItemCount();
-	const top = m_SkillListDlg->GetTopListItemIdx();
+	const int top = m_SkillListDlg->GetTopListItemIdx();
 	const int clickedRowIndex = m_SkillListDlg->GetClickedRowIdx();
 
 	// 스킬 리스트 다이얼로그를 비운다.

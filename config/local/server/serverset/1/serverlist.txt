@@ -1,0 +1,20 @@
+// Server list for server set 1 (read by every server at startup).
+//
+// <kind> <number> <server IP> <server port> <user IP> <user port>
+//
+// kind:   1 = Distribute, 2 = Agent, 3 = Map
+// number: the argument each server is started with. For a Map server it is the map number.
+// server IP/port: where servers connect to each other.
+// user IP/port:   where clients connect (Distribute and Agent only; Map servers ignore it,
+//                 but the line still needs all six fields).
+//
+// 127.0.0.1 works when the client runs on the same machine as the servers. Use the
+// machine's LAN address instead if the client connects from somewhere else; the Agent's
+// user address is sent to the client as-is.
+
+1	1	127.0.0.1	17000	127.0.0.1	17001
+2	1	127.0.0.1	17100	127.0.0.1	17101
+
+// Map 20 is where new characters start ([Server]Agent/AgentDBMsgParser.cpp, CreateCharacter).
+// Add a line per map server you run.
+3	20	127.0.0.1	17220	127.0.0.1	0

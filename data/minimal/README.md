@@ -21,8 +21,19 @@ Packed files are tokenised with no comment support, so the column layouts are do
 | `System/Resource/FishingExpPoint.bin` | `CGameResourceManager::LoadFishingExpPoint` | `<level> <exp> <level restriction> <reward item>` | 4 fishing levels. A message box appears if it's missing |
 | `System/Resource/HPMPdetermination.bin` | `CCharacterCalcManager::LoadHPMPDeterminateList` | `<class> <HP per point> <MP per point>` | First-grade classes only |
 | `System/Resource/AddJobSkillList.bin` | `CCharacterCalcManager::LoadJobSkillList` | first line skipped; then `<class> <skill> <plus level>` | Header only (no job skills). A message box appears if it's missing |
+| `System/Resource/ModList_<R>_<G>.bin` | `CGameResourceManager::LoadModFileList` | `<base model> <count>`, then one equipment model per line (`<model> [left-hand model]`) | Base model only (`h_man.chx`, `e_woman.chx`, ...), no equipment entries. Without it the client crashes when you open character creation |
+| `System/Resource/FaceList_<R>_<G>.bin` | `LoadFaceModFileList` | `<count> <model>...` | The race and gender's `*_face.chr`. Face type picks a material on it |
+| `System/Resource/HairList_<R>_<G>.bin` | `LoadHairModFileList` | `<count> <model>...` | Every `*_hairNNN.mod` in `character.pak` |
+| `System/Resource/BodyList_<R>_<G>.bin` | `LoadBodyModFileList` | `<count> <model>...` | `*_body000.mod` |
+| `System/Resource/CharMake_List.bin` | `cCharMakeManager::LoadOptionList` | first line skipped; then for each of 12 lists `<count> <id>` and `<count>` lines of `<label> <data> <helper>` | Face and hair options shown on the creation screen, in the order human/elf/devil × male/female × face/hair. The client uses the option's position, not `<data>` |
+
+`<R>` is `H`, `E` or `D` (human, elf, devil), and `<G>` is `M` or `W`. The model names come from the client's `Data/3Ddata/character.pak`.
 
 `<class>` is `job * 1000 + (race + 1) * 100 + grade * 10 + subjob`. Jobs are 1 fighter, 2 rogue, 3 mage; races are 0 human, 1 elf, 2 devil. For a first-grade character `subjob` is 1, so a first-grade human fighter is `1111`.
+
+## Client-only files
+
+The client also needs these from `config/local/client/`: `system/ServerList.bin` and `LunaVerInfo.ver`.
 
 ## Not from this folder
 

@@ -512,7 +512,7 @@ float CMHFile::GetFloat()
 
 DWORD CMHFile::GetDword()
 {
-	return (DWORD)atoi(GetString());
+	return (DWORD)strtoul(GetString(), NULL, 10);
 }
 
 WORD CMHFile::GetWord()

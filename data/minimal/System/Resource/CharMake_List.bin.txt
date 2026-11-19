@@ -1,0 +1,115 @@
+CHARMAKE_LIST
+3 FACE_H_M
+Face1 0 0
+Face2 1 0
+Face3 2 0
+13 HAIR_H_M
+Hair1 0 0
+Hair2 1 0
+Hair3 2 0
+Hair4 3 0
+Hair5 4 0
+Hair6 5 0
+Hair7 6 0
+Hair8 7 0
+Hair9 8 0
+Hair10 9 0
+Hair11 10 0
+Hair12 11 0
+Hair13 12 0
+3 FACE_H_W
+Face1 0 0
+Face2 1 0
+Face3 2 0
+13 HAIR_H_W
+Hair1 0 0
+Hair2 1 0
+Hair3 2 0
+Hair4 3 0
+Hair5 4 0
+Hair6 5 0
+Hair7 6 0
+Hair8 7 0
+Hair9 8 0
+Hair10 9 0
+Hair11 10 0
+Hair12 11 0
+Hair13 12 0
+3 FACE_E_M
+Face1 0 0
+Face2 1 0
+Face3 2 0
+13 HAIR_E_M
+Hair1 0 0
+Hair2 1 0
+Hair3 2 0
+Hair4 3 0
+Hair5 4 0
+Hair6 5 0
+Hair7 6 0
+Hair8 7 0
+Hair9 8 0
+Hair10 9 0
+Hair11 10 0
+Hair12 11 0
+Hair13 12 0
+3 FACE_E_W
+Face1 0 0
+Face2 1 0
+Face3 2 0
+13 HAIR_E_W
+Hair1 0 0
+Hair2 1 0
+Hair3 2 0
+Hair4 3 0
+Hair5 4 0
+Hair6 5 0
+Hair7 6 0
+Hair8 7 0
+Hair9 8 0
+Hair10 9 0
+Hair11 10 0
+Hair12 11 0
+Hair13 12 0
+3 FACE_D_M
+Face1 0 0
+Face2 1 0
+Face3 2 0
+15 HAIR_D_M
+Hair1 0 0
+Hair2 1 0
+Hair3 2 0
+Hair4 3 0
+Hair5 4 0
+Hair6 5 0
+Hair7 6 0
+Hair8 7 0
+Hair9 8 0
+Hair10 9 0
+Hair11 10 0
+Hair12 11 0
+Hair13 12 0
+Hair14 13 0
+Hair15 14 0
+3 FACE_D_W
+Face1 0 0
+Face2 1 0
+Face3 2 0
+17 HAIR_D_W
+Hair1 0 0
+Hair2 1 0
+Hair3 2 0
+Hair4 3 0
+Hair5 4 0
+Hair6 5 0
+Hair7 6 0
+Hair8 7 0
+Hair9 8 0
+Hair10 9 0
+Hair11 10 0
+Hair12 11 0
+Hair13 12 0
+Hair14 13 0
+Hair15 14 0
+Hair16 15 0
+Hair17 16 0

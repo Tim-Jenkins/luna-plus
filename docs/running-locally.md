@@ -63,15 +63,21 @@ Run all three servers from one folder. Each server reads its config relative to 
    - `serverset/1/MapServerDesc.txt` holds per-map settings (DB threads, village/PK flags). It needs a `$MAPNUM` block for each map server you run.
    - `serverset/1/ChannelInfo.bin` sets the channel name. Its source is `ChannelInfo.txt`; see [Packed .bin files](#packed-bin-files).
    - `ClientVerInfo.ver` holds the client version Distribute accepts. It has to match `g_CLIENTVERSION` in `[Client]LUNA/LUNAClient.cpp` (`LPTW10062701`), or every login fails with "invalid version".
-3. Copy the server game data from the original server install into the same folder. This is the `System` folder: `System/Resource/*.bin`, `System/MapChannel.bin`, map data, and so on. The Map and Agent servers load these at startup, and they aren't in this repo.
-4. Register the two COM DLLs from an administrator prompt, using the 32-bit `regsvr32`:
+3. Add the game data:
+   - Run `python3 tools/build_minimal_data.py` and copy the contents of `build/data/` into the folder. This is the hand-written minimal data set from `data/minimal/` (#21). The original `System/Resource` data isn't available.
+   - Copy `System/Map/<map>.ttb` for each map you run (`20.ttb` at least) from the client install into `System\Map\`.
+4. Copy `MHConsole.dll` from the original server package (`Server/Dll/`) into the folder. It's the COM component behind the server console windows, and its source isn't in this repo. Without it, the servers stop with "Console initializing Failed".
+5. Register the three COM DLLs from an administrator prompt, using the 32-bit `regsvr32`:
    ```powershell
    C:\Windows\SysWOW64\regsvr32.exe C:\luna\server\DBThread.dll
    C:\Windows\SysWOW64\regsvr32.exe C:\luna\server\INetwork.dll
+   C:\Windows\SysWOW64\regsvr32.exe C:\luna\server\MHConsole.dll
    ```
    `INetwork.dll` is the `4DyuchiNET_Latest` network library. Without this step, the servers fail with "unregistered Component".
 
 ## 5. Start the servers
+
+The servers' console windows stay blank, but each server writes logs under `Log\`, and the Map server writes `serverStart.txt`, which lists each startup step it reached. If it stops partway, the last line tells you where.
 
 Start them in this order. Each takes its server number (for a Map server, the map number) as its only argument, and it must match a line in `serverlist.txt`:
 
@@ -90,6 +96,12 @@ To run more maps, add a `3 <map> ...` line to `serverlist.txt` and a `$MAPNUM <m
 
 The client reads its server list from `system/ServerList.bin` in its install folder. Back up the original, then copy in `config/local/client/system/ServerList.bin`, which points at a Distribute server on `127.0.0.1:17001`. If the client runs on a different machine from the servers, edit `ServerList.txt` and the user addresses in `serverlist.txt`, then re-encode the client file.
 
+The client exits with "You should not execute directly this file!!" unless its first argument is `anrgideoqkr`, which the launcher normally passes:
+
+```powershell
+.\LUNAClient.exe anrgideoqkr
+```
+
 Log in as `test` / `test`.
 
 ## Packed .bin files
@@ -105,6 +117,7 @@ Files from the original install that use the newer AES encoding can't be decoded
 
 ## Known gaps
 
+- The game data is a minimal hand-written set (`data/minimal/`, #21): no monsters, NPCs, quests or skills yet.
 - 22 stored procedures the servers call don't exist yet (see `db/README.md`, #3). Anything that calls one fails.
 - Deleting a character fails: `MP_CHARACTER_DeleteCharacter` calls a linked server that doesn't exist.
 - No billing server is configured, so Distribute keeps retrying a connection to an empty address. This should be harmless.

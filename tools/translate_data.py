@@ -54,7 +54,12 @@ LIMITS = {
     ("mapmovelist.bin", 1): 32,
     ("mapmovelist.bin", 2): 32,
     ("questitemlist.bin", 6): 250,  # MAX_ITEMDESC_LENGTH, and CMHFile::GetString's 256-byte buffer
+    ("monsterspeechlist.bin", 1): 200,  # CMHFile::GetStringInQuotation's 256-byte buffer
 }
+
+# Files read a line at a time (CMHFile::GetLine, GetStringInQuotation): spaces stay spaces, and
+# "^s" would show as is. CQuestString::AddLine also treats "$" as a colour flag.
+FREE_TEXT = {"queststring.bin", "monsterspeechlist.bin"}
 
 
 # Files whose text the game never shows, left as they are.
@@ -204,8 +209,10 @@ def apply(name: str, text: bytes, table: dict):
             if english is None:
                 missing += 1
                 continue
-            sp = spaces_for(raw, token_based)
+            sp = " " if name.lower() in FREE_TEXT else spaces_for(raw, token_based)
             english = english.replace("^", "").replace("\t", " ")
+            if name.lower() in FREE_TEXT:
+                english = english.replace("$", "")
             # "LUNA女神" -> "LUNA Goddess", "等級31" -> "Level 31".
             if s > 0 and chr(line[s - 1]).isalnum() and english[:1].isalnum():
                 english = " " + english

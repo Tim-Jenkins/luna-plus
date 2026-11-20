@@ -1,0 +1,8 @@
+1 Blacksmith 1 1 1.0 200 1
+2 Rien 2 6 1.0 200 0
+3 Enchanter 3 1 1.0 200 1
+4 Hafreban 4 6 1.0 200 0
+5 Armorer 5 1 1.0 200 1
+6 Ellenshar 6 3 1.0 200 0
+7 Storekeeper 8 4 1.0 200 1
+8 Luna 9 6 1.0 200 0

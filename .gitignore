@@ -1,2 +1,3 @@
-# CMake build output
+__pycache__/
 /build/
+# CMake build output

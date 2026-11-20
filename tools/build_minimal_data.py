@@ -38,7 +38,10 @@ def main() -> int:
         if src.name.endswith(".bin.txt"):
             dst = out / rel.parent / src.name[: -len(".txt")]
             dst.parent.mkdir(parents=True, exist_ok=True)
-            dst.write_bytes(mhbin.encode(src.read_bytes()))
+            # CMHFile::IsEOF is only true once the read position reaches the last byte, and
+            # GetString stops in front of a line break. A trailing newline would make every
+            # record loop read one extra, all-zero record, so strip it.
+            dst.write_bytes(mhbin.encode(src.read_bytes().rstrip()))
         else:
             dst = out / rel
             dst.parent.mkdir(parents=True, exist_ok=True)

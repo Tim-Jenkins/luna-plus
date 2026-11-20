@@ -1,0 +1,17 @@
+@ Shared monster motions. Values are 1-based motion slots in the monster's .chx (slot n plays M###_<n>.ANM; slot 7 is _00).
+#MOTIONID 0
+#STANDRATE 50
+#STAND 3
+#MOTION 1 1 1
+#WALK 1
+#MOTION 2
+#RUN 1
+#MOTION 3
+#ATTACK 5
+#MOTION 4 4 4 4 4
+#DIE 4
+#MOTION 5 7 5 7
+#DAMAGE 3
+#MOTION 6 6 6
+#REST 3
+#MOTION 1 1 1

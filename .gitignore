@@ -1,3 +1,6 @@
 __pycache__/
 /build/
 # CMake build output
+
+# Original game data (not redistributable). Import it with tools/import_original_data.py.
+/data/original/

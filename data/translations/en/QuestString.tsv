@@ -1515,20 +1515,333 @@ e9aa974eed9b	L9432	Destroy 100 Salamanders deep on the Island of Death (Dryed Ga
 20b954ca2369	L9440	Destroy 100 Silver Gargoyles deep on the Island of Death (Dryed Gazell Fall, Dark Portal)
 63443b556a3c	L9484	-rank][Quest] Blue Raiders
 fe05b78913b9	L9491	Blue-winged Bats
+d5fc3797a354	L9494	Destroy 70 Blue-winged Bats around Howling Cave
+ca093529352a	L9499	Cave Basilisks
+2676c6abe143	L9502	Destroy 70 Cave Basilisks around Howling Cave
+f58ab73d44a8	L9510	Report the finished subjugation at the Hunter Union board in Howling Cave
+444affde7163	L9546	-rank][Quest] The Ogre Gang
+9a743d9cbdae	L9553	Gnome Sentries
+820c1eeb5a58	L9556	Destroy 70 Gnome Sentries around Howling Cave
+34a01570193e	L9561	Gnome Warriors
+859dc33fb154	L9564	Destroy 70 Gnome Warriors around Howling Cave
+afb9cfde8a30	L9608	-rank][Quest] Crush the Gnomes
+232165ab35f9	L9615	Gnome Shamans
+f87935e20521	L9618	Destroy 100 Gnome Shamans around Howling Cave
+47f96858f45c	L9623	Gnome Guards
+14070e4fe541	L9626	Destroy 100 Gnome Guards around Howling Cave
+1dc61e80f744	L9670	-rank][Quest] Rule the World
 8991f24839ea	L9677	Ogre
+665cb0268206	L9680	Destroy 70 Ogres around Howling Cave
+89006da69015	L9685	Ogre Warriors
+9a032b50752f	L9688	Destroy 70 Ogre Warriors around Howling Cave
+04d8bdb639a2	L9693	Ogre Killers
+7c273c850aca	L9696	Destroy 70 Ogre Killers around Howling Cave
+1265616bbf82	L9748	-rank][Quest] Threat in the Cave
+724a4e2b5f8e	L9755	Ogre Guards
+34055b6ea6b1	L9758	Destroy 100 Ogre Guards deep in Howling Cave
+d1dfde5e8a24	L9763	Ogre Shamans
+e779f46c919f	L9766	Destroy 100 Ogre Shamans deep in Howling Cave
+e4446e216627	L9810	Quest] Fight Poison with Poison
 1cf2886e8761	L9817	Venomous Fang
+0b8582229aca	L9820	Defeat the black poison Basilisks living in Ghost Tree Swamp and collect 5 Venomous Fangs
+4d88de866a5a	L9825	Collect with Care
+a24fdb6ffef1	L9828	Give the Venomous Fangs to Ruid in Ghost Tree Swamp
+51bd34f9a0f5	L9833	Quest] Strange Plant Fluids
 d8a29fd466d1	L9840	Disgusting Fluid
+d98e03e23f6c	L9843	Collect 10 bottles of Disgusting Fluid from the Swamp Catchers in Ghost Tree Swamp
 02975224d7dc	L9848	Sticky Fluid
+534f7603c7ca	L9851	Extract 10 bottles of Sticky Fluid from the unknown slimy creatures in Ghost Tree Swamp
+3bc89f7733d1	L9856	Deliver the Fluids
+2347ea48da02	L9859	Give the fluids you collected to Ruid
+0956835f5c9f	L9864	Special][Quest] Elixir Research
+4621a9e2d9c0	L9871	Mandragora Fluid
+5fcb9fa8b90f	L9874	Extract 10 bottles of Swamp Mandragora Fluid from the Mandragoras in Ghost Tree Swamp
+8ecf57058b08	L9879	Deliver the Research Materials
+61994492fde0	L9882	Give the Swamp Mandragora Fluid to Ruid
+740b15b4b0f1	L9887	Special][Quest] Make the Elixir
+77e12b7fe824	L9902	Deliver the Elixir Materials
+456fcfd2ff7e	L9905	Give the Swamp Mandragora Fluid to Ruid
+5cef1719f917	L9933	Repeat][Quest] Dangerous Seeds
+520112035d25	L9940	Spider Larvae
+b83c37fa039e	L9943	Destroy 150 Spider Larvae in Ghost Tree Swamp
+bd5df578cb67	L9948	All Taken Care Of
+26480a54afe1	L9951	Go back to Jose in Ghost Tree Swamp
+c9a6dd12c0a0	L9979	Repeat][Quest] Giant Spiders
+3125097649e7	L9986	Spiders
+ea22102a8c01	L9989	Destroy 70 Giant Spiders in Ghost Tree Swamp
+f6519bb7bc44	L10025	Quest] Eyes of the Wild
 1ecb714b9a6b	L10032	Beast Eye
+63fd5a48d23d	L10035	Get 2 Beast Eyes from the swamp predators in Ghost Tree Swamp
+3055fff369bd	L10040	Deliver the Collection
+fff7df1a536b	L10043	Give the flawless Beast Eyes to Jose in Ghost Tree Swamp
+8df680a778b7	L10048	Quest] The Rampaging Dead
+504cf78a34b6	L10055	Destroy the Ghouls
+c55a4bed6c1e	L10058	Destroy 50 Ghouls in Ghost Tree Swamp
+fae5c1d2a11b	L10063	Progress Report
+58b1f9157343	L10066	Tell Ariel in Ghost Tree Swamp the request is done
+0396d7279a60	L10078	Destroy the Rotting Ghouls
+29383a1473bb	L10081	Destroy 60 Rotting Ghouls in Ghost Tree Swamp
+cf77caf6ff36	L10089	Tell Ariel in Ghost Tree Swamp the request was finished safely
+f1e633ed013c	L10101	Destroy the Fallen Ghouls
+1380c3759a35	L10104	Destroy 70 Fallen Ghouls in Ghost Tree Swamp
+32ca879db6b6	L10117	Quest] Eternal Despair
+0373c2283b2a	L10124	Destroy the Despairing Ghouls
+bad0737234cf	L10127	Destroy 80 Despairing Ghouls in Ghost Tree Swamp
+172ca8b82ee7	L10140	Quest] Legion of Death
+445650e26c1e	L10147	Skeleton Guards
+881afd4e36bf	L10150	Destroy 60 Skeleton Guards near the lonely marsh hills of Ghost Tree Swamp
+3e05c04f5324	L10155	Skeleton Shamans
+d71fe8d08893	L10158	Destroy 60 Skeleton Shamans near the lonely marsh hills of Ghost Tree Swamp
+2a8d4d4a9108	L10166	Go back to Ariel and tell her the request was finished safely
+d0ede0c3c85e	L10171	Quest] The Undying King
 9a891945f12b	L10178	Cursed Sword
+9ae56ab255cb	L10181	Near the lonely marsh hills of Ghost Tree Swamp, take the magic sword from the Skeleton King
+568df225a6c5	L10186	Deliver to Ariel
+8347a346e90d	L10189	Give Ariel the cursed sword taken from the Skeleton King
+6de677097c3d	L10195	Special][Quest] The Call to Tarintus
+481aafb86c14	L10202	Message for Wiff
+f9212d43e65a	L10205	Tell Wiff in Alker Harbor what Goddess LUNA said about the call to Tarintus
+a764f7970118	L10210	Message for Equpos
+fe846ebbdcf9	L10213	Tell Equpos at Moon Blind Forest what Goddess LUNA said about the call to Tarintus
+0eb9a91b4f09	L10218	Message for Heromech
+f76c78ca225d	L10221	Tell Heromech at the Red Orc Outpost what Goddess LUNA said about the call to Tarintus
+0ad6c48a98dc	L10229	Tell Goddess LUNA the knights everywhere have been told
+99661374e705	L10234	The Distorted Crack
+1f364a9b9e69	L10237	Set up the magic neutralizer near the Dark Portal on the Island of Death, fill it with magic fireworks, then move to the hideout in Tarintus
+9fdc723e8e54	L10242	Special][Quest] The Dragon's Seal
+c07b240c1c5d	L10257	Quest] The Stricken Village
+35b314a5f902	L10264	Meet Tania
+fa89ecf63d40	L10267	Go to Tania in Kierra's Lair
+1937914b1f31	L10272	Go Back to Ariel
+4962799571b6	L10275	Tell Ariel about the damage to the village
+ef23c721dbd3	L10280	Quest] New Prey
+2c346bd86a98	L10287	Black-haired Spiders
+2f6154d3c629	L10290	Destroy 100 Black-haired Spiders in Kierra's Lair
+07217adbc963	L10295	Giant Spiders
+9f1b326280e6	L10298	Destroy 100 Giant Spiders in Kierra's Lair
+96f146ca603e	L10303	Go Back to Jose
+115b5ce82721	L10306	After the hunt, return to Ghost Tree Swamp and find Jose
+a09767c540a3	L10311	Quest] Black Earth Beings
+903ed7fd0ee5	L10318	Destroy the Mud Men
+6a18b233ec8d	L10321	Destroy 150 Mud Men in Kierra's Lair
+6b98fd9f2e1a	L10326	Go Back to Ruid
+cc437338960e	L10329	After the hunt, return to Ghost Tree Swamp and find Ruid
+1270acf37079	L10334	Repeat][Quest] Mutation Research
+3831eb21411c	L10341	Black Earth
+68c0b0980770	L10344	Cut 20 lumps of black earth from the Black Mud Men in Kierra's Lair
+2fd19dbcca4a	L10352	Give the 20 lumps of black earth to Ruid
+7b0ebf46a0ef	L10380	Quest] Spider Attack
+1fbdec756a49	L10387	Destroy the Venom Spiders
+829c1d4006f2	L10390	Destroy 150 Venom Spiders in Kierra's Lair
+18a751a152ce	L10395	Go Back to Tania
+2d40dad10492	L10398	After destroying the Venom Spiders, go back and tell Tania
+21305b39b7ab	L10403	Quest] The Art of Temptation
+7deebc20e742	L10410	Destroy the Darkness Gnolls
+f47791705b25	L10413	Destroy 150 Darkness Gnolls in Kierra's Lair
+1a31f5222645	L10421	After the subjugation, go back to Tania
+0537a9ec9f34	L10426	Quest] Kierra's Servants
+78c78429c5cf	L10433	Destroy the Sad Lamias
+68d2c55350aa	L10436	Destroy 100 Sad Lamias in Kierra's Lair
+d8bd9fc523fa	L10444	After destroying the Sad Lamias, go back to Tania
+ba2192e366f8	L10449	Quest] The Queen's Mirror
 4c7c7a9b1714	L10456	Queen's Mirror
+b95afa2d09a2	L10459	Catch the Lamia Queens in Kierra's Lair and find 5 Queen's Mirrors
+d7776ccc00d5	L10467	Give the Queen's Mirrors to Tania
+c3d4c95b4a3a	L10472	Quest] Kierra's Phantom
+fd602358c4d6	L10479	Destroy Kierra's Phantom
+371598708ca5	L10482	Destroy Kierra's Phantom near the Hill of Death in Kierra's Lair
+3adc55dc4a26	L10490	After defeating Kierra's Phantom, go back to Tania
+8fb464c9d925	L10495	Quest] The Troublemakers
+e88ac7232f30	L10505	Destroy 10 Goblins in Zakandia and Zakandia Outpost
+345cf8af839e	L10513	Destroy 10 Goblin Archers in Zakandia and Zakandia Outpost
+64c40db0c408	L10521	Destroy 10 Goblin Warriors in Zakandia and Zakandia Outpost
+e9a3f68d03c6	L10526	Go Back to Lukai
+479ace012dbd	L10529	Go back to Lukai at Zakandia Outpost
+6c049ce2053a	L10534	Quest] Bear Leather
+a89b87aaf3b5	L10541	Brown Bear Leather
+5f81ad78cc49	L10544	Destroy Red Bears at Zakandia Outpost and get 10 leathers
+977bfc2c0a48	L10549	Go Back to Dinia
+b0edc0a8b0dc	L10552	Give the Brown Bear Leather to Dinia
+129a3ba73f1c	L10557	Quest] Restoration Work
+f1a52dc52ee5	L10564	Meet Hisanah
+b87a1a1be855	L10567	Meet Hisanah in Tarintus
+28f96136da7d	L10572	Quest] Wood Chips
 f189b00f82b4	L10579	Wood Chips
+a32c0ff51474	L10582	Get 10 wood chips from the Mimics in Tarintus
+dc905992e4f1	L10587	Go Back to Hisanah
+b755256e26e3	L10590	Give 10 wood chips to Hisanah in Tarintus
+f387c6e8de58	L10595	Quest] Sturdy Rocks
+fb403b33ae83	L10602	Sturdy Rocks
+5b1fc120c740	L10605	Get 10 sturdy rocks from the Stone Golems in Tarintus
+7f18aff0eda0	L10613	Give 10 sturdy rocks to Hisanah in Tarintus
+38b9782e827d	L10618	Quest] Sticky Fluid
+74a2c53fa959	L10628	Collect 10 Sticky Fluids from the Mandragoras in Tarintus
+e255c95dfaa8	L10629	Not the Rotting Mandragoras
+cfc660d6cf55	L10637	Give 10 Sticky Fluids to Hisanah in Tarintus
+9a5fd173de45	L10642	Quest] Sniper's Proof
+30bc60fab9c1	L10649	Subjugation
+88bf0d53457f	L10652	Destroy 200 in The Valley of Faerie:
+cee6c857b4fb	L10657	Go Back to Kilmis
+5d2f9309f383	L10660	Go to Kilmis near the Hill of Patience in The Valley of Faerie
+47f8c08aa9f4	L10665	Quest] Not Enough
+9945a82a63d3	L10672	Subjugate the Dreadful
+5070420abf3d	L10675	Subjugate 200 Dreadful in The Valley of Faerie:
+54de6244a81f	L10683	Go to Kilmis near the Hill of Patience in The Valley of Faerie
+386c89c1ab9b	L10688	Party][Quest] First Qualifying Test
+b2b92bae1465	L10695	Destroy the Centaurs
+69eb9e949e9c	L10698	Destroy 200 Centaurs in The Valley of Faerie
+d6b49b824476	L10711	Party][Quest] Second Qualifying Test
+750a98e5c2c6	L10718	Destroy the Pegasi
+c9e82485b81d	L10721	Destroy 250 Pegasi in The Valley of Faerie
+716250ef5037	L10734	Party][Quest] Third Qualifying Test
+f1cfb1619d38	L10741	Destroy the Pixies
+0fc566fba12e	L10744	Destroy 200 Pixies in The Valley of Faerie
+26ece0faaf75	L10757	Party][Quest] Final Qualifying Test
+0543c8a9dd13	L10764	Destroy the Treants
+7e1365e8170f	L10767	Destroy 100 Treants in The Valley of Faerie
+2b64d96ee890	L10772	Destroy the Elder Treants
+647f3e6d7ffe	L10775	Destroy 100 Elder Treants in The Valley of Faerie
+511d0aaa675e	L10788	Party][Quest] Contact the Black Spider Gang
+75d14f0c0b2b	L10795	Black Spider Scouts
+d8ede1376539	L10798	Destroy 200 Black Spider Scouts in the Bandit Cave at the center of The Valley of Faerie
+8f289af620fd	L10803	Go Back to Teano
+30a001da732d	L10806	Go to Teano near the Hill of Patience in The Valley of Faerie
+31bfe76a3441	L10811	Party][Quest] The Bandit Cave
+782b0e5c1fe9	L10818	Black Spider Trackers
+b602d7c1ca6d	L10821	Destroy 200 Black Spider Trackers in the Bandit Cave at the center of The Valley of Faerie
+d950639876ef	L10834	Party][Quest] Infiltrate the Bandits
+62868b8b7f35	L10841	Black Spider Mages
+db3c2c518aa6	L10844	Destroy 100 Black Spider Mages in the Bandit Cave at the center of The Valley of Faerie
+f17ac44cb928	L10849	Black Spider Snipers
+1af1c370280c	L10852	Destroy 100 Black Spider Snipers in the Bandit Cave at the center of The Valley of Faerie
+833d6ec7fd9f	L10865	Party][Quest] Secret Documents
+6a4241865f31	L10872	First Secret Document
+1998e86b8991	L10875	Take back the first secret document from the Black Spider Scouts in the Bandit Cave in The Valley of Faerie
+e9d4ffdb2d9f	L10880	Second Secret Document
+83b2683e9218	L10883	Take back the second secret document from the Black Spider Trackers in the Bandit Cave in The Valley of Faerie
+82c22d279cbd	L10888	Third Secret Document
+3221753dd24c	L10891	Take back the third secret document from the Black Spider Mages in the Bandit Cave in The Valley of Faerie
+4cd650d9c5e8	L10896	Fourth Secret Document
+fdae572fea47	L10899	Take back the fourth secret document from the Black Spider Snipers in the Bandit Cave in The Valley of Faerie
+ca93dcf86c64	L10914	Quest] The Collector
 fbc79b7589f9	L10921	Wind Crystal
+2bd3e02e4cf5	L10924	Catch Storm Basilisks in the Howling Ravine and collect 30 Wind Crystals
 c0eaa1decbc9	L10929	Napeter
+e7773cf183f7	L10932	Go back to Napeter in the Howling Ravine
+2e00eadc25fc	L10937	Quest] Fine Feathers
 a278a8227868	L10944	Fine Feather
+9081b0a0cc86	L10947	Catch Fierce Griffons in the Howling Ravine and collect 40 Fine Feathers
+c104f7897ab0	L10952	Back to Napeter
+0986e09e3fef	L10960	Quest] The Gourmet's Choice
 f5d4a29c1e77	L10967	Harpy Egg
+43d7a2622e8e	L10970	Catch the fierce Bloody Red Harpies in the Howling Ravine and collect 5 Harpy Eggs
+aa7528560aaf	L10983	Quest] The Rival
+a170d5489304	L10990	Quest] Melina's Request
+4f35759b94d6	L10997	Talk to Melina
+f621ecc42b4f	L11000	Talk to Melina in the Howling Ravine
+0bfb3d647f86	L11005	Party][Quest] Wipe Out the Giants
+de9de7f33ee5	L11012	Wipe Out the Fierce Giants
+9c612dad02cd	L11015	Destroy 100 Fierce Giants on the Hill of Tears in the Howling Ravine
+e4d0d1b7b627	L11020	Destroy the Troll Ruffians
+1fca0bc86d28	L11023	Destroy 100 Troll Ruffians on the Hill of Tears in the Howling Ravine
+4df23786c9ee	L11028	Back to Melina
+a25053d05097	L11031	Go back to Melina in the Howling Ravine
+ba7146d4e503	L11036	Party][Quest] The Hill of Tears
+56214da407eb	L11046	Destroy 100 Troll Ruffians on the Hill of Tears in the Howling Ravine
+891b864c04b4	L11051	Wipe Out the Magic Giants
+191d202f0fc7	L11054	Destroy 100 Magic Giants on the Hill of Tears in the Howling Ravine
+e985f419ed76	L11067	Repeat][Quest] Collect the Loot
 c0e939d3c481	L11074	Giant's Bracelet
+2edcc1480083	L11077	Collect 5 Giant's Bracelets from the giants on the Hill of Tears in the Howling Ravine
+71c12c54f716	L11085	Give the Giant's Bracelets to Melina in the Howling Ravine
+2c50f446297e	L11108	Return the Giant's Bracelets to Melina in the Howling Ravine
+d63380a0024b	L11113	Quest] Ruiz's Request
+bd6477606541	L11120	Talk to Ruiz
+981d056827b0	L11123	Talk to Ruiz in the Howling Ravine
+f4f9c7c54e7e	L11128	Party][Quest] The Creepy Cyclops
+ced5d350f7b0	L11135	Destroy the Cyclops
+deb8b14945f5	L11138	Destroy 150 Cyclops in the Howling Ravine
+81f65b0b9906	L11143	Destroy the Pained Cyclops
+e6ccf2dd310f	L11146	Destroy 150 Pained Cyclops on the lands of the Howling Ravine
+f0ed56dae9cd	L11151	Back to Ruiz
+70dcd9d81d0e	L11154	Go back to Ruiz in the Howling Ravine
+a90643993310	L11159	Party][Quest] The Savage Land
+c89dc6a309ca	L11174	Destroy the Furious Cyclops
+eb7a763fc589	L11177	Destroy 150 Furious Cyclops on the lands of the Howling Ravine
+bd1ba1d5030b	L11190	Repeat][Quest] Proof of the Wipeout
 a74f78f06b34	L11197	Cyclops Eye
+c88e96ff6e69	L11200	Collect 5 Cyclops Eyes on the wild lands of the Howling Ravine
+5a193f4f306f	L11208	Give the Cyclops Eyes to Ruiz in the Howling Ravine
+13d044be802c	L11235	Job] A New Power
+bcb53672adba	L11242	Talk to Parfait
+1d7bd7dfa699	L11245	Talk to Parfait, the guild manager in Nera Castletown
+7e22e4855d4f	L11250	Talk to Kilmis
+05f364e6a2f0	L11253	Talk to Kilmis in The Valley of Faerie
+2e7230681cd8	L11258	Codebook Vol. 1
+5892355867d4	L11261	Get Codebook Vol. 1 from the Dark Spider Scouts
+8a2b266425a9	L11266	Codebook Vol. 2
+b5fae113f425	L11269	Get Codebook Vol. 2 from the Dark Spider Trackers
+a8cd9d4f66ad	L11274	Codebook Vol. 3
+ad9ee3ea6c4c	L11277	Get Codebook Vol. 3 from the Dark Spider Mages
+fe1ee3421400	L11282	Codebook Vol. 4
+569c44460eeb	L11285	Get Codebook Vol. 4 from the Dark Spider Snipers
+c13e579ab71a	L11290	Report to Kilmis
+f2c9ddaba161	L11293	Give the codebooks to Kilmis in The Valley of Faerie
+18b4611e28ac	L11298	Report to Parfait
+b6f0fc1805bd	L11301	Talk to Parfait in Nera Castletown
+54e6646b040c	L11306	Job] Find the Clues
+d4a64b9957c8	L11313	The Cause of the Blizzard
+1a40820e53c1	L11316	Destroy 150 bandits at Nera Port
+4f7912b866b1	L11321	Cold Child of Frost
+267d0b556fcf	L11329	The Bloodthirsty Queen
+e0f22eb61a3c	L11337	The Cause of the Cold Heart
+56fe8d2570aa	L11345	Check the Clues
+d5cabe2909f8	L11348	Destroy the bandits at Nera Port and check the clues
+42eaa52573a5	L11353	Talk to Sindamuk the Sage
+c8cfb5f1076f	L11356	Talk to Sindamuk the Sage in Nera Castletown
+6b418ce74d8d	L11361	Job] A Sword
+3c62d5709aed	L11368	Green Beard Pirates
+fe290ee9c56e	L11371	Destroy 300 Green Beard Pirates at Nera Port
+64a81c7cd8ef	L11376	Green Beard Pirate Captains
+48dd44bfeea4	L11379	Destroy 200 Green Beard Pirate Captains at Nera Port
+2755409f018e	L11387	Find clues from the Green Beard Pirates at Nera Port
+8d26fdc4b466	L11392	Talk to Parfait
 92583e6a22fa	L11400	First Legacy Fragment
+0e3fa6976660	L11410	Get the first legacy fragment from Lespero, a pirate officer
+4f4e1284120f	L11415	Talk to Sindamuk
+bae0d626afd0	L11418	Talk to Sindamuk in Nera Castletown
 a4556e2ce99c	L11423	Second Legacy Fragment
+67f50a3c0b38	L11433	Get the second legacy fragment from Blackbeard Molekan, a pirate officer
 34323e393bc9	L11446	Third Legacy Fragment
+cb673b8fb56f	L11456	Get the third legacy fragment from Captain Uchis, a pirate officer
+e4ae66d95842	L11469	Job] Proof of a Hero
+a0c66f15e930	L11479	Give the Pirate King's weapon to Sindamuk in Nera Castletown
+85acffdb0237	L11480	Pirate King's Armor: Pirate King Armor Fragment + Pirate King Armor Material + Mana-Filled Leather
+435406a3c0ad	L11481	Pirate King's Weapon: Venom Dirk + Cursed Saber + Pirate King's Armor
+31224ad21c2a	L11486	Job] The Way of the Paladin
+185ac22c0e98	L11493	Talk to Wiff
+4d9471f04d59	L11496	Give the Hero's Proof to Wiff in Alker Harbor
+42b775d814d5	L11501	Job] The Way of the Crusader
+16b3eeef871d	L11516	Job] The Way of the Destroyer
+e23e17b2c861	L11531	Job] The Way of the Swordmaster
+aa429b712310	L11546	Job] The Way of the Finisher
+e55a77beb04e	L11561	Job] The Way of the Sniper
+7ee0df2a8171	L11568	Talk to Diren
+96003e2dd3bc	L11571	Give the Hero's Proof to Diren in Alker Harbor
+29da013b3f4a	L11576	Job] The Way of the Blade Taker
+0deeb4599ff4	L11591	Job] The Way of Fury
+406e324ee038	L11606	Job] The Way of the Cardinal
+6e4b72d5871c	L11613	Talk to Pino
+b6ccf7953c1c	L11616	Give the Hero's Proof to Pino in Alker Harbor
+b48048ee3acd	L11621	Job] The Way of the Soul Arbiter
+4e3d1b670e8e	L11636	Job] The Way of the Element Lord
+c5b7327bb2fb	L11651	Job] The Way of the Rune Master
+0afb5ddab303	L11666	Job] The Way of the Panzer
+b6b06924cbb9	L11676	Give the Hero's Proof to Parfait in Nera Castletown
+7b777415bbed	L11681	Job] The Way of the Soul Mage
+fe7534458755	L11696	Job] The Way of the Ronin
+79d3bb5c4608	L11711	Special][Quest] The Mystery of Floating Stones
+27d68633b4c9	L11718	Talk to Dupata
+e4552b9d258a	L11721	Give what you got from Pino to Dupata at the Red Orc Outpost
+2ecd724a1ee4	L11726	Go Back to Pino
+f35d71a9c12f	L11729	Give what you got from Dupata to Pino

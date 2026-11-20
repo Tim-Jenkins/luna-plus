@@ -104,7 +104,7 @@ The client exits with "You should not execute directly this file!!" unless its f
 .\LUNAClient.exe anrgideoqkr
 ```
 
-Log in as `test` / `test`. A new character starts in a corner of Alker Harbor next to a wall. The NPCs and monsters are just behind it: hold the right mouse button and drag to turn the camera, and use the mouse wheel to zoom out. Click an NPC twice to talk to it.
+Log in as `test` / `test`. A new character starts in a corner of Alker Harbor next to a wall. The NPCs and monsters are just behind it: hold the right mouse button and drag to turn the camera, and use the mouse wheel to zoom out. Click an NPC twice to talk to it. Click a monster to attack it with your fists; monsters fight back once hit. The minimap is the easiest way to get around: click on it to walk there.
 
 If the client crashes it writes a minidump, `LPTW10062701.mhd`, next to `LUNAClient.exe`. Some failures exit with no dump; for those, turn on Windows Error Reporting dumps under `HKLM\SOFTWARE\Microsoft\Windows\Windows Error Reporting\LocalDumps\LUNAClient.exe`. The matching PDBs are in each CI run's `luna-win32-release-pdb` artifact.
 
@@ -121,7 +121,7 @@ python3 tools/mhbin.py decode some.bin some.txt
 
 ## Known gaps
 
-- The game data is a minimal hand-written set (`data/minimal/`): map 20 has eight NPCs and fifteen monsters, but there are no items, quests or skills. You can target a monster but not attack it, and monsters don't attack. NPC shops are empty, and the NPC models are placeholders.
+- The game data is a minimal hand-written set (`data/minimal/`): map 20 has eight NPCs and fifteen monsters, but there are no items or quests, and the only skills are the unarmed basic attack and one melee attack per monster. NPC shops are empty, and the NPC models are placeholders.
 - 22 stored procedures the servers call don't exist yet (see `db/README.md`, #3). Anything that calls one fails.
 - Deleting a character fails: `MP_CHARACTER_DeleteCharacter` calls a linked server that doesn't exist.
 - No billing server is configured, so Distribute keeps retrying a connection to an empty address. This should be harmless.

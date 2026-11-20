@@ -413,6 +413,13 @@ void CObject::Execute( const CEvent& event )
 		skill->Execute( event );
 	}
 
+	// Nothing to remove if every skill object was found. VS2008's list::erase ignored
+	// end(); newer MSVC unlinks and frees the list's sentinel, corrupting the heap.
+	if( mEventSkillObjectIndexList.end() == removedIterator )
+	{
+		return;
+	}
+
 	// 100309 ShinJS --- 이벤트 스킬 소지여부를 판단하기 위한 변수 추가
 	const eStatusKind buffStatus = removedIterator->second;
 	--m_pEventSkillKindCountMap[ buffStatus ];

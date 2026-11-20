@@ -187,6 +187,11 @@ void CMHFile::Clear()
 		m_pData = NULL;
 	}
 	m_Dfp = 0;
+	// Forget the header too. Otherwise IsEOF() compares the old file's size with
+	// m_Dfp, so after Release() a failed Init() on this object looks like an open,
+	// non-empty file and the next GetLine() reads through a null m_pData.
+	memset( &m_Header, 0, sizeof(m_Header) );
+	m_crc1 = m_crc2 = 0;
 	m_bInit = FALSE;
 }
 

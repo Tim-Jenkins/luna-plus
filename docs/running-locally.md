@@ -96,13 +96,17 @@ To run more maps, add a `3 <map> ...` line to `serverlist.txt` and a `$MAPNUM <m
 
 The client reads its server list from `system/ServerList.bin` in its install folder. Back up the original, then copy in `config/local/client/system/ServerList.bin`, which points at a Distribute server on `127.0.0.1:17001`. If the client runs on a different machine from the servers, edit `ServerList.txt` and the user addresses in `serverlist.txt`, then re-encode the client file.
 
+Copy the contents of `build/data/` into the client's install folder too, so its `System/Resource` matches the servers' exactly. Distribute checksums about 50 of those files at login and refuses a client whose copies differ ("Client files have been changed"). After that error, copy `config/local/client/LunaVerInfo.ver` back (the client resets it) and delete the account's row from `LUNA_MEMBERDB.dbo.LoginTable`, or the next login fails with "The connection to the server has been lost".
+
 The client exits with "You should not execute directly this file!!" unless its first argument is `anrgideoqkr`, which the launcher normally passes:
 
 ```powershell
 .\LUNAClient.exe anrgideoqkr
 ```
 
-Log in as `test` / `test`.
+Log in as `test` / `test`. A new character starts in a corner of Alker Harbor next to a wall. The NPCs and monsters are just behind it: hold the right mouse button and drag to turn the camera, and use the mouse wheel to zoom out. Click an NPC twice to talk to it.
+
+If the client crashes it writes a minidump, `LPTW10062701.mhd`, next to `LUNAClient.exe`. Some failures exit with no dump; for those, turn on Windows Error Reporting dumps under `HKLM\SOFTWARE\Microsoft\Windows\Windows Error Reporting\LocalDumps\LUNAClient.exe`. The matching PDBs are in each CI run's `luna-win32-release-pdb` artifact.
 
 ## Packed .bin files
 
@@ -117,7 +121,7 @@ Files from the original install that use the newer AES encoding can't be decoded
 
 ## Known gaps
 
-- The game data is a minimal hand-written set (`data/minimal/`, #21): no monsters, NPCs, quests or skills yet.
+- The game data is a minimal hand-written set (`data/minimal/`): map 20 has eight NPCs and fifteen monsters, but there are no items, quests or skills. You can target a monster but not attack it, and monsters don't attack. NPC shops are empty, and the NPC models are placeholders.
 - 22 stored procedures the servers call don't exist yet (see `db/README.md`, #3). Anything that calls one fails.
 - Deleting a character fails: `MP_CHARACTER_DeleteCharacter` calls a linked server that doesn't exist.
 - No billing server is configured, so Distribute keeps retrying a connection to an empty address. This should be harmless.

@@ -1130,19 +1130,27 @@ void BRS_REGBtnFunc(LONG lId, void * p, DWORD we)
 
 void NSI_HyperLinkFunc(LONG lId, void * p, DWORD we)
 {
+	cNpcScriptDialog* pDlg = GAMEIN->GetNpcScriptDialog() ;
+
+	// The dialog's buttons (top, end, quest accept/complete) also send their events here.
+	// They are not list dialogs: handle them and stop, before treating lId as the link list.
+	// Calling GetItem on a button read garbage, and crashed after accepting a quest.
+	if( we == WE_BTNCLICK )
+	{
+		if( pDlg )
+		{
+			pDlg->OnActionEvent( lId, p, we ) ;
+			WINDOWMGR->SetMouseInputProcessed();
+		}
+		return;
+	}
+
 	cListDialogEx* pListDlg = (cListDialogEx*)((cDialog*)p)->GetWindowForID( lId );
 	int nIdx = pListDlg->GetCurSelectedRowIdx();
 	if( nIdx == -1 ) return;
 
-	cNpcScriptDialog* pDlg = GAMEIN->GetNpcScriptDialog() ;
-
 	if( pDlg )
 	{
-		if( we == WE_BTNCLICK )
-		{
-			pDlg->OnActionEvent( lId, p, we ) ;
-		}
-
 		if( lId == NSI_TOPBTN )
 		{
 			return;

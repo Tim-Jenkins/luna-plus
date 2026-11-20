@@ -151,6 +151,18 @@ void CQuestString::AddLine(char* pStr, int& line, BOOL bTitle)					// ?쇱씤 �
 			//*pStc = tb;															// ?덈줈???ъ씤?곗뿉???꾩떆 踰꾪띁???댁슜???좊떦?쒕떎.
 			//pStc->Line = line;													// ?쇱씤 ?뺣낫瑜??명똿?쒕떎.
 
+			// Break English text at the last space so words are not split. The rest of the
+			// word moves to the next line. Double-byte trail bytes are never 0x20.
+			char carry[128] = { 0, };
+			int carryLen = 0;
+			char* space = strrchr(tb, ' ');
+			if(space && space != tb && *pStr != ' ' && *pStr != 0)
+			{
+				carryLen = (int)strlen(space + 1);
+				memcpy(carry, space + 1, carryLen);
+				*space = 0;
+			}
+
 			ITEM* pItem = new ITEM ;
 			strcpy(pItem->string, tb) ;
 			pItem->line = line ;
@@ -176,10 +188,9 @@ void CQuestString::AddLine(char* pStr, int& line, BOOL bTitle)					// ?쇱씤 �
 			++line;																// ?쇱씤??利앷? ?쒗궓??
 			
 			memset(tb, 0, sizeof(tb));											// ?꾩떆 踰꾪띁瑜?硫붾え由????쒕떎.
-
-			len=0;																// 湲몄씠瑜?0?쇰줈 ?명똿?쒕떎.
-
-			linelen=0;															// ?쇱씤 湲몄씠瑜?0?쇰줈 ?명똿?쒕떎.
+			memcpy(tb, carry, carryLen);
+			len = carryLen;
+			linelen = carryLen;
 		}
 	}
 

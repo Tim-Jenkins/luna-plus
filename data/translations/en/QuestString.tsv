@@ -897,44 +897,624 @@ c5a51cfb24a4	L5020	Collect Feathers
 3a3dbfdc1e0c	L5023	Destroy Griffons and red-feathered Harpies in the Howling Ravine and bring feathers to Bakma for a reward based on type and number
 5a4d75b890f7	L5028	The Lost Key
 81d3b795df8c	L5035	Find the Key
+c03205c139ab	L5038	Destroy Basilisks in the Howling Ravine and find 10 merchant vault keys
+c3059760f212	L5043	Deliver the Keys
+8908d6341f47	L5046	Give the merchant vault keys to Bakma in the Howling Ravine
+a3b253db2c43	L5051	Find the Hidden Chests
+baccadcc7502	L5054	Find the chests that match the keys Bakma gave you in the Howling Ravine
+13a79f72b482	L5059	The Troll Threat
+f28eebb899d1	L5066	Troll Subjugation
+453acf387fbb	L5069	Destroy 30 Trolls in the Howling Ravine
+2768ebb92647	L5074	Destroy the Wandering Trolls
+09dcf62a4c0a	L5077	Destroy 20 Wandering Trolls in the Howling Ravine
+06bfa08a2b5b	L5085	Visit Wiff in Alker Harbor and tell him the Troll subjugation is done
+50310df6a6aa	L5090	Strange Training
+dddcd96ebe46	L5097	Find a Red Feather
+2d6d09239ac1	L5100	Destroy Harpies in the Howling Ravine and find 1 Red Feather
+74f584b59acf	L5105	Deliver the Red Feather
+a45de3e135c5	L5108	Give the Red Feather to Equpos at Moon Blind Forest
+06eec7f36c3a	L5113	Dangerous Experiment Materials
+423fe72ba35e	L5120	Find Basilisk Venom
+42fafa78dddc	L5123	Defeat Basilisks in the Howling Ravine and find venom
+9f5ac4d90041	L5128	Deliver the Basilisk Venom
+babe8c539cfa	L5131	Give the Basilisk Venom to Pino in Alker Harbor
+1da82e7a9ba4	L5136	An Elixir to Lift the Curse
+fd1088b8fe2d	L5143	Get Basilisk Blood
+6c2b2c0a5c7d	L5146	Destroy Basilisks in the Howling Ravine and take their blood
+431b0bf5b588	L5151	Deliver the Basilisk Blood
+20addbc2110c	L5154	Give the Basilisk Blood to Andorna in Moon Blind Swamp
+5bdd3533ad2e	L5162	Visit Pino in Alker Harbor and tell him how Andorna is
+cdada04d1c5e	L5167	Find an Antidote
+c45013f2530e	L5170	Destroy Griffons in the Howling Ravine and find the antidote, Fragrant Mint Herb
+f2d35667e577	L5175	Deliver the Antidote
+79edace28d53	L5178	Give the Fragrant Mint Herb to Andorna in Moon Blind Swamp
+7e459e673396	L5183	Prest's Duel
+00c4168b190b	L5190	Find the Stranger
+61e404e3156a	L5193	Look for someone you haven't seen before in the Howling Ravine
+dfd946ad3528	L5198	Destroy the Red-feathered Harpies
+6fb203018e2f	L5201	Destroy 50 red-feathered Harpies in the Howling Ravine
+344e7468e480	L5206	Visit Prest
+80da999d78cb	L5209	Visit Prest in the Howling Ravine and report the subjugation done
+78ae71f47ff6	L5214	Floating Stone Research
+0a8371d29ce4	L5224	Visit Fesilos at the Ruins of Draconian and tell him about this
+e31ef774fa03	L5229	Find Floating Stone Shards
+f86a208833c3	L5232	Destroy Stone Golems in Tarintus and find 10 floating stone shards
+83d053ca26da	L5240	Give the floating stone shards to Pino in Alker Harbor
+c1e4077ec91c	L5245	The Airship Takes Off
+9c1736c5573e	L5252	Find Thin Iron Plates
+12d9e8917545	L5255	Destroy Mimics in Tarintus and find 10 thin iron plates
+cc039b0b264c	L5263	Visit Boucheron, the armor merchant in Alker Harbor, and give him the thin iron plates
+f90649881bf1	L5268	Souls Return
+b03f91f60b3a	L5275	Find Mimic Souls
+b964a4cb2b3f	L5278	Destroy Mimics in Tarintus and find 3 Mimic Souls
+5495ecfe6056	L5283	Visit Pierlanser
+724a4dcb3975	L5286	Give the Mimic Souls to Pierlanser in Alker Harbor
+eee128926aac	L5291	To the Ruins of Draconian
+42e0d921ddba	L5298	Find Eyebat Wings
+59e39c9471c8	L5301	Hunt Eyebats in Tarintus and get 2 Eyebat Wings
+239b5723f5a6	L5309	Give the Eyebat Wings to Celerian, the family manager in Alker Harbor
+f83fa48e539c	L5314	Diren's Gift
+9c49e8666c47	L5321	Find Zombie Bones
+0434b716cf33	L5324	Destroy Zombies in Tarintus and find 15 Zombie Bones
+357fe10f0ce4	L5329	Visit Diren
+ca4adce6e5db	L5332	Give the Zombie Bones to Diren of the Rogue Union in Alker Harbor
+5e6812f1d6ba	L5338	Alker Injury Insurance
+f1924b380202	L5348	Alker injury insurance pays out for damage taken from monster attacks. Of course it isn't free: destroy 15 Goblins at Zakandia Outpost and we'll compensate you
+f637518e73fe	L5360	Destroy the Brown Bears
+dae7cda59547	L5363	Alker injury insurance pays out for damage taken from monsters. Knocked out again... no problem, we have a payout ready. This time destroy 15 Brown Bears at Zakandia Outpost
+6034e50e9229	L5378	Alker injury insurance: thanks to you our company has paid out plenty~ This is the last time! Destroy 10 Goblin Patriarchs at Zakandia Outpost and we'll compensate you
+a587c30ab79e	L5383	Zakandia Injury Insurance
+d6a38a5c1ffe	L5393	Zakandia injury insurance gives a little compensation for damage from monsters. Destroy 20 Goblin Warriors in Zakandia who threaten our customers and we'll pay out
+e04a887fc6cd	L5408	Zakandia injury insurance: knocked out again... this is the last time. We can't pay as well as Alker insurance. Destroy 20 Black Bears in Zakandia and we'll compensate you
+118076058c87	L5413	Lost Money
+1513e7ef5745	L5420	Destroy the Mimics
+d580efb8ba4a	L5423	Part of my money went missing when I was knocked out. Robbing the Mimics in Tarintus should fill my purse again. Just destroy 20 Mimics for me
+75a326805808	L5428	Look After Yourself
+a1adc3cecab0	L5438	I've been weak lately and keep fainting. Looks like I need Mandragoras from Tarintus to build my strength. Just destroy 20 of them for me
+02c0b186a955	L5443	Grumpy Glares
+760c87bcddc2	L5450	Destroy the Giant Eyebats
+c7c222211883	L5453	I'm already in a bad mood after being knocked out, and the Giant Eyebats keep staring at me. Destroy about 20 Giant Eyebats at Moon Blind Forest for me
+004f5bd45dba	L5458	A Bloody Revenge
+5c55b056b133	L5468	I refuse to accept that I've grown weak! Of the monsters that did this to me, the ugliest are the orcs at Moon Blind Forest. Destroy 30 of them for me
+625d78c2e373	L5473	I Can't Die Like This
+2f4ba13710fa	L5483	It's not my fault I was knocked out! It's those monsters! Destroy 30 Orcish Rages in Moon Blind Swamp so I can get even
+677a0922e48e	L5488	Cruel Possessiveness
+15fdc3244be4	L5498	From the road of death, I see some monsters are pretty~ Lamias are beautiful but vicious. If I can't have one, no one can. Destroy 30 Lamias in Moon Blind Swamp for me
+1ec474324d3c	L5503	An Insult to the Clever
+469ccdbbc517	L5513	Beaten by monsters like these... Use my clever brain to plan an attack and destroy 40 Orcish Warriors at the Red Orc Outpost
+693ad658766e	L5518	The Strong One's Leisure
+d5356ad86195	L5528	After beating me, the Predator Gargoyles flew overhead looking down on me... I hate that. Destroy 40 Predator Gargoyles at the Red Orc Outpost for me
+89dfd5081f79	L5533	The Reason for Defeat
+1ef9a05b222a	L5543	Basilisks walk the roads leaving venom everywhere and bothering people, again and again. Please destroy 30 Basilisks in the Howling Ravine for me
+555fc5a764e6	L5548	Stiff Neck
+d3b0805a797b	L5555	Destroy the Trolls
+b28bb93c49f0	L5558	Looking up at the Trolls gave me a stiff neck, so I fell before I could fight back. It's all the Trolls' fault! Destroy 30 Trolls in the Howling Ravine for revenge
+ce9242378a32	L5563	History of the Land
+9aec738c5e43	L5570	Know the Races - Humans
+b7108ae9a592	L5573	Meet Wiff in Alker Harbor and hear the story of the human race
+e65279143a26	L5578	Know the Races - Elves
+fca8e3b8de72	L5581	Meet Celerian in Alker Harbor and hear the story of the elven race
+96281c073c3d	L5586	Know the Races - Dwarves
+1ae633e20f42	L5589	Meet Boucheron in Alker Harbor and hear the story of the dwarven race
+7776353b35d4	L5597	Meet Goddess LUNA in Alker Harbor and hear more of the story
+c644f8f0a711	L5609	History of the War
+fc10a5cfce99	L5612	Meet Wiff in Alker Harbor and hear the story of the war between the demons and the three races
+2dd2220dc7fc	L5625	About Floating Stones
+a2bb93df9e9b	L5628	Meet Pino in Alker Harbor and hear the story of floating stones
+21e56dce6d8a	L5636	Meet Goddess LUNA in Alker Harbor and hear more of the story
+99d77c8e8e48	L5644	Meet Wiff in Alker Harbor and hear the story of the war between the Dragon King and the four races
+dcb43aa312b0	L5657	Party] Threat on Alker Plains
+c19953c7d607	L5664	Destroy the Slime King
+ae986add1ed8	L5667	Destroy the giant Slime King roaming Alker Plains (party of 6 recommended
+946e327dcd01	L5672	Destroy the Fungus King
+9eaf81035b9d	L5675	Destroy the Fungus King roaming Alker Plains (party of 6 recommended
+b0fa02df01f5	L5680	Destroy the Ghost Flower King
+87fe6490a853	L5683	Destroy the Ghost Flower King roaming Alker Plains (party of 6 recommended
+3fc8dab106a7	L5688	Destroy the Turtle King
+6dfe43fa5f0f	L5691	Destroy the Turtle King roaming Alker Plains (party of 6 recommended
+5881f9734334	L5699	Go back to Sekki and report the quest results
+a19d9ab02e2e	L5704	Party] Ruins of Draconian
+6898a6f9d742	L5711	Destroy the Fierce Leopard King
+3cf9138be6f2	L5714	Destroy the Fierce Leopard King roaming the Ruins of Draconian (party of 6 recommended
+20aeba6f6a37	L5719	Destroy the Gnoll King
+09e821448dd2	L5722	Destroy the Gnoll King roaming the Ruins of Draconian (party of 6 recommended
+07b67574f29c	L5727	Destroy the Kobold King
+59b50ca4f9e9	L5730	Destroy the Kobold King roaming the Ruins of Draconian (party of 6 recommended
+af23d811bada	L5735	Destroy the Lizardman King
+50ab687fb54a	L5738	Destroy the Lizardman King roaming the Ruins of Draconian (party of 6 recommended
+24daf657c776	L5751	Party] An Ominous Aura
+2d440917f1a0	L5758	Collect Mana Crystal 1 (Goblin Warrior King
+c49885a1516e	L5761	Destroy the Goblin Warrior King roaming Zakandia Outpost and collect Mana Crystal 1 (party of 6 recommended
+28f16455be8e	L5766	Collect Mana Crystal 2 (Goblin Archer King
+81e5a0a5d9c7	L5769	Destroy the Goblin Archer King roaming Zakandia Outpost and collect Mana Crystal 2 (party of 6 recommended
+ec974bdd635c	L5774	Collect Mana Crystal 3 (Goblin Mage King
+a133c6401646	L5777	Destroy the Goblin Mage King roaming Zakandia Outpost and collect Mana Crystal 3 (party of 6 recommended
+5ad83da33c83	L5782	Collect Mana Crystal 4 (Fierce Black Bear King
+41e58e1955c2	L5785	Destroy the Fierce Black Bear King roaming Zakandia Town and collect Mana Crystal 4 (party of 6 recommended
+35b1af507867	L5790	Collect Mana Crystal 5 (Golem King
+48fb0d7b52c6	L5793	Destroy the Golem King roaming Zakandia Town and collect Mana Crystal 5 (party of 6 recommended
+b61102f54bef	L5806	Where the Voice Comes From
 040c7af61c55	L5813	Tarintus
+65656bfee732	L5816	Take a look east of Wit Oplan's farm
+337ac1f24c85	L5821	Party] A Lasting Threat
+1c055e01e6e4	L5828	Collect Empty Crystal 1 (Mimic King
+02ff97bf20c7	L5831	Destroy the Mimic King roaming Tarintus and collect Empty Crystal 1 (party of 6 recommended
+e3779ceddb57	L5839	Destroy 30 Mimics in Tarintus to fill the Empty Crystal with life force
+ca95b16bb365	L5847	Report the quest results at the Request Report Board
+e11622a9927e	L5859	Collect Empty Crystal 2 (Zombie King
+c5427dda915b	L5862	Destroy the Zombie King roaming Tarintus and collect Empty Crystal 2 (party of 6 recommended
+d479faf35371	L5870	Destroy 30 Zombies in Tarintus to fill the Empty Crystal with life force
+2f629c1ad317	L5890	Collect Empty Crystal 3 (Mandragora King
+280ae1842fb4	L5893	Destroy the Mandragora King roaming Tarintus and collect Empty Crystal 3 (party of 6 recommended
+59c34ed7667f	L5901	Destroy 30 Rotting Mandragoras in Tarintus to fill the Empty Crystal with life force
+44b2ad588da7	L5921	Collect Empty Crystal 4 (Kitan
+80e12a842d68	L5924	Destroy Kitan roaming Tarintus and collect Empty Crystal 4 (party of 6 recommended
+31850d5eeeda	L5932	Destroy 30 Lycanthropes in Tarintus to fill the Empty Crystal with life force
+bc8debb21cf5	L5945	Sekki's Message
+65e1ba6f0303	L5952	To Alker Harbor
+e8aa08d7f411	L5955	Go to Alker Harbor and find Sekki
+66b08f12169c	L5960	Goddess Insurance
+7fe3b27e4058	L5967	Destroy the Storm Basilisks
+1a94a933a63b	L5970	Alker and Zakandia insurance have merged into Goddess LUNA's insurance. Destroy 30 Storm Basilisks and you'll be covered under the new plan
+a495146c7c7b	L5975	Destroy the Fierce Griffons
+7463a58bc1d4	L5978	Alker and Zakandia insurance have merged into Goddess LUNA's insurance. Destroy 30 Fierce Griffons and you'll be covered under the new plan
+7529abba4f45	L5983	Insurance Quest
+36a75a180348	L5990	Destroy the Ogres
+d813a7e62bd0	L5993	Destroy 50 Ogres in the Howling Ravine
+13642ef2a786	L5998	Don't Underestimate Me
+ba131f7c6a6f	L6005	Destroy the Cave Basilisks
+2549c6680e8f	L6008	Everyone seems to look down on me! Destroy 50 Cave Basilisks to win back my pride
+067c3d46c998	L6013	Destroy the Blue-winged Eyebats
+158d8e124701	L6016	Everyone seems to look down on me! Destroy 50 Blue-winged Eyebats to win back my pride
+e25de18c40ac	L6021	Grumpy Gnomes
+a30ca2e29daa	L6028	Destroy the Gnomes
+f1398892b053	L6031	I'm in a bad mood and they're over there dancing...! Destroy 30 Gnomes! ...but where are the Gnomes?
+8d7f94c8ea65	L6036	Gnome Sentry Subjugation
+70421cd2191d	L6039	I'm in a bad mood and they're over there dancing...! Destroy 30 Gnome Sentries! ...but where are the Gnome Sentries?
+eaa5bdf9b5c5	L6044	The Blade of Revenge
+5f78e2427945	L6051	Destroy the Gnome Warriors
+314a2874bc5a	L6054	I can't forgive sly, cowardly monsters! Destroy 30 Gnome Warriors so I can get even
+a2bd3df4b79f	L6059	Destroy the Fierce Cave Eyebats
+890b604a8219	L6062	I can't forgive sly, cowardly monsters! Destroy 40 Cave Eyebats so I can get even
+9ae8f48c260a	L6067	Revenge of a Hazy Memory
+3961825a189f	L6074	Destroy the Ogre Killers
+40559fd22eb6	L6077	I don't remember who hit me... anyway, destroy 30 Ogre Killers for me
+9d061690be85	L6082	Destroy the Gnome Shamans
+934116baf71c	L6085	I don't remember who hit me... anyway, destroy 30 Gnome Shamans for me
+1a96bd8f0167	L6090	Secure the Roads
+12bf9c6272ae	L6136	Secure the Camp Area
+2939620ef7e5	L6146	Destroy 30 Giant Eyebats at Moon Blind Forest
+88f4dbe1c1c5	L6182	Secure the Attack Route
+172687d10de3	L6189	Destroy the Gargoyles
+773778332e75	L6192	Destroy 30 Gargoyles near the rockfall area at Moon Blind Forest
+071a9e42a852	L6238	Destroy 30 Lava Golems near the chaos crossroads at Moon Blind Forest
+d2bc43935192	L6274	Quest Report - Guard Job Quest
+5340e00cec42	L6281	Go Back to Wiff
+5378dc87df52	L6284	Go back to Wiff in Alker Harbor to finish the job quest
+ecc806c8b272	L6289	Collect Trade Goods
+cd14ef02f260	L6296	Collect Materials (Predator Gargoyle
+9efca42033b0	L6299	Destroy Predator Gargoyles and collect 30 Predator Gargoyle Wings
+060fe2a09df5	L6307	Go back to Rimo at the Entrance to Howling Ravine
 9ae94d0c6d2d	L6312	Desert Lizard Statue
+4a1ca2e211d9	L6319	The Statue Recipe
+790224daa7cc	L6322	Destroy Basilisks and use the recipe
+b8ed14a2dcae	L6330	Make 20 Basilisk Statues and give them to Rimo (Basilisk Essence + Iron Ingot + Solvent
 3445958fcad7	L6335	Harpy Statue
+38f5c2ed05dd	L6345	Destroy red-feathered Harpies and use the recipe
+4a190ff72dcf	L6353	Make 20 red-feathered Harpy Statues and give them to Rimo (Harpy Essence + Iron Ingot + Solvent
+82239a2d6ac7	L6358	Griffon Statue
+1783b3c9ffc9	L6365	Shard Recipe
+1dcf3e961424	L6368	Destroy Griffons and use the recipe
+b844417eb622	L6376	Make 20 Griffon Statues and give them to Rimo (Griffon Essence + Iron Ingot + Solvent
 e1bdde73c087	L6381	Mineral Sample
+8eb860a1c65f	L6388	Collect Samples
+bb3d0a4d31df	L6391	Use Levert's pickaxe to collect 20 samples
+d251e5e7d237	L6396	Deliver the Samples
+4935d08ba9d7	L6399	Give 20 mineral samples to Levert (you must use Levert's pickaxe
+719d4e20d90d	L6404	The Unknown Mineral
+905127001941	L6411	Make a Special Pickaxe
+d1e81b58e12b	L6414	Hunt Orcs and get an Orc Axe
+0e6ff2f9b319	L6422	Collect 1 Orc Axe and 30 each of Iron Ingots, Copper Ingots and Animal Leather and give them to Levert
 f172f6a026d3	L6427	Red Glow Ore
+e496cd7ba5fe	L6430	Use the sharp pickaxe to collect 10 Red Glow Ores from the mysterious mineral monsters
+e5c7a3d66615	L6435	Go Back to Levert
+900a91e8bec2	L6438	Give 10 Red Glow Ores to Levert
+792bd9e372f4	L6466	Temple of War
+1326c439eba1	L6473	Stone Tablet of the Ancient Gods
+c2d70a8a2cbd	L6476	Destroy Orcs, Orcish Archers and Orcish Rages, combine the tablet materials, then check the box beside Levert
+df2110a3b3c1	L6481	Tablet of the Gods
+63b87711f3d4	L6484	Among the boxes beside Levert, check the one related to the tablet
+28615c90970a	L6505	The Broken Power Engine
+3f30df0b46a9	L6512	Make Power Engine Parts
+543993e86c25	L6515	Destroy Iron Golems, Lava Golems and Striped Lizardmen, combine the materials into Power Engine Parts and give them to Hisanah
 a30c608fc947	L6520	Power Engine Part
+e94ba333a572	L6523	Give the Power Engine Parts to Hisanah in Tarintus
+52edbbe47b0e	L6528	Chimera Research
+dc0abdc6e7c6	L6535	Chimera Specimens
+9660bab104e4	L6538	Combine specimen materials from Lycanthropes, Gargoyles and Lamias and give them to Poncormita in Tarintus
+dc33d9051e51	L6546	Give Chimera Specimen 1 to Poncormita in Tarintus
+aef6d5347f88	L6554	Give Chimera Specimen 2 to Poncormita in Tarintus
+cb7fa12f3124	L6562	Give Chimera Specimen 3 to Poncormita in Tarintus
+bdb85c31079d	L6567	Excavated Relics
 c4eda664ca54	L6574	Putrid Fluid
+a1df28109fd6	L6577	Get 30 Putrid Fluids from Rotting Mandragoras
+0b1cbaf907ba	L6582	Stinking Blood
+d82cbce2e2f2	L6585	Get 30 Stinking Blood from Giant Eyebats
 1f7304b1522b	L6590	Mixed Fluid
+42d204ece7a9	L6593	Mix the Putrid Fluid and Stinking Blood into a magic potion
+6ad81245b0a7	L6598	Magic Potion
+1f7dcf95cce1	L6601	Make a magic potion from materials from Cursed Lizardmen, Striped Lizardmen or Lycanthropes
+8494507c99c9	L6606	The Finished Potion
+2dfa9be91091	L6609	Give the finished potion to Drocus
+191100b5b78c	L6692	The Art of Helping
+74976c0cab4a	L6699	Deliver Supplies
+fdcfa67d3a55	L6702	Give 100 Top HP Potions and 100 Top MP Potions to Ellenshar
+e7c3076095a4	L6707	Deliver Supplies - Hauser
+c09d17f921e1	L6710	Give the supplies to Hauser at the Ruins of Draconian
+a3dce544e825	L6715	Deliver Supplies - Equpos
+45967460c3e5	L6718	Give the supplies to Equpos at Moon Blind Forest
+ed60ad138bf9	L6723	Deliver Supplies - Barka
+a61d2d61c0c5	L6726	Give the supplies to Barka at Moon Blind Forest
+db08ccd5ebbf	L6731	Support the Knights
+ce4ce4a331a4	L6734	Go to Heromech at the Red Orc Outpost
+88fac839974e	L6739	Recover the Report
+51153d077879	L6742	Recover the scouting report from the magic giants in the Howling Ravine
+0980b8d4a08d	L6750	Give the scouting report to Heromech at the Red Orc Outpost
+f68fd41ac8c6	L6758	Give the scouting report to Wiff in Alker Harbor
+7f3018a57156	L6763	Regional Survey
+e9076be81f26	L6770	Survey Zakandia
+57b61ddc06cd	L6773	Destroy monsters near Zakandia Town and collect 10 floating stone shards
+a131d9696343	L6778	Survey Moon Blind Forest
+3010e1e97f6f	L6781	Destroy monsters near Moon Blind Swamp and collect 10 floating stone shards
+d38972b291ca	L6786	Survey the Howling Ravine
+b81010734b87	L6789	Destroy monsters near the Howling Ravine and collect 10 floating stone shards
+a1f1b0f3b726	L6794	Survey the Island of Death
+867a436421ea	L6797	Destroy monsters near Dryed Gazell Fall and collect 10 floating stone shards
+3675a3ca164b	L6802	Report to Pino
+1cea56e56cde	L6805	Go back to Pino on Alker Plains
+17ef79afd243	L6813	Collect 10 earth energies each from Alker Harbor, Zakandia, Moon Blind Swamp and Mont Blanc Port and give them to Fesilos near the Ruins of Draconian
+0515da100879	L6818	Deliver the Earth Energy
+24b7362fe704	L6821	Give the backpack of earth energy to Pino
+955d23e4550c	L6826	Relics of the Temple
+b6bd79e40755	L6833	Find the Priests' Books
+9386c7e717f1	L6836	Ask Levert in Zakandia Town about the priests
+f9a134c4534d	L6841	Book of the Jebile Priests
+94f57ea7148a	L6844	Ask Dina at Moon Blind Forest about the Jebile priests' scripture
+3079dbd18081	L6849	Book of the Feira Priests
+4d1546a0ed5a	L6852	Ask Narkerian in Moon Blind Swamp about the Feira priests' scripture
+e4f36e282a77	L6857	Book of the Kruse Priests
+c18a8de2cc20	L6860	Ask Dupata at the Red Orc Outpost about the Kruse scripture
+c643ea03821d	L6865	Deliver the Priests' Books
+8c242bcb0e59	L6868	Combine the books of Kruse, Jebile and Feira into the Records of the Ancient Priests and give it to Poncormita in Tarintus
+f2f6abc86ce5	L6873	Silver Gargoyles
+41ca26c9ef7d	L6876	Collect 50 Silver Gargoyle Bones at Dryed Gazell Fall
+e9db9b8ecb1d	L6881	Deliver the Silver Gargoyle Bones
+4f3e88238814	L6884	Give the Silver Gargoyle Bones to Poncormita in Tarintus
+538028c890ef	L6889	Go Back to Goddess LUNA
+ca363a1ee460	L6892	Unseal the Records of the Ancient Gods
+e06e3a154cad	L6897	The White Elf's Request
+4b7a7f644a73	L6904	Spirit Fireworks
+61e70030ed50	L6907	Get 50 Spirit Fireworks from Salamanders at Dryed Gazell Fall
+1dc370cb890c	L6912	Deliver the Spirit Fireworks
+f53e7f35d2f5	L6915	Give the Spirit Fireworks to Illuminens in the Howling Ravine
 e66e6714c7c1	L6927	Wind Essence
+37bb0eec9b3e	L6930	Get 50 Wind Essences from Cave Basilisks on Howling Cave 1F
+b7387fc5d7f5	L6935	Deliver the Wind Essence
+8953233a3c3e	L6938	Give the Wind Essence to Illuminens in the Howling Ravine
+70bbc0e92a27	L6950	Make a Special Metal Plate
+8912af987c74	L6953	Ask Levert in Zakandia Town to make a special metal plate
+8d8bb4430d80	L6954	Materials: 50 Copper Ingots, 50 Iron Ingots, 30 Steel Ingots, 20 Strong Solvents
+1692b494ef32	L6959	Deliver the Special Metal Plate
+89a4f565df8b	L6962	Give Levert's special metal plate to Illuminens in the Howling Ravine
+dd655571735d	L6967	Mysterious Magic
+b872e0982492	L6974	Deliver the Magic Crystals
+dc92cbc6517f	L6977	Give Dupata's bag of magic crystals to Poncormita in Tarintus
 fc237ee0175d	L6982	Black Gem
+f4b7f7c9c94e	L6985	Get 30 Black Gems from Shadows and Furious Shadows at Dryed Gazell Fall
+5fc402fe6578	L6990	Deliver the Black Gems
+6fc2baefeca2	L6993	Give the Black Gems to Poncormita in Tarintus
+8a9ce0e10194	L7005	Explore the Dark Portal
+8cab1c95e00d	L7008	Explore around the Dark Portal deep on the Island of Death
 ee775470f344	L7013	Unknown Document
+690e53643c35	L7016	Give the unknown document found at the Dark Portal to Poncormita in Tarintus
+7452720a9a23	L7028	Decode the Document
+bbc00d524031	L7031	Give the unknown document to Goddess LUNA in Alker Harbor
+a3682adb6511	L7036	What the Document Says
+6524eb794f29	L7039	Pass on what Goddess LUNA said to Poncormita in Tarintus
+c99ef43b4a28	L7044	The Pathfinder
+0f92ae186664	L7051	A Request for Support
+a095a68cc634	L7054	Go to Heromech at the Red Orc Outpost in Pama Satron's place
 67ba20e2ad7f	L7059	Skeleton Bone
+c0cea7c18324	L7062	Destroy Skeletons, Skeleton Warriors and Skeleton Knights at Mont Blanc Port and get Skeleton Bones
+6a4ddae18be4	L7067	Dark Magic Crystals
+9e82d9745c22	L7070	Destroy Darkness Zombies and Succubi at Mont Blanc Port and get Dark Magic Crystals
+749465742814	L7075	Deliver the Loot
+806d4e6c43da	L7078	Give the loot from Mont Blanc Port to Heromech at the Red Orc Outpost
+5af77ac7819c	L7090	Destroy the Silver Gargoyles
+c3269fd80876	L7093	Destroy 200 Silver Gargoyles deep on the Island of Death (Dryed Gazell Fall, Dark Portal
+82d458fb4301	L7098	Recover the Supplies
+3305a2a38a79	L7101	Recover the supplies scattered around Dryed Gazell Fall (cloth goods
+280db8947b24	L7109	Recover the supplies scattered around Dryed Gazell Fall (general goods
+10133a965b17	L7117	Recover the supplies scattered around Dryed Gazell Fall (equipment
+0ae915b1b787	L7122	Meet Heromech
+98439903126d	L7125	Give the supplies to Heromech at the Red Orc Outpost
+398ec7fa450c	L7130	Support Request Resolved
+c77224869523	L7133	Tell Pama Satron at Zakandia Outpost the support request ended safely
+96f7a94f2ea2	L7138	The Merchant Group's Tragedy
+3c722591b56d	L7145	Meet Bakma
+f717402d059f	L7148	Visit Bakma at the Entrance to Howling Ravine
+24cc8efe71a8	L7153	Sales Catalogue
+a38fb7969c87	L7156	Get 10 sales records from the Ogres and Ogre Warriors in the Howling Ravine and Howling Cave
 c40406d80012	L7161	Perpetual Ledger
+9410d66e161d	L7164	Get 5 perpetual ledgers from the Ogres and Ogre Warriors in the Howling Ravine and Howling Cave
 3b177a3e636c	L7169	Receipt
+4322623c0030	L7172	Get 30 receipts from the Ogres and Ogre Warriors in the Howling Ravine and Howling Cave
 31cf696dd9b7	L7177	Member List
+cae0673f8e63	L7180	Get 3 member lists from the Ogres and Ogre Warriors in the Howling Ravine and Howling Cave
+ce1766259828	L7185	Go Back to Bakma
+ff811034189a	L7188	Give the Bakma Merchant Group documents to Bakma in the Howling Ravine
+46aca8141797	L7200	Members' Name Tags
+ca964e821493	L7203	Get 50 merchant name tags from the Gnomes inside Howling Cave 1F
+4027deb691ec	L7211	Give the merchant name tags to Bakma in the Howling Ravine
+b1581139947f	L7216	The Merchant Group's Reward
+bfa80a72ef3e	L7219	Go back to Ellenshar in Alker Harbor to collect Bakma's reward
+da7c49493e66	L7224	Job] Phalanx
 eadf32e0bfff	L7231	Phalanx Emblem
+4479af23a65a	L7234	Ask Barka in Moon Blind Swamp about becoming a Phalanx
+22bc9f009f44	L7239	Phalanx Job Change
+23f02674d9b3	L7242	Combine the Phalanx items, go back to Wiff and become a Phalanx
+f9cd2b6f6776	L7243	Combine - Phalanx Emblem + Warrior's Proof + Proof of Devotion + Adventurer's Proof
+98616cd1b6fa	L7248	Job][Quest] Knight
 4d742967da7e	L7255	Knight's Emblem
+7e277095d500	L7258	Give the supplies to Equpos at Moon Blind Forest and ask about becoming a Knight
+0e70675b2b58	L7263	Knight Job Change
+3282a9fc03e8	L7266	Combine the Templar, go back to Equpos and become a Knight
+f42d7c3567dc	L7267	Combine - Knight's Emblem + Proof of Devotion + Priest's Proof + Warrior's Proof
+601a3ae2d05f	L7272	Job][Quest] Gladiator
+5f8678a0ba4f	L7279	Gladiator Emblem
+c48d17c3d321	L7282	Ask Pama Satron at Zakandia Outpost about becoming a Gladiator
+de96891d759e	L7287	Gladiator Job Change
+af1a48cc6864	L7290	Combine the Gladiator Heavy Sword, go back to Rien and become a Gladiator
+65458ebed568	L7291	Combine - Gladiator Emblem + Warrior's Proof + Merchant's Proof + Adventurer's Proof
+15fa57678cbf	L7296	Job][Quest] Rune Knight
+568d4218013a	L7306	Ask Mirka at the Red Orc Outpost about becoming a Rune Knight
+cee5a754501f	L7311	Rune Knight Job Change
+46975de464fa	L7314	Combine the Elf Sword, go back to Celerian and become a Rune Knight
+fdc1fc49a69a	L7315	Combine - Rune Knight Emblem + Elf's Proof + Warrior's Proof + Proof of Knowledge
+4cab315de533	L7320	Job][Quest] Ranger
 1176b9ec3b69	L7327	Ranger Emblem
+fc83b618f8fa	L7330	Ask Hauser at the Ruins of Draconian about becoming a Ranger
+b13b08282e91	L7335	Ranger Job Change
+3368c41a497e	L7338	Combine the Eagle Eye, go back to Preier and become a Ranger
+e4d10f50ef3e	L7339	Combine - Ranger Emblem + Adventurer's Proof + Merchant's Proof + Proof of Knowledge
+391cfbbb28f3	L7344	Job][Quest] Treasure Hunter
 15bcc751e2f5	L7351	Treasure Hunter Emblem
+531354a26d7d	L7354	Ask Rimo in the Howling Ravine about becoming a Treasure Hunter
+60112fe4f0dd	L7359	Treasure Hunter Job Change
+1d9e7575c8fb	L7362	Combine the Magician, go back to Ellenshar and become a Treasure Hunter
+93e1a55abbfe	L7363	Combine - Treasure Hunter Emblem + Merchant's Proof + Proof of Knowledge + Warrior's Proof
+63538a062c6c	L7368	Job][Quest] Assassin
 98743379405d	L7375	Assassin's Emblem
+d148bb64fab7	L7378	Ask Jose at Mont Blanc Port about becoming an Assassin
+2a14b5131fd7	L7383	Assassin Job Change
+134434ab47c5	L7386	Combine the Assassin's Chart, go back to Diren and become an Assassin
+e2610c25f96c	L7387	Combine - Assassin's Emblem + Adventurer's Proof + Warrior's Proof + Merchant's Proof
+c5c69911a0ae	L7392	Job][Quest] Rune Walker
 553783f1abf7	L7399	Rune Seeker Emblem
+30f6c8217825	L7402	Ask Nimorica at Mont Blanc Port about becoming a Rune Walker
+5f6009ecefae	L7407	Rune Walker Job Change
+17361f854335	L7410	Combine the Elf's Feather, go back to Andorna and become a Rune Walker
+d3df112084d8	L7411	Combine - Rune Seeker Emblem + Elf's Proof + Merchant's Proof + Proof of Knowledge
+9cafb1a8fae6	L7416	Job][Quest] Bishop
 51227aeb53b7	L7423	Bishop's Emblem
+306891355d1b	L7426	Ask Narkerian in Moon Blind Swamp about becoming a Bishop
+b31f9fd77a5a	L7431	Bishop Job Change
+fa8c349a73c2	L7434	Combine the Bishop's Soul, go back to Goddess LUNA and become a Bishop
+2b99dce59f7a	L7435	Combine - Bishop's Emblem + Priest's Proof + Proof of Devotion + Proof of Knowledge
+36cfab5120a0	L7440	Job][Quest] Warlock
 38a236e79207	L7447	Magician's Emblem
+a3f6f22110e1	L7450	Ask Poncormita in Tarintus about becoming a Warlock
+2bf208e65362	L7455	Warlock Job Change
+063a228a46dd	L7458	Combine the Magician's Soul, go back to Pino and become a Warlock
+30c01c26fb5b	L7459	Combine - Magician's Emblem + Proof of Knowledge + Elf's Proof + Adventurer's Proof
+a1aae0d6a013	L7464	Job][Quest] Inquirer
 c821e8e7ffc7	L7471	Explorer's Emblem
+ac4ac77777e2	L7474	Ask Fesilos at the Ruins of Draconian about becoming an Inquirer
+e7ab14da888d	L7479	Inquirer Job Change
+23c5bb1980c2	L7482	Combine the Explorer's Soul, go back to Dupata and become an Inquirer
+f21fe5de0aa8	L7483	Combine - Explorer's Emblem + Priest's Proof + Warrior's Proof + Proof of Knowledge
+acf5009ee511	L7488	Job][Quest] Elemental Master
 582218bd68a8	L7495	Elemental Master Emblem
+6f9ea06bdaab	L7498	Ask Ellashrin in Zakandia Town about becoming an Elemental Master
+3c9a5ac3caae	L7503	Elemental Master Job Change
+45f3ea8e0462	L7506	Combine the Elemental Master Soul, go back to Aldes and become an Elemental Master
+fdbc4d037a61	L7507	Combine - Elemental Master Emblem + Proof of Knowledge + Elf's Proof + Proof of Devotion
+bea4f1e3c533	L7512	-rank][Quest] Destroy the Orcish Archers
+f118d2166393	L7519	Orcish Archer Subjugation Order
+0bbc77de46e7	L7522	Collect 50 Orcish Archer arrows for the Hunter Union
+82b386dac1a6	L7527	Quest Complete
+0ba967e8b477	L7530	Record the completed Hunter Union subjugation order on the Hunter Union board
+abb98b19089e	L7545	Collect 50 Orcish Archer arrows for the Hunter Union
+eae461b7fcfe	L7558	-rank][Quest] Destroy the Orcish Rages
+0d1fa06efbcd	L7565	Orcish Rage Subjugation Order
+88e3668109ca	L7568	Collect 50 Orcish Rage clubs for the Hunter Union
+fe6366541c53	L7604	-rank][Quest] Destroy the Striped Lizardmen
+36d1e09077f0	L7611	Striped Lizardman Subjugation Order
+5b0c1fa17b07	L7614	Collect 50 Striped Lizardman swords for the Hunter Union
+538b500d787d	L7650	-rank][Quest] Cursed Lizardman Subjugation
+f86510d38623	L7657	Cursed Lizardman Subjugation Order
+9195b5723fb1	L7660	Collect 50 Cursed Lizardman swords for the Hunter Union
+68540e3cb531	L7673	-rank][Quest] Destroy the Cursed Lizardmen
+acd6b8aeb19b	L7696	-rank][Quest] Destroy the Lamias
+ebca93cc1f7c	L7703	Lamia Subjugation Order
+3079aac4044d	L7706	Collect 50 Lamia necklaces for the Hunter Union
+8515f196bf88	L7719	-rank][Quest] Destroy the Lamias
+e8a90849f1bc	L7742	-rank][Quest] Destroy the Orcish Warriors
+f7d4a849e835	L7749	Orcish Warrior Subjugation Order
+7e47b55a2b4b	L7752	Collect 50 Orcish Warrior swords for the Hunter Union
+5492777d1c4e	L7788	-rank][Quest] Destroy the Orcish Shamans
+15894bd518ef	L7795	Orcish Shaman Subjugation Order
+e99b124cb594	L7798	Collect 50 Orcish Shaman staffs for the Hunter Union
+be063bcd37ac	L7818	Orcish Shaman Subjugation Order
+867e575588db	L7821	Collect 50 Orcish Shaman staffs for the Hunter Union
+928971620225	L7834	-rank][Quest] Destroy the Harpies
+21aa7872a86e	L7841	Harpy Subjugation Order
+1049f245d4d9	L7844	Collect 50 Harpy earrings for the Hunter Union
+3b8c1d8c6ab9	L7880	-rank][Quest] Destroy the Predator Gargoyles
+f2ac9bfa0ce9	L7887	Predator Gargoyle Subjugation Order
+e47fea16e143	L7890	Collect 50 Predator Gargoyle horns for the Hunter Union
+fb59faad35e1	L7926	-rank][Quest] Giant Reptiles
+3577f10e0c2a	L7933	Basilisk Subjugation Order
+84ff555a4b73	L7936	Collect 50 Basilisk eyes for the Hunter Union
+64c47742e618	L7972	-rank][Quest] Three Times Faster
+67a120c73e3d	L7979	Red-feathered Harpy Subjugation Order
+8153276c3f4f	L7982	Collect 50 red Harpy feathers for the Hunter Union
+71dc41f1e813	L8002	Red-feathered Harpy Subjugation Order
+b98a69c7b1c6	L8018	-rank][Quest] Ferocious Beasts
+d53febb803ab	L8025	Griffon Subjugation Order
+3f88f2b4f751	L8028	Collect 50 Griffon claws for the Hunter Union
+828e1e741996	L8064	-rank][Quest] The Giant Threat
+8981e2e2d23f	L8071	Troll Subjugation Order
+63a47c3315e6	L8074	Collect 50 heavy bracelets for the Hunter Union (party recommended
+64470cd1b4fa	L8110	-rank][Quest] The Reclusive Giant
+35f98d1b9dd7	L8117	Wandering Troll Subjugation Order
+265836d2f1c0	L8120	Collect 50 giant hooks for the Hunter Union (party recommended
+239925589469	L8156	-rank][Quest] Storm Like a Blade
+ef2ff9e4a023	L8163	Storm Basilisk Subjugation Order
+e86a6fa38323	L8166	Collect 50 sharp back horns for the Hunter Union
+441322055e93	L8202	-rank][Quest] Tyrant of the Sky
+72bb3dfe23d6	L8209	Fierce Griffon Subjugation Order
+b2ad81aaefa8	L8212	Collect 50 sharp fangs for the Hunter Union
+6b6fb8f94a66	L8248	-rank][Quest] The One-eyed Monster
+73be8ea933ee	L8255	Cyclops Subjugation Order
+46a638636943	L8258	Collect 50 giant blunt weapons for the Hunter Union
+13cc2b0f67a5	L8294	-rank][Quest] The Howling Cyclops
+9c545edaeb15	L8301	Pained Cyclops Subjugation Order
+f9da8715ac44	L8304	Collect 50 skull ornaments for the Hunter Union
+7adfc1c39ca0	L8340	-rank][Quest] The Estranged Giant
+f6db33707416	L8347	Troll Ruffian Subjugation Order
+b95680d2b2de	L8350	Collect 50 sturdy bangles for the Hunter Union
+59abb4537745	L8386	-rank][Quest] The Furious Cyclops
+5b10e2ad880d	L8393	Furious Cyclops Subjugation Order
+8a294d903a37	L8396	Collect 50 heavy scimitars for the Hunter Union
+f8286ab0f3f4	L8432	-rank][Quest] The Undead Army
+b109d2b9e424	L8439	Skeleton Subjugation Order
+82db59a8ab41	L8442	Collect 50 rusty daggers for the Hunter Union
+7a4cdcf1c15f	L8462	Skeleton Subjugation Order
+9c69e64005d6	L8478	-rank][Quest] Walking Corpses
+2e205654735f	L8485	Darkness Zombie Subjugation Order
+d951fe520c78	L8488	Collect 50 relics of the dead for the Hunter Union
+218d554dc455	L8524	-rank][Quest] Undead Warriors
+7793acc4239b	L8531	Skeleton Warrior Subjugation Order
+d5b2e4bcc3ee	L8534	Collect 50 swords of the dead for the Hunter Union
+cc23b7292d7b	L8570	-rank][Quest] Knights of Death
+0c61fc5f4905	L8577	Skeleton Knight Subjugation Order
+92329aac018d	L8580	Collect 50 shields of the dead for the Hunter Union
+1c0c44c5ec91	L8616	-rank][Quest] The Demon's Temptation
+224e46e94559	L8623	Succubus Subjugation Order
+c489f99de8d1	L8626	Collect 50 demon circlets for the Hunter Union
+099a0ab90401	L8662	Party][Quest] Rescue the Expedition
+29bf471aa547	L8669	Deliver the Med Kits
+be5c125d356a	L8672	Give the med kits to the expedition members on Haunted Mine 1F
+a9526b990d92	L8693	Go Back to Shorte
+23fd3b621ae5	L8696	Go back to Shorte in Zakandia
+675405541699	L8701	Party][Quest] Ecology Survey
+c8dafacc3ce1	L8708	Evolved Skeletons
+42cf91d1f422	L8711	Collect 20 old pickaxes from the Evolved Skeletons on Haunted Mine 1F
+d8c581adf5a6	L8716	Psychedelic Flowers
+910819ad6c1d	L8719	Collect 10 Demon Tree Seeds from the Psychedelic Flowers on Haunted Mine 1F
+e1235eb7155e	L8724	Lesser Succubi
+a55171b3f328	L8727	Collect 5 Demon Necklaces from the Lesser Succubi on Haunted Mine 1F
 afd2b0bee393	L8732	Wight
+53e8c5ad07b7	L8735	Collect 30 Evil Crystals from the mysterious monsters on Haunted Mine 1F
+529b2902c825	L8740	Poison Mushrooms
+5d7a397e37a2	L8743	Collect 10 toxic spores from the Poison Mushrooms on Haunted Mine 1F
+35b68ec4da57	L8748	Ecology Survey Complete
+6490f98eca4e	L8756	Party][Quest] Survivors
+d968ea51c144	L8763	Deliver the Supplies
+a2228111c9eb	L8766	Give the supplies to the expedition members on Haunted Mine 2F
+5eac97156fe5	L8790	Give the report from the expedition members to Shorte in Zakandia
+d812097b383b	L8795	Party][Quest] Dark Shadows
+7b1460ea95e4	L8802	Venom Fang Shadows
+d4456dd394eb	L8805	Destroy 100 Venom Fang Shadows on Haunted Mine 2F
+be7765b0542a	L8813	Go back to Shorte and report the quest done
+b3c31330d2e8	L8818	Party][Quest] Dark Sparks
+fcc44d5828f9	L8825	Fallen Fire Spirits
+38f673a3e87e	L8828	Destroy 60 Fallen Fire Spirits on Haunted Mine 2F
+eff0d3debe4c	L8833	Hellfire Spirits
+7219f4192ab3	L8836	Destroy 60 Hellfire Spirits on Haunted Mine 2F
+071a1cb0dd00	L8841	Subjugation Complete
+deff2451b030	L8849	Party][Quest] Artificial Life
 223e9d214526	L8856	Chimera
+ffda06144859	L8859	Destroy 70 artificial Fire-breathing Griffons on Haunted Mine 2F
+8be613381c46	L8864	Bloody Golems
+0cbb0e06da81	L8867	Destroy 70 artificial Bloody Golems on Haunted Mine 2F
+49e82a486b2a	L8875	Tell Shorte that everything he asked for is done
+111c1270e2b3	L8880	Special][Quest] Temple of War
 6d6c694eb266	L8887	Army Backpack
+5087ea249721	L8890	Defeat Orcs at the entrance to Moon Blind Swamp to get 20 army backpacks
 876b5c308cca	L8895	Skull Ornament
+94234f955ec0	L8898	Destroy Orcish Archers in Moon Blind Swamp and the Red Orc Outpost and collect 10 skull ornaments
 545db2c59c24	L8903	Demon Armor
+54b58ffedba6	L8906	Destroy Orcish Rages in Moon Blind Swamp and collect 10 orc armors
+09cc081cdb6c	L8914	Give the loot to Levert in Zakandia Town
+4ea6ff1573ed	L8929	Destroy Orcs at the entrance to Moon Blind Swamp and collect 20 army backpacks
+9a5f9e68180d	L8958	Special][Quest] The Broken Power Engine
 8441ab02e446	L8965	Machine Part
+dfaad17fed02	L8968	Collect 20 machine parts from Iron Golems in Tarintus and Zakandia
 d742f35017b9	L8973	Power Engine
+6bd2a8b1f953	L8976	Collect 20 power engines from Lava Golems at Moon Blind Forest
 a6adfd68c592	L8981	Iron Rod
+99876d7502f2	L8984	Destroy Striped Lizardmen in Moon Blind Swamp and collect 20 iron rods as loot
+0264fa20352a	L8989	Deliver the Items
+db5070022c7b	L8992	Give the items to Isolde in Zakandia
+23665a309ed8	L9015	Collect 20 power engines from Lava Golems in Moon Blind Swamp
+8500cf635eae	L9036	Special][Quest] Chimera Research
 ecf9aab9af1d	L9043	Lycanthrope Leather
+e1d1c9019f75	L9046	Get 20 Lycanthrope Leathers in Tarintus
 375f2d263901	L9051	Gargoyle Wing Membrane
+8607b836bd96	L9054	Get 20 wing membranes from Gargoyles at Moon Blind Forest
 a4d7fb090803	L9059	Lamia Scale
+b736e5e2627d	L9062	Get 20 scales from Lamias in Moon Blind Swamp
+fb21684e20a4	L9067	Deliver the Specimen Materials
+078a46a42f50	L9070	Give the specimen materials you collected to Luilua
+22bca2fd60f4	L9114	Party][Quest] Mineral Shortage
 b0ed5b9e098f	L9121	Iron Ore Pouch
+b7645a6d694b	L9124	Get 20 iron ore pouches from the Evolved Skeletons on Haunted Mine 1F
+6617569152b6	L9129	Deliver the Minerals
+13662ceecaf3	L9132	Give 20 iron ore pouches to Claudio, the mining expert at Zakandia Outpost
+f4572e548fa0	L9183	Party][Quest] Threat in the Mine
+906512aaa177	L9190	Destroy the Venom Fang Shadows
+10b894d34d67	L9193	Destroy 60 Venom Fang Shadows on Haunted Mine 2F
+7b314866438b	L9198	Go Back to Drocus
+f427d5668bbe	L9201	Go to Drocus in Zakandia Town and see how it turned out
+7d7a21ca00a6	L9252	Party][Quest] The Mercenaries' Revenge
+f8e0cd78db8e	L9259	Destroy the Fallen Fire Spirits
+8e4429468dad	L9262	To avenge the fallen mercenaries, destroy 100 Fallen Fire Spirits on Haunted Mine 2F
+2cdbc564c48f	L9267	Tell Pama Satron
+efc6db46f662	L9270	Tell Pama Satron at Zakandia Outpost the Fallen Fire Spirits are destroyed
+eb9be5fab79c	L9275	Party][Quest] Revenge Complete
+8a056d0e5dee	L9282	Destroy the Hellfire Spirits
+6738f73b6ab0	L9285	So the fallen mercenaries' souls can rest, destroy 100 Hellfire Spirits on Haunted Mine 2F
+98ce553827ec	L9293	Tell Pama Satron at Zakandia Outpost the Hellfire Spirits are destroyed
+7114701fc326	L9298	-rank][Quest] An Ancient Trap
+a879652b5504	L9305	Blue Mimics
+15b17fb53a25	L9308	Destroy 70 Blue Mimics deep on the Island of Death (Dryed Gazell Fall, Dark Portal)
+950831d3256d	L9313	Red Mimics
+aee9302a142a	L9316	Destroy 70 Red Mimics deep on the Island of Death (Dryed Gazell Fall, Dark Portal)
+4dec69dc87de	L9321	Subjugation Over
+dc221d23a4bb	L9324	Report the finished subjugation at the Hunter Union board on the Island of Death (Dryed Gazell Fall, Dark Portal)
+f1ba11d66610	L9360	-rank][Quest] An Evil Welcome
+313db1a77ac3	L9367	Shadows
+c2999743e11c	L9370	Destroy 70 Shadows deep on the Island of Death (Dryed Gazell Fall, Dark Portal)
+6576f26abebf	L9375	Furious Shadows
+a67a062a8824	L9378	Destroy 70 Furious Shadows deep on the Island of Death (Dryed Gazell Fall, Dark Portal)
+a23ab17f5077	L9422	-rank][Quest] Mighty Beasts
 a301043f3ee7	L9429	Salamander
+e9aa974eed9b	L9432	Destroy 100 Salamanders deep on the Island of Death (Dryed Gazell Fall, Dark Portal)
+20b954ca2369	L9440	Destroy 100 Silver Gargoyles deep on the Island of Death (Dryed Gazell Fall, Dark Portal)
+63443b556a3c	L9484	-rank][Quest] Blue Raiders
+fe05b78913b9	L9491	Blue-winged Bats
 8991f24839ea	L9677	Ogre
 1cf2886e8761	L9817	Venomous Fang
 d8a29fd466d1	L9840	Disgusting Fluid

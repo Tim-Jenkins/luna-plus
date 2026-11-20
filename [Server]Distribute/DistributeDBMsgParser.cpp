@@ -294,6 +294,8 @@ void RLoginCheckQuery(LPQUERY pData, LPDBMESSAGE pMessage)
  
  	if( check->mValue != pUserInfo->check.mValue && UserLevel > eUSERLEVEL_GM )
  	{
+ 		// The login procedure has already added the account to LoginTable.
+ 		if( stateNo == 1 ) LoginCheckDelete(UserIdx);
  		LoginError( dwConnectionIdx, AuthKey, LOGIN_ERROR_FILE_CRC );
  		return;
  	}

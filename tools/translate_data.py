@@ -53,6 +53,7 @@ LIMITS = {
     ("questitemlist.bin", 1): 32,
     ("mapmovelist.bin", 1): 32,
     ("mapmovelist.bin", 2): 32,
+    ("questitemlist.bin", 6): 250,  # MAX_ITEMDESC_LENGTH, and CMHFile::GetString's 256-byte buffer
 }
 
 
@@ -341,6 +342,14 @@ def compose(text: str, glossary: dict, missing: set):
         if m:
             base = compose(m.group(1), glossary, missing)
             return fmt(m).format(base) if base else None
+    # Quest item descriptions: "<text>-領取人:<NPC>(<place>" ("deliver to").
+    m = re.fullmatch(r"(.*?)\s*-?\s*s?\s*:?\s*領取人\s*:\s*\^?(.+?)\s*\((.+?)[)）]?", text)
+    if m:
+        body = compose(m.group(1), glossary, missing) if m.group(1).strip(" -") else ""
+        npc, place = compose(m.group(2), glossary, missing), compose(m.group(3), glossary, missing)
+        if body is None or not npc or not place:
+            return None
+        return f"{body + ' - ' if body else ''}Deliver to {npc} ({place}"
     m = re.fullmatch(r"([^:]+?)\s*:\s*(.+)", text)
     if m:
         head, rest = compose(m.group(1), glossary, missing), compose(m.group(2), glossary, missing)

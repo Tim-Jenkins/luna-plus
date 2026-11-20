@@ -63,9 +63,11 @@ Run all three servers from one folder. Each server reads its config relative to 
    - `serverset/1/MapServerDesc.txt` holds per-map settings (DB threads, village/PK flags). It needs a `$MAPNUM` block for each map server you run.
    - `serverset/1/ChannelInfo.bin` sets the channel name. Its source is `ChannelInfo.txt`; see [Packed .bin files](#packed-bin-files).
    - `ClientVerInfo.ver` holds the client version Distribute accepts. It has to match `g_CLIENTVERSION` in `[Client]LUNA/LUNAClient.cpp` (`LPTW10062701`), or every login fails with "invalid version".
-3. Add the game data:
-   - Run `python3 tools/build_minimal_data.py` and copy the contents of `build/data/` into the folder. This is the hand-written minimal data set from `data/minimal/` (#21). The original `System/Resource` data isn't available.
-   - Copy `System/Map/<map>.ttb` for each map you run (`20.ttb` at least) from the client install into `System\Map\`.
+3. Add the game data, one of:
+   - **Original data (recommended).** If you have an original server's `system/` folder, copy it to `data/original/<name>/system/` (git ignores `data/original/`; the data isn't ours to redistribute) and run `python3 tools/import_original_data.py --from data/original/<name>`. It converts the tables whose format changed to what this source reads, takes what's missing from `data/minimal/`, and writes `build/data/`. See [Original data](#original-data).
+   - **Minimal data.** Run `python3 tools/build_minimal_data.py`. This is the hand-written set from `data/minimal/` (#21): map 20 only, a few NPCs and monsters, no items or quests.
+
+   Copy the contents of `build/data/` into the folder. Copy `System/Map/<map>.ttb` for each map you run (`20.ttb` at least) from the client install into `System\Map\` if the data didn't include it.
 4. Copy `MHConsole.dll` from the original server package (`Server/Dll/`) into the folder. It's the COM component behind the server console windows, and its source isn't in this repo. Without it, the servers stop with "Console initializing Failed".
 5. Register the three COM DLLs from an administrator prompt, using the 32-bit `regsvr32`:
    ```powershell
@@ -108,6 +110,26 @@ Log in as `test` / `test`. A new character starts in a corner of Alker Harbor ne
 
 If the client crashes it writes a minidump, `LPTW10062701.mhd`, next to `LUNAClient.exe`. Some failures exit with no dump; for those, turn on Windows Error Reporting dumps under `HKLM\SOFTWARE\Microsoft\Windows\Windows Error Reporting\LocalDumps\LUNAClient.exe`. The matching PDBs are in each CI run's `luna-win32-release-pdb` artifact.
 
+## Original data
+
+`tools/import_original_data.py` has been checked against one source: the Taiwanese LUNA Online server data from late 2008 (Big5 text, 165 files in `system/Resource`, plus `MapChannel.bin` and the server's terrain files). This source is from 2010, and these tables changed shape in between:
+
+| File | Change |
+|---|---|
+| `SkillList.bin` | Two always-zero columns between area size and unit kind were removed (56 → 54) |
+| `Skill_Buff_List.bin` | One column was added before the mana cost (33 → 34) |
+| `MonsterList.bin` | `dwMonsterTargetType` was added after the object kind (124 → 125); 2 for bosses, 1 otherwise. The importer also shows the English name column instead of the Chinese one |
+| `ItemList.bin` | Point type, two point values, item type and item type detail were added at the end (60 → 65) |
+| `StaticNpc.bin` | A notice dialog id was added at the end (7 → 8) |
+| `ConductList.bin` | `bInvalidOnVehicle` was added at the end (7 → 8). Without it the client crashes entering the world (`cConductManager::RegistConduct`) |
+
+Everything else is copied unchanged and loads without errors, but only the files above have been compared field by field with their loaders. The importer takes the Devil race lists (`*_D_*`) and `skillScript.bin` from `data/minimal/`, since the 2008 data predates them.
+
+Known issues with this data:
+- Item, skill, NPC and quest names are in Big5 Chinese, so they show as garbage in the English client. Monster names use the data's English name column.
+- `MapChannel.bin` gives map 20 three channels.
+- On map 20 (a town) the spawns are training dummies (Bambusoideae, Rotten Board, level 10) and Puppies (level 1) next to the new-character login point at (347, 400).
+
 ## Packed .bin files
 
 Files the game opens in `"rb"` mode (`CMHFile`) are encoded. `tools/mhbin.py` reads and writes the original (non-AES) encoding, which both the client and the servers still accept:
@@ -121,7 +143,7 @@ python3 tools/mhbin.py decode some.bin some.txt
 
 ## Known gaps
 
-- The game data is a minimal hand-written set (`data/minimal/`): map 20 has eight NPCs and fifteen monsters, but there are no items or quests, and the only skills are the unarmed basic attack and one melee attack per monster. NPC shops are empty, and the NPC models are placeholders.
+- Without original data, the game data is a minimal hand-written set (`data/minimal/`): map 20 has eight NPCs and fifteen monsters, but there are no items or quests, and the only skills are the unarmed basic attack and one melee attack per monster.
 - 22 stored procedures the servers call don't exist yet (see `db/README.md`, #3). Anything that calls one fails.
 - Deleting a character fails: `MP_CHARACTER_DeleteCharacter` calls a linked server that doesn't exist.
 - No billing server is configured, so Distribute keeps retrying a connection to an empty address. This should be harmless.

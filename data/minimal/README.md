@@ -2,6 +2,8 @@
 
 The original game data (`System/Resource/*.bin`, `System/MapChannel.bin`) isn't in any install media we have (#21). This folder is a hand-written replacement with just enough data to log in, create a character and play a little on map 20 (Alker Harbor): a login point, eight NPCs you can talk to, and three kinds of monster you can target. There's no combat yet, because there's no skill data.
 
+If you have an original server's data, use `tools/import_original_data.py` instead (see `docs/running-locally.md`). It still takes the files the original data lacks from here.
+
 Build it with:
 
 ```sh

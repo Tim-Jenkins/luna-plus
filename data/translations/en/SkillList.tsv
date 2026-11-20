@@ -1,0 +1,612 @@
+508110cab981	4100101:1	EXP [20%] Up Scroll (3h)
+930076530560	4100102:1	EXP [20%] Up Scroll (5h)
+391c8e8353f2	4100103:1	EXP [20%] Up Scroll (7d)
+46434caf4503	4100104:1	EXP [50%] Up Scroll (1h)
+595ef40bef77	4100105:1	EXP [100%] Up Scroll (1h)
+2d123b12e137	4100201:1	EXP [30%] Up Scroll (3h)
+a109730e5e28	4100202:1	EXP [30%] Up Scroll (5h)
+269d8258d4ab	4100203:1	EXP [30%] Up Scroll (7d)
+7593831140e0	4100301:1	Move Speed [20%] Potion (3h)
+fd906bcd2517	4100302:1	Move Speed [20%] Potion (5h)
+5e0c715b1f3a	4100303:1	Move Speed [20%] Potion (7d)
+8637b86c4d6b	4100401:1	P.Atk +20% Potion (3h)
+cdd26e143f77	4100402:1	P.Atk +20% Potion (5h)
+e9c9ff0ca970	4100403:1	P.Atk [20%] Potion (7d)
+db50b1744d45	4100501:1	P.Def +20% Potion (3h)
+e49b3a3e8c7d	4100502:1	P.Def +20% Potion (5h)
+e8c1a8ad9bea	4100503:1	P.Def [20%] Potion (7d)
+a85393cf6877	4100601:1	M.Pow [20%] Potion (3h)
+e5d06b3fb1f9	4100602:1	M.Pow [20%] Potion (5h)
+51903e6c4b87	4100603:1	M.Pow [20%] Potion (7d)
+7f5668fee6ab	4100701:1	M.Def +20% Potion (3h)
+68eeba821553	4100702:1	M.Def +20% Potion (5h)
+8e1d73391e13	4100703:1	M.Def [20%] Potion (7d)
+5f751e1822e0	4100801:1	MP Cost [20%] Potion Down (3h)
+2e00a856fdfd	4100803:1	MP Cost [20%] Potion Down (7d)
+209db827815c	4100901:1	Max HP [20%] Potion (3h)
+7c2e5f1575e8	4100902:1	Max HP [20%] Potion (5h)
+7a2191a6e8b3	4100903:1	Max HP [20%] Potion (7d)
+9c580ad2f5d7	4101001:1	Max MP [20%] Potion (3h)
+3ed22092ffd7	4101002:1	Max MP [20%] Potion (5h)
+79bd50772871	4101003:1	Max MP [20%] Potion (7d)
+12e1593d4899	4101101:1	Lucky Hunter [20%] Scroll (3h)
+c99ceebb7f01	4101102:1	Lucky Hunter [20%] Scroll (5h)
+3c196e645703	4101103:1	Lucky Hunter [20%] Scroll (7d)
+a4c56a3b7c3a	4101201:1	Blessing Potion
+336f285e48ce	4101301:1	Blessing Potion: Mana
+370818c8f0e9	4101401:1	EXP [20%] Up Scroll (2h)
+6ee1ff0a1a74	4101501:1	EXP Guard Scroll - 3 Uses
+7e9e913f99cc	4101502:1	EXP Guard Scroll - 5 Uses
+c49d3c12f373	4101601:1	Lynx Elixir (1h)
+670e7f6565a9	4101701:1	Fighter's Elixir (1h)
+28a06f45d5c6	4101801:1	Tough Elixir (1h)
+a50faa09d5fe	4101901:1	Clever Elixir (1h)
+3939accc7fa6	4102001:1	Patience Elixir (1h)
+84cd370a7022	4102101:1	Expert's Elixir (1h)
+00968af636db	4102201:1	Vitality Elixir (1h)
+216c9163c895	4102301:1	Spirit Elixir (1h)
+9f938c8f0602	4102401:1	EXP [10%] Up Scroll (2h)
+a879d219bf0c	4102601:1	EXP [20%] Up Scroll (3d)
+c3e3947f20b2	4102602:1	EXP [20%] Up Scroll (7d)
+c5a9099c6af3	4102603:1	EXP [20%] Up Scroll (15d)
+f20ff371ef72	4102604:1	EXP [20%] Up Scroll (30d)
+7cbc8183dcc6	4102701:1	Move Speed [20%] Potion (3d)
+686711f6c6ee	4102702:1	Move Speed [20%] Potion (7d)
+ff40e7e737e0	4102703:1	Move Speed [20%] Potion (15d)
+ff7081956788	4102801:1	P.Atk +20% Potion (3d)
+7f5003a7677e	4102802:1	P.Atk +20% Potion (7d)
+fcb7416b1ab8	4102803:1	P.Atk +20% Potion (15d)
+ba46c58af239	4102804:1	P.Atk +20% Potion (30d)
+22e940347126	4102901:1	P.Def +20% Potion (3d)
+1b8967313da3	4102902:1	P.Def +20% Potion (7d)
+f4184d0a1f0f	4102903:1	P.Def +20% Potion (15d)
+3945c6b2e2d6	4103001:1	M.Pow [20%] Potion (3d)
+e445fcd6a2ca	4103002:1	M.Pow [20%] Potion (7d)
+733e3d8cfd1c	4103003:1	M.Pow [20%] Potion (15d)
+f33959675798	4103004:1	M.Pow [20%] Potion (30d)
+58487a22a523	4103101:1	M.Def +20% Potion (3d)
+e04aace78466	4103102:1	M.Def +20% Potion (7d)
+06670c868cca	4103103:1	M.Def +20% Potion (15d)
+7bc46b841323	4103201:1	MP Cost [20%] Potion Down (3d)
+df08f47a6bae	4103202:1	MP Cost [20%] Potion Down (7d)
+af61f3304b3d	4103203:1	MP Cost [20%] Potion Down (15d)
+dd18843862c9	4103301:1	Max HP [20%] Potion (3d)
+c74de4ec50a4	4103302:1	Max HP [20%] Potion (7d)
+8969e57abf05	4103303:1	Max HP [20%] Potion (15d)
+247c3340f057	4103401:1	Max MP [20%] Potion (3d)
+ad0c4c310ecf	4103402:1	Max MP [20%] Potion (7d)
+b106b17e3023	4103403:1	Max MP [20%] Potion (15d)
+b239f9ed8f7b	4103501:1	Lucky Hunter 100% Scroll (3d)
+c64b5f34de09	4103502:1	Lucky Hunter 100% Scroll (7d)
+c1ca4c769b23	4103503:1	Lucky Hunter 100% Scroll (15d)
+1ec02a57fe8e	4103601:1	Lucky Hunter [50%] Scroll (2h)
+58a09d86f042	4103701:1	Red Crazy Mushroom
+3f743a7a8e54	4103801:1	Blue Crazy Mushroom
+cd456220ce39	1000101:1	Unarmed Attack
+1b13e9813144	1000201:1	Two-Hand Attack
+4adc78501e9e	1000301:1	One-Hand Attack
+1fa11df1d713	1000401:1	Dagger Attack
+0a8a4485378d	1000501:1	Bow Attack
+16ff27b33d95	1000601:1	Staff Attack
+b25f60efa1e4	1000701:1	Musket Attack
+3e88c0fb8d06	1000801:1	Dual Dagger Attack
+b1c7150be10d	1001001:1	Dual Sword Attack
+549c5bcb25e8	1000901:1	Rest
+5cfb2300519e	1400101:1	Red Blood Rage
+22a1791d40ea	1400201:1	Concentrate
+9429fa61b7dd	1400301:1	Shield of Nature
+0eeb13350456	1400401:1	Heart of Nature
+4509af6b3b8d	1400501:1	Energy Shield
+0b9d5fd8ecbc	1100101:1	Iai Slash
+da02e1d31e6e	1100111:1	Swallow Slash
+dbd491a9ed44	1100201:1	Fang Thrust
+faad215bd529	1100301:1	Gale Slash
+271125dd9f9c	1100311:1	Cross Slash
+c90d57625530	1100401:1	Venom Fang Thrust
+bd6a9ae96dc2	1100411:1	Twin Fang Thrust
+4fb355d2827b	1100501:1	Taunt
+ed7fcde62816	1100601:1	Shield Edge
+7f00a7d2feaa	1100701:1	Shield Bash
+34452a5e2292	1100801:1	Dragon Soar Slash
+bb46ce0f845f	1100811:1	Earth Dragon Slash
+3af2f5444397	1100901:1	War Cry
+218a2d8a3343	1101001:1	Shoulder Bash
+79671e130fe6	1101101:1	Light Sword Up
+b0b4ce7d824b	1101201:1	Heavy Sword Up
+479b15b5edc0	1101301:1	Sky Slash
+e2162d882661	1101401:1	Whirling Sword Dance
+ffb4357a74c3	1101501:1	Area Taunt
+1006dcdcfaa6	1101601:1	Vacuum Blade
+dd21056e1617	1101701:1	Nightmare Sword
+32daf51de038	1101801:1	Spirit Up
+19437d180c92	1101901:1	Storm Slash
+adfa7dc8cc50	1102001:1	Decisive War Cry
+018becd87934	1102101:1	Self Immolation
+c7f283e27c0b	1102201:1	Assault Shield Bash
+11323aa30ff5	1102301:1	Explosive Ruin
+35493ec077c0	1102401:1	Fire Destruction
+caa31a03d1f3	1102501:1	Shockwave
+fd23b5d9502a	1102601:1	Seal Rune
+6bfcc8523347	1102701:1	Rune Impact
+3ffc137fccbe	1102801:1	Holy Avenger
+42050dd0345e	1102901:1	Holy Flash
+4157c3da38e6	1103001:1	Berserk Sword
+fa8c48720b03	1103101:1	Saint's Bind
+78ea9ffb92b1	1103201:1	Saint's Heal
+690890f99c3b	1103301:1	Shock Wave
+1acabf81d0eb	1103401:1	Dark Illusion
+261208a4a063	1103501:1	Death Thunder
+f8c675dae7cf	1103601:1	Terrible Strike
+7faf2a2ae96d	1103701:1	Cruel Sword
+7bb19ca55f58	1103801:1	Despair
+970c10fade83	1103901:1	Terrible Slaughter
+bf2e69559d0d	1104001:1	Double Sonic Surge
+7c65d9902aa4	1104101:1	Sword Spin
+6aedbaa0f769	1104201:1	Double Strike
+aa4a18f75f18	1104301:1	Shield Slam
+e8094fcf577e	1104401:1	Standing Fire
+488dcbc0ed59	1104501:1	Steel Bomb
+43aaf9b43a83	1104601:1	Kneeling Shot
+dfcde47be965	1104701:1	Musket Close
+63d2d30d580e	1104801:1	Musket Strike
+3d930ef963a5	1500101:1	Warrior's Heart
+cceff0040451	1500201:1	Full Recovery
+0dfb2361ebb0	1500301:1	Blessed Shield
+20a7f882a385	1500401:1	Fighting Spirit
+96fe0fbbca23	1500501:1	Shield Barrier
+49abebf41e14	1500601:1	Divine Wind
+4856d560c4f1	1500701:1	Sturdy Shield
+140d8c5c3490	1500801:1	Invincible
+5c0f253b9a44	1500901:1	Empower Weapon
+b364da0333ba	1501001:1	Apocalypse Justice
+21e01ee4a335	1501101:1	Berserk Stance
+929b6ae41d53	1501201:1	Aura Accuracy
+8ccd89862fbe	1501301:1	Aura Shield
+5135a106fa22	1501401:1	Mass Aura Frenzy
+47e2d794c6ae	1501501:1	Steel Shield
+aa789517a2d7	1501601:1	Spirit Peak
+223ed284dab8	1501701:1	Deadly Power
+4d8352f2a264	1501801:1	Divine Vampire
+2bb97b68dae6	1501901:1	Protection Aura
+0fd6fcdc133a	1502001:1	Reload
+71f16154a8ab	1502101:1	Killing Storm
+792e29201db0	1300101:1	One-Hand Training
+18f85a6f4443	1300201:1	Light Armor Mastery
+ce4889ff7abf	1300301:1	Heavy Armor Mastery
+726ce8c6e0d0	1300401:1	Shield Training
+09632c68d41c	1300501:1	Boost
+e52dd0ca6528	1300601:1	First Aid
+921bb52a0742	1300701:1	Accurate Hit
+4c068328285a	1300801:1	Last Stand
+db8a22dca436	1300901:1	Two-Hand Training
+82fa81da0a15	1301001:1	Swordsmanship Training
+88b71a7d567b	1301101:1	Axe Training
+9deae9b72d9a	1301201:1	Blunt Training
+d19ceafb0a9d	1301301:1	War Guard
+e4356edc4b5d	1301401:1	Precise Attack
+f817d289604c	1301501:1	Frenzy Strike
+f2acb4af8db1	1301601:1	Sword Practice
+1f1bc4d460fc	1301701:1	Critical Battle Axe
+83ac839522a4	1301801:1	Blunt Guard
+80c71878c98d	1301901:1	Muscle Relax
+4c310db56eb0	1302001:1	Armor Sync
+5e2c508c3916	1302101:1	Weapon Sync
+6541beff4877	1302201:1	Two-Hand Training
+361570fd361d	1302301:1	Two-Hand Accuracy
+6a98e02e7205	1302401:1	Musket Accuracy
+dd10aba2e69d	1302501:1	Musket Training
+7b138e831afc	1302601:1	Two-Hand Mastery
+11fba4260caa	2100101:1	Dark Slash
+0195d629f3b7	2100111:1	Flash Slash
+a181aa5c4168	2100201:1	Heart Stab
+cf75a67536c5	2100211:1	Deadly Stab
+a0c0d08da0c9	2100301:1	Power Shot
+b75ab220a267	2100311:1	Double Shot
+471ba8d77d96	2100401:1	Needle Shot
+e74f25006a2c	2100411:1	Sharp Arrow
+529e4d5f0d61	2100501:1	Lure
+71934161df03	2100601:1	Bow Bash
+70f795d230d6	2100701:1	Hamstring Shot
+5b962863c861	2100801:1	Rising Dragon Slash
+c55676f849c8	2100901:1	Piercing Thrust
+643542b06eb6	2101001:1	Dagger Combo
+ed2897c998b2	2101101:1	Piercing Shot
+d91b1f1d89f1	2101201:1	Gale Thrust
+666ec899fa3d	2101301:1	Concussion Shot
+f27ad49e757e	2101401:1	Ice Arrow Shot
+d5dce7926aa2	2101501:1	Raid
+43d173cd53ae	2101601:1	Natural Recovery
+dd544558b98f	2101701:1	Cure Poison
+522c986fa4ef	2101801:1	Bow Up
+be4943838793	2101901:1	Fire Shot
+2b3b37f15596	2102001:1	Rapid Arrow
+646e50e944d6	2102101:1	Flying Knife
+6555db25434f	2102201:1	Hunter Bomb
+40efc058dd2e	2102301:1	Hunter Smoke Bomb
+04d9d0339e9e	2102401:1	Boomerang Shield
+e872b30b8125	2102501:1	Clone Attack
+e0d4e467059a	2102601:1	Shadow Clone Attack
+192aa5a2dcb5	2102701:1	Final Strike
+1c1b101f4f9e	2102801:1	Missile Block
+655eeea82ef2	2102901:1	Daze
+09053f3a13e5	2103001:1	Phantom Attack
+c9e470680035	2103101:1	Fire Cage
+453e565e200c	2103301:1	Standing Shot
+c5a399e789aa	2103501:1	Kneeling Fire
+c07ff08520ea	2103601:1	Close Fire
+1c7cfaa62756	2103701:1	Shining Shot
+290247a9d07c	2103801:1	Magic Arrow
+f31d8d548501	2103901:1	Hot Shot
+9a91239ba679	2104001:1	Ice Illusion
+e34e2a032923	2104101:1	Capture Smash
+7594ec687043	2104201:1	Deadly Attack
+c5541db843b4	2104301:1	Ghost Destruction
+3d88227bbed3	2104401:1	Back Breaker
+c124405d0fa0	2104501:1	Shadow Sky
+16126ee31570	2104601:1	Wind Barrier
+17501f468639	2104701:1	Deadly Soul
+d2d95c6d5906	2500101:1	Gale
+972999b67404	2500201:1	Detect Weakness
+d391cadbf811	2500301:1	Touch of Ruin
+5c226f5bfc3a	2500401:1	Quick Sprint
+783c39c1ab7b	2500501:1	Side Step
+4b916f73af24	2500601:1	Mass Critical
+dc8a2dfb7f98	2500701:1	Stealth
+9d7114cb0f52	2500801:1	Death Trick
+c00c4ed64d12	2500901:1	Quick Reload
+8f0380a5b32a	2501001:1	Extort
+b7f22b8d1ce9	2501101:1	Ravager
+653257ec161e	2501201:1	Mass Rage
+fcac6d299af4	2501301:1	Mass Sprint
+759063d9ea0a	2501401:1	Musket Area
+dd91c57ce899	2501501:1	Elastic Bow
+6e05a419f688	2501601:1	Rumor Evasion
+c67d85f75d8b	2300101:1	Archery Training
+7fcc12c83e0a	2300201:1	Dagger Training
+6dca204f6361	2300301:1	Nimble Dodge
+d3352d7b9485	2300401:1	Hidden Arrow
+3d4dc020f9d4	2300501:1	Death Rune
+a9cc8a1c5a3a	2300601:1	Long Range Shot
+78ed0a02eb1f	2300701:1	Hawk Eye
+9b0dc9a5b2eb	2300801:1	Shadow Dodge
+a3df772f030c	2300901:1	Demon Possession
+87a6af5722db	2301001:1	Swift Attack
+c533a65db0a4	2301101:1	Sprint
+34a30c168a18	2301201:1	Two-Hand Expertise
+07224f5a5bc9	2301301:1	Musket Range
+89491fc5354b	3200101:1	Gale
+61fc6e06948a	3200201:1	Air Bind
+49bd74ce1d11	3200301:1	Fireball
+cc900a19c58c	3200401:1	Heal
+84914d29b567	3200501:1	Cure Bleeding
+b7cd43632259	3200601:1	Cure Poison
+224cca36b1a2	3200701:1	Holy Attack
+cb9112219ef6	3200711:1	Holy Blade
+a30b2ebcfcef	3200801:1	Quick Heal
+a8a08ebbd980	3200901:1	Holy Judgment
+db195f725be3	3200911:1	Holy Curse
+76180a552e42	3201001:1	Heaven's Touch
+96e9ea94e60e	3201011:1	Heaven's Curse
+003eea731457	3201101:1	Flame Spell
+baf4ef381ebc	3201201:1	Frozen Wind
+044c7346048f	3201301:1	Ice Arrow
+3a9af7965333	3201401:1	Curse of Weakness
+8994dac45bd3	3201501:1	Poison
+28930b370c46	3201601:1	Life Conversion
+014744a912c9	3201701:1	Holy Prison
+7ec8de18b7a0	3201801:1	Wind Blade
+5d61c5ba021e	3201901:1	Resurrection
+52f4a48426d5	3202001:1	Mass Heal
+2f79397ad697	3202101:1	High Heal
+a6c04df46e35	3202201:1	Fire Entangle
+cfe174a6f023	3202301:1	Blizzard
+edee55c5c365	3202401:1	Thunder Stun
+e51b9ba9c3bd	3202501:1	Soul Sleep
+e43a849cc1e2	3202601:1	Soul Prison
+29fe1495882b	3202701:1	Holy Swing
+7fe5fb7769b4	3202801:1	Holy Cleave
+6f76f409017b	3202901:1	Holy Uppercut
+8bacaf3bf5b5	3203001:1	Magic Up
+bdc4d591b08e	3203101:1	Holy Heal
+ca8a81961a76	3203201:1	Soul Ferry
+a8b7bbab710d	3203301:1	Sacrifice Heal
+7f351ee67beb	3203401:1	Heat Haze
+30ea36de87fe	3203501:1	Meteor
+cc47862dc89e	3203601:1	Thunder Destruction
+6444e9a1aef1	3203701:1	Venom Shadow
+f543ac31daff	3203801:1	Holy Justice
+2337cb1679bd	3203901:1	Serenity
+26d73a70dd42	3204001:1	Paralyze
+480aa20b78c2	3204101:1	Area Slow
+b8ba2fe03c2c	3204201:1	Area Distraction
+1a47b80278bf	3204301:1	Teleport
+6be60f916b0f	3204401:1	Transformed Magic
+0e98d393a3ca	3204601:1	Demon Spike
+55db53140c0d	3204701:1	Undead
+246b0f667c69	3204801:1	Divine Conversion
+d35456fa8d08	3204901:1	Holy Quake
+47cbb897bf00	3205001:1	Divine Burn
+f9ec7e36e011	3205101:1	Soul Spear
+839c4364876a	3205201:1	Tornado Upper
+1c4ffaaf8211	3205301:1	Fire Pillar
+d7b0058e2369	3205401:1	Death Chill
+b2f3bdd59179	3205501:1	Greater Thunder
+766e4cbea03e	3205601:1	Dark Agony
+c3a8ba16e72d	3205701:1	Corruption
+037323ef12d2	3205801:1	Soul Compress
+71e4fc4a1f64	3205901:1	Bone Spear
+97367c3ed22f	3206001:1	Deadly Explosion
+8260d97aa63a	3206101:1	Rune Silence
+57d3a11ee29e	3206201:1	Corpse Explosion
+2876833150d7	3206301:1	Take Corpse
+8b6d2950639b	3206401:1	Corpse Burst
+23b233bafff9	3206501:1	Take Corpse Action
+e88e4d0335ee	3500101:1	Intellect Training
+e9e492e733ce	3500201:1	Sagacity
+b3374469ec27	3500301:1	Heart Blessing
+eaad4b66003c	3500401:1	Spirit Barrier
+bdec73d13884	3500501:1	Spirit Blessing
+f276885200b6	3500601:1	Holy Guard
+5f6616f2c68a	3500701:1	Witchcraft
+16fc8bf91041	3500801:1	Life Blessing
+b280219af0cb	3500901:1	Wind Blessing
+d5b7426ecfe0	3501001:1	Bravery
+f85910abbb03	3501101:1	Sanctuary
+40b2f8d98738	3501201:1	Combined Armor
+094abec25056	3501301:1	Detect
+a8c281b9f3d7	3501401:1	Quick Cast
+836795ca9065	3501501:1	Holy Impact
+6534cec594f9	3501601:1	Focus
+b2fd45b1ef58	3501701:1	Magic Crit Up
+4e5aa3ce4dc3	3501801:1	Agility
+4b4b237f7a11	3501901:1	Precision
+5de4af68c96b	3502001:1	Critical Up
+c4efefc84d22	3502101:1	Heavy Strike
+54c84377969f	3502201:1	Mana Up
+e1cace02b2c0	3502301:1	Brilliant Magic
+4b4e833e08f7	3502401:1	Demon Armor
+340817f0a716	3300101:1	Staff Training
+cdff6ff01e68	3300201:1	Robe Mastery
+f3a075696887	3300301:1	Spell Barrier
+f9519ed4a531	3300401:1	Breath Control
+e179dfd14dfb	3300601:1	Magic Burst
+2030a13cc751	3300701:1	Magic Barrier
+1a0db8bd7e05	3300801:1	Life Recovery
+e58c32784feb	3300901:1	Mana
+91a90b0b93c7	5300101:1	Guild] Health Boost
+b2b9a7f32ec3	5300201:1	Guild] Infinite Energy
+36b7ed523cde	5300301:1	Guild] New Realm Spirit
+61c13a8d248e	5300401:1	Guild] Keen Eye
+4e487562bdb5	5300501:1	Guild] Deadly Mastery
+c2aaf88cfb3c	4000001:1	Small Angel Wings
+7b275b849247	4000101:1	Small Black Angel Wings
+348dba1072d7	4000201:1	Triplet Balloons
+e7c1b13c469b	4000301:1	Shark Bomb Balloon
+ceac895dfa88	4000401:1	Angel Wings
+8960074c460e	4000501:1	Black Angel Wings
+296dada38ba0	4000601:1	Shield Block Rate
+4450fd494357	4000701:1	Attack Speed
+4d57096a9390	4000801:1	Cast Speed
+e58337c61493	4000901:1	Move Speed
+f1be58bcb6c0	4001701:1	Bow Range Up
+2dbaa1427efd	4002401:1	Phys. Attack Speed
+75fcda739588	4004001:1	Max
+e34bd03ef600	4004301:1	Magic Crit Rate
+bd1f90d8290a	4004401:1	Dream Feather
+ba02e2781020	4004501:1	Curse of Strength
+b4ddbae9bb21	4004601:1	Item Gain Rate
+7c8c8fb37160	4500101:1	Fighting Spirit Candy
+9a925e11334b	4500201:1	Blessed Shield Candy
+07eb17e55637	4500301:1	Witchcraft Candy
+03a9faf37410	4500401:1	Spirit Barrier Candy
+1d52678811b5	4500501:1	Life Blessing Candy
+931e507e21e1	4500601:1	Divine Wind Candy
+2dece3d27c04	4500701:1	Touch of Ruin Candy
+16a2101c62e0	4500801:1	Detect Weakness Candy
+da15fa30bd86	4500901:1	Heart Blessing Candy
+5f98bdfa37f5	4501001:1	Spirit Blessing Candy
+04fd99659347	4501101:1	Invincible Candy
+ef597aac79d4	4501201:1	Mastery Candy
+11053c23004b	4501301:1	Agility Candy
+313650a09785	4501401:1	Quick Cast Candy
+e89cc48cd19e	4501501:1	Divine Power Down Candy
+871ef9b72192	4501601:1	Rocket
+6332864f3047	4501701:1	Black Lion King
+4521f52576dd	4501801:1	Inventory Scroll
+a91e2772d0ae	4501901:1	Fire Wave
+cb24f4369ef4	4502101:1	Item Learn Rate
+8ee1e3f16fb6	4502201:1	Holy Strike
+acd8b886082b	4503201:1	Tombstone Curse
+39a79da556a4	4503301:1	Cursed Arrow
+93bc3e051b8e	4503401:1	Kruse Temple Chalice
+1f4ae539b82b	4503501:1	Temple Chalice
+74a97d5b3c76	4503601:1	Invincible Super Potion
+c971e0574350	4503701:1	Reckless Spirit
+2679aa4c15df	4503801:1	Intellect +5%
+ce410894c86d	4503901:1	Blood Oath
+56f4b0902995	4504001:1	All Stats Up
+adba951fb420	4504101:1	Health +5%
+80f91fefbf23	4504201:1	Dragon Lock
+208dd1eb4871	4504301:1	Dagger Mastery
+1a1d38eae1cc	4504401:1	Bow Range
+a6c374016922	4504501:1	Witchcraft Mastery
+70d296f224af	4900101:1	Silly Dance
+4262172d1646	7000101:1	Pet Auto Attack
+6ec45ef87309	7000201:1	Pet Attack Range
+0b3a9df92082	7001501:1	Frozen Wind
+8a1ee307b3d6	7002301:1	Warrior's Heart
+8eba4a42968d	5100101:1	Fungus Knight
+63be4deb85fd	5100702:1	Red Turtle
+579de7a4171a	5100801:1	Kobold
+f3c022698a55	5100901:1	Zombie
+62dc18dbadad	5101001:1	Orc
+e464bf305652	5101101:1	Lycanthrope
+e164c26bd85d	5101201:1	Stone Golem
+772b89c7500d	5101301:1	Skeleton
+83e297cfa82e	5101401:1	Eyebat
+6ced03a86b6a	5101501:1	Mimic
+a24e5a9474b4	5101601:1	Shadow
+7244653fbecd	5101701:1	Griffon
+efe0bb65db27	5101801:1	Fungus Pawn
+a87890361752	5101901:1	Lizardman
+b6e5572a9ece	5102001:1	Ghoul
+14b22bb034c2	5102101:1	Fungus Rook
+e7472143a2f1	5102201:1	Leopard
+141844f1e86a	5102301:1	King Slime
+f733ce97824b	5102401:1	Mandragora
+32f42dca37e3	5102501:1	Crying Flower
+f0ee2cbf8ed0	5102601:1	Gargoyle
+6a1a40195997	5102701:1	High Turtle
+a301043f3ee7	5102801:1	Salamander
+92ee3c430ce8	5102901:1	Gnoll the Sharp
+46e2a9ae2a38	5103001:1	Harpy
+ad809192d849	5103101:1	Brown Kobold
+f38bf0949c69	5103201:1	Lamia
+a29e4ef6b297	5103301:1	Goblin Guard
+aca57a29fa28	5103401:1	Goblin King
+53b3724cc9cb	5103501:1	Succubus
+121a3f5614be	5103601:1	Troll
+cb2980c2cb5b	5103701:1	Cyclops
+79af8e6e6bde	5103801:1	Basilisk
+d4190019c276	5103901:1	Giant
+8991f24839ea	5104001:1	Ogre
+53a123520423	5104101:1	Red Leopard
+29515179f425	5104201:1	Goblin Patriarch
+2bc5f8c1eb19	5104301:1	Orcish Warrior
+8681335f8137	5104401:1	Orcish Shaman
+7d54f66b0d7d	5104501:1	Cursed Zombie
+ca2c4f80f191	5104601:1	Darkness Zombie
+8a7da25fc737	5104701:1	Mini Leopard
+1f983bab7303	5104801:1	Goblin Warrior
+8fa0f1daf891	5104901:1	Goblin Archer
+a99717c1eff5	5105001:1	Wild Red Bear
+27b38ec29e4a	5105101:1	Orcish Archer
+8ce03d5f9c61	5105201:1	Iron Golem
+42d634defd91	5105301:1	Rotting Mandragora
+310da61a3f54	5105401:1	Giant Eyebat
+9c7e6113df3d	5105501:1	Lava Golem
+5cbd25810a1d	5105601:1	Orcish Rage
+17c76662ab98	5105701:1	Striped Lizardman
+288a118d4d46	5105801:1	Cursed Lizardman
+fe92bf222533	5105901:1	Orcish Patriarch
+03e298d34dd1	5106001:1	Predator Gargoyle
+8bba9fdea70f	5106101:1	Skeleton Warrior
+fe95ad76ba84	5106201:1	Skeleton Knight
+68ade3d08caa	5106301:1	Furios Shadow
+6c27918b4461	5106401:1	Silver Gargoyle
+067ccc6685f4	5106501:1	Blue Mimic
+b58169d1371b	5106601:1	Red Mimic
+17698543b7fb	5106701:1	Brown Bear
+37e85f63c4fc	5106801:1	Abandoned Gnoll
+189ccf5c8420	5106901:1	Silver Kobold
+d14fd9891efc	5107001:1	Captain Lizardman
+bc831d20c83e	5107101:1	Darkness Gnoll
+243d38f03056	5107201:1	Grizzly Bear
+0f1f23842b4c	5107301:1	Sad Lamia
+5a8ac17bc225	5107401:1	Lamia Queen
+281a61d703a5	5107501:1	Giant Mandragora
+946c1ea97bb4	5107601:1	Blue Wing Eyebat
+f7ac238a187a	5107701:1	Bloody Red Orc
+5547d70f1742	5107801:1	Skeleton Shaman
+25edd24ca1ff	5107901:1	Skeleton King
+524c18899003	5108001:1	Succubus Lady
+f7df1fec2caf	5108201:1	Evil Golem
+48a376818b42	5108301:1	Black Gargoyle
+ab528fe2d56d	5108401:1	Follower of Evil Golem
+beadc33d6778	5108501:1	Perpetrator of Gargoyle
+20b59f888216	5108701:1	Wild Griffon
+98379912a6a1	5108801:1	Ogre Warrior
+8690f7f19b36	5108901:1	Ogre Butcher
+65aac7cda1f7	5109001:1	Ogre Guard
+553c68ab165f	5109101:1	Ogre Shaman
+09b21536345f	5109201:1	Wind Basilisk
+2e10e881e240	5109301:1	Black Poison Basilisk
+8553635b8529	5109401:1	Wailing Cyclops
+ddf256c45899	5109501:1	Rageful Cyclops
+687888a97911	5109601:1	Abandoned Giant
+5ac5d9ba8397	5109701:1	Giant Wanderer
+d22457e29350	5109801:1	Magical Giant
+4b4e56c340f8	5109901:1	Rotten Ghoul
+0990732d3277	5110001:1	Corrupted Ghoul
+1b0fa56d0f17	5110101:1	Despaired Ghoul
+73f0110f6b10	5110201:1	Troll Sentry
+3bb1d14a784a	5110301:1	Troll Warrior
+ecf39db635a8	5110401:1	Troll Shaman
+6a0542b93c83	5110501:1	Troll Guard
+54daa2ea7066	5110601:1	Troll Patriarch
+36540907a8a6	5110701:1	Puppy
+a5747c338f1e	5110801:1	Wild Cave Eyebat
+9e028dfc0c97	5110901:1	Cave Basilisk
+38db13eda1e7	5111001:1	Deep Cave Basilisk
+e5d2708df5ed	5111101:1	Brashi
+a8ec75082779	5111201:1	Goodfellow
+4fc58959462e	5111301:1	Protosukus
+1ce165a0f5d9	5111401:1	Kylmuris
+3980c3fcb8cc	5111501:1	Ras
+8043306f18f9	5111601:1	Klulerhorn
+957de0375b55	5111701:1	Kuanoi
+adc636d8273c	5111801:1	Paika
+f80e70fa7b1b	5111901:1	Draka
+069b4185bdf6	5112001:1	Huuga
+fbeae7e5c289	5112101:1	Baraku
+9ef93419709c	5112201:1	Karungga
+64617f53e704	5112301:1	Latou
+1d9c2491ca11	5112401:1	Dumaka
+e49d934bc8e6	5112501:1	Laito
+2a269f64c384	5112601:1	Saika
+3973aef23503	5112701:1	None
+df1b36292e45	5112801:1	Bust
+7406cb0e8c99	5112901:1	Kusku
+cc363097e441	5113001:1	Rose
+3f8677c9e644	5113101:1	Seolkata
+36ddabefee6c	5113201:1	Gepat
+7e9144e92fc1	5113301:1	Gaier
+3032db5111ae	5113401:1	Heis
+55832322dfb4	5113501:1	Kuikui
+e097532b2e38	5113601:1	Sharny
+aced18e385b0	5113701:1	Karas
+b0ca77ac0ea5	5113801:1	Kytan
+9428352319e0	5113901:1	Kaires
+b55e16a1ac97	5114001:1	Doita
+e5344d29bf5d	5114101:1	Mirias
+9050c29668c3	5114201:1	Timat
+67c0664623b1	5114301:1	Kiyoma
+bb9b9153f199	5114401:1	Railers
+5cabbdaac4d8	5114501:1	Kokatris
+d105669853bd	5114601:1	Jenev
+5da16e24ac34	5114701:1	Adum
+84d39c1927d3	5114801:1	Piori
+b681b5036e0f	5114901:1	Damak
+2ba722ea6a4d	5115001:1	Ramune
+05d4502e2375	5115101:1	Makas
+e4933ce92533	5115201:1	Dobeik
+179197bd44ec	5115301:1	Kilanas
+afd2b0bee393	5115401:1	Wight
+510d0cf1cbb1	5115501:1	Skeleton Worker
+ebb630d17899	5115601:1	Lesser Succubus
+8b4ceaac29d0	5115701:1	Acid Flower
+83696c9e2a4d	5115801:1	Poison Fungus
+4406e6997e2f	5115901:1	Shadow Fang
+8ec1a0afc935	5116001:1	Danmed Fire Element
+d251ca8b6766	5116101:1	Hell Element
+223e9d214526	5116201:1	Chimera
+d0442109e885	5116301:1	Blood Golem
+93b5c4e1be48	5117101:1	Swamp Catcher
+06af1adbb072	5117201:1	Bog Mandrake
+787adac6a85a	5117301:1	Tarintus
+19f000427a37	5117401:1	Kierra
+603f7d131761	5117501:1	Pegasus
+3031351d0316	5117601:1	Trent
+03de8a6a6b52	5117701:1	Plantis
+750b39b0059e	5117801:1	Kentauros
+2d19fb38c87a	5117901:1	Pixie
+40f194d855db	5118001:1	Dread Plantis
+e6bd46a461b0	5118101:1	Trent Elder
+d662582a5193	5118201:1	Darksteed
+002915f1ea75	5118301:1	Scout
+4a7f185e539c	5118401:1	Tracker
+23e3af0916bb	5118601:1	Magician
+5e1525b950e7	5118701:1	Sniper
+bf18369ceb58	5118801:1	Tainted Black Earth Beast
+f0a5fc5a51e2	5119001:1	Fire Trap
+28b81af9eda7	5119101:1	Freeze Trap

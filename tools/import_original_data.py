@@ -23,6 +23,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import mhbin  # noqa: E402
+import translate_data  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 MINIMAL = ROOT / "data" / "minimal"
@@ -122,10 +123,26 @@ def convert(name: str, blob: bytes, report: list) -> bytes:
     return mhbin.encode(b"\r\n".join(out).rstrip())
 
 
+def translate(out_system: Path, report: list) -> None:
+    """Replace the Chinese and Korean text with English from data/translations/en/."""
+    total = missing = 0
+    for path in translate_data.data_files(out_system.parent):
+        table = translate_data.read_table(path.name)
+        if not table:
+            continue
+        text, done, left = translate_data.apply(path.name, translate_data.load(path), table)
+        if done:
+            path.write_bytes(mhbin.encode(text) if path.suffix.lower() == ".bin" else text)
+        total += done
+        missing += left
+    report.append(f"translated {total} text units to English" + (f", {missing} still untranslated" if missing else ""))
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--from", dest="src", required=True, help="folder that contains the original system/ folder")
     parser.add_argument("--out", default=str(ROOT / "build" / "data"))
+    parser.add_argument("--no-translate", action="store_true", help="keep the original Chinese and Korean text")
     args = parser.parse_args()
 
     src_system = Path(args.src) / "system"
@@ -166,6 +183,9 @@ def main() -> int:
         else:
             shutil.copyfile(src, dst)
         added.append(str(rel))
+
+    if not args.no_translate:
+        translate(out_system, report)
 
     for line in report:
         print(line)

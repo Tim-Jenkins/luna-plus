@@ -1,0 +1,422 @@
+508110cab981	90101:1	EXP [20%] Up Scroll (3h)
+29f0554b8fb0	90102:1	EXP [20%] Up Scroll (10h)
+391c8e8353f2	90103:1	EXP [20%] Up Scroll (7d)
+46434caf4503	90104:1	EXP [50%] Up Scroll (1h)
+595ef40bef77	90105:1	EXP [100%] Up Scroll (1h)
+2d123b12e137	90201:1	EXP [30%] Up Scroll (3h)
+b0771645a00e	90202:1	EXP [30%] Up Scroll (10h)
+269d8258d4ab	90203:1	EXP [30%] Up Scroll (7d)
+7593831140e0	90301:1	Move Speed [20%] Potion (3h)
+8510f160e2da	90302:1	Move Speed [20%] Potion (10h)
+5e0c715b1f3a	90303:1	Move Speed [20%] Potion (7d)
+d0b4a75ad569	90401:1	P.Atk [20%] Potion (3h)
+7ad13224db80	90402:1	P.Atk [20%] Potion (10h)
+e9c9ff0ca970	90403:1	P.Atk [20%] Potion (7d)
+ae8633be42a6	90501:1	P.Def [20%] Potion (3h)
+2aee710c0eb5	90502:1	P.Def [20%] Potion (10h)
+e8c1a8ad9bea	90503:1	P.Def [20%] Potion (7d)
+a85393cf6877	90601:1	M.Pow [20%] Potion (3h)
+cd66f336446c	90602:1	M.Pow [20%] Potion (10h)
+51903e6c4b87	90603:1	M.Pow [20%] Potion (7d)
+b031d444d956	90701:1	M.Def [20%] Potion (3h)
+0f604c555631	90702:1	M.Def [20%] Potion (10h)
+8e1d73391e13	90703:1	M.Def [20%] Potion (7d)
+5f751e1822e0	90801:1	MP Cost [20%] Potion Down (3h)
+2e00a856fdfd	90803:1	MP Cost [20%] Potion Down (7d)
+209db827815c	90901:1	Max HP [20%] Potion (3h)
+e14fbd5dbf7b	90902:1	Max HP [20%] Potion (10h)
+7a2191a6e8b3	90903:1	Max HP [20%] Potion (7d)
+9c580ad2f5d7	91001:1	Max MP [20%] Potion (3h)
+15699fbefc2a	91002:1	Max MP [20%] Potion (10h)
+79bd50772871	91003:1	Max MP [20%] Potion (7d)
+12e1593d4899	91101:1	Lucky Hunter [20%] Scroll (3h)
+fe460be2d879	91102:1	Lucky Hunter [20%] Scroll (10h)
+3c196e645703	91103:1	Lucky Hunter [20%] Scroll (7d)
+a4c56a3b7c3a	91201:1	Blessing Potion
+dff90f795a53	91301:1	Blessing Potion: Strength
+370818c8f0e9	91401:1	EXP [20%] Up Scroll (2h)
+6ee1ff0a1a74	91501:1	EXP Guard Scroll - 3 Uses
+7e9e913f99cc	91502:1	EXP Guard Scroll - 5 Uses
+c49d3c12f373	91601:1	Lynx Elixir (1h)
+670e7f6565a9	91701:1	Fighter's Elixir (1h)
+28a06f45d5c6	91801:1	Tough Elixir (1h)
+a50faa09d5fe	91901:1	Clever Elixir (1h)
+3939accc7fa6	92001:1	Patience Elixir (1h)
+60b5608cbabc	92101:1	Expert's Elixir (1h)
+00968af636db	92201:1	Vitality Elixir (1h)
+0dcfbc5e03b9	92301:1	Vigor Elixir (1h)
+9f938c8f0602	92401:1	EXP [10%] Up Scroll (2h)
+770feccc177c	92501:1	Move Speed [35%] Potion (3h)
+22a049280fc7	92601:1	EXP [20%] Up Scroll (3d)
+249e470ef305	92603:1	EXP [20%] Up Scroll (15d)
+7e3e0fdfc324	92604:1	EXP [20%] Up Scroll (30d)
+3f5c1f6b75c5	92701:1	Move Speed [20%] Potion (3d)
+753eaef48375	92703:1	Move Speed [20%] Potion (15d)
+2ac0169b0750	92801:1	P.Atk +20% Potion (3d)
+b4e8038bb0b0	92802:1	P.Atk +20% Potion (7d)
+72a2761cb618	92803:1	P.Atk +20% Potion (15d)
+9f7fa1782c69	92804:1	P.Atk +20% Potion (30d)
+958241a85cbb	92901:1	P.Def +20% Potion (3d)
+3bbdb8106c4b	92902:1	P.Def +20% Potion (7d)
+1d1cfba6656a	92903:1	P.Def +20% Potion (15d)
+07b1e601eb38	93001:1	M.Pow [20%] Potion (3d)
+4f1ccfaf8293	93003:1	M.Pow [20%] Potion (15d)
+ff43c9897f7c	93004:1	M.Pow [20%] Potion (30d)
+63dcdea08994	93101:1	M.Def +20% Potion (3d)
+fd9df42d8eb1	93102:1	M.Def +20% Potion (7d)
+b947be7892e5	93103:1	M.Def +20% Potion (15d)
+82181c538efc	93201:1	MP Cost [20%] Potion Down (3d)
+e99504d926df	93203:1	MP Cost [20%] Potion Down (15d)
+b321e9447174	93301:1	Max HP [20%] Potion (3d)
+4abddbfbfe5d	93303:1	Max HP [20%] Potion (15d)
+ca3f7fb63851	93401:1	Max MP [20%] Potion (3d)
+a812880f7508	93403:1	Max MP [20%] Potion (15d)
+953efa1f313a	93501:1	Lucky Hunter 100% Scroll (3d)
+9f83bd2d878f	93502:1	Lucky Hunter 100% Scroll (7d)
+188cebe4495e	93503:1	Lucky Hunter 100% Scroll (15d)
+a47bbbf311b4	93601:1	Max HP -20% HP Regen -5 (3h)
+13135156291a	93602:1	Max HP -20% HP Regen -5 (5h)
+184ded7c8915	93603:1	Max HP -20% HP Regen -5 (7d)
+2ca97a7ee49c	93701:1	Max HP -20% HP Regen -5 (3d)
+3e705d070b39	93703:1	Max HP -20% HP Regen -5 (15d)
+5be9f2b41ff1	93801:1	Max MP -20% MP Regen -5 (3h)
+14993808aa4e	93802:1	Max MP -20% MP Regen -5 (5h)
+d91fb8020491	93803:1	Max MP -20% MP Regen -5 (7d)
+035247e36dbc	93901:1	Max MP -20% MP Regen -5 (3d)
+0fc7fd915852	93903:1	Max MP -20% MP Regen -5 (15d)
+4701504398c5	94001:1	Lucky Hunter [50%] Scroll (3h)
+58a09d86f042	94101:1	Red Crazy Mushroom
+3f743a7a8e54	94401:1	Blue Crazy Mushroom
+dbd491a9ed44	10001:1	Fang Thrust
+d91b1f1d89f1	10101:1	Gale Thrust
+5cfb2300519e	10201:1	Red Blood Rage
+2f45284b1603	10401:1	Concentrate
+9429fa61b7dd	10601:1	Shield of Nature
+0eeb13350456	10801:1	Heart of Nature
+3af2f5444397	10901:1	War Cry
+e52dd0ca6528	11001:1	First Aid
+0dfb2361ebb0	11101:1	Blessed Shield
+20a7f882a385	11201:1	Fighting Spirit
+921bb52a0742	11301:1	Accurate Hit
+09632c68d41c	11401:1	Boost
+cceff0040451	11501:1	Full Recovery
+3d930ef963a5	11601:1	Warrior's Heart
+7f00a7d2feaa	11701:1	Shield Bash
+4c068328285a	11801:1	Last Stand
+c90d57625530	11901:1	Venom Fang Thrust
+bd6a9ae96dc2	11911:1	Twin Fang Thrust
+0bb199b9407e	12101:1	War Guard
+2b15dcdc74eb	12201:1	Earth Dragon Slash
+dd21056e1617	12301:1	Nightmare Sword
+49abebf41e14	12401:1	Divine Wind
+96fe0fbbca23	12501:1	Shield Barrier
+adfa7dc8cc50	12701:1	Decisive War Cry
+018becd87934	12801:1	Self Immolation
+e4356edc4b5d	12901:1	Precise Attack
+f817d289604c	13001:1	Frenzy Strike
+140d8c5c3490	13101:1	Invincible
+caa31a03d1f3	13201:1	Shockwave
+fd23b5d9502a	13301:1	Seal Rune
+6bfcc8523347	13501:1	Rune Impact
+4856d560c4f1	13601:1	Sturdy Shield
+5c0f253b9a44	13801:1	Empower Weapon
+b364da0333ba	13901:1	Apocalypse Justice
+21e01ee4a335	14001:1	Berserk Stance
+929b6ae41d53	14301:1	Aura Accuracy
+8ccd89862fbe	14401:1	Aura Shield
+5135a106fa22	14501:1	Mass Aura Frenzy
+ed749b1109dc	14601:1	Muscle Relax
+4c310db56eb0	14701:1	Armor Sync
+5e2c508c3916	14801:1	Weapon Sync
+8f1d3e44f02c	14901:1	Taunt Effect
+da02e1d31e6e	15201:1	Swallow Slash
+35493ec077c0	15301:1	Fire Destruction
+271125dd9f9c	15401:1	Cross Slash
+70f795d230d6	20001:1	Hamstring Shot
+471ba8d77d96	20101:1	Needle Shot
+18c3cb197ad8	20111:1	Sharp Arrow
+71934161df03	20201:1	Bow Bash
+11fba4260caa	20301:1	Dark Slash
+0195d629f3b7	20311:1	Flash Slash
+5b962863c861	20401:1	Rising Dragon Slash
+d2d95c6d5906	20501:1	Gale
+972999b67404	20601:1	Detect Weakness
+d391cadbf811	20701:1	Touch of Ruin
+5c226f5bfc3a	20801:1	Quick Sprint
+6dca204f6361	20901:1	Nimble Dodge
+d3352d7b9485	21001:1	Hidden Arrow
+3d4dc020f9d4	21101:1	Death Rune
+a9cc8a1c5a3a	21201:1	Long Range Shot
+78ed0a02eb1f	21301:1	Hawk Eye
+cf75a67536c5	21501:1	Deadly Stab
+666ec899fa3d	21701:1	Concussion Shot
+f27ad49e757e	21801:1	Ice Arrow Shot
+d5dce7926aa2	21901:1	Raid
+783c39c1ab7b	22001:1	Side Step
+4b916f73af24	22101:1	Mass Critical
+dc8a2dfb7f98	22201:1	Stealth
+775cf47eb91f	22301:1	Shadow Dodge
+a3df772f030c	22401:1	Demon Possession
+be4943838793	22501:1	Fire Shot
+40efc058dd2e	22601:1	Hunter Smoke Bomb
+e0d4e467059a	22701:1	Shadow Clone Attack
+1c1b101f4f9e	22801:1	Missile Block
+655eeea82ef2	23001:1	Daze
+c00c4ed64d12	23101:1	Quick Reload
+8f0380a5b32a	23201:1	Extort
+b7f22b8d1ce9	23301:1	Ravager
+653257ec161e	23501:1	Mass Rage
+fcac6d299af4	23601:1	Mass Sprint
+87a6af5722db	23701:1	Swift Attack
+c533a65db0a4	23801:1	Sprint
+09053f3a13e5	23901:1	Phantom Attack
+6e05a419f688	24201:1	Rumor Evasion
+61fc6e06948a	30101:1	Air Bind
+003eea731457	30201:1	Flame Spell
+a8a08ebbd980	30301:1	Holy Judgment
+db195f725be3	30311:1	Holy Curse
+69f317dc7187	30401:1	Heaven's Touch
+0001abb9fb2e	30411:1	Heaven's Curse
+3a9af7965333	30501:1	Curse of Weakness
+224cca36b1a2	30601:1	Holy Attack
+2d9343f2b236	30611:1	Holy Blade
+0b3a9df92082	30701:1	Frozen Wind
+044c7346048f	30801:1	Ice Arrow
+8994dac45bd3	30901:1	Poison
+e88e4d0335ee	31101:1	Intellect Training
+e9e492e733ce	31201:1	Sagacity
+b3374469ec27	31301:1	Heart Blessing
+eaad4b66003c	31401:1	Spirit Barrier
+bdec73d13884	31501:1	Spirit Blessing
+f276885200b6	31601:1	Holy Guard
+5f6616f2c68a	31701:1	Witchcraft
+f3a075696887	31801:1	Spell Barrier
+f9519ed4a531	31901:1	Breath Control
+e179dfd14dfb	32101:1	Magic Burst
+a6c04df46e35	32201:1	Fire Entangle
+cfe174a6f023	32301:1	Blizzard
+edee55c5c365	32401:1	Thunder Stun
+e51b9ba9c3bd	32501:1	Soul Sleep
+7fe5fb7769b4	32701:1	Holy Cleave
+16fc8bf91041	32801:1	Life Blessing
+b280219af0cb	32901:1	Wind Blessing
+d5b7426ecfe0	33001:1	Bravery
+f85910abbb03	33101:1	Sanctuary
+40b2f8d98738	33201:1	Combined Armor
+2030a13cc751	33301:1	Magic Barrier
+1a0db8bd7e05	33401:1	Life Recovery
+094abec25056	33601:1	Detect
+bdc4d591b08e	33701:1	Holy Heal
+6444e9a1aef1	33801:1	Venom Shadow
+2337cb1679bd	33901:1	Serenity
+26d73a70dd42	34001:1	Paralyze
+bb5828a17683	34101:1	Area Slow
+a8c281b9f3d7	34301:1	Quick Cast
+836795ca9065	34401:1	Holy Impact
+6534cec594f9	34501:1	Focus
+b2fd45b1ef58	34701:1	Magic Crit Up
+4e5aa3ce4dc3	34801:1	Agility
+4b4b237f7a11	34901:1	Precision
+b09d8386284c	35001:1	Critical Up
+c4efefc84d22	35101:1	Heavy Strike
+e58c32784feb	35201:1	Mana
+54c84377969f	35301:1	Mana Up
+e1cace02b2c0	35401:1	Brilliant Magic
+9be42d1d3cef	36001:1	Damage Reflect
+89c3fc99babe	36101:1	Damage Absorb
+223233db0178	36201:1	HP on Damage Taken
+cc0be673425b	36301:1	MP on Damage Taken
+62ca31f031c7	36401:1	HP on Damage Dealt
+bed1d954926c	36501:1	MP on Damage Dealt
+759063d9ea0a	36601:1	Musket Area
+94b9ccc96368	40001:1	One-Hand Training
+db8a22dca436	40101:1	Two-Hand Training
+82fa81da0a15	40201:1	Swordsmanship Training
+88b71a7d567b	40301:1	Axe Training
+9deae9b72d9a	40401:1	Blunt Training
+7fcc12c83e0a	40501:1	Dagger Training
+dd10aba2e69d	40701:1	Musket Training
+031f091e568e	40801:1	Dual Weapon Training
+340817f0a716	40901:1	Staff Training
+cdff6ff01e68	41001:1	Robe Mastery
+18f85a6f4443	41101:1	Light Armor Mastery
+ce4889ff7abf	41201:1	Heavy Armor Mastery
+726ce8c6e0d0	41301:1	Shield Training
+f2acb4af8db1	41401:1	Sword Practice
+1f1bc4d460fc	41501:1	Critical Battle Axe
+83ac839522a4	41601:1	Blunt Guard
+7ff28927cfe5	41701:1	Boost Up
+0aaccf7bf200	41801:1	Boost Recovery
+69e8764d90be	42101:1	Blunt Guard Health
+53ac376ebdc2	42201:1	Heavy Armor Health
+91a90b0b93c7	42401:1	Guild] Health Boost
+b2b9a7f32ec3	42601:1	Guild] Infinite Energy
+36b7ed523cde	42701:1	Guild] New Realm Spirit
+61c13a8d248e	42801:1	Guild] Keen Eye
+4e487562bdb5	43001:1	Guild] Deadly Mastery
+6a98e02e7205	43301:1	Musket Accuracy
+5f9ad63cf70c	43401:1	Dual Wield Accuracy
+07224f5a5bc9	43501:1	Musket Range
+a54aad2d5d69	43601:1	Dual Wield Expertise
+aad792b4fa1e	43701:1	Dual Wield Enabled
+6cbd1da93fda	43801:1	Critical Penalty Down
+c70d2f507235	44001:1	Penalty - P.Atk Down
+7c8c8fb37160	50001:1	Fighting Spirit Candy
+9a925e11334b	50101:1	Blessed Shield Candy
+07eb17e55637	50201:1	Witchcraft Candy
+03a9faf37410	50301:1	Spirit Barrier Candy
+1d52678811b5	50401:1	Life Blessing Candy
+931e507e21e1	50501:1	Divine Wind Candy
+2dece3d27c04	50601:1	Touch of Ruin Candy
+16a2101c62e0	50701:1	Detect Weakness Candy
+da15fa30bd86	50801:1	Heart Blessing Candy
+5f98bdfa37f5	50901:1	Spirit Blessing Candy
+04fd99659347	51001:1	Invincible Candy
+ef597aac79d4	51101:1	Mastery Candy
+11053c23004b	51201:1	Agility Candy
+313650a09785	51301:1	Quick Cast Candy
+e89cc48cd19e	51401:1	Divine Power Down Candy
+76bff4316387	100001:1	Strength Up (Scroll
+62566306ad6b	100101:1	Dexterity Up (Scroll
+7baadf48527f	100201:1	Vitality Up (Scroll
+5941f1b94e7f	100301:1	Intellect Up (Scroll
+da43c77a6efc	100401:1	Wisdom Up (Scroll
+f3de7c6eec74	100501:1	Kruse Strength
+046f3965cae3	100601:1	Kruse Holy Chalice (Health
+94754875fcbf	100701:1	Kruse Holy Chalice
+96c905300fe6	100801:1	's Wisdom
+90a052eb56c3	100901:1	's Chalice (Spirit
+40c163055162	101001:1	's Chalice
+7afd40446d44	60001:1	Move Speed Up
+84f4906d1210	60101:1	Shield Block Rate Up
+c2aaf88cfb3c	70001:1	Small Angel Wings
+7b275b849247	70101:1	Small Black Angel Wings
+348dba1072d7	70201:1	Triplet Balloons
+e7c1b13c469b	70301:1	Shark Bomb Balloon
+ceac895dfa88	70401:1	Angel Wings
+8960074c460e	70501:1	Black Angel Wings
+1dc72d97ed9d	70701:1	Brave Warrior Emblem
+c6b3f317767f	70801:1	Gallant Warlock Emblem
+c6d680e5a731	70901:1	Executioner's Will
+362a87c117fb	71001:1	The Oppressed
+2000d977fb53	71101:1	Ancient Mana Spell
+fdb49c12edd9	71201:1	Tribal Hero's Song
+5b9ec8488559	71301:1	Shadow of the Hero
+fa752055ed84	71501:1	Marshal's Guard Armor
+1bc2016c51cc	71601:1	Silent Footsteps
+40cf9033b114	71701:1	Hero in the Wind
+ee2206107de4	72001:1	Protective Spell
+beaad06e0dfd	72101:1	Abundant Spirit
+23df1ab6bfbb	72201:1	Condemned Mage's Relic
+e80f3e298844	72301:1	Guard Protection Armor
+c78e88515ba5	72401:1	Predator's Gaze
+33fe62242d15	72501:1	Vortex Spell
+3c9885725689	72601:1	Guardian's Battle Gear
+3bbe149646bd	72701:1	Beast's Fang
+63863406d8ed	72901:1	Furious Wind
+a018ebc415ba	73001:1	Clothes of Light
+057fb3ed298f	73101:1	Commander's Fortress
+cb9c41d867c8	73201:1	Enraged Wind
+4a6c6cfbdf0b	73301:1	Blade Wind
+af185f241d98	73401:1	Splendid Talent
+94e623aa966c	73501:1	Captain's Armor
+0686afec83d7	73601:1	Tyrant's Armor
+906698405ee3	73701:1	Colorful Fang
+6274bf3a8aa8	73801:1	Magic Storm
+dd2bdd634030	73901:1	Costume Ability
+f3027c097221	74201:1	Seal of Tarintus
+482a7bcbbe7f	74301:1	Roar of Vengeance
+bd1f90d8290a	74401:1	Dream Feather
+ba02e2781020	74501:1	Curse of Strength
+5a7e873b372a	74601:1	Item Drop +5%
+04e2103c9957	74701:1	Gold Drop +10%
+88f8a33c7a39	74801:1	Max HP +5%
+041f150025eb	74901:1	Throw Speed +5%
+4cadf58f8904	75001:1	Max MP +5%
+0c729d0d11e5	75101:1	Move Speed +10%
+8ac5323bc169	75201:1	Attack Speed +5%
+1b9abba95377	75301:1	Sparkling Star Balloon
+edcc896abe0f	75401:1	Seaside Outlaw - Shark
+32a12d1aafa5	75501:1	Icarus Wings
+3cc827e87ef4	75601:1	Beeping Siren
+70cab92c636f	75701:1	Attack Speed +15%
+4d57096a9390	75801:1	Cast Speed
+6332864f3047	75901:1	Black Lion King
+4521f52576dd	76001:1	Inventory Scroll
+3723a2789655	76101:1	Magic Crit +12%
+9b5802bc2b6c	76201:1	Magic Attack Up
+97935a8ce08a	76301:1	M.Def Down
+962cc29db3bb	76401:1	Intellect Up
+ce410894c86d	76501:1	Blood Oath
+d731e4267f6c	76601:1	All Stats +2%
+c29d62bd4ca9	76701:1	Health +5%
+a70b49100671	76801:1	Absorb
+208dd1eb4871	76901:1	Dagger Mastery
+97483d28da62	77201:1	Bow Range +1m
+69948b7cd372	77401:1	Position Mastery
+c531f88d6847	80001:1	Bleeding Lv
+7a1ee9cef86e	80101:1	Poison Lv
+e1759ed13e97	80201:1	Stun Lv
+8d28ed7bee55	80301:1	P.Atk Down Lv
+9cb4cbeb5842	80401:1	Move Speed Down Lv
+a57552940d6a	80501:1	Immobilize Lv
+8efcd6d0ab55	80601:1	P.Def Down Lv
+47438843ded8	80701:1	Fire Damage Lv
+8e8792c48425	80801:1	Detox Lv1
+d9daf31ab910	80802:1	Detox Lv2
+2a1c11a4c7dd	80803:1	Detox Lv3
+49c7063f3ab0	80804:1	Detox Lv4
+9d796e1a45c5	80805:1	Detox Lv5
+6ade8073bfbe	80806:1	Detox Lv6
+bb6c64a2178e	80807:1	Detox Lv7
+25cddffc3908	80808:1	Detox Lv8
+6fee4ff84e62	80809:1	Detox Lv9
+428de727d3c5	80810:1	Detox Lv10
+f7bdfaf0617d	80811:1	Remove Curse Lv1
+b679ecdda00a	80812:1	Remove Curse Lv2
+085efa45cf6f	80813:1	Remove Curse Lv3
+f20bf326d4a3	80814:1	Remove Curse Lv4
+65c2166a6cca	80815:1	Remove Curse Lv5
+6c937ccbd1cc	80816:1	Remove Curse Lv6
+276fda9e6b9c	80817:1	Remove Curse Lv7
+1c60e312ad10	80818:1	Remove Curse Lv8
+0a7a7a8ade88	80819:1	Remove Curse Lv9
+a0bb8d25f625	80820:1	Remove Curse Lv10
+cc2ebbe26287	80821:1	Heal Lv1
+4d4d65fed0c2	80822:1	Heal Lv2
+034c65671f9f	80823:1	Heal Lv3
+a934d18e2d9a	80824:1	Heal Lv4
+c7221ef288dc	80825:1	Heal Lv5
+b910f6c0c226	80826:1	Heal Lv6
+d733fef2a2f4	80827:1	Heal Lv7
+8ab9b9d73194	80828:1	Heal Lv8
+ac0ab18d70b2	80829:1	Heal Lv9
+9630b01d7890	80830:1	Heal Lv10
+43a9e6bda048	80901:1	HP Recovery Lv1
+5fe8b2936368	80902:1	HP Recovery Lv2
+580d7439fb67	80903:1	HP Recovery Lv3
+d38893a6ce12	80904:1	HP Recovery Lv4
+71e3d5821ad3	80905:1	HP Recovery Lv5
+5845a5f7bfed	80906:1	HP Recovery Lv6
+5e41c9480409	80907:1	HP Recovery Lv7
+f0aed846993f	80908:1	HP Recovery Lv8
+9a3fc908b7eb	80909:1	HP Recovery Lv9
+546b9105346e	80910:1	HP Recovery Lv10
+1f420c4fe1bb	81001:1	Slow Lv
+a5814283f802	81101:1	Cast Speed Down Lv
+23dd2f7c2861	81201:1	M.Def Down Lv
+f0341203435a	81401:1	Shield Defense Up
+96023745c104	81501:1	Paralysis Lv
+a46a90031855	81601:1	Magic Attack Up Lv
+8e39bf8b6b37	81801:1	Critical Damage Lv
+5419e486f26b	81901:1	Reload Lv
+16ce7feca480	82001:1	Musket Area Lv
+1dbbbeb7357b	82101:1	Elastic Bow Lv
+7e74b75cb294	82201:1	Divine Power Down Lv
+6ee2d6567f5f	82301:1	Curse Lv
+2060ae880a6b	82401:1	Corruption Lv
+e87a92f7d368	82501:1	Silence Lv
+d4a8d4e980fb	82601:1	Demon Armor Lv
+326a35d9fe26	82701:1	Corpse Explosion Lv
+460c135a0905	82801:1	Take Corpse Lv
+8ad68d7fc304	82901:1	Wind Barrier Lv

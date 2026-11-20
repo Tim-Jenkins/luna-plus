@@ -16,6 +16,12 @@ include(LunaLegacy)
 # Static CRT everywhere; see docs/adr/0001.
 set(CMAKE_MSVC_RUNTIME_LIBRARY "MultiThreaded$<$<CONFIG:Debug>:Debug>")
 
+# Release builds also write PDBs, so crash dumps from the test machines can be read.
+# /DEBUG would otherwise turn off /OPT:REF and /OPT:ICF, so set them again to keep the
+# release code the same as without debug info.
+add_compile_options("$<$<CONFIG:Release>:/Zi>" "$<$<CONFIG:Release>:/FS>")
+add_link_options("$<$<CONFIG:Release>:/DEBUG:FULL>" "$<$<CONFIG:Release>:/OPT:REF>" "$<$<CONFIG:Release>:/OPT:ICF>")
+
 # Put all binaries in one place so the servers can find the COM DLLs next to them.
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin")
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/lib")

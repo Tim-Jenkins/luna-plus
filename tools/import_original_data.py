@@ -54,7 +54,7 @@ def skill_buff_list(fields):
 
 
 def monster_list(fields):
-    """124 -> 125 fields: dwMonsterTargetType follows the object kind.
+    """124 -> 125 fields: dwMonsterTargetType follows the object kind. Also shows the English name.
 
     1 selects the normal target window, 2 the boss one. With 0 the client crashes when the
     monster is clicked (cMonsterTargetDlg::SetTargetNameInfo).
@@ -62,6 +62,9 @@ def monster_list(fields):
     if len(fields) != 124:
         return None
     target = b"2" if fields[8] in BOSS_OBJECT_KINDS else b"1"
+    # The displayed name (field 2) is Big5 Chinese, which the English client can't show; field
+    # 3 is the English name, with ^s for spaces like every name in the data.
+    fields = fields[:1] + [fields[2]] + fields[2:]
     return fields[:9] + [target] + fields[9:]
 
 

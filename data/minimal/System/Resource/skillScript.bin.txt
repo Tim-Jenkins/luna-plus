@@ -1,0 +1,9 @@
+// Unarmed basic attacks (1000101-1000103) are not in any skill tree, so skip the server's
+// "player has no skill" check for them.
+skill 10001**
+{
+	noCheck
+	{
+		true
+	}
+}

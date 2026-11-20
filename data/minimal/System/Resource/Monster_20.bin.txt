@@ -1,0 +1,28 @@
+@ Map 20 (Alker Harbor): three camps south and east of the login point (46025, 35775). Lines starting with @ are comments.
+$group 1
+{
+	#add 32 0 1 46940 35002
+	#add 32 0 1 46984 34454
+	#add 32 0 1 46466 34990
+	#add 32 0 1 46850 34403
+	#add 32 0 1 46535 34886
+	#addCondition 1 0.99 15000 1 300
+}
+$group 2
+{
+	#add 32 0 2 47373 35027
+	#add 32 0 2 47621 35416
+	#add 32 0 2 47276 35105
+	#add 32 0 2 47328 35326
+	#add 32 0 2 47685 35594
+	#addCondition 2 0.99 15000 1 300
+}
+$group 3
+{
+	#add 32 0 3 47260 33821
+	#add 32 0 3 47013 33604
+	#add 32 0 3 47124 34040
+	#add 32 0 3 47497 33743
+	#add 32 0 3 47136 33837
+	#addCondition 3 0.99 15000 1 300
+}

@@ -193,17 +193,36 @@ void cDialogueList::ParsingLine(DWORD dwId, LPCTSTR buf)
 		// 리스트의 문자열이 Text Width 보다 긴 경우 (NPC Script Dialog 를 못찾은 경우 기존방법 사용)
 		if( textExtent > listWidth )
 		{
-			if( nStrLen != 0 )														// 문자열 길이가 0이 아이념,
-			{	
-				AddLine( dwId, wBuff, dwColor, wLine, emLink_Null );				// 라인을 추가한다.
-				nStrLen = 0;
+			// Break English text at the last space so words are not split: the start of the
+			// word moves to the next line. Double-byte trail bytes are never 0x20.
+			char carry[512] = {0};
+			int carryLen = 0;
+			char* space = strrchr( wBuff, ' ' );
+			if( space && space != wBuff && *buf != ' ' && *buf != 0 )
+			{
+				carryLen = int( strlen( space + 1 ) );
+				memcpy( carry, space + 1, carryLen );
+				*space = 0;
+			}
+
+			if( nStrLen != 0 )
+			{
+				AddLine( dwId, wBuff, dwColor, wLine, emLink_Null );
 				ZeroMemory(
 					wBuff,
 					sizeof(wBuff));
 			}
 
-			nCut = 0;
+			memcpy( wBuff, carry, carryLen );
+			nStrLen = carryLen;
+			nCut = carryLen;
 			++wLine;
+
+			// Don't start the new line with a space.
+			if( 0 == carryLen && *buf == ' ' )
+			{
+				++buf;
+			}
 		}
 #endif
 

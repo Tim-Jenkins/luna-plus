@@ -359,7 +359,9 @@ def compose(text: str, glossary: dict, missing: set):
         return f"{body + ' - ' if body else ''}Deliver to {npc} ({place}"
     m = re.fullmatch(r"([^:]+?)\s*:\s*(.+)", text)
     if m:
-        head, rest = compose(m.group(1), glossary, missing), compose(m.group(2), glossary, missing)
+        # "head:<Chinese>" gives a shorter form for the part before the colon.
+        head = glossary.get("head:" + m.group(1).strip()) or compose(m.group(1), glossary, missing)
+        rest = compose(m.group(2), glossary, missing)
         return f"{head}: {rest}" if head and rest else None
     m = re.fullmatch(r"([^\]]+)\](.+)", text)
     if m:

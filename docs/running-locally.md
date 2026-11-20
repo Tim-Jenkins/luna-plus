@@ -126,7 +126,7 @@ If the client crashes it writes a minidump, `LPTW10062701.mhd`, next to `LUNACli
 Everything else is copied unchanged and loads without errors, but only the files above have been compared field by field with their loaders. The importer takes the Devil race lists (`*_D_*`) and `skillScript.bin` from `data/minimal/`, since the 2008 data predates them.
 
 Known issues with this data:
-- Item, skill, NPC and quest names are in Big5 Chinese, so they show as garbage in the English client. Monster names use the data's English name column.
+- Text is translated to English from `data/translations/en/` (`tools/translate_data.py`): item, skill, buff, NPC, map, quest and quest-item text, monster speech and character-creation names. Entries are keyed by a hash of the original bytes, so the repo holds no original text. Pass `--no-translate` to keep the Chinese. Files the game never shows (`TooTipMsg`, `Tooltipinfo`, `Trade`, `Quest`, `Dealitem`) and the `FilterWord` banned-name list are left as they are.
 - `MapChannel.bin` gives map 20 three channels.
 - On map 20 (a town) the spawns are training dummies (Bambusoideae, Rotten Board, level 10) and Puppies (level 1) next to the new-character login point at (347, 400).
 

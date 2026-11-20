@@ -7381,7 +7381,7 @@ f08b4f1e7f6d	12000018:1	Azure Dragon - Robe
 44e61bd4a462	12000020:1	Little Planet Robe
 22c96f5e449e	12000021:1	Stargazer Coat
 a317aaa6d3ef	12000022:1	Court Mage's Clothes
-fdfd166fd1a3	12000023:1	Cloth - Armor Lv
+fdfd166fd1a3	12000023:1	Cloth Armor Lv
 8aabdd9cf0a8	12000032:1	Worn Leather Armor
 14083bb55941	12000033:1	Traveler's Leather
 e203775ec5ae	12000034:1	Sage's Leather Armor
@@ -7404,7 +7404,7 @@ b97d8c62092f	12000049:1	Fire Wolf Armor
 89802c284840	12000051:1	Fire Dragon Armor
 18f0f43a9d7e	12000052:1	Moon Seeker Armor
 f70d210927b7	12000053:1	Blue Abyss Leather
-aa009688ccca	12000054:1	Leather - Armor Lv
+aa009688ccca	12000054:1	Leather Armor Lv
 911e13344dc5	12000063:1	Bone Armor
 433bd224e857	12000064:1	Copper Armor
 ddfe35862f97	12000065:1	Mail Armor
@@ -7427,7 +7427,7 @@ e6ff8a62eb6b	12000077:1	Kadesh Armor
 5ec6ef4a2964	12000082:1	Berserk Plate
 806e45bfcca0	12000083:1	Yorlevgand Armor
 516a3d976aa6	12000084:1	Evil Eye Plate
-35cbf3f8c46f	12000085:1	Metal - Armor Lv
+35cbf3f8c46f	12000085:1	Metal Armor Lv
 a1b1610b7360	12000094:1	Apprentice Gloves
 5cd9d10cc4f0	12000095:1	Nameless Gloves
 7ef7b28a8aae	12000096:1	Elven Gloves
@@ -7450,7 +7450,7 @@ c615ded79488	12000109:1	Kokis Gloves
 52ead1010ea3	12000113:1	Little Planet Gloves
 18f2653a2edb	12000114:1	Stargazer Gloves
 3b29884aeff9	12000115:1	Court Mage's Gloves
-fd1b471d929d	12000116:1	Cloth - Gloves Lv
+fd1b471d929d	12000116:1	Cloth Gloves Lv
 75e30dfbe848	12000125:1	Worn Leather Gloves
 dc0f1d5776d5	12000126:1	Traveler's Gloves
 8e212f79e1c2	12000127:1	Sage's Leather Gloves
@@ -7473,7 +7473,7 @@ c3049ecdd579	12000132:1	Aesthetic Gloves
 3bab57374ed1	12000144:1	Fire Dragon Gloves
 84a953521edd	12000145:1	Moon Seeker Gloves
 ec5cbcc6ff44	12000146:1	Blue Abyss Gloves
-39eac966e7e3	12000147:1	Leather - Gloves Lv
+39eac966e7e3	12000147:1	Leather Gloves Lv
 4c2d8cf66f4a	12000156:1	Heavy Gauntlets
 e08933a5769e	12000157:1	Copper Gauntlets
 a192604618ba	12000158:1	Mail Gauntlets
@@ -7495,7 +7495,7 @@ c7aee0893c3a	12000172:1	Black Knight Gauntlets
 450005ed415c	12000175:1	Berserk Gauntlets
 078bf3d85fb8	12000176:1	Yorlevgand Gauntlets
 3734bc6fb17f	12000177:1	Evil Eye Gauntlets
-146d1bab7df6	12000178:1	Metal - Gloves Lv
+146d1bab7df6	12000178:1	Metal Gloves Lv
 d39a3d58202f	12000187:1	Apprentice Boots
 d20bf5d5694f	12000188:1	Nameless Boots
 8f7176e8b78b	12000189:1	Elven Boots
@@ -7518,7 +7518,7 @@ d8d476ec4b74	12000203:1	Cross Crown Boots
 841f3c99260f	12000206:1	Little Planet Shoes
 737c46e5cadd	12000207:1	Stargazer Shoes
 74f9c0f81d38	12000208:1	Court Mage's Shoes
-796556fd2749	12000209:1	Cloth - Shoes Lv
+796556fd2749	12000209:1	Cloth Shoes Lv
 202c58da0f40	12000218:1	Worn Leather Boots
 f67e878d23c7	12000219:1	Traveler's Boots
 725b3e0591d2	12000220:1	Sage's Leather Boots
@@ -7541,7 +7541,7 @@ cf9c719b90e5	12000231:1	Moonlight Boots
 03509d504550	12000237:1	Fire Dragon Boots
 1963c7a2acef	12000238:1	Moon Seeker Boots
 773f27f31753	12000239:1	Blue Abyss Boots
-8e1fbc3dc46a	12000240:1	Leather - Shoes Lv
+8e1fbc3dc46a	12000240:1	Leather Shoes Lv
 6b5050b8d25f	12000249:1	Heavy Boots
 9d1fc54f8d1e	12000250:1	Heavy Copper Boots
 072cbb980596	12000251:1	Mail Boots
@@ -7564,7 +7564,7 @@ ec353e02d0c3	12000262:1	Soul Guard Boots
 414b37752167	12000268:1	Berserk Boots
 a94925ac2dc9	12000269:1	Yorlevgand Boots
 d0e4eb36d9a3	12000270:1	Evil Eye Boots
-ee1a1b92c08f	12000271:1	Metal - Shoes Lv
+ee1a1b92c08f	12000271:1	Metal Shoes Lv
 3347f46ee819	12000280:1	Helmet
 e1d559a28971	12000281:1	Leather Helmet
 6d2a6f6272b4	12000282:1	Thick Leather Helmet
@@ -7622,7 +7622,7 @@ fc3350aac58a	12000360:1	Ox Wind Rider's Coat
 8e3bdcb5a12e	12000361:1	Ox Little Planet Robe
 647d85459dd2	12000362:1	Ox Stargazer Coat
 7af534f6fece	12000363:1	Ox Court Mage's Clothes
-d884b7ef4fac	12000364:1	Ox Cloth - Armor Lv
+d884b7ef4fac	12000364:1	Ox Cloth Armor Lv
 44fcc24ba099	12000373:1	Ox Worn Leather Armor
 c87c1d7158af	12000374:1	Ox Traveler's Leather
 6154b5cfb5a4	12000375:1	Ox Sage's Leather Armor
@@ -7645,7 +7645,7 @@ bc1b7804c664	12000391:1	Ox Veteran's Leather
 089486516c2c	12000392:1	Ox Fire Dragon Armor
 77840af69106	12000393:1	Ox Moon Seeker Leather
 e7675a2987f1	12000394:1	Ox Blue Abyss Leather
-66281461d56b	12000395:1	Ox Leather - Armor Lv
+66281461d56b	12000395:1	Ox Leather Armor Lv
 ef741ff5fdb6	12000404:1	Ox Bone Armor
 852dd74bb974	12000405:1	Ox Copper Armor
 66d6ef7be007	12000406:1	Ox Mail Armor
@@ -7668,7 +7668,7 @@ bc00f5bc83ac	12000422:1	Ox Grizzly Plate
 d4f314adf5c1	12000423:1	Ox Berserk Plate
 b4e62b627eb7	12000424:1	Ox Yorlevgand Armor
 b6355f01e7de	12000425:1	Ox Evil Eye Plate
-63840ed2fe63	12000426:1	Ox Metal - Armor Lv
+63840ed2fe63	12000426:1	Ox Metal Armor Lv
 335729f87ac1	12000435:1	Ox Apprentice Gloves
 77a64f0e3b04	12000436:1	Ox Nameless Gloves
 94c985a57b39	12000437:1	Ox Elven Gloves
@@ -7691,7 +7691,7 @@ b06dd6733eaa	12000451:1	Ox Cross Crown Gloves
 78c3a3497f57	12000454:1	Ox Little Planet Gloves
 12e7679f3370	12000455:1	Ox Stargazer Gloves
 be4de216ceb8	12000456:1	Ox Court Mage's Gloves
-406fe86bb1dc	12000457:1	Ox Cloth - Gloves Lv
+406fe86bb1dc	12000457:1	Ox Cloth Gloves Lv
 778865e99c4d	12000466:1	Ox Worn Leather Gloves
 b25ae25971f2	12000467:1	Ox Traveler's Gloves
 49f569591cd2	12000468:1	Ox Sage's Leather Gloves
@@ -7714,7 +7714,7 @@ a921435b2369	12000478:1	Ox Cross Strap Gloves
 6029b936e807	12000485:1	Ox Fire Dragon Gloves
 26478a6c2357	12000486:1	Ox Moon Seeker Gloves
 41b3eb6b6650	12000487:1	Ox Blue Abyss Gloves
-485b866a360f	12000488:1	Ox Leather - Gloves Lv
+485b866a360f	12000488:1	Ox Leather Gloves Lv
 5af537478638	12000497:1	Ox Heavy Gauntlets
 6e6f67d7c2d9	12000498:1	Ox Copper Gauntlets
 700fcfe19a38	12000499:1	Ox Mail Gauntlets
@@ -7736,7 +7736,7 @@ bfc101cc84cc	12000515:1	Ox Grizzly Gauntlets
 0cd54e41c331	12000516:1	Ox Berserk Gauntlets
 97e667433838	12000517:1	Ox Yorlevgand Gauntlets
 fecb1536756b	12000518:1	Ox Evil Eye Gauntlets
-67c16898dfd9	12000519:1	Ox Metal - Gloves Lv
+67c16898dfd9	12000519:1	Ox Metal Gloves Lv
 45fdb5acb2dc	12000528:1	Ox Apprentice Boots
 799cf38348c0	12000529:1	Ox Nameless Boots
 d40de897070b	12000530:1	Ox Elven Boots
@@ -7759,7 +7759,7 @@ d7af3b9ba048	12000546:1	Ox Wind Rider's Shoes
 f9960760162d	12000547:1	Ox Little Planet Shoes
 fef61adf96f4	12000548:1	Ox Stargazer Shoes
 4ec7ee82d6b5	12000549:1	Ox Court Mage's Shoes
-81565a45c6e7	12000550:1	Ox Cloth - Shoes Lv
+81565a45c6e7	12000550:1	Ox Cloth Shoes Lv
 16140f7ce018	12000559:1	Ox Worn Leather Boots
 1c5aff40f682	12000560:1	Ox Traveler's Boots
 5bd0b86f7312	12000561:1	Ox Sage's Leather Boots
@@ -7782,7 +7782,7 @@ bf0e9eced0d4	12000577:1	Ox Veteran's Boots
 6e49c3f19e6a	12000578:1	Ox Fire Dragon Boots
 1d9ac1cad435	12000579:1	Ox Moon Seeker Boots
 ab7639b646a6	12000580:1	Ox Blue Abyss Boots
-84a957b306b5	12000581:1	Ox Leather - Shoes Lv
+84a957b306b5	12000581:1	Ox Leather Shoes Lv
 34e9030d9463	12000590:1	Ox Heavy Boots
 53d4a2324f8d	12000591:1	Ox Heavy Copper Boots
 adac68bfca62	12000592:1	Ox Mail Boots
@@ -7805,7 +7805,7 @@ dbd78898026f	12000607:1	Ox Crusader Boots
 4e7242d4fc20	12000609:1	Ox Berserk Boots
 99ff7a68965c	12000610:1	Ox Yorlevgand Boots
 c79c388e6f99	12000611:1	Ox Evil Eye Boots
-64b5162f87b5	12000612:1	Ox Metal - Shoes Lv
+64b5162f87b5	12000612:1	Ox Metal Shoes Lv
 6aeb17181cce	12000621:1	Ox Helmet
 61362b38e1c1	12000622:1	Ox Leather Helmet
 2d26b977f339	12000623:1	Ox Thick Leather Helmet
@@ -7863,7 +7863,7 @@ d6eeadc2092f	12000700:1	Croc Azure Dragon - Robe
 86d185577264	12000702:1	Croc Little Planet Robe
 251c91f68392	12000703:1	Croc Stargazer Coat
 b47795522d59	12000704:1	Croc Court Mage's Clothes
-f528fb85fd3a	12000705:1	Croc Cloth - Armor Lv
+f528fb85fd3a	12000705:1	Croc Cloth Armor Lv
 de853da59d50	12000714:1	Croc Worn Leather Armor
 f888152004de	12000715:1	Croc Traveler's Leather
 dc1c80ef18f5	12000716:1	Croc Sage's Leather Armor
@@ -7886,7 +7886,7 @@ b7fa5829a4bf	12000730:1	Croc Zephyr Leather Armor
 8ac0539c43ba	12000733:1	Croc Fire Dragon Armor
 e86c3f57ad8a	12000734:1	Croc Moon Seeker Leather
 cfe89da14efc	12000735:1	Croc Blue Abyss Leather
-db735ba1e37b	12000736:1	Croc Leather - Armor Lv
+db735ba1e37b	12000736:1	Croc Leather Armor Lv
 2b6ae6a79aeb	12000745:1	Croc Bone Armor
 c4c262b93ce9	12000746:1	Croc Copper Armor
 ebde43f4479e	12000747:1	Croc Mail Armor
@@ -7909,7 +7909,7 @@ b22e3ab58076	12000763:1	Croc Grizzly Plate
 57e685c23c79	12000764:1	Croc Berserk Plate
 ab1df78bdc32	12000765:1	Croc Yorlevgand Armor
 f5cf75272400	12000766:1	Croc Evil Eye Plate
-a81a712f2298	12000767:1	Croc Metal - Armor Lv
+a81a712f2298	12000767:1	Croc Metal Armor Lv
 744aa16f2c7f	12000776:1	Croc Apprentice Gloves
 5f7db38d365b	12000777:1	Croc Nameless Gloves
 abcc646c60f7	12000778:1	Croc Elven Gloves
@@ -7932,7 +7932,7 @@ fb580df16ba6	12000794:1	Croc Wind Rider's Gloves
 76153672d378	12000795:1	Croc Little Planet Gloves
 aa9689598429	12000796:1	Croc Stargazer Gloves
 f65dd51cd3fb	12000797:1	Croc Court Mage's Gloves
-d2f5ec2a78aa	12000798:1	Croc Cloth - Gloves Lv
+d2f5ec2a78aa	12000798:1	Croc Cloth Gloves Lv
 16dbc08baa05	12000807:1	Croc Worn Leather Gloves
 5f141f3904a4	12000808:1	Croc Traveler's Gloves
 6a3d4a1d7983	12000809:1	Croc Sage's Leather Gloves
@@ -7955,7 +7955,7 @@ cb4ba9fea453	12000822:1	Croc Wyvern Leather Gloves
 1d2e8468b22f	12000826:1	Croc Fire Dragon Gloves
 d116c22404f3	12000827:1	Croc Moon Seeker Gloves
 873b78ac59d3	12000828:1	Croc Blue Abyss Gloves
-3d6f24cbb8c8	12000829:1	Croc Leather - Gloves Lv
+3d6f24cbb8c8	12000829:1	Croc Leather Gloves Lv
 c002bc48b54c	12000838:1	Croc Heavy Gauntlets
 6643d2e1de2f	12000839:1	Croc Copper Gauntlets
 b3f37c888eef	12000840:1	Croc Mail Gauntlets
@@ -7977,7 +7977,7 @@ f334899e644f	12000855:1	Croc Crusader Gauntlets
 8dfbca30c031	12000857:1	Croc Berserk Gauntlets
 203aebbc43c4	12000858:1	Croc Yorlevgand Gauntlets
 1f3b53e5b01b	12000859:1	Croc Evil Eye Gauntlets
-7863a42cd58a	12000860:1	Croc Metal - Gloves Lv
+7863a42cd58a	12000860:1	Croc Metal Gloves Lv
 f30357c5c114	12000869:1	Croc Apprentice Boots
 e8515fda9623	12000870:1	Croc Nameless Boots
 1efd9fabd7ce	12000871:1	Croc Elven Boots
@@ -8000,7 +8000,7 @@ f5afbe71977e	12000887:1	Croc Wind Rider's Shoes
 d223aa5917ac	12000888:1	Croc Little Planet Shoes
 67bf1e2f8d81	12000889:1	Croc Stargazer Shoes
 c4146af6ae8f	12000890:1	Croc Court Mage's Shoes
-43284181ba7a	12000891:1	Croc Cloth - Shoes Lv
+43284181ba7a	12000891:1	Croc Cloth Shoes Lv
 3c510cf9256b	12000900:1	Croc Worn Leather Boots
 90e3ff957859	12000901:1	Croc Traveler's Boots
 1d10eac3f559	12000902:1	Croc Sage's Leather Boots
@@ -8023,7 +8023,7 @@ da8a7d4e082b	12000917:1	Croc Fire Wolf Boots
 65ef31d5f56e	12000919:1	Croc Fire Dragon Boots
 8f70b1e5f01f	12000920:1	Croc Moon Seeker Boots
 3e4fd86aaf2d	12000921:1	Croc Blue Abyss Boots
-fbbc67b134d6	12000922:1	Croc Leather - Shoes Lv
+fbbc67b134d6	12000922:1	Croc Leather Shoes Lv
 abf4050a1571	12000931:1	Croc Heavy Boots
 dc94c6d3b503	12000932:1	Croc Heavy Copper Boots
 5a0659378b2b	12000933:1	Croc Mail Boots
@@ -8046,7 +8046,7 @@ e3acc0ed9ed6	12000948:1	Croc Crusader Boots
 63664fe75ed1	12000950:1	Croc Berserk Boots
 187b74dbe8bc	12000951:1	Croc Yorlevgand Boots
 1536ec10e3c1	12000952:1	Croc Evil Eye Boots
-af1064baf891	12000953:1	Croc Metal - Shoes Lv
+af1064baf891	12000953:1	Croc Metal Shoes Lv
 5c12a36cd2d7	12000962:1	Croc Helmet
 e538041f11cc	12000963:1	Croc Leather Helmet
 63362e330113	12000964:1	Croc Thick Leather Helmet
@@ -8104,7 +8104,7 @@ eb085a2a2a4d	12001042:1	Lion Wind Rider's Coat
 56d5dcc0faa0	12001043:1	Lion Little Planet Robe
 72135c34c160	12001044:1	Lion Stargazer Coat
 31f0d453de93	12001045:1	Lion Court Mage's Clothes
-529e0be17fa0	12001046:1	Lion Cloth - Armor Lv
+529e0be17fa0	12001046:1	Lion Cloth Armor Lv
 f5b52083b407	12001055:1	Lion Worn Leather Armor
 ee88ad4e512a	12001056:1	Lion Traveler's Leather
 3aa4f0927bf3	12001057:1	Lion Sage's Leather Armor
@@ -8127,7 +8127,7 @@ d5725086d295	12001064:1	Lion Aluminum Leather
 68e19566a2e5	12001074:1	Lion Fire Dragon Armor
 ee9ffc2d0082	12001075:1	Lion Moon Seeker Leather
 8e0057b13df5	12001076:1	Lion Blue Abyss Leather
-5667f415539f	12001077:1	Lion Leather - Armor Lv
+5667f415539f	12001077:1	Lion Leather Armor Lv
 3e7bd76a1d58	12001086:1	Lion Bone Armor
 506876c30284	12001087:1	Lion Copper Armor
 016d332cb9fb	12001088:1	Lion Mail Armor
@@ -8150,7 +8150,7 @@ e9dd73793faa	12001101:1	Lion Phoenix Plate
 83e56c172011	12001105:1	Lion Berserk Plate
 8f187d360fc1	12001106:1	Lion Yorlevgand Armor
 a60df7935e96	12001107:1	Lion Evil Eye Plate
-3fb30ec748d8	12001108:1	Lion Metal - Armor Lv
+3fb30ec748d8	12001108:1	Lion Metal Armor Lv
 a76027942726	12001117:1	Lion Apprentice Gloves
 a1fa381f8466	12001118:1	Lion Nameless Gloves
 488acd23f1f2	12001119:1	Lion Elven Gloves
@@ -8173,7 +8173,7 @@ d6d9468a0e4b	12001135:1	Lion Wind Rider's Gloves
 8ba559f345ef	12001136:1	Lion Little Planet Gloves
 19fb5839f65e	12001137:1	Lion Stargazer Gloves
 893f8976280a	12001138:1	Lion Court Mage's Gloves
-a0a844e64ee1	12001139:1	Lion Cloth - Gloves Lv
+a0a844e64ee1	12001139:1	Lion Cloth Gloves Lv
 57756ef2c3a5	12001148:1	Lion Worn Leather Gloves
 b6a48083e118	12001149:1	Lion Traveler's Gloves
 c158fd0ac88b	12001150:1	Lion Sage's Leather Gloves
@@ -8196,7 +8196,7 @@ d4570b59d46b	12001166:1	Lion Veteran's Gloves
 5c1f0f0f7c3d	12001167:1	Lion Fire Dragon Gloves
 21d1284bc358	12001168:1	Lion Moon Seeker Gloves
 8ac31313de59	12001169:1	Lion Blue Abyss Gloves
-4e80f4118085	12001170:1	Lion Leather - Gloves Lv
+4e80f4118085	12001170:1	Lion Leather Gloves Lv
 2f6d5df6a7c7	12001179:1	Lion Heavy Gauntlets
 670fc0b86f0d	12001180:1	Lion Copper Gauntlets
 22019620c0cd	12001181:1	Lion Mail Gauntlets
@@ -8218,7 +8218,7 @@ a7a8f59f4202	12001197:1	Lion Grizzly Gauntlets
 fc19dede7f0b	12001198:1	Lion Berserk Gauntlets
 c1ca38147264	12001199:1	Lion Yorlevgand Gauntlets
 e8731867dc62	12001200:1	Lion Evil Eye Gauntlets
-d92dcbc9239d	12001201:1	Lion Metal - Gloves Lv
+d92dcbc9239d	12001201:1	Lion Metal Gloves Lv
 7acf454addc0	12001210:1	Lion Apprentice Boots
 887609c3a915	12001211:1	Lion Nameless Boots
 591effe7d599	12001212:1	Lion Elven Boots
@@ -8241,7 +8241,7 @@ c77f5c55ffb1	12001220:1	Lion Alloy Alum. Boots
 9b2e8e6aaf26	12001229:1	Lion Little Planet Shoes
 216894c3e514	12001230:1	Lion Stargazer Shoes
 b7a7dd8ae5cc	12001231:1	Lion Court Mage's Shoes
-2a828fda8ace	12001232:1	Lion Cloth - Shoes Lv
+2a828fda8ace	12001232:1	Lion Cloth Shoes Lv
 2d7740b5f7ab	12001241:1	Lion Worn Leather Boots
 3f108ca3675a	12001242:1	Lion Traveler's Boots
 e9b142811b7e	12001243:1	Lion Sage's Leather Boots
@@ -8264,7 +8264,7 @@ bab1280bd815	12001259:1	Lion Veteran's Boots
 cbcf9272409d	12001260:1	Lion Fire Dragon Boots
 bc7ae4297d27	12001261:1	Lion Moon Seeker Boots
 666205664b75	12001262:1	Lion Blue Abyss Boots
-38a59ad1d254	12001263:1	Lion Leather - Shoes Lv
+38a59ad1d254	12001263:1	Lion Leather Shoes Lv
 87cd49192ed1	12001272:1	Lion Heavy Boots
 1df067b4c4e0	12001273:1	Lion Heavy Copper Boots
 5b109c47d2ef	12001274:1	Lion Mail Boots
@@ -8287,7 +8287,7 @@ aaa71f90c88a	12001290:1	Lion Grizzly Boots
 b63615a75863	12001291:1	Lion Berserk Boots
 ea359b28b35b	12001292:1	Lion Yorlevgand Boots
 26e40d73070f	12001293:1	Lion Evil Eye Boots
-802f602ad83f	12001294:1	Lion Metal - Shoes Lv
+802f602ad83f	12001294:1	Lion Metal Shoes Lv
 08fecf1ea772	12001303:1	Lion Helmet
 4e6d9b4c3a1f	12001304:1	Lion Leather Helmet
 341898182584	12001305:1	Lion Thick Leather Helmet
@@ -8345,7 +8345,7 @@ ad50b0ce4a4e	12001380:1	Titan Kokis Tunic
 9143e144a4eb	12001384:1	Titan Little Planet Robe
 02375a9f9b3f	12001385:1	Titan Stargazer Coat
 587ffa37e94d	12001386:1	Titan Court Mage's Clothes
-819ccc5bc464	12001387:1	Titan Cloth - Armor Lv
+819ccc5bc464	12001387:1	Titan Cloth Armor Lv
 824b3da489a6	12001396:1	Titan Worn Leather Armor
 4fe832db75f0	12001397:1	Titan Traveler's Leather
 20a63ec2fea3	12001398:1	Titan Sage's Leather Armor
@@ -8368,7 +8368,7 @@ e63034423689	12001414:1	Titan Veteran's Leather
 0781540ad5a1	12001415:1	Titan Fire Dragon Armor
 87f4cc18cc40	12001416:1	Titan Moon Seeker Leather
 7bfddba13137	12001417:1	Titan Blue Abyss Leather
-fc8bfbb1e59f	12001418:1	Titan Leather - Armor Lv
+fc8bfbb1e59f	12001418:1	Titan Leather Armor Lv
 20b6781cda06	12001427:1	Titan Bone Armor
 0448f55491b6	12001428:1	Titan Copper Armor
 e901e1da1f9f	12001429:1	Titan Mail Armor
@@ -8391,7 +8391,7 @@ ee5bcf420b07	12001443:1	Titan Black Knight Plate
 8542df7ab0f5	12001446:1	Titan Berserk Plate
 2d8cd6c19011	12001447:1	Titan Yorlevgand Armor
 d2891ed8e215	12001448:1	Titan Evil Eye Plate
-e5b95344de73	12001449:1	Titan Metal - Armor Lv
+e5b95344de73	12001449:1	Titan Metal Armor Lv
 d4d4a4c563e1	12001458:1	Titan Apprentice Gloves
 c559f604ef5f	12001459:1	Titan Nameless Gloves
 7299cc11254a	12001460:1	Titan Elven Gloves
@@ -8414,7 +8414,7 @@ a49ecbd692a7	12001473:1	Titan Kokis Gloves
 67d09fc67dc8	12001477:1	Titan Little Planet Gloves
 c3c3f7fe65c3	12001478:1	Titan Stargazer Gloves
 115bdbb451ae	12001479:1	Titan Court Mage's Gloves
-6925c8d92151	12001480:1	Titan Cloth - Gloves Lv
+6925c8d92151	12001480:1	Titan Cloth Gloves Lv
 bfb585590e61	12001489:1	Titan Worn Leather Gloves
 39e016402eb2	12001490:1	Titan Traveler's Gloves
 d7bf0dddb293	12001491:1	Titan Sage's Leather Gloves
@@ -8437,7 +8437,7 @@ b571c98fd514	12001504:1	Titan Wyvern Leather Gloves
 a93b572f4b94	12001508:1	Titan Fire Dragon Gloves
 1a43db6f7d35	12001509:1	Titan Moon Seeker Gloves
 09696427a7ae	12001510:1	Titan Blue Abyss Gloves
-14f141891b79	12001511:1	Titan Leather - Gloves Lv
+14f141891b79	12001511:1	Titan Leather Gloves Lv
 0858b65980a6	12001520:1	Titan Heavy Gauntlets
 a09ff578f956	12001521:1	Titan Copper Gauntlets
 3bca994f7287	12001522:1	Titan Mail Gauntlets
@@ -8459,7 +8459,7 @@ c720cda0eefb	12001537:1	Titan Crusader Gauntlets
 abf2be1ea997	12001539:1	Titan Berserk Gauntlets
 fb075c0a6a37	12001540:1	Titan Yorlevgand Gauntlets
 922df202cb06	12001541:1	Titan Evil Eye Gauntlets
-d6b5b3865f73	12001542:1	Titan Metal - Gloves Lv
+d6b5b3865f73	12001542:1	Titan Metal Gloves Lv
 051ef6545260	12001551:1	Titan Apprentice Boots
 6eb4d5362de4	12001552:1	Titan Nameless Boots
 40a8cda4c91b	12001553:1	Titan Elven Boots
@@ -8482,7 +8482,7 @@ eea64a0f5572	12001567:1	Titan Cross Crown Boots
 31f642a7a896	12001570:1	Titan Little Planet Shoes
 87b55974a19a	12001571:1	Titan Stargazer Shoes
 98976c46ffc9	12001572:1	Titan Court Mage's Shoes
-6412f6ca95fa	12001573:1	Titan Cloth - Shoes Lv
+6412f6ca95fa	12001573:1	Titan Cloth Shoes Lv
 0457223de8f5	12001582:1	Titan Worn Leather Boots
 7cca76bb128b	12001583:1	Titan Traveler's Boots
 cb8f16ad10c0	12001584:1	Titan Sage's Leather Boots
@@ -8505,7 +8505,7 @@ b58bfd6479b9	12001598:1	Titan Zephyr Leather Boots
 e09976540644	12001601:1	Titan Fire Dragon Boots
 820b36a077e7	12001602:1	Titan Moon Seeker Boots
 abbad4012e2f	12001603:1	Titan Blue Abyss Boots
-21f5c1b9e417	12001604:1	Titan Leather - Shoes Lv
+21f5c1b9e417	12001604:1	Titan Leather Shoes Lv
 532f423f0d36	12001613:1	Titan Heavy Boots
 24cc92201b6c	12001614:1	Titan Heavy Copper Boots
 aa3d28aa5afa	12001615:1	Titan Mail Boots
@@ -8528,7 +8528,7 @@ c1f4f879295c	12001631:1	Titan Grizzly Boots
 77cc011a2e6f	12001632:1	Titan Berserk Boots
 525075999082	12001633:1	Titan Yorlevgand Boots
 1434ae9c9941	12001634:1	Titan Evil Eye Boots
-5e8b532fb702	12001635:1	Titan Metal - Shoes Lv
+5e8b532fb702	12001635:1	Titan Metal Shoes Lv
 0ac37d71ab34	12001644:1	Titan Helmet
 2c10e1d328e1	12001645:1	Titan Leather Helmet
 ea9cf89fcff7	12001646:1	Titan Thick Leather Helmet
@@ -8586,7 +8586,7 @@ d911c235ac12	12001723:1	Kruse Azure Dragon - Robe
 dd75c2c8a273	12001725:1	Kruse Little Planet Robe
 8ba0f9b63de9	12001726:1	Kruse Stargazer Coat
 1b99d6eb1357	12001727:1	Kruse Court Mage's Clothes
-65cf4685e12f	12001728:1	Kruse Cloth - Armor Lv
+65cf4685e12f	12001728:1	Kruse Cloth Armor Lv
 eef8647a269b	12001737:1	Kruse Worn Leather Armor
 6f3f6a1242b1	12001738:1	Kruse Traveler's Leather
 a37fb1bd5b62	12001739:1	Kruse Sage's Leather Armor
@@ -8609,7 +8609,7 @@ b0d1256cb5b0	12001750:1	Kruse Moonlight Armor
 54bf7b3b80b2	12001756:1	Kruse Fire Dragon Armor
 50d6e93a6977	12001757:1	Kruse Moon Seeker Leather
 3d251a472510	12001758:1	Kruse Blue Abyss Leather
-7d601211ef61	12001759:1	Kruse Leather - Armor Lv
+7d601211ef61	12001759:1	Kruse Leather Armor Lv
 d956f90b5f74	12001768:1	Kruse Bone Armor
 265e6822fe5e	12001769:1	Kruse Copper Armor
 76d3d84b1acf	12001770:1	Kruse Mail Armor
@@ -8632,7 +8632,7 @@ e18f0c3de58b	12001786:1	Kruse Grizzly Plate
 58a92d9e113f	12001787:1	Kruse Berserk Plate
 e9fc79982b09	12001788:1	Kruse Yorlevgand Armor
 fb635e371634	12001789:1	Kruse Evil Eye Plate
-6432d2b4e4c1	12001790:1	Kruse Metal - Armor Lv
+6432d2b4e4c1	12001790:1	Kruse Metal Armor Lv
 d26705798321	12001799:1	Kruse Apprentice Gloves
 fec16b4c123a	12001800:1	Kruse Nameless Gloves
 ce5fa8e6e33e	12001801:1	Kruse Elven Gloves
@@ -8655,7 +8655,7 @@ f7d611916c37	12001816:1	Kruse Azure Dragon - Gloves
 05c89574b05b	12001818:1	Kruse Little Planet Gloves
 8fadde9210d7	12001819:1	Kruse Stargazer Gloves
 c0a284de60db	12001820:1	Kruse Court Mage's Gloves
-568fb4af02e6	12001821:1	Kruse Cloth - Gloves Lv
+568fb4af02e6	12001821:1	Kruse Cloth Gloves Lv
 c117f0daf9f0	12001830:1	Kruse Worn Leather Gloves
 f71d5311c164	12001831:1	Kruse Traveler's Gloves
 436aac97c36b	12001832:1	Kruse Sage's Leather Gloves
@@ -8678,7 +8678,7 @@ fa02fd448aca	12001846:1	Kruse Zephyr Leather Gloves
 5317f8b8e6f8	12001849:1	Kruse Fire Dragon Gloves
 bad13a3efc00	12001850:1	Kruse Moon Seeker Gloves
 d99f8912c148	12001851:1	Kruse Blue Abyss Gloves
-375c8940b5a0	12001852:1	Kruse Leather - Gloves Lv
+375c8940b5a0	12001852:1	Kruse Leather Gloves Lv
 6ca5eef6e3fe	12001861:1	Kruse Heavy Gauntlets
 4fbb794251c0	12001862:1	Kruse Copper Gauntlets
 8006ebc3d0ba	12001863:1	Kruse Mail Gauntlets
@@ -8700,7 +8700,7 @@ ab083085893e	12001878:1	Kruse Crusader Gauntlets
 dcb559a0a871	12001880:1	Kruse Berserk Gauntlets
 58e8f4267afc	12001881:1	Kruse Yorlevgand Gauntlets
 3cb2f34f3925	12001882:1	Kruse Evil Eye Gauntlets
-4ce3ab4817ed	12001883:1	Kruse Metal - Gloves Lv
+4ce3ab4817ed	12001883:1	Kruse Metal Gloves Lv
 91d05b98c81c	12001892:1	Kruse Apprentice Boots
 ec04c4499b47	12001893:1	Kruse Nameless Boots
 77b56fee1e62	12001894:1	Kruse Elven Boots
@@ -8723,7 +8723,7 @@ deddf132c3c4	12001908:1	Kruse Cross Crown Boots
 cf90bddb19e0	12001911:1	Kruse Little Planet Shoes
 51c7a0a42e4a	12001912:1	Kruse Stargazer Shoes
 1d34aff14010	12001913:1	Kruse Court Mage's Shoes
-638cd148f0eb	12001914:1	Kruse Cloth - Shoes Lv
+638cd148f0eb	12001914:1	Kruse Cloth Shoes Lv
 ce70a1d2b2b1	12001923:1	Kruse Worn Leather Boots
 c39c55d2a9cf	12001924:1	Kruse Traveler's Boots
 7a39acab1fae	12001925:1	Kruse Sage's Leather Boots
@@ -8746,7 +8746,7 @@ ad292cfd3458	12001938:1	Kruse Wyvern Leather Boots
 51132fee6e30	12001942:1	Kruse Fire Dragon Boots
 e74940082029	12001943:1	Kruse Moon Seeker Boots
 00954c5dacfd	12001944:1	Kruse Blue Abyss Boots
-1d9dbd71268a	12001945:1	Kruse Leather - Shoes Lv
+1d9dbd71268a	12001945:1	Kruse Leather Shoes Lv
 1a97f0de49cc	12001954:1	Kruse Heavy Boots
 e4eebb18d275	12001955:1	Kruse Heavy Copper Boots
 f73c47d88858	12001956:1	Kruse Mail Boots
@@ -8769,7 +8769,7 @@ bbbba9a4ae15	12001972:1	Kruse Grizzly Boots
 085cc4ec4549	12001973:1	Kruse Berserk Boots
 7eb08a3fc458	12001974:1	Kruse Yorlevgand Boots
 2bc851c053c3	12001975:1	Kruse Evil Eye Boots
-be71f3b7d28c	12001976:1	Kruse Metal - Shoes Lv
+be71f3b7d28c	12001976:1	Kruse Metal Shoes Lv
 94e03f470ac1	12001985:1	Kruse Helmet
 55d0f1068e9c	12001986:1	Kruse Leather Helmet
 a45da1e45165	12001987:1	Kruse Thick Leather Helmet
@@ -8827,7 +8827,7 @@ dcc8694ff314	12002065:1	Rabbit Wind Rider's Coat
 9526dcabd4bb	12002066:1	Rabbit Little Planet Robe
 235f0d9e4e7d	12002067:1	Rabbit Stargazer Coat
 327e9c534b6d	12002068:1	Rabbit Court Mage's Clothes
-5753130b5a7a	12002069:1	Rabbit Cloth - Armor Lv
+5753130b5a7a	12002069:1	Rabbit Cloth Armor Lv
 8fe585b97fd9	12002078:1	Rabbit Worn Leather Armor
 c5b46e115e12	12002079:1	Rabbit Traveler's Leather
 ec2f74d1a42c	12002080:1	Rabbit Sage's Leather Armor
@@ -8850,7 +8850,7 @@ c08c392b2027	12002091:1	Rabbit Moonlight Armor
 baa4c451d21f	12002097:1	Rabbit Fire Dragon Armor
 38f226574b21	12002098:1	Rabbit Moon Seeker Leather
 24cfeaef76fb	12002099:1	Rabbit Blue Abyss Leather
-0c0f98ccc280	12002100:1	Rabbit Leather - Armor Lv
+0c0f98ccc280	12002100:1	Rabbit Leather Armor Lv
 2f81e32eca9b	12002109:1	Rabbit Bone Armor
 a60d1e157d7e	12002110:1	Rabbit Copper Armor
 84a7690b0c28	12002111:1	Rabbit Mail Armor
@@ -8873,7 +8873,7 @@ e76592aac9e6	12002124:1	Rabbit Phoenix Plate
 672c443dde18	12002128:1	Rabbit Berserk Plate
 baf35da1893c	12002129:1	Rabbit Yorlevgand Armor
 53f8e363ca0a	12002130:1	Rabbit Evil Eye Plate
-23a8352e5bb8	12002131:1	Rabbit Metal - Armor Lv
+23a8352e5bb8	12002131:1	Rabbit Metal Armor Lv
 e0e35b082d95	12002140:1	Rabbit Apprentice Gloves
 9a8e870e66a4	12002141:1	Rabbit Nameless Gloves
 8081d8a13eff	12002142:1	Rabbit Elven Gloves
@@ -8896,7 +8896,7 @@ a1bfa5f397f6	12002157:1	Rabbit Azure Dragon - Gloves
 6650a33f3c69	12002159:1	Rabbit Little Planet Gloves
 8a7357ea9b3b	12002160:1	Rabbit Stargazer Gloves
 7b3a7a87f3ed	12002161:1	Rabbit Court Mage's Gloves
-637a9202d340	12002162:1	Rabbit Cloth - Gloves Lv
+637a9202d340	12002162:1	Rabbit Cloth Gloves Lv
 392ea21d10bf	12002171:1	Rabbit Worn Leather Gloves
 1b2faed9a7d1	12002172:1	Rabbit Traveler's Gloves
 d8c259d22caf	12002173:1	Rabbit Sage's Leather Gloves
@@ -8919,7 +8919,7 @@ df2159145193	12002186:1	Rabbit Wyvern Leather Gloves
 d79f1948303c	12002190:1	Rabbit Fire Dragon Gloves
 5c2a2430e169	12002191:1	Rabbit Moon Seeker Gloves
 78f7709ab2ab	12002192:1	Rabbit Blue Abyss Gloves
-9d4ab5eef5ab	12002193:1	Rabbit Leather - Gloves Lv
+9d4ab5eef5ab	12002193:1	Rabbit Leather Gloves Lv
 3abce25d8a5a	12002202:1	Rabbit Heavy Gauntlets
 65e242972992	12002203:1	Rabbit Copper Gauntlets
 0d5dd118a66c	12002204:1	Rabbit Mail Gauntlets
@@ -8941,7 +8941,7 @@ be589b9d02c8	12002220:1	Rabbit Grizzly Gauntlets
 361eff84d285	12002221:1	Rabbit Berserk Gauntlets
 5ce527782573	12002222:1	Rabbit Yorlevgand Gauntlets
 1377f5e74562	12002223:1	Rabbit Evil Eye Gauntlets
-7fb353f0c24a	12002224:1	Rabbit Metal - Gloves Lv
+7fb353f0c24a	12002224:1	Rabbit Metal Gloves Lv
 80dd222d3448	12002233:1	Rabbit Apprentice Boots
 aa9d74f944c5	12002234:1	Rabbit Nameless Boots
 c1d50f9533f2	12002235:1	Rabbit Elven Boots
@@ -8964,7 +8964,7 @@ a4a6344329ab	12002247:1	Rabbit Eastern Sage Shoes
 cee94498f76b	12002252:1	Rabbit Little Planet Shoes
 fafef88e0035	12002253:1	Rabbit Stargazer Shoes
 c30c48a5e9aa	12002254:1	Rabbit Court Mage's Shoes
-1945b8418d36	12002255:1	Rabbit Cloth - Shoes Lv
+1945b8418d36	12002255:1	Rabbit Cloth Shoes Lv
 b15eb7f99fd9	12002264:1	Rabbit Worn Leather Boots
 129c9ee1a814	12002265:1	Rabbit Traveler's Boots
 adc9baf9e0bd	12002266:1	Rabbit Sage's Leather Boots
@@ -8987,7 +8987,7 @@ ea04beebf2ad	12002281:1	Rabbit Fire Wolf Boots
 d50dc49a473e	12002283:1	Rabbit Fire Dragon Boots
 508e1566fc2d	12002284:1	Rabbit Moon Seeker Boots
 887910f931f4	12002285:1	Rabbit Blue Abyss Boots
-7e6fce4775b4	12002286:1	Rabbit Leather - Shoes Lv
+7e6fce4775b4	12002286:1	Rabbit Leather Shoes Lv
 ad528642d855	12002295:1	Rabbit Heavy Boots
 79703c65f437	12002296:1	Rabbit Heavy Copper Boots
 e753c1754c0d	12002297:1	Rabbit Mail Boots
@@ -9010,7 +9010,7 @@ e6de4317324b	12002311:1	Rabbit Black Knight Boots
 8505810fc503	12002314:1	Rabbit Berserk Boots
 728b198d2afb	12002315:1	Rabbit Yorlevgand Boots
 3fb0978027d0	12002316:1	Rabbit Evil Eye Boots
-7dccb207bf27	12002317:1	Rabbit Metal - Shoes Lv
+7dccb207bf27	12002317:1	Rabbit Metal Shoes Lv
 11929914bd44	12002326:1	Rabbit Helmet
 25adde7a767d	12002327:1	Rabbit Leather Helmet
 c53885949616	12002328:1	Rabbit Thick Leather Helmet
@@ -9068,7 +9068,7 @@ f6d53241bc39	12002403:1	Fox Kokis Tunic
 142261220237	12002407:1	Fox Little Planet Robe
 428e786cfc86	12002408:1	Fox Stargazer Coat
 c0f0be84c4dd	12002409:1	Fox Court Mage's Clothes
-4b0a37968e2b	12002410:1	Fox Cloth - Armor Lv
+4b0a37968e2b	12002410:1	Fox Cloth Armor Lv
 b17639edc7ee	12002419:1	Fox Worn Leather Armor
 6aa54c05d808	12002420:1	Fox Traveler's Leather
 51a9b90ba13e	12002421:1	Fox Sage's Leather Armor
@@ -9091,7 +9091,7 @@ d16fce4f58df	12002436:1	Fox Fire Wolf Armor
 bc0e219a8283	12002438:1	Fox Fire Dragon Armor
 65c1d072c127	12002439:1	Fox Moon Seeker Leather
 74b3ca45ce65	12002440:1	Fox Blue Abyss Leather
-fe8d9af74bb2	12002441:1	Fox Leather - Armor Lv
+fe8d9af74bb2	12002441:1	Fox Leather Armor Lv
 8213c241cdff	12002450:1	Fox Bone Armor
 c75ae878e045	12002451:1	Fox Copper Armor
 81268d21f067	12002452:1	Fox Mail Armor
@@ -9114,7 +9114,7 @@ ddcda912113f	12002467:1	Fox Crusader Plate
 06315c439ba9	12002469:1	Fox Berserk Plate
 e338c818577c	12002470:1	Fox Yorlevgand Armor
 b1a5a133dfd5	12002471:1	Fox Evil Eye Plate
-41eadce025ef	12002472:1	Fox Metal - Armor Lv
+41eadce025ef	12002472:1	Fox Metal Armor Lv
 292ff86b5190	12002481:1	Fox Apprentice Gloves
 adf6b8a886c3	12002482:1	Fox Nameless Gloves
 5d863699adfd	12002483:1	Fox Elven Gloves
@@ -9137,7 +9137,7 @@ ccde196bfd57	12002499:1	Fox Wind Rider's Gloves
 9555c1db252a	12002500:1	Fox Little Planet Gloves
 637c2eb081f8	12002501:1	Fox Stargazer Gloves
 db7e22cb2759	12002502:1	Fox Court Mage's Gloves
-6bcc3d608848	12002503:1	Fox Cloth - Gloves Lv
+6bcc3d608848	12002503:1	Fox Cloth Gloves Lv
 5b912c1dcd46	12002512:1	Fox Worn Leather Gloves
 8ab23df88eb5	12002513:1	Fox Traveler's Gloves
 d8995fb5cbbb	12002514:1	Fox Sage's Leather Gloves
@@ -9160,7 +9160,7 @@ a391e6f873a3	12002529:1	Fox Fire Wolf Gloves
 eb6db0c64585	12002531:1	Fox Fire Dragon Gloves
 4260180bcc40	12002532:1	Fox Moon Seeker Gloves
 b05e10ff0ee9	12002533:1	Fox Blue Abyss Gloves
-9980439c8c9b	12002534:1	Fox Leather - Gloves Lv
+9980439c8c9b	12002534:1	Fox Leather Gloves Lv
 67576b4cec17	12002543:1	Fox Heavy Gauntlets
 8595122ff212	12002544:1	Fox Copper Gauntlets
 3e4dc902039b	12002545:1	Fox Mail Gauntlets
@@ -9182,7 +9182,7 @@ c714d855304d	12002557:1	Fox Kadesh Gauntlets
 4c5c0f263709	12002562:1	Fox Berserk Gauntlets
 9c632f055f01	12002563:1	Fox Yorlevgand Gauntlets
 0f0a34760d4a	12002564:1	Fox Evil Eye Gauntlets
-3db753c78e75	12002565:1	Fox Metal - Gloves Lv
+3db753c78e75	12002565:1	Fox Metal Gloves Lv
 29b5fa519bf7	12002574:1	Fox Apprentice Boots
 56e3b47ff7ec	12002575:1	Fox Nameless Boots
 73d2c73db451	12002576:1	Fox Elven Boots
@@ -9205,7 +9205,7 @@ e642f757f3e5	12002590:1	Fox Cross Crown Boots
 32461c04d5b7	12002593:1	Fox Little Planet Shoes
 c28ffcf61e14	12002594:1	Fox Stargazer Shoes
 b021075bd0a0	12002595:1	Fox Court Mage's Shoes
-fe193d829cc9	12002596:1	Fox Cloth - Shoes Lv
+fe193d829cc9	12002596:1	Fox Cloth Shoes Lv
 d0b51dcd6056	12002605:1	Fox Worn Leather Boots
 82004bf286a7	12002606:1	Fox Traveler's Boots
 2347ae0bcaff	12002607:1	Fox Sage's Leather Boots
@@ -9228,7 +9228,7 @@ b8317f6109f6	12002620:1	Fox Wyvern Leather Boots
 786435a7c2db	12002624:1	Fox Fire Dragon Boots
 69d34d287675	12002625:1	Fox Moon Seeker Boots
 d3747a8e104b	12002626:1	Fox Blue Abyss Boots
-eba70d9eae70	12002627:1	Fox Leather - Shoes Lv
+eba70d9eae70	12002627:1	Fox Leather Shoes Lv
 1b5d5e8c8501	12002636:1	Fox Heavy Boots
 702b99712561	12002637:1	Fox Heavy Copper Boots
 1e0951ad2751	12002638:1	Fox Mail Boots
@@ -9251,7 +9251,7 @@ ed8eacc672e9	12002653:1	Fox Crusader Boots
 1e9c79d968b0	12002655:1	Fox Berserk Boots
 fec0743e155b	12002656:1	Fox Yorlevgand Boots
 01cd07970319	12002657:1	Fox Evil Eye Boots
-dfda8068a99f	12002658:1	Fox Metal - Shoes Lv
+dfda8068a99f	12002658:1	Fox Metal Shoes Lv
 cab1ddedfdf3	12002667:1	Fox Helmet
 bdbe463d6834	12002668:1	Fox Leather Helmet
 585b9da28ce9	12002669:1	Fox Thick Leather Helmet
@@ -9309,7 +9309,7 @@ ee95686446ec	12002747:1	Tiger Wind Rider's Coat
 767cd7d03411	12002748:1	Tiger Little Planet Robe
 7e098e83ff8f	12002749:1	Tiger Stargazer Coat
 ecf841517f70	12002750:1	Tiger Court Mage's Clothes
-66b6895c654f	12002751:1	Tiger Cloth - Armor Lv
+66b6895c654f	12002751:1	Tiger Cloth Armor Lv
 8748904c2024	12002760:1	Tiger Worn Leather Armor
 8be802bd3a33	12002761:1	Tiger Traveler's Leather
 6e0c23c187a7	12002762:1	Tiger Sage's Leather Armor
@@ -9332,7 +9332,7 @@ e9213cfb068e	12002777:1	Tiger Fire Wolf Armor
 36f78372b78c	12002779:1	Tiger Fire Dragon Armor
 2e55311d83ce	12002780:1	Tiger Moon Seeker Leather
 64ca3af04dfa	12002781:1	Tiger Blue Abyss Leather
-2333ea04448e	12002782:1	Tiger Leather - Armor Lv
+2333ea04448e	12002782:1	Tiger Leather Armor Lv
 400a89070910	12002791:1	Tiger Bone Armor
 7d7fce6220d4	12002792:1	Tiger Copper Armor
 ca7012cf7f2e	12002793:1	Tiger Mail Armor
@@ -9355,7 +9355,7 @@ c36ff02e1bf8	12002809:1	Tiger Grizzly Plate
 a493c42b10ce	12002810:1	Tiger Berserk Plate
 2a07c5bfe397	12002811:1	Tiger Yorlevgand Armor
 0ac455f10211	12002812:1	Tiger Evil Eye Plate
-6691b0cfc84c	12002813:1	Tiger Metal - Armor Lv
+6691b0cfc84c	12002813:1	Tiger Metal Armor Lv
 52f0b2ad42b6	12002822:1	Tiger Apprentice Gloves
 acd050fbca38	12002823:1	Tiger Nameless Gloves
 354af9b876c3	12002824:1	Tiger Elven Gloves
@@ -9378,7 +9378,7 @@ e0e457ec07ec	12002834:1	Tiger Pyromancer's Gloves
 1199b4656bd2	12002841:1	Tiger Little Planet Gloves
 ea480fd63e95	12002842:1	Tiger Stargazer Gloves
 b4dee48548fc	12002843:1	Tiger Court Mage's Gloves
-e3e7f842e57c	12002844:1	Tiger Cloth - Gloves Lv
+e3e7f842e57c	12002844:1	Tiger Cloth Gloves Lv
 eeb8e2196dc4	12002853:1	Tiger Worn Leather Gloves
 4494304ab339	12002854:1	Tiger Traveler's Gloves
 d70117611a37	12002855:1	Tiger Sage's Leather Gloves
@@ -9401,7 +9401,7 @@ dd21c62477b4	12002871:1	Tiger Veteran's Gloves
 c279e908f75f	12002872:1	Tiger Fire Dragon Gloves
 23af0c594105	12002873:1	Tiger Moon Seeker Gloves
 88dbd74ce6d9	12002874:1	Tiger Blue Abyss Gloves
-3cd079b05f6e	12002875:1	Tiger Leather - Gloves Lv
+3cd079b05f6e	12002875:1	Tiger Leather Gloves Lv
 066529a774e4	12002884:1	Tiger Heavy Gauntlets
 82b8bebf5ab4	12002885:1	Tiger Copper Gauntlets
 40956fa3a81d	12002886:1	Tiger Mail Gauntlets
@@ -9423,7 +9423,7 @@ d8291d92d862	12002894:1	Tiger Silver Alum. Gauntlets
 1e7040620534	12002903:1	Tiger Berserk Gauntlets
 642a505e85d1	12002904:1	Tiger Yorlevgand Gauntlets
 12c4127f4683	12002905:1	Tiger Evil Eye Gauntlets
-48302972d518	12002906:1	Tiger Metal - Gloves Lv
+48302972d518	12002906:1	Tiger Metal Gloves Lv
 4c07b4490901	12002915:1	Tiger Apprentice Boots
 4deb3f87c02e	12002916:1	Tiger Nameless Boots
 0c0b2131dcce	12002917:1	Tiger Elven Boots
@@ -9446,7 +9446,7 @@ ddc772bf8d94	12002933:1	Tiger Wind Rider's Shoes
 ac95e0487399	12002934:1	Tiger Little Planet Shoes
 8eb1607c3feb	12002935:1	Tiger Stargazer Shoes
 80a67211f96e	12002936:1	Tiger Court Mage's Shoes
-d5fdb24b0fcc	12002937:1	Tiger Cloth - Shoes Lv
+d5fdb24b0fcc	12002937:1	Tiger Cloth Shoes Lv
 e6caee00df92	12002946:1	Tiger Worn Leather Boots
 503e3e02158b	12002947:1	Tiger Traveler's Boots
 ac75a4689118	12002948:1	Tiger Sage's Leather Boots
@@ -9469,7 +9469,7 @@ b54ac4d2d67f	12002962:1	Tiger Zephyr Leather Boots
 99de5d8be593	12002965:1	Tiger Fire Dragon Boots
 24c4d2e7ef2e	12002966:1	Tiger Moon Seeker Boots
 9237075032e5	12002967:1	Tiger Blue Abyss Boots
-0de9796df244	12002968:1	Tiger Leather - Shoes Lv
+0de9796df244	12002968:1	Tiger Leather Shoes Lv
 60d0c3bb74bd	12002977:1	Tiger Heavy Boots
 6c08bf14440d	12002978:1	Tiger Heavy Copper Boots
 a0b16b02fb11	12002979:1	Tiger Mail Boots
@@ -9492,7 +9492,7 @@ ddc5edfeb65a	12002993:1	Tiger Black Knight Boots
 e2ac3498c5bd	12002996:1	Tiger Berserk Boots
 c96a48ed933b	12002997:1	Tiger Yorlevgand Boots
 d43d893169ef	12002998:1	Tiger Evil Eye Boots
-4deaf57f020f	12002999:1	Tiger Metal - Shoes Lv
+4deaf57f020f	12002999:1	Tiger Metal Shoes Lv
 065677b836fb	12003008:1	Tiger Helmet
 939c11e0d0bd	12003009:1	Tiger Leather Helmet
 0d44cb5dcd48	12003010:1	Tiger Thick Leather Helmet
@@ -9550,7 +9550,7 @@ eaa841c8116a	12003088:1	Harpy Wind Rider's Coat
 784e96cdc9be	12003089:1	Harpy Little Planet Robe
 af4303168f1b	12003090:1	Harpy Stargazer Coat
 96a5b172cddd	12003091:1	Harpy Court Mage's Clothes
-a25a54d2868a	12003092:1	Harpy Cloth - Armor Lv
+a25a54d2868a	12003092:1	Harpy Cloth Armor Lv
 90c7600e6e3d	12003101:1	Harpy Worn Leather Armor
 ef012df88328	12003102:1	Harpy Traveler's Leather
 68bde1cc296b	12003103:1	Harpy Sage's Leather Armor
@@ -9573,7 +9573,7 @@ dc29d9b135ca	12003119:1	Harpy Veteran's Leather
 836d403c052a	12003120:1	Harpy Fire Dragon Armor
 e476b5b8bf94	12003121:1	Harpy Moon Seeker Leather
 a9406f1019f1	12003122:1	Harpy Blue Abyss Leather
-a09880c3adf7	12003123:1	Harpy Leather - Armor Lv
+a09880c3adf7	12003123:1	Harpy Leather Armor Lv
 bdd7c35488c4	12003132:1	Harpy Bone Armor
 d9f41adc9dc2	12003133:1	Harpy Copper Armor
 93fb7c638224	12003134:1	Harpy Mail Armor
@@ -9596,7 +9596,7 @@ f25ba05a8394	12003149:1	Harpy Crusader Plate
 d7389febb179	12003151:1	Harpy Berserk Plate
 6b533552d2bd	12003152:1	Harpy Yorlevgand Armor
 6920a106ec29	12003153:1	Harpy Evil Eye Plate
-4c9a50f1445c	12003154:1	Harpy Metal - Armor Lv
+4c9a50f1445c	12003154:1	Harpy Metal Armor Lv
 379c0553abca	12003163:1	Harpy Apprentice Gloves
 b6ddbe8f2967	12003164:1	Harpy Nameless Gloves
 b5a556ce22ce	12003165:1	Harpy Elven Gloves
@@ -9619,7 +9619,7 @@ e24833e3b235	12003181:1	Harpy Wind Rider's Gloves
 9ef44efc0d30	12003182:1	Harpy Little Planet Gloves
 c70f4e585432	12003183:1	Harpy Stargazer Gloves
 46e4ad35d559	12003184:1	Harpy Court Mage's Gloves
-eca18a314474	12003185:1	Harpy Cloth - Gloves Lv
+eca18a314474	12003185:1	Harpy Cloth Gloves Lv
 5158f8d97686	12003194:1	Harpy Worn Leather Gloves
 9600f5de61ba	12003195:1	Harpy Traveler's Gloves
 b11219dafd95	12003196:1	Harpy Sage's Leather Gloves
@@ -9642,7 +9642,7 @@ ae5f4b0d0864	12003209:1	Harpy Wyvern Leather Gloves
 34e7f86cba3f	12003213:1	Harpy Fire Dragon Gloves
 a765224e0669	12003214:1	Harpy Moon Seeker Gloves
 43ec29eea27e	12003215:1	Harpy Blue Abyss Gloves
-dbaf35c0ee26	12003216:1	Harpy Leather - Gloves Lv
+dbaf35c0ee26	12003216:1	Harpy Leather Gloves Lv
 0da1efbb437e	12003225:1	Harpy Heavy Gauntlets
 be67b43b1085	12003226:1	Harpy Copper Gauntlets
 e6301eb2ab77	12003227:1	Harpy Mail Gauntlets
@@ -9664,7 +9664,7 @@ e3ae79c082a5	12003242:1	Harpy Crusader Gauntlets
 4fe0619db340	12003244:1	Harpy Berserk Gauntlets
 312f9db00886	12003245:1	Harpy Yorlevgand Gauntlets
 e6640d2c5941	12003246:1	Harpy Evil Eye Gauntlets
-547d4f529f39	12003247:1	Harpy Metal - Gloves Lv
+547d4f529f39	12003247:1	Harpy Metal Gloves Lv
 3930ed5b0a32	12003256:1	Harpy Apprentice Boots
 4c9fa6e76bda	12003257:1	Harpy Nameless Boots
 8dae413e861c	12003258:1	Harpy Elven Boots
@@ -9687,7 +9687,7 @@ aa6a6da6f35f	12003272:1	Harpy Cross Crown Boots
 d47584ee7be3	12003275:1	Harpy Little Planet Shoes
 f17bb39a8bd9	12003276:1	Harpy Stargazer Shoes
 26c57d48a343	12003277:1	Harpy Court Mage's Shoes
-ac9e4298133c	12003278:1	Harpy Cloth - Shoes Lv
+ac9e4298133c	12003278:1	Harpy Cloth Shoes Lv
 2280182dfb7d	12003287:1	Harpy Worn Leather Boots
 597eaf44ea74	12003288:1	Harpy Traveler's Boots
 d38174ac559a	12003289:1	Harpy Sage's Leather Boots
@@ -9710,7 +9710,7 @@ e02e120239e9	12003295:1	Harpy Magic Leather Boots
 fd7f6d09b95a	12003306:1	Harpy Fire Dragon Boots
 d3fe0f5c5558	12003307:1	Harpy Moon Seeker Boots
 19f79da45bfa	12003308:1	Harpy Blue Abyss Boots
-a0b718e0c8b3	12003309:1	Harpy Leather - Shoes Lv
+a0b718e0c8b3	12003309:1	Harpy Leather Shoes Lv
 ffce347379b5	12003318:1	Harpy Heavy Boots
 32a15779b774	12003319:1	Harpy Heavy Copper Boots
 0e0d6aaad282	12003320:1	Harpy Mail Boots
@@ -9733,7 +9733,7 @@ ebd678ea7f7c	12003336:1	Harpy Grizzly Boots
 40939cd77391	12003337:1	Harpy Berserk Boots
 f520260255de	12003338:1	Harpy Yorlevgand Boots
 f39fd8fd1d7b	12003339:1	Harpy Evil Eye Boots
-a66e66da911a	12003340:1	Harpy Metal - Shoes Lv
+a66e66da911a	12003340:1	Harpy Metal Shoes Lv
 3bcb4b9ee19e	12003349:1	Harpy Helmet
 1bb9b4280631	12003350:1	Harpy Leather Helmet
 a64c95f73d5e	12003351:1	Harpy Thick Leather Helmet
@@ -9791,7 +9791,7 @@ d806163612bc	12003422:1	Jebile Pure White Robe
 e3c83aea42d2	12003430:1	Jebile Little Planet Robe
 44decdcae047	12003431:1	Jebile Stargazer Coat
 95d5ade45f1f	12003432:1	Jebile Court Mage's Clothes
-0a1f8db662f8	12003433:1	Jebile Cloth - Armor Lv
+0a1f8db662f8	12003433:1	Jebile Cloth Armor Lv
 1269b468638a	12003442:1	Jebile Worn Leather Armor
 83117fb0cacd	12003443:1	Jebile Traveler's Leather
 bbf9d6ea7d22	12003444:1	Jebile Sage's Leather Armor
@@ -9814,7 +9814,7 @@ f71f5f9eff8a	12003460:1	Jebile Veteran's Leather
 22b83568a4db	12003461:1	Jebile Fire Dragon Armor
 7e73b8db6458	12003462:1	Jebile Moon Seeker Leather
 45fc6f4e1e7d	12003463:1	Jebile Blue Abyss Leather
-f7487f70ddda	12003464:1	Jebile Leather - Armor Lv
+f7487f70ddda	12003464:1	Jebile Leather Armor Lv
 5aac54407fa0	12003473:1	Jebile Bone Armor
 c36aed3fc4c0	12003474:1	Jebile Copper Armor
 445aaf33614c	12003475:1	Jebile Mail Armor
@@ -9837,7 +9837,7 @@ cc4bc1a14d01	12003480:1	Jebile Steel Plate Armor
 88fd411ee0ef	12003492:1	Jebile Berserk Plate
 59f21f29085f	12003493:1	Jebile Yorlevgand Armor
 a85ffdef655b	12003494:1	Jebile Evil Eye Plate
-78b06f662a6d	12003495:1	Jebile Metal - Armor Lv
+78b06f662a6d	12003495:1	Jebile Metal Armor Lv
 197fb38799d1	12003504:1	Jebile Apprentice Gloves
 1a3643f1d412	12003505:1	Jebile Nameless Gloves
 86c697659300	12003506:1	Jebile Elven Gloves
@@ -9860,7 +9860,7 @@ a713b6673aa7	12003522:1	Jebile Wind Rider's Gloves
 6333918e752f	12003523:1	Jebile Little Planet Gloves
 765836a0d60f	12003524:1	Jebile Stargazer Gloves
 77fb4ce2b626	12003525:1	Jebile Court Mage's Gloves
-279eeaf424ea	12003526:1	Jebile Cloth - Gloves Lv
+279eeaf424ea	12003526:1	Jebile Cloth Gloves Lv
 553bf2261bca	12003535:1	Jebile Worn Leather Gloves
 0cb7b6bf1a4f	12003536:1	Jebile Traveler's Gloves
 3c2e6e8951b8	12003537:1	Jebile Sage's Leather Gloves
@@ -9883,7 +9883,7 @@ d2e3c679b912	12003549:1	Jebile Elemental Gloves
 87006b58556e	12003554:1	Jebile Fire Dragon Gloves
 5a5f6535b115	12003555:1	Jebile Moon Seeker Gloves
 db2a725c0412	12003556:1	Jebile Blue Abyss Gloves
-1c10a979b116	12003557:1	Jebile Leather - Gloves Lv
+1c10a979b116	12003557:1	Jebile Leather Gloves Lv
 7a198073cc80	12003566:1	Jebile Heavy Gauntlets
 63d3bd93afc9	12003567:1	Jebile Copper Gauntlets
 fc6477882132	12003568:1	Jebile Mail Gauntlets
@@ -9905,7 +9905,7 @@ e63c83dc2545	12003572:1	Jebile Gilded Gauntlets
 1879089ed818	12003585:1	Jebile Berserk Gauntlets
 51947835b728	12003586:1	Jebile Yorlevgand Gauntlets
 c50e9cbbcf23	12003587:1	Jebile Evil Eye Gauntlets
-79fe4ee570a0	12003588:1	Jebile Metal - Gloves Lv
+79fe4ee570a0	12003588:1	Jebile Metal Gloves Lv
 00248e2da8f1	12003597:1	Jebile Apprentice Boots
 8798687645f0	12003598:1	Jebile Nameless Boots
 51daa4b624f7	12003599:1	Jebile Elven Boots
@@ -9928,7 +9928,7 @@ b9af88a48544	12003615:1	Jebile Wind Rider's Shoes
 99b160eeeda8	12003616:1	Jebile Little Planet Shoes
 cd87952c0ad8	12003617:1	Jebile Stargazer Shoes
 4453a07ee22c	12003618:1	Jebile Court Mage's Shoes
-7b2a1db875ae	12003619:1	Jebile Cloth - Shoes Lv
+7b2a1db875ae	12003619:1	Jebile Cloth Shoes Lv
 0849eec7d542	12003628:1	Jebile Worn Leather Boots
 4fc8ab7bfdad	12003629:1	Jebile Traveler's Boots
 0a1cb36a796a	12003630:1	Jebile Sage's Leather Boots
@@ -9951,7 +9951,7 @@ b461a52c9486	12003643:1	Jebile Wyvern Leather Boots
 a351a4769c5a	12003647:1	Jebile Fire Dragon Boots
 5a0cb157020b	12003648:1	Jebile Moon Seeker Boots
 fb3383ab8967	12003649:1	Jebile Blue Abyss Boots
-db2adb2c3978	12003650:1	Jebile Leather - Shoes Lv
+db2adb2c3978	12003650:1	Jebile Leather Shoes Lv
 117501f5cb9c	12003659:1	Jebile Heavy Boots
 ff4b7f2144de	12003660:1	Jebile Heavy Copper Boots
 b01877376165	12003661:1	Jebile Mail Boots
@@ -9974,7 +9974,7 @@ fb6b5a3dbde3	12003674:1	Jebile Phoenix Boots
 bf4b71b77936	12003678:1	Jebile Berserk Boots
 a34a1e0306f6	12003679:1	Jebile Yorlevgand Boots
 e1f4b9f9ab6f	12003680:1	Jebile Evil Eye Boots
-17d0328d5fde	12003681:1	Jebile Metal - Shoes Lv
+17d0328d5fde	12003681:1	Jebile Metal Shoes Lv
 533e7857524d	12003690:1	Jebile Helmet
 8ef7af67d2ac	12003691:1	Jebile Leather Helmet
 63420bd08943	12003692:1	Jebile Thick Leather Helmet
@@ -10032,7 +10032,7 @@ c1612af58348	12003768:1	Bear Cross Crown Tunic
 0256b9a1b8ce	12003771:1	Bear Little Planet Robe
 40df47a550b6	12003772:1	Bear Stargazer Coat
 9dd33b967ead	12003773:1	Bear Court Mage's Clothes
-12b77409337b	12003774:1	Bear Cloth - Armor Lv
+12b77409337b	12003774:1	Bear Cloth Armor Lv
 12ca5ae678c4	12003783:1	Bear Worn Leather Armor
 f5b687148984	12003784:1	Bear Traveler's Leather
 55d4fd8a7a3d	12003785:1	Bear Sage's Leather Armor
@@ -10055,7 +10055,7 @@ d7a46984fcae	12003801:1	Bear Veteran's Leather
 0ecc039f5562	12003802:1	Bear Fire Dragon Armor
 4885e10e5f4f	12003803:1	Bear Moon Seeker Leather
 64bb8dbbdbaa	12003804:1	Bear Blue Abyss Leather
-eb0e8adc6db3	12003805:1	Bear Leather - Armor Lv
+eb0e8adc6db3	12003805:1	Bear Leather Armor Lv
 b6ad84d0e51a	12003814:1	Bear Bone Armor
 66945abdf66e	12003815:1	Bear Copper Armor
 58dfd5259ccd	12003816:1	Bear Mail Armor
@@ -10078,7 +10078,7 @@ a87e93761e4a	12003832:1	Bear Grizzly Plate
 b865799aafeb	12003833:1	Bear Berserk Plate
 8fb439164f2d	12003834:1	Bear Yorlevgand Armor
 23be5b6ad98c	12003835:1	Bear Evil Eye Plate
-ce11f32e1974	12003836:1	Bear Metal - Armor Lv
+ce11f32e1974	12003836:1	Bear Metal Armor Lv
 8d3c41f4288e	12003845:1	Bear Apprentice Gloves
 609be4d08c7f	12003846:1	Bear Nameless Gloves
 75268e0faea1	12003847:1	Bear Elven Gloves
@@ -10101,7 +10101,7 @@ d85a7ec96394	12003863:1	Bear Wind Rider's Gloves
 c16764845836	12003864:1	Bear Little Planet Gloves
 baeca1efaaab	12003865:1	Bear Stargazer Gloves
 09f51272d986	12003866:1	Bear Court Mage's Gloves
-b16742647e7d	12003867:1	Bear Cloth - Gloves Lv
+b16742647e7d	12003867:1	Bear Cloth Gloves Lv
 e349711dc950	12003876:1	Bear Worn Leather Gloves
 9981375408eb	12003877:1	Bear Traveler's Gloves
 1d466e61784e	12003878:1	Bear Sage's Leather Gloves
@@ -10124,7 +10124,7 @@ a933cf21e524	12003893:1	Bear Fire Wolf Gloves
 3f9a1ac15178	12003895:1	Bear Fire Dragon Gloves
 143b7ee7c225	12003896:1	Bear Moon Seeker Gloves
 727a1c064238	12003897:1	Bear Blue Abyss Gloves
-2fa5d5c12535	12003898:1	Bear Leather - Gloves Lv
+2fa5d5c12535	12003898:1	Bear Leather Gloves Lv
 bc7d4d0e832b	12003907:1	Bear Heavy Gauntlets
 f4e5d4c0eed5	12003908:1	Bear Copper Gauntlets
 0cd61610e38f	12003909:1	Bear Mail Gauntlets
@@ -10146,7 +10146,7 @@ d5111bf91ba6	12003925:1	Bear Grizzly Gauntlets
 11bc6a68797b	12003926:1	Bear Berserk Gauntlets
 2149b7b66b19	12003927:1	Bear Yorlevgand Gauntlets
 d6e2e40e4bf1	12003928:1	Bear Evil Eye Gauntlets
-c028f4437d92	12003929:1	Bear Metal - Gloves Lv
+c028f4437d92	12003929:1	Bear Metal Gloves Lv
 46033e3acd19	12003938:1	Bear Apprentice Boots
 0cc91176c6f9	12003939:1	Bear Nameless Boots
 7fc5f99efdc7	12003940:1	Bear Elven Boots
@@ -10169,7 +10169,7 @@ db7e8a02fa25	12003954:1	Bear Cross Crown Boots
 0b714d7d9573	12003957:1	Bear Little Planet Shoes
 cdd717fee531	12003958:1	Bear Stargazer Shoes
 19214b197bf8	12003959:1	Bear Court Mage's Shoes
-acb9b336014f	12003960:1	Bear Cloth - Shoes Lv
+acb9b336014f	12003960:1	Bear Cloth Shoes Lv
 e168a779d83f	12003969:1	Bear Worn Leather Boots
 59af2c4d202a	12003970:1	Bear Traveler's Boots
 3e84f5a9af63	12003971:1	Bear Sage's Leather Boots
@@ -10192,7 +10192,7 @@ c1b21d69c457	12003986:1	Bear Fire Wolf Boots
 d271e97a0d60	12003988:1	Bear Fire Dragon Boots
 3b420b2afd70	12003989:1	Bear Moon Seeker Boots
 7f0544b2ee4c	12003990:1	Bear Blue Abyss Boots
-74b6b48284c4	12003991:1	Bear Leather - Shoes Lv
+74b6b48284c4	12003991:1	Bear Leather Shoes Lv
 f9b9e7aabc62	12004000:1	Bear Heavy Boots
 9635591b2719	12004001:1	Bear Heavy Copper Boots
 b1947a451af6	12004002:1	Bear Mail Boots
@@ -10215,7 +10215,7 @@ d648862eb203	12004016:1	Bear Black Knight Boots
 c4891ac1344a	12004019:1	Bear Berserk Boots
 015b740e8d14	12004020:1	Bear Yorlevgand Boots
 29adc08b7e9a	12004021:1	Bear Evil Eye Boots
-ca6975871a88	12004022:1	Bear Metal - Shoes Lv
+ca6975871a88	12004022:1	Bear Metal Shoes Lv
 1cd2f64a1c88	12004031:1	Bear Helmet
 8a5339a420c8	12004032:1	Bear Leather Helmet
 532b2b0183ab	12004033:1	Bear Thick Leather Helmet
@@ -10273,7 +10273,7 @@ be6f9df727b8	12004111:1	Elephant Wind Rider's Coat
 cb91f4428b92	12004112:1	Elephant Little Planet Robe
 4d1ddfaa7247	12004113:1	Elephant Stargazer Coat
 363bfd27a11c	12004114:1	Elephant Court Mage's Clothes
-ba525513157d	12004115:1	Elephant Cloth - Armor Lv
+ba525513157d	12004115:1	Elephant Cloth Armor Lv
 a3202819b8d7	12004124:1	Elephant Worn Leather Armor
 586f7a601125	12004125:1	Elephant Traveler's Leather
 82b3b35e54b6	12004126:1	Elephant Sage's Leather Armor
@@ -10296,7 +10296,7 @@ c06d616a614b	12004140:1	Elephant Zephyr Leather Armor
 79137cd3f228	12004143:1	Elephant Fire Dragon Armor
 d9b14a6ec735	12004144:1	Elephant Moon Seeker Leather
 a129e3c1b833	12004145:1	Elephant Blue Abyss Leather
-7ee807aaa6f9	12004146:1	Elephant Leather - Armor Lv
+7ee807aaa6f9	12004146:1	Elephant Leather Armor Lv
 15bdbe90bb3f	12004155:1	Elephant Bone Armor
 b1013e7a22c8	12004156:1	Elephant Copper Armor
 5a86d247f2a9	12004157:1	Elephant Mail Armor
@@ -10319,7 +10319,7 @@ e37fa50642bf	12004173:1	Elephant Grizzly Plate
 6c1b2cff718d	12004174:1	Elephant Berserk Plate
 7cc3282919f1	12004175:1	Elephant Yorlevgand Armor
 b807292ea012	12004176:1	Elephant Evil Eye Plate
-38aec03dfb96	12004177:1	Elephant Metal - Armor Lv
+38aec03dfb96	12004177:1	Elephant Metal Armor Lv
 ea674cc42f5a	12004186:1	Elephant Apprentice Gloves
 94d35d0918cd	12004187:1	Elephant Nameless Gloves
 9ff3f0984ad3	12004188:1	Elephant Elven Gloves
@@ -10342,7 +10342,7 @@ d6338b4d4804	12004204:1	Elephant Wind Rider's Gloves
 e65f541e7fc3	12004205:1	Elephant Little Planet Gloves
 c267fc736848	12004206:1	Elephant Stargazer Gloves
 426b5fe2d744	12004207:1	Elephant Court Mage's Gloves
-5137aaa862cf	12004208:1	Elephant Cloth - Gloves Lv
+5137aaa862cf	12004208:1	Elephant Cloth Gloves Lv
 fe41f05fcba0	12004217:1	Elephant Worn Leather Gloves
 ea72d1b77fa2	12004218:1	Elephant Traveler's Gloves
 3a5aa7ce20fc	12004219:1	Elephant Sage's Leather Gloves
@@ -10365,7 +10365,7 @@ c2ecc098ba0e	12004235:1	Elephant Veteran's Gloves
 e28a7e4f07b1	12004236:1	Elephant Fire Dragon Gloves
 7577e2eccb3c	12004237:1	Elephant Moon Seeker Gloves
 29d497a58c9a	12004238:1	Elephant Blue Abyss Gloves
-1ed73cc7e4f0	12004239:1	Elephant Leather - Gloves Lv
+1ed73cc7e4f0	12004239:1	Elephant Leather Gloves Lv
 d70da4ccb61a	12004248:1	Elephant Heavy Gauntlets
 eba2129ce4b3	12004249:1	Elephant Copper Gauntlets
 e60ed0cb8ec1	12004250:1	Elephant Mail Gauntlets
@@ -10387,7 +10387,7 @@ a5b10b7d4a67	12004265:1	Elephant Crusader Gauntlets
 fe4b75dce909	12004267:1	Elephant Berserk Gauntlets
 08bca99eb9bc	12004268:1	Elephant Yorlevgand Gauntlets
 e419e0cd95da	12004269:1	Elephant Evil Eye Gauntlets
-0696ff9e96e3	12004270:1	Elephant Metal - Gloves Lv
+0696ff9e96e3	12004270:1	Elephant Metal Gloves Lv
 f75139c819e8	12004279:1	Elephant Apprentice Boots
 963f62536de5	12004280:1	Elephant Nameless Boots
 d09b80d0e11e	12004281:1	Elephant Elven Boots
@@ -10410,7 +10410,7 @@ b9351b30b210	12004294:1	Elephant Kokis Boots
 a4c901e8b5b8	12004298:1	Elephant Little Planet Shoes
 f531599d96b5	12004299:1	Elephant Stargazer Shoes
 ac9fc2259fae	12004300:1	Elephant Court Mage's Shoes
-f5374c697550	12004301:1	Elephant Cloth - Shoes Lv
+f5374c697550	12004301:1	Elephant Cloth Shoes Lv
 a28fc4216134	12004310:1	Elephant Worn Leather Boots
 f0dfc0444b24	12004311:1	Elephant Traveler's Boots
 6a3bc3c929c7	12004312:1	Elephant Sage's Leather Boots
@@ -10433,7 +10433,7 @@ d10d11547365	12004327:1	Elephant Fire Wolf Boots
 8419d5ad506b	12004329:1	Elephant Fire Dragon Boots
 49ada779a551	12004330:1	Elephant Moon Seeker Boots
 f0500a3fdeda	12004331:1	Elephant Blue Abyss Boots
-448af2dc3eba	12004332:1	Elephant Leather - Shoes Lv
+448af2dc3eba	12004332:1	Elephant Leather Shoes Lv
 bcdafbec6ede	12004341:1	Elephant Heavy Boots
 5c76a7c3e7af	12004342:1	Elephant Heavy Copper Boots
 48cdff94caf7	12004343:1	Elephant Mail Boots
@@ -10456,7 +10456,7 @@ d3976be2061b	12004359:1	Elephant Grizzly Boots
 b8ad9e736583	12004360:1	Elephant Berserk Boots
 2cef0c070a0d	12004361:1	Elephant Yorlevgand Boots
 5f53bd8a3a5e	12004362:1	Elephant Evil Eye Boots
-6bf70f277ab3	12004363:1	Elephant Metal - Shoes Lv
+6bf70f277ab3	12004363:1	Elephant Metal Shoes Lv
 799c45fea2bd	12004372:1	Elephant Helmet
 0845915c31ac	12004373:1	Elephant Leather Helmet
 ad60e251cf97	12004374:1	Elephant Thick Leather Helmet
@@ -10514,7 +10514,7 @@ b453d7503346	12004451:1	Whale Azure Dragon - Robe
 6002e6a7e679	12004453:1	Whale Little Planet Robe
 11de810458fa	12004454:1	Whale Stargazer Coat
 9da595156996	12004455:1	Whale Court Mage's Clothes
-f769809463ac	12004456:1	Whale Cloth - Armor Lv
+f769809463ac	12004456:1	Whale Cloth Armor Lv
 b2b69c74a7ec	12004465:1	Whale Worn Leather Armor
 880083a77ed3	12004466:1	Whale Traveler's Leather
 4c638d2e663d	12004467:1	Whale Sage's Leather Armor
@@ -10537,7 +10537,7 @@ eea160cda82a	12004482:1	Whale Fire Wolf Armor
 413feceeaaf1	12004484:1	Whale Fire Dragon Armor
 766a143d597a	12004485:1	Whale Moon Seeker Leather
 997393195716	12004486:1	Whale Blue Abyss Leather
-acd054486aa1	12004487:1	Whale Leather - Armor Lv
+acd054486aa1	12004487:1	Whale Leather Armor Lv
 f9d51637f585	12004496:1	Whale Bone Armor
 573b2473fdd5	12004497:1	Whale Copper Armor
 846c9b1aa851	12004498:1	Whale Mail Armor
@@ -10560,7 +10560,7 @@ d757dc55e70d	12004513:1	Whale Crusader Plate
 027a8cb106df	12004515:1	Whale Berserk Plate
 01e82be68b41	12004516:1	Whale Yorlevgand Armor
 dd21323ab242	12004517:1	Whale Evil Eye Plate
-a5e1469472b7	12004518:1	Whale Metal - Armor Lv
+a5e1469472b7	12004518:1	Whale Metal Armor Lv
 5a19d4eb1024	12004527:1	Whale Apprentice Gloves
 e93a2fb22283	12004528:1	Whale Nameless Gloves
 a411f3a0d63e	12004529:1	Whale Elven Gloves
@@ -10583,7 +10583,7 @@ aaabac2af575	12004545:1	Whale Wind Rider's Gloves
 22dcdbb7e6f7	12004546:1	Whale Little Planet Gloves
 f974211ba834	12004547:1	Whale Stargazer Gloves
 8bf827a7de55	12004548:1	Whale Court Mage's Gloves
-d17a6f42ff4a	12004549:1	Whale Cloth - Gloves Lv
+d17a6f42ff4a	12004549:1	Whale Cloth Gloves Lv
 19408f4ee458	12004558:1	Whale Worn Leather Gloves
 b87f76c9e5aa	12004559:1	Whale Traveler's Gloves
 b65137dd536f	12004560:1	Whale Sage's Leather Gloves
@@ -10606,7 +10606,7 @@ ff8d11b7e9ee	12004576:1	Whale Veteran's Gloves
 f47a09f87c20	12004577:1	Whale Fire Dragon Gloves
 52c9103d9f24	12004578:1	Whale Moon Seeker Gloves
 2442753feddc	12004579:1	Whale Blue Abyss Gloves
-c76bb893dcba	12004580:1	Whale Leather - Gloves Lv
+c76bb893dcba	12004580:1	Whale Leather Gloves Lv
 d74f60ec3d89	12004589:1	Whale Heavy Gauntlets
 cc637fd83d0e	12004590:1	Whale Copper Gauntlets
 2ba01b6bbe2a	12004591:1	Whale Mail Gauntlets
@@ -10628,7 +10628,7 @@ a34bb6724f87	12004605:1	Whale Black Knight Gauntlets
 af9666b66398	12004608:1	Whale Berserk Gauntlets
 c0753b5d75b0	12004609:1	Whale Yorlevgand Gauntlets
 d5e49d87d441	12004610:1	Whale Evil Eye Gauntlets
-71952c640b89	12004611:1	Whale Metal - Gloves Lv
+71952c640b89	12004611:1	Whale Metal Gloves Lv
 163b655d7fa9	12004620:1	Whale Apprentice Boots
 e4ccc0e94a5d	12004621:1	Whale Nameless Boots
 96e543811845	12004622:1	Whale Elven Boots
@@ -10651,7 +10651,7 @@ ab3642ade856	12004637:1	Whale Azure Dragon - Shoes
 cd443142a32b	12004639:1	Whale Little Planet Shoes
 e7f010c3a871	12004640:1	Whale Stargazer Shoes
 915e6f0078c4	12004641:1	Whale Court Mage's Shoes
-451234efae8b	12004642:1	Whale Cloth - Shoes Lv
+451234efae8b	12004642:1	Whale Cloth Shoes Lv
 d5f46a5bfea9	12004651:1	Whale Worn Leather Boots
 f487b5394e36	12004652:1	Whale Traveler's Boots
 a3b0d09ddc24	12004653:1	Whale Sage's Leather Boots
@@ -10673,7 +10673,7 @@ f82775dc6fd1	12004667:1	Whale Zephyr Boots
 7f9ccc748d32	12004669:1	Whale Veteran's Boots
 61741f7beed5	12004671:1	Whale Moon Seeker Boots
 900eaef037f2	12004672:1	Whale Blue Abyss Boots
-ded50c372d54	12004673:1	Whale Leather - Shoes Lv
+ded50c372d54	12004673:1	Whale Leather Shoes Lv
 6b3a0637ed10	12004682:1	Whale Heavy Boots
 b454ccfcfe4e	12004683:1	Whale Heavy Copper Boots
 c17143d91ac5	12004684:1	Whale Mail Boots
@@ -10696,7 +10696,7 @@ cb36b06467cc	12004700:1	Whale Red Bull Boots
 21b876f9524a	12004701:1	Whale Berserk Boots
 9e14467b7b5f	12004702:1	Whale Yorlevgand Boots
 4f697cec06d1	12004703:1	Whale Evil Eye Iron Boots
-ebe3c6871039	12004704:1	Whale Metal - Shoes Lv
+ebe3c6871039	12004704:1	Whale Metal Shoes Lv
 1b709542f7a1	12004713:1	Whale Helmet
 453a3a11db65	12004714:1	Whale Leather Helmet
 b463d4118ecc	12004715:1	Whale Thick Leather Helmet
@@ -10754,7 +10754,7 @@ c2e7f5aee93e	12004793:1	Giant Wind Rider's Coat
 92f405a0c38e	12004794:1	Giant Little Planet Robe
 7b44ea27860a	12004795:1	Giant Stargazer Coat
 1ed698f52697	12004796:1	Giant Court Mage's Clothes
-1b70487d9074	12004797:1	Giant Cloth - Armor Lv
+1b70487d9074	12004797:1	Giant Cloth Armor Lv
 dc134d725c22	12004806:1	Giant Worn Leather Armor
 bca612c4b41a	12004807:1	Giant Traveler's Leather
 a16b29c4cd22	12004808:1	Giant Sage's Leather Armor
@@ -10777,7 +10777,7 @@ f181ce87e7e3	12004824:1	Giant Veteran's Boots
 930797dc9e38	12004825:1	Giant Fire Dragon Armor
 d2d5dc961169	12004826:1	Giant Moon Seeker Boots
 e0157e00ea3b	12004827:1	Giant Blue Abyss Boots
-0d75cbba3234	12004828:1	Giant Leather - Armor Lv
+0d75cbba3234	12004828:1	Giant Leather Armor Lv
 e8c631e6772c	12004837:1	Giant Bone Armor
 67badc7fa70c	12004838:1	Giant Copper Armor
 1251eb2c7de1	12004839:1	Giant Mail Armor
@@ -10800,7 +10800,7 @@ beb22e4df236	12004852:1	Giant Phoenix Boots
 8d155d44f85e	12004856:1	Giant Berserk Boots
 f3e079ca19f6	12004857:1	Giant Yorlevgand Boots
 06ca34dbde4c	12004858:1	Giant Evil Eye Iron Boots
-d2e38f53b9ec	12004859:1	Giant Metal - Armor Lv
+d2e38f53b9ec	12004859:1	Giant Metal Armor Lv
 0493929bc8b2	12004868:1	Giant Apprentice Gloves
 8d18985875d4	12004869:1	Giant Nameless Gloves
 1d0fc4f9e4ab	12004870:1	Giant Elven Gloves
@@ -10823,7 +10823,7 @@ ef150cb18419	12004886:1	Giant Wind Rider's Gloves
 51aff920af3d	12004887:1	Giant Little Planet Gloves
 eff9852d885e	12004888:1	Giant Stargazer Gloves
 c39dc96fbf00	12004889:1	Giant Court Mage's Gloves
-da4f8f197ce3	12004890:1	Giant Cloth - Gloves Lv
+da4f8f197ce3	12004890:1	Giant Cloth Gloves Lv
 6913b71dd9e5	12004899:1	Giant Worn Leather Gloves
 92a834208a29	12004900:1	Giant Traveler's Gloves
 b411517f0eb0	12004901:1	Giant Sage's Leather Gloves
@@ -10846,7 +10846,7 @@ d71f32b933f9	12004915:1	Giant Zephyr Leather Gloves
 3d4be0ea9037	12004918:1	Giant Fire Dragon Gloves
 eb4bda51ed1c	12004919:1	Giant Moon Seeker Gloves
 46d0ea3cfe9a	12004920:1	Giant Blue Abyss Gloves
-be69c7e8d247	12004921:1	Giant Leather - Gloves Lv
+be69c7e8d247	12004921:1	Giant Leather Gloves Lv
 14034d9885e0	12004930:1	Giant Heavy Gauntlets
 fb22a756904f	12004931:1	Giant Copper Gauntlets
 e3a48f409bf4	12004932:1	Giant Mail Gauntlets
@@ -10868,7 +10868,7 @@ e3b63c1fd5a7	12004944:1	Giant Kadesh Gauntlets
 7622753e9e90	12004949:1	Giant Berserk Gauntlets
 088691c96caf	12004950:1	Giant Yorlevgand Gauntlets
 6732116e6ae5	12004951:1	Giant Evil Eye Gauntlets
-c428bdfa663a	12004952:1	Giant Metal - Gloves Lv
+c428bdfa663a	12004952:1	Giant Metal Gloves Lv
 48246a77307e	12004961:1	Giant Apprentice Boots
 f64832a5f8d7	12004962:1	Giant Nameless Boots
 39891bbf2355	12004963:1	Giant Elven Boots
@@ -10891,7 +10891,7 @@ de8d2b6ebc1f	12004979:1	Giant Wind Rider's Shoes
 714407c6e5db	12004980:1	Giant Little Planet Shoes
 106428472c9c	12004981:1	Giant Stargazer Shoes
 88200e29c81c	12004982:1	Giant Court Mage's Shoes
-ebc126f5275a	12004983:1	Giant Cloth - Shoes Lv
+ebc126f5275a	12004983:1	Giant Cloth Shoes Lv
 d62986656cef	12004992:1	Giant Worn Leather Boots
 e54796781757	12004993:1	Giant Traveler's Boots
 f7e0211bb701	12004994:1	Giant Sage's Leather Boots
@@ -10914,7 +10914,7 @@ acaff7a010fb	12005007:1	Giant Wyvern Leather Boots
 fc255bf1d209	12005011:1	Giant Fire Dragon Boots
 55196aa559bf	12005012:1	Giant Moon Seeker Boots
 917063ce73a7	12005013:1	Giant Blue Abyss Boots
-c4eb81af448f	12005014:1	Giant Leather - Shoes Lv
+c4eb81af448f	12005014:1	Giant Leather Shoes Lv
 99a43d376590	12005023:1	Giant Heavy Boots
 c94302fab9c9	12005024:1	Giant Heavy Copper Boots
 a0b19b1e2af5	12005025:1	Giant Mail Boots
@@ -10932,7 +10932,7 @@ a2f14b19f6cf	12005030:1	Giant Steel Boots
 2f28d7d90953	12005038:1	Giant Phoenix Boots
 00d9df5c543f	12005041:1	Giant Grizzly Boots
 d4844221f5e7	12005044:1	Giant Evil Eye Boots
-95f66c457e88	12005045:1	Giant Metal - Shoes Lv
+95f66c457e88	12005045:1	Giant Metal Shoes Lv
 0789428f21a0	12005054:1	Giant Helmet
 184a191c6c48	12005055:1	Giant Leather Helmet
 d90f1fb5b468	12005056:1	Giant Thick Leather Helmet
@@ -10990,7 +10990,7 @@ b8e50cc18c5d	12005133:1	Panake Azure Dragon - Robe
 47733a0c6a06	12005135:1	Panake Little Planet Robe
 aca6f8f0af1f	12005136:1	Panake Stargazer Coat
 0ab18fa293f9	12005137:1	Panake Court Mage's Clothes
-702e46ce950e	12005138:1	Panake Cloth - Armor Lv
+702e46ce950e	12005138:1	Panake Cloth Armor Lv
 bbbf6b62e972	12005147:1	Panake Worn Leather Armor
 e99c307c0515	12005148:1	Panake Traveler's Leather
 0d4caf6c7710	12005149:1	Panake Sage's Leather Armor
@@ -11013,7 +11013,7 @@ f0818399ca87	12005164:1	Panake Fire Wolf Armor
 3f9ca5e301ee	12005166:1	Panake Fire Dragon Armor
 79bba2033241	12005167:1	Panake Moon Seeker Leather
 10b0c140c5ad	12005168:1	Panake Blue Abyss Leather
-fa165aa83ebf	12005169:1	Panake Leather - Armor Lv
+fa165aa83ebf	12005169:1	Panake Leather Armor Lv
 fa5ec07b126d	12005178:1	Panake Bone Armor
 2ebcb1779643	12005179:1	Panake Copper Armor
 bdd10780e87c	12005180:1	Panake Mail Armor
@@ -11036,7 +11036,7 @@ c1f7c12135d7	12005196:1	Panake Grizzly Plate
 6825dba4776c	12005197:1	Panake Berserk Plate
 6c60abbf16f6	12005198:1	Panake Yorlevgand Armor
 0f3ddb1e343b	12005199:1	Panake Evil Eye Plate
-65467aa3cdbe	12005200:1	Panake Metal - Armor Lv
+65467aa3cdbe	12005200:1	Panake Metal Armor Lv
 704041eb9bc9	12005209:1	Panake Apprentice Gloves
 e292c9572fd7	12005210:1	Panake Nameless Gloves
 7392b570c826	12005211:1	Panake Elven Gloves
@@ -11059,7 +11059,7 @@ dc4538eaa476	12005227:1	Panake Wind Rider's Gloves
 181560384fdb	12005228:1	Panake Little Planet Gloves
 959918b5ee5f	12005229:1	Panake Stargazer Gloves
 5c836ddb8a7a	12005230:1	Panake Court Mage's Gloves
-3549df8f3465	12005231:1	Panake Cloth - Gloves Lv
+3549df8f3465	12005231:1	Panake Cloth Gloves Lv
 dfd759c57292	12005240:1	Panake Worn Leather Gloves
 6577f8821c85	12005241:1	Panake Traveler's Gloves
 bc14b344f164	12005242:1	Panake Sage's Leather Gloves
@@ -11082,7 +11082,7 @@ ce5e0b570c51	12005256:1	Panake Zephyr Leather Gloves
 95a5496e9554	12005259:1	Panake Fire Dragon Gloves
 017b3a169b0e	12005260:1	Panake Moon Seeker Gloves
 b56119db07c1	12005261:1	Panake Blue Abyss Gloves
-f45fc36cb157	12005262:1	Panake Leather - Gloves Lv
+f45fc36cb157	12005262:1	Panake Leather Gloves Lv
 0e69afdf8b2d	12005271:1	Panake Heavy Gauntlets
 052cc1e12dae	12005272:1	Panake Copper Gauntlets
 2c2331c90747	12005273:1	Panake Mail Gauntlets
@@ -11104,7 +11104,7 @@ bea7e24fbbec	12005287:1	Panake Black Knight Gauntlets
 b0c95e830e1e	12005290:1	Panake Berserk Gauntlets
 6e9d05decb44	12005291:1	Panake Yorlevgand Gauntlets
 3fb1f8d29e6e	12005292:1	Panake Evil Eye Gauntlets
-3f4e1f501866	12005293:1	Panake Metal - Gloves Lv
+3f4e1f501866	12005293:1	Panake Metal Gloves Lv
 3c6e437cf6c8	12005302:1	Panake Apprentice Boots
 21dcd9300ef3	12005303:1	Panake Nameless Boots
 ab7a96adcd28	12005304:1	Panake Elven Boots
@@ -11127,7 +11127,7 @@ d7c761f24a1d	12005318:1	Panake Cross Crown Boots
 2845a48af197	12005321:1	Panake Little Planet Shoes
 40f58394d3cb	12005322:1	Panake Stargazer Shoes
 960f9722a02c	12005323:1	Panake Court Mage's Shoes
-15ad334f4a3c	12005324:1	Panake Cloth - Shoes Lv
+15ad334f4a3c	12005324:1	Panake Cloth Shoes Lv
 41e9f8e41aaf	12005333:1	Panake Worn Leather Boots
 27b651bcce3f	12005334:1	Panake Traveler's Boots
 f8a672034ee0	12005335:1	Panake Sage's Leather Boots
@@ -11150,7 +11150,7 @@ b67f138a512f	12005351:1	Panake Veteran's Boots
 d66427f50f50	12005352:1	Panake Fire Dragon Boots
 146a88e072c2	12005353:1	Panake Moon Seeker Boots
 7a0e725adfe8	12005354:1	Panake Blue Abyss Boots
-7ef71b750c49	12005355:1	Panake Leather - Shoes Lv
+7ef71b750c49	12005355:1	Panake Leather Shoes Lv
 9a72444eb7bd	12005364:1	Panake Heavy Boots
 e9ac040702ff	12005365:1	Panake Heavy Copper Boots
 a9413cece21f	12005366:1	Panake Mail Boots
@@ -11173,7 +11173,7 @@ e502c0bf7386	12005382:1	Panake Grizzly Boots
 701a3190205d	12005383:1	Panake Berserk Boots
 02b77584ca01	12005384:1	Panake Yorlevgand Boots
 0d8ffc9bbdfe	12005385:1	Panake Evil Eye Boots
-151f2436b432	12005386:1	Panake Metal - Shoes Lv
+151f2436b432	12005386:1	Panake Metal Shoes Lv
 72b8401123a3	12005395:1	Panake Helmet
 4d5eaac27da9	12005396:1	Panake Leather Helmet
 6775970473f0	12005397:1	Panake Thick Leather Helmet
@@ -11231,7 +11231,7 @@ f78bfcfa62b4	12005472:1	Parrot Kokis Tunic
 751cb461695a	12005476:1	Parrot Little Planet Robe
 c4990fb58c15	12005477:1	Parrot Stargazer Coat
 6a6d73422fe3	12005478:1	Parrot Court Mage's Clothes
-2a176147e5c0	12005479:1	Parrot Cloth - Armor Lv
+2a176147e5c0	12005479:1	Parrot Cloth Armor Lv
 e3b9ae9f58f6	12005488:1	Parrot Worn Leather Armor
 4dd5704d8ab2	12005489:1	Parrot Traveler's Leather
 b5d0d08847be	12005490:1	Parrot Sage's Leather Armor
@@ -11254,7 +11254,7 @@ d6f251a02668	12005504:1	Parrot Zephyr Leather Armor
 5de40c7fde5a	12005507:1	Parrot Fire Dragon Armor
 54e395d0d568	12005508:1	Parrot Moon Seeker Leather
 ffd20bfeab27	12005509:1	Parrot Blue Abyss Leather
-a1ac5ec778b9	12005510:1	Parrot Leather - Armor Lv
+a1ac5ec778b9	12005510:1	Parrot Leather Armor Lv
 a17751172283	12005519:1	Parrot Bone Armor
 c500b8d30917	12005520:1	Parrot Copper Armor
 62365f8a9a69	12005521:1	Parrot Mail Armor
@@ -11277,7 +11277,7 @@ fb43a2e4c4ad	12005536:1	Parrot Crusader Plate
 c6d97667838e	12005538:1	Parrot Berserk Plate
 d4f9d8643d56	12005539:1	Parrot Yorlevgand Armor
 29338e95ba41	12005540:1	Parrot Evil Eye Plate
-e3878badcac8	12005541:1	Parrot Metal - Armor Lv
+e3878badcac8	12005541:1	Parrot Metal Armor Lv
 0a14ac2e2d0f	12005550:1	Parrot Apprentice Gloves
 323bf178102f	12005551:1	Parrot Nameless Gloves
 611b7236eb01	12005552:1	Parrot Elven Gloves
@@ -11300,7 +11300,7 @@ f6c70bad66e1	12005565:1	Parrot Kokis Gloves
 3cd68714adb9	12005569:1	Parrot Little Planet Gloves
 4c9b1cc71bce	12005570:1	Parrot Stargazer Gloves
 745aa53b6e4d	12005571:1	Parrot Court Mage's Gloves
-c3e76d0ca0ea	12005572:1	Parrot Cloth - Gloves Lv
+c3e76d0ca0ea	12005572:1	Parrot Cloth Gloves Lv
 9546bb69f23f	12005581:1	Parrot Worn Leather Gloves
 c377f2819010	12005582:1	Parrot Traveler's Gloves
 89cf6d1f6af9	12005583:1	Parrot Sage's Leather Gloves
@@ -11323,7 +11323,7 @@ c7df031f35e4	12005599:1	Parrot Veteran's Gloves
 666fefca76fd	12005600:1	Parrot Fire Dragon Gloves
 a74201badbdd	12005601:1	Parrot Moon Seeker Gloves
 f8c9e2dd6df0	12005602:1	Parrot Blue Abyss Gloves
-b6b45cc6fc3d	12005603:1	Parrot Leather - Gloves Lv
+b6b45cc6fc3d	12005603:1	Parrot Leather Gloves Lv
 f67dcee25d26	12005612:1	Parrot Heavy Gauntlets
 d23392b0a55c	12005613:1	Parrot Copper Gauntlets
 c1cede8a4c88	12005614:1	Parrot Mail Gauntlets
@@ -11345,7 +11345,7 @@ d8bd1b2a80c7	12005630:1	Parrot Grizzly Gauntlets
 ff452a43677d	12005631:1	Parrot Berserk Gauntlets
 1cdad73a2518	12005632:1	Parrot Yorlevgand Gauntlets
 27a7c9b0ffbb	12005633:1	Parrot Evil Eye Gauntlets
-1b3b7795f9cc	12005634:1	Parrot Metal - Gloves Lv
+1b3b7795f9cc	12005634:1	Parrot Metal Gloves Lv
 897f89a9a53b	12005643:1	Parrot Apprentice Boots
 bc8bb90174b1	12005644:1	Parrot Nameless Boots
 5981efb78053	12005645:1	Parrot Elven Boots
@@ -11368,7 +11368,7 @@ cb5fee974484	12005658:1	Parrot Kokis Boots
 a06e98f77b1b	12005662:1	Parrot Little Planet Shoes
 fab0cd9a69a2	12005663:1	Parrot Stargazer Shoes
 c123886f90de	12005664:1	Parrot Court Mage's Shoes
-08de91342621	12005665:1	Parrot Cloth - Shoes Lv
+08de91342621	12005665:1	Parrot Cloth Shoes Lv
 b1ab2d350e0d	12005674:1	Parrot Worn Leather Boots
 4ca59615a67e	12005675:1	Parrot Traveler's Boots
 6713611c676c	12005676:1	Parrot Sage's Leather Boots
@@ -11391,7 +11391,7 @@ cb97db60f6c2	12005692:1	Parrot Veteran's Boots
 54f5a54c12d1	12005693:1	Parrot Fire Dragon Boots
 832111bd85e8	12005694:1	Parrot Moon Seeker Boots
 66ff184d0127	12005695:1	Parrot Blue Abyss Boots
-642be843ebb9	12005696:1	Parrot Leather - Shoes Lv
+642be843ebb9	12005696:1	Parrot Leather Shoes Lv
 dca07f32907b	12005705:1	Parrot Heavy Boots
 be7a727fe23a	12005706:1	Parrot Heavy Copper Boots
 f00955e7b605	12005707:1	Parrot Mail Boots
@@ -11414,7 +11414,7 @@ b088eb66c9b0	12005717:1	Parrot Gold Guard Boots
 272dd051128e	12005724:1	Parrot Berserk Boots
 dc746bed930e	12005725:1	Parrot Yorlevgand Boots
 b3e8448e4d0f	12005726:1	Parrot Evil Eye Boots
-721343a666fa	12005727:1	Parrot Metal - Shoes Lv
+721343a666fa	12005727:1	Parrot Metal Shoes Lv
 7d43f9c46995	12005736:1	Parrot Helmet
 237dd82f41e3	12005737:1	Parrot Leather Helmet
 8c71170ab983	12005738:1	Parrot Thick Leather Helmet
@@ -11472,7 +11472,7 @@ c54f26277e4e	12005816:1	Hyena Wind Rider's Coat
 86396d127485	12005817:1	Hyena Little Planet Robe
 24c71ede0746	12005818:1	Hyena Stargazer Coat
 24a3d38d8a8e	12005819:1	Hyena Court Mage's Clothes
-6f918ad9b50f	12005820:1	Hyena Cloth - Armor Lv
+6f918ad9b50f	12005820:1	Hyena Cloth Armor Lv
 290220e20e6b	12005829:1	Hyena Worn Leather Armor
 56b4b9f3cf67	12005830:1	Hyena Traveler's Leather
 36ed3e1c430f	12005831:1	Hyena Sage's Leather Armor
@@ -11495,7 +11495,7 @@ cc6ec20f1686	12005847:1	Hyena Veteran's Leather
 b3ddc350b73a	12005848:1	Hyena Fire Dragon Armor
 cb52f599d024	12005849:1	Hyena Moon Seeker Leather
 06caa5b50d6c	12005850:1	Hyena Blue Abyss Leather
-94b8cb78462e	12005851:1	Hyena Leather - Armor Lv
+94b8cb78462e	12005851:1	Hyena Leather Armor Lv
 9617aaf68e77	12005860:1	Hyena Bone Armor
 ec65b9abc0aa	12005861:1	Hyena Copper Armor
 7c23d4259520	12005862:1	Hyena Mail Armor
@@ -11518,7 +11518,7 @@ c916ce3ed585	12005877:1	Hyena Crusader Plate
 75b5f7cfef6a	12005879:1	Hyena Berserk Plate
 169e37876ec3	12005880:1	Hyena Yorlevgand Armor
 4fa4d4c8b556	12005881:1	Hyena Evil Eye Plate
-39052f5a1d5b	12005882:1	Hyena Metal - Armor Lv
+39052f5a1d5b	12005882:1	Hyena Metal Armor Lv
 0c63c8c63c1a	12005891:1	Hyena Apprentice Gloves
 451b3f01ca97	12005892:1	Hyena Nameless Gloves
 c811cb1c905d	12005893:1	Hyena Elven Gloves
@@ -11541,7 +11541,7 @@ f5c9073b06f8	12005909:1	Hyena Wind Rider's Gloves
 232f39ad102b	12005910:1	Hyena Little Planet Gloves
 836091178a08	12005911:1	Hyena Stargazer Gloves
 4fba0fcccbd0	12005912:1	Hyena Court Mage's Gloves
-9a49d57c6e52	12005913:1	Hyena Cloth - Gloves Lv
+9a49d57c6e52	12005913:1	Hyena Cloth Gloves Lv
 0881c38b0028	12005922:1	Hyena Worn Leather Gloves
 a8134cd77d87	12005923:1	Hyena Traveler's Gloves
 aefebfa2ade9	12005924:1	Hyena Sage's Leather Gloves
@@ -11564,7 +11564,7 @@ edd2bc0b3cb2	12005939:1	Hyena Fire Wolf Gloves
 247274bd29b9	12005941:1	Hyena Fire Dragon Gloves
 f28bd93d7959	12005942:1	Hyena Moon Seeker Gloves
 10e9f99c0d23	12005943:1	Hyena Blue Abyss Gloves
-99d2476f8b9b	12005944:1	Hyena Leather - Gloves Lv
+99d2476f8b9b	12005944:1	Hyena Leather Gloves Lv
 01bb17efc240	12005953:1	Hyena Heavy Gauntlets
 eabec95b4965	12005954:1	Hyena Copper Gauntlets
 5f76dd449f28	12005955:1	Hyena Mail Gauntlets
@@ -11586,7 +11586,7 @@ f7839983bbbb	12005971:1	Hyena Grizzly Gauntlets
 5d6dc5a4af2e	12005972:1	Hyena Berserk Gauntlets
 0ea2dc222922	12005973:1	Hyena Yorlevgand Gauntlets
 724748680e82	12005974:1	Hyena Evil Eye Gauntlets
-8306d6ae3d52	12005975:1	Hyena Metal - Gloves Lv
+8306d6ae3d52	12005975:1	Hyena Metal Gloves Lv
 9beaf51c1a06	12005984:1	Hyena Apprentice Boots
 5d6ded0ac782	12005985:1	Hyena Nameless Boots
 d17ca2c6fb86	12005986:1	Hyena Elven Boots
@@ -11609,7 +11609,7 @@ d18e57eb8f14	12006001:1	Hyena Azure Dragon - Shoes
 63c475c58d85	12006003:1	Hyena Little Planet Shoes
 223c6c80f6c3	12006004:1	Hyena Stargazer Shoes
 d9383d8b9f83	12006005:1	Hyena Court Mage's Shoes
-ffe5e276a8b2	12006006:1	Hyena Cloth - Shoes Lv
+ffe5e276a8b2	12006006:1	Hyena Cloth Shoes Lv
 147e989e67ca	12006015:1	Hyena Worn Leather Boots
 b44c6182f1ed	12006016:1	Hyena Traveler's Boots
 1e047ec77a48	12006017:1	Hyena Sage's Leather Boots
@@ -11632,7 +11632,7 @@ c64fe9081761	12006031:1	Hyena Zephyr Leather Boots
 193e61bc69bb	12006034:1	Hyena Fire Dragon Boots
 5f2d499c8b7f	12006035:1	Hyena Moon Seeker Boots
 0ea09b43bc1b	12006036:1	Hyena Blue Abyss Boots
-5f949155f8fd	12006037:1	Hyena Leather - Shoes Lv
+5f949155f8fd	12006037:1	Hyena Leather Shoes Lv
 c9d329c48f76	12006046:1	Hyena Heavy Boots
 0cf6e96a6698	12006047:1	Hyena Heavy Copper Boots
 c556d01037e7	12006048:1	Hyena Mail Boots
@@ -11655,7 +11655,7 @@ beab664eeb92	12006064:1	Hyena Grizzly Boots
 cb2178e4a3ca	12006065:1	Hyena Berserk Boots
 214f5c3cbf4b	12006066:1	Hyena Yorlevgand Boots
 8ecd887c5839	12006067:1	Hyena Evil Eye Boots
-8c7b040a5320	12006068:1	Hyena Metal - Shoes Lv
+8c7b040a5320	12006068:1	Hyena Metal Shoes Lv
 9b2f84b0df44	12006077:1	Hyena Helmet
 593a92f3febe	12006078:1	Hyena Leather Helmet
 7fde45d12f27	12006079:1	Hyena Thick Leather Helmet
@@ -11713,7 +11713,7 @@ e1ae41f7de00	12006155:1	Monkey Cross Crown Tunic
 a5d4d2aaa2ff	12006158:1	Monkey Little Planet Robe
 a5d8987cc4e6	12006159:1	Monkey Stargazer Coat
 55eafead49e1	12006160:1	Monkey Court Mage's Clothes
-a516f1ff8a9e	12006161:1	Monkey Cloth - Armor Lv
+a516f1ff8a9e	12006161:1	Monkey Cloth Armor Lv
 1ef7cd177046	12006170:1	Monkey Worn Leather Armor
 010c28b41fe8	12006171:1	Monkey Traveler's Leather
 b40eb06770cd	12006172:1	Monkey Sage's Leather Armor
@@ -11736,7 +11736,7 @@ c2f8810d4dfb	12006186:1	Monkey Zephyr Leather Armor
 a6b03ad20b4e	12006189:1	Monkey Fire Dragon Armor
 405010fd428d	12006190:1	Monkey Moon Seeker Leather
 7eec8b793325	12006191:1	Monkey Blue Abyss Leather
-4819790903f3	12006192:1	Monkey Leather - Armor Lv
+4819790903f3	12006192:1	Monkey Leather Armor Lv
 a1050c4defb5	12006201:1	Monkey Bone Armor
 c7b007795f3c	12006202:1	Monkey Copper Armor
 e9826892055f	12006203:1	Monkey Mail Armor
@@ -11759,7 +11759,7 @@ f3fbaf04d2d6	12006219:1	Monkey Grizzly Plate
 2c7882bbea80	12006220:1	Monkey Berserk Plate
 d7ea61843516	12006221:1	Monkey Yorlevgand Armor
 e891fd9cd87e	12006222:1	Monkey Evil Eye Plate
-5eb7e4eae6e0	12006223:1	Monkey Metal - Armor Lv
+5eb7e4eae6e0	12006223:1	Monkey Metal Armor Lv
 7b21a11f8a36	12006232:1	Monkey Apprentice Gloves
 7cadc4b23090	12006233:1	Monkey Nameless Gloves
 427d1855a300	12006234:1	Monkey Elven Gloves
@@ -11782,7 +11782,7 @@ ec60681c701b	12006248:1	Monkey Cross Crown Gloves
 56d72237956d	12006251:1	Monkey Little Planet Gloves
 fc527a9e3e08	12006252:1	Monkey Stargazer Gloves
 623bc95a637d	12006253:1	Monkey Court Mage's Gloves
-67293c6af6a5	12006254:1	Monkey Cloth - Gloves Lv
+67293c6af6a5	12006254:1	Monkey Cloth Gloves Lv
 b5635009636b	12006263:1	Monkey Worn Leather Gloves
 35f747991751	12006264:1	Monkey Traveler's Gloves
 c90086ea8b86	12006265:1	Monkey Sage's Leather Gloves
@@ -11805,7 +11805,7 @@ f2d4a3f7974a	12006279:1	Monkey Zephyr Leather Gloves
 02096995afb8	12006282:1	Monkey Fire Dragon Gloves
 86e8223fa921	12006283:1	Monkey Moon Seeker Gloves
 a477ad5725ef	12006284:1	Monkey Blue Abyss Gloves
-b70c953e7863	12006285:1	Monkey Leather - Gloves Lv
+b70c953e7863	12006285:1	Monkey Leather Gloves Lv
 8c56f4ba447f	12006294:1	Monkey Heavy Gauntlets
 59193ca67503	12006295:1	Monkey Copper Gauntlets
 7cb35e870711	12006296:1	Monkey Mail Gauntlets
@@ -11827,7 +11827,7 @@ bca3d872d32a	12006301:1	Monkey Steel Gauntlets
 c63b1f736ca5	12006313:1	Monkey Berserk Gauntlets
 acdb1aab64aa	12006314:1	Monkey Yorlevgand Gauntlets
 59794f870aa1	12006315:1	Monkey Evil Eye Gauntlets
-0df3df667566	12006316:1	Monkey Metal - Gloves Lv
+0df3df667566	12006316:1	Monkey Metal Gloves Lv
 f1db55f7cc60	12006325:1	Monkey Apprentice Boots
 0f81154e8343	12006326:1	Monkey Nameless Boots
 a7842b65a805	12006327:1	Monkey Elven Boots
@@ -11850,7 +11850,7 @@ c3e64eada9c4	12006342:1	Monkey Azure Dragon - Shoes
 0cfcd193038c	12006344:1	Monkey Little Planet Shoes
 21d874ce9db3	12006345:1	Monkey Stargazer Shoes
 f44029ddabb1	12006346:1	Monkey Court Mage's Shoes
-771220c0045e	12006347:1	Monkey Cloth - Shoes Lv
+771220c0045e	12006347:1	Monkey Cloth Shoes Lv
 2964e6151c0d	12006356:1	Monkey Worn Leather Boots
 eb946dca6650	12006357:1	Monkey Traveler's Boots
 7b33fedc42bc	12006358:1	Monkey Sage's Leather Boots
@@ -11873,7 +11873,7 @@ e160c4f1da94	12006374:1	Monkey Veteran's Boots
 cd42a71b1c0f	12006375:1	Monkey Fire Dragon Boots
 4fc656d5f336	12006376:1	Monkey Moon Seeker Boots
 0130439f820d	12006377:1	Monkey Blue Abyss Boots
-5659cad9a46c	12006378:1	Monkey Leather - Shoes Lv
+5659cad9a46c	12006378:1	Monkey Leather Shoes Lv
 ebe2ba43d2df	12006387:1	Monkey Heavy Boots
 c909bd5d36c8	12006388:1	Monkey Heavy Copper Boots
 cab007c4637f	12006389:1	Monkey Mail Boots
@@ -11896,7 +11896,7 @@ ebee49552d31	12006400:1	Monkey Soul Guard Boots
 28d4b7fa8d41	12006406:1	Monkey Berserk Boots
 49e87a344de4	12006407:1	Monkey Yorlevgand Boots
 16d9bc54d9b8	12006408:1	Monkey Evil Eye Boots
-87195219fecf	12006409:1	Monkey Metal - Shoes Lv
+87195219fecf	12006409:1	Monkey Metal Shoes Lv
 2f31e97a266e	12006418:1	Monkey Helmet
 95e9c41317e8	12006419:1	Monkey Leather Helmet
 e599b7091ff7	12006420:1	Monkey Thick Leather Helmet
@@ -11954,7 +11954,7 @@ bdb63e5001ca	12006497:1	White Elf Azure Dragon - Robe
 8ccb5d002d5a	12006499:1	White Elf Little Planet Robe
 2a3c73aa2abd	12006500:1	White Elf Stargazer Coat
 d85766f3c045	12006501:1	White Elf Court Mage's Clothes
-a489d5f8c24e	12006502:1	White Elf Cloth - Armor Lv
+a489d5f8c24e	12006502:1	White Elf Cloth Armor Lv
 5f12025d17f7	12006511:1	White Elf Worn Leather Armor
 8b59dd76f441	12006512:1	White Elf Traveler's Leather
 3591cd49854e	12006513:1	White Elf Sage's Leather Armor
@@ -11977,7 +11977,7 @@ e3f339d7a83e	12006528:1	White Elf Fire Wolf Armor
 c44d370f6846	12006530:1	White Elf Fire Dragon Armor
 663dab264ea3	12006531:1	White Elf Moon Seeker Leather
 102c8419a660	12006532:1	White Elf Blue Abyss Leather
-bf8769278019	12006533:1	White Elf Leather - Armor Lv
+bf8769278019	12006533:1	White Elf Leather Armor Lv
 31a5788affe9	12006542:1	White Elf Bone Armor
 5d6509170484	12006543:1	White Elf Copper Armor
 9a4daa4bf1c2	12006544:1	White Elf Mail Armor
@@ -12000,7 +12000,7 @@ d09d79169f78	12006559:1	White Elf Crusader Plate
 36788e52abb7	12006561:1	White Elf Berserk Plate
 835e8e2cd925	12006562:1	White Elf Yorlevgand Armor
 b797d57b5e60	12006563:1	White Elf Evil Eye Plate
-16c8b9730000	12006564:1	White Elf Metal - Armor Lv
+16c8b9730000	12006564:1	White Elf Metal Armor Lv
 2c4158acab83	12006573:1	White Elf Apprentice Gloves
 8c2d37c3d513	12006574:1	White Elf Nameless Gloves
 db1845536990	12006575:1	White Elf Elven Gloves
@@ -12023,7 +12023,7 @@ e52c2d2503fb	12006590:1	White Elf Azure Dragon - Gloves
 def4dde9e204	12006592:1	White Elf Little Planet Gloves
 583bcc32a499	12006593:1	White Elf Stargazer Gloves
 a54095f6e439	12006594:1	White Elf Court Mage's Gloves
-b62c8166328c	12006595:1	White Elf Cloth - Gloves Lv
+b62c8166328c	12006595:1	White Elf Cloth Gloves Lv
 e08eb3635279	12006604:1	White Elf Worn Leather Gloves
 e7851ba00795	12006605:1	White Elf Traveler's Gloves
 0310ea9e6235	12006606:1	White Elf Sage's Leather Gloves
@@ -12046,7 +12046,7 @@ b3c740b9baac	12006620:1	White Elf Zephyr Leather Gloves
 7d2059258539	12006623:1	White Elf Fire Dragon Gloves
 7ea0fc299657	12006624:1	White Elf Moon Seeker Gloves
 a10fc7c44bbc	12006625:1	White Elf Blue Abyss Gloves
-bd866cb0d3c7	12006626:1	White Elf Leather - Gloves Lv
+bd866cb0d3c7	12006626:1	White Elf Leather Gloves Lv
 71dd353b60c1	12006635:1	White Elf Heavy Gauntlets
 6064965bd066	12006636:1	White Elf Copper Gauntlets
 5048a191d516	12006637:1	White Elf Mail Gauntlets
@@ -12068,7 +12068,7 @@ dcd7c3760588	12006652:1	White Elf Crusader Gauntlets
 e3103102914c	12006654:1	White Elf Berserk Gauntlets
 793d0ffb49cc	12006655:1	White Elf Yorlevgand Gauntlets
 c68f4295bcfd	12006656:1	White Elf Evil Eye Gauntlets
-c5b8e9f31021	12006657:1	White Elf Metal - Gloves Lv
+c5b8e9f31021	12006657:1	White Elf Metal Gloves Lv
 06d9943efd2e	12006666:1	White Elf Apprentice Boots
 273b3b8d8d49	12006667:1	White Elf Nameless Boots
 8cbdde2c92e7	12006668:1	White Elf Elven Boots
@@ -12091,7 +12091,7 @@ acd437626e43	12006682:1	White Elf Cross Crown Boots
 bdbca0e1a462	12006685:1	White Elf Little Planet Shoes
 4730bb476125	12006686:1	White Elf Stargazer Shoes
 972758e4d85c	12006687:1	White Elf Court Mage's Shoes
-ba38042a9fd8	12006688:1	White Elf Cloth - Shoes Lv
+ba38042a9fd8	12006688:1	White Elf Cloth Shoes Lv
 cfa7b08f7afe	12006697:1	White Elf Worn Leather Boots
 0d8a0e797a32	12006698:1	White Elf Traveler's Boots
 ace7b3074d93	12006699:1	White Elf Sage's Leather Boots
@@ -12114,7 +12114,7 @@ ded9c03bd0af	12006708:1	White Elf Shadow Leather Boots
 d798505d3397	12006716:1	White Elf Fire Dragon Boots
 dced3fc92c34	12006717:1	White Elf Moon Seeker Boots
 c5fac248351e	12006718:1	White Elf Blue Abyss Boots
-9045ccfc1453	12006719:1	White Elf Leather - Shoes Lv
+9045ccfc1453	12006719:1	White Elf Leather Shoes Lv
 a69ed6fcaee0	12006728:1	White Elf Heavy Boots
 7a752f0c3945	12006729:1	White Elf Heavy Copper Boots
 391df160cd08	12006730:1	White Elf Mail Boots
@@ -12137,7 +12137,7 @@ a6a753dce767	12006740:1	White Elf Gold Guard Boots
 a1235fb7c01e	12006747:1	White Elf Berserk Boots
 b68e26f2dbd6	12006748:1	White Elf Yorlevgand Boots
 08bfef718b72	12006749:1	White Elf Evil Eye Boots
-1c7d390b18f0	12006750:1	White Elf Metal - Shoes Lv
+1c7d390b18f0	12006750:1	White Elf Metal Shoes Lv
 414a5e19852a	12006759:1	White Elf Helmet
 b09f4bc1146b	12006760:1	White Elf Leather Helmet
 e96d52d998b9	12006761:1	White Elf Thick Leather Helmet
@@ -12195,7 +12195,7 @@ e596b8d665b6	12006837:1	Bellerophon Cross Crown Tunic
 ef94f61c59ce	12006840:1	Bellerophon Little Planet Robe
 cc98da6da12c	12006841:1	Bellerophon Stargazer Coat
 7495d5dc358c	12006842:1	Bellerophon Court Mage's Clothes
-368006984005	12006843:1	Bellerophon Cloth - Armor Lv
+368006984005	12006843:1	Bellerophon Cloth Armor Lv
 4457ed8889b1	12006852:1	Bellerophon Worn Leather Armor
 e9e253a02f4a	12006853:1	Bellerophon Traveler's Leather
 7c997f34ce6f	12006854:1	Bellerophon Sage's Leather Armor
@@ -12218,7 +12218,7 @@ d5541219d8e4	12006870:1	Bellerophon Veteran's Leather
 d6781772c465	12006871:1	Bellerophon Fire Dragon Armor
 fcd41885cb4f	12006872:1	Bellerophon Moon Seeker Leather
 55e2a3e5af6e	12006873:1	Bellerophon Blue Abyss Leather
-d1360632fd18	12006874:1	Bellerophon Leather - Armor Lv
+d1360632fd18	12006874:1	Bellerophon Leather Armor Lv
 2816713f72cc	12006883:1	Bellerophon Bone Armor
 de1483cdf576	12006884:1	Bellerophon Copper Armor
 5006e0729265	12006885:1	Bellerophon Mail Armor
@@ -12241,7 +12241,7 @@ e050364bee4a	12006901:1	Bellerophon Grizzly Plate
 4487baaf2762	12006902:1	Bellerophon Berserk Plate
 ebf249fe9bf1	12006903:1	Bellerophon Yorlevgand Armor
 cc6299666ebc	12006904:1	Bellerophon Evil Eye Plate
-3218e2f4b06d	12006905:1	Bellerophon Metal - Armor Lv
+3218e2f4b06d	12006905:1	Bellerophon Metal Armor Lv
 2a5840f08ef8	12006914:1	Bellerophon Apprentice Gloves
 9705f2a5f2e6	12006915:1	Bellerophon Nameless Gloves
 937ffc29db0c	12006916:1	Bellerophon Elven Gloves
@@ -12264,7 +12264,7 @@ c57cd17656ce	12006932:1	Bellerophon Wind Rider's Gloves
 8b890420e540	12006933:1	Bellerophon Little Planet Gloves
 c287cce774f7	12006934:1	Bellerophon Stargazer Gloves
 accbcace3d3e	12006935:1	Bellerophon Court Mage's Gloves
-60995d2b4310	12006936:1	Bellerophon Cloth - Gloves Lv
+60995d2b4310	12006936:1	Bellerophon Cloth Gloves Lv
 1b72ef621081	12006945:1	Bellerophon Worn Leather Gloves
 5aa7d5921060	12006946:1	Bellerophon Traveler's Gloves
 fbe14a09f5ef	12006947:1	Bellerophon Sage's Gloves
@@ -12287,7 +12287,7 @@ ea34b88da796	12006962:1	Bellerophon Fire Wolf Gloves
 02fbd434e8b7	12006964:1	Bellerophon Fire Dragon Gloves
 191f155e2fce	12006965:1	Bellerophon Moon Seeker Gloves
 c65ff8a47fc4	12006966:1	Bellerophon Blue Abyss Gloves
-11106aaea749	12006967:1	Bellerophon Leather - Gloves Lv
+11106aaea749	12006967:1	Bellerophon Leather Gloves Lv
 8b46c8160855	12006976:1	Bellerophon Heavy Gauntlets
 0d9632461dfb	12006977:1	Bellerophon Copper Gauntlets
 f0fa8b4e85b3	12006978:1	Bellerophon Mail Gauntlets
@@ -12309,7 +12309,7 @@ dd46e951a25d	12006990:1	Bellerophon Kadesh Gauntlets
 b4bf880945cd	12006995:1	Bellerophon Berserk Gauntlets
 40d4f849c445	12006996:1	Bellerophon Yorlevgand Gauntlets
 19a41ac4f746	12006997:1	Bellerophon Evil Eye Gauntlets
-81808bbfa37f	12006998:1	Bellerophon Metal - Gloves Lv
+81808bbfa37f	12006998:1	Bellerophon Metal Gloves Lv
 1f72a211fa8f	12007007:1	Bellerophon Apprentice Boots
 8356950ac33a	12007008:1	Bellerophon Nameless Boots
 f390f0576862	12007009:1	Bellerophon Elven Boots
@@ -12332,7 +12332,7 @@ c265f92a34a4	12007024:1	Bellerophon Azure Dragon - Shoes
 e8bbaa453cb6	12007026:1	Bellerophon Little Planet Shoes
 d0853cefd669	12007027:1	Bellerophon Stargazer Shoes
 2cb3b5bff718	12007028:1	Bellerophon Court Mage's Shoes
-bc8a205e96ef	12007029:1	Bellerophon Cloth - Shoes Lv
+bc8a205e96ef	12007029:1	Bellerophon Cloth Shoes Lv
 55fe858dcba0	12007038:1	Bellerophon Worn Leather Boots
 3a3fa4b5d20a	12007039:1	Bellerophon Traveler's Boots
 007f5596a6ba	12007040:1	Bellerophon Sage's Leather Boots
@@ -12355,7 +12355,7 @@ a20e149a74a1	12007056:1	Bellerophon Veteran's Boots
 c56faa9dc4f3	12007057:1	Bellerophon Fire Dragon Boots
 19a4ad775d71	12007058:1	Bellerophon Moon Seeker Boots
 30d8c749fece	12007059:1	Bellerophon Blue Abyss Boots
-b917fe18a564	12007060:1	Bellerophon Leather - Shoes Lv
+b917fe18a564	12007060:1	Bellerophon Leather Shoes Lv
 a158a34cd6a7	12007069:1	Bellerophon Heavy Boots
 d502a720924e	12007070:1	Bellerophon Heavy Copper Boots
 8f5d33fe2157	12007071:1	Bellerophon Mail Boots
@@ -12378,7 +12378,7 @@ c4d126467861	12007087:1	Bellerophon Grizzly Boots
 6eec060726cc	12007088:1	Bellerophon Berserk Boots
 f8291a47c3b9	12007089:1	Bellerophon Yorlevgand Boots
 b33786012c1d	12007090:1	Bellerophon Evil Eye Boots
-4ea4b18ee655	12007091:1	Bellerophon Metal - Shoes Lv
+4ea4b18ee655	12007091:1	Bellerophon Metal Shoes Lv
 2543fb1a3f75	12007100:1	Bellerophon Helmet
 aefa49897401	12007101:1	Bellerophon Leather Helmet
 8706f31945f0	12007102:1	Bellerophon Thick Leather Helmet
@@ -12436,7 +12436,7 @@ cabfbfd78bab	12007176:1	Cat Eastern Sage's Robe
 412ca3f9bdfe	12007181:1	Cat Little Planet Robe
 7a1e2f731d9f	12007182:1	Cat Stargazer Coat
 58fb3bccb204	12007183:1	Cat Court Mage's Clothes
-79093c0f0be6	12007184:1	Cat Cloth - Armor Lv
+79093c0f0be6	12007184:1	Cat Cloth Armor Lv
 750609224343	12007193:1	Cat Worn Leather Armor
 3759674d0d51	12007194:1	Cat Traveler's Leather
 fb42befa63eb	12007195:1	Cat Sage's Leather Armor
@@ -12459,7 +12459,7 @@ e0862114985b	12007211:1	Cat Veteran's Leather
 47e27b0aa5ea	12007212:1	Cat Fire Dragon Armor
 2d2021a8daaf	12007213:1	Cat Moon Seeker Leather
 0ba462929c1a	12007214:1	Cat Blue Abyss Leather
-c5f4c3e2295e	12007215:1	Cat Leather - Armor Lv
+c5f4c3e2295e	12007215:1	Cat Leather Armor Lv
 c3f71f289fac	12007224:1	Cat Bone Armor
 7b69e78a524e	12007225:1	Cat Copper Armor
 7a891e83a525	12007226:1	Cat Mail Armor
@@ -12482,7 +12482,7 @@ a7c5a4d5eff1	12007238:1	Cat Kadesh Armor
 7927b4acb488	12007243:1	Cat Berserk Plate
 00db4ccf28e4	12007244:1	Cat Yorlevgand Armor
 47db6e4e072b	12007245:1	Cat Evil Eye Plate
-596e89d8ffc3	12007246:1	Cat Metal - Armor Lv
+596e89d8ffc3	12007246:1	Cat Metal Armor Lv
 63536e12c822	12007255:1	Cat Apprentice Gloves
 15abe25b460a	12007256:1	Cat Nameless Gloves
 70af2294924a	12007257:1	Cat Elven Gloves
@@ -12505,7 +12505,7 @@ f765a3de7b12	12007273:1	Cat Wind Rider's Gloves
 0ce720808d07	12007274:1	Cat Little Planet Gloves
 b698416e7870	12007275:1	Cat Stargazer Gloves
 dc25c05c7191	12007276:1	Cat Court Mage's Gloves
-6a5bcbcb0d70	12007277:1	Cat Cloth - Gloves Lv
+6a5bcbcb0d70	12007277:1	Cat Cloth Gloves Lv
 3ac06947b431	12007286:1	Cat Worn Leather Gloves
 5a1d3426c64d	12007287:1	Cat Traveler's Gloves
 59ea2dc17367	12007288:1	Cat Sage's Leather Gloves
@@ -12528,7 +12528,7 @@ d981510ceab6	12007304:1	Cat Veteran's Gloves
 6deee9038df4	12007305:1	Cat Fire Dragon Gloves
 7ada42a38fd5	12007306:1	Cat Moon Seeker Gloves
 c868c5f9fa67	12007307:1	Cat Blue Abyss Gloves
-96c9f8c0422d	12007308:1	Cat Leather - Gloves Lv
+96c9f8c0422d	12007308:1	Cat Leather Gloves Lv
 5446de0630ee	12007317:1	Cat Heavy Gauntlets
 645c6c93d4d2	12007318:1	Cat Copper Gauntlets
 2e9d32811c87	12007319:1	Cat Mail Gauntlets
@@ -12550,7 +12550,7 @@ a7c3694053b4	12007334:1	Cat Crusader Gauntlets
 42cace0ee2aa	12007336:1	Cat Berserk Gauntlets
 ede9cc22cba3	12007337:1	Cat Yorlevgand Gauntlets
 f2de0ed8aca0	12007338:1	Cat Evil Eye Gauntlets
-33506098dc8f	12007339:1	Cat Metal - Gloves Lv
+33506098dc8f	12007339:1	Cat Metal Gloves Lv
 4e51829e371e	12007348:1	Cat Apprentice Boots
 ec377a08b923	12007349:1	Cat Nameless Boots
 15bdc501b18e	12007350:1	Cat Elven Boots
@@ -12573,7 +12573,7 @@ a56b6e2ff4ad	12007363:1	Cat Kokis Boots
 c19e42fdd796	12007367:1	Cat Little Planet Shoes
 c39b392461f8	12007368:1	Cat Stargazer Shoes
 15ba54c2579d	12007369:1	Cat Court Mage's Shoes
-9471af4f966c	12007370:1	Cat Cloth - Shoes Lv
+9471af4f966c	12007370:1	Cat Cloth Shoes Lv
 3d383227faa8	12007379:1	Cat Worn Leather Boots
 7bad5d4878ba	12007380:1	Cat Traveler's Boots
 c95ec48972d8	12007381:1	Cat Sage's Leather Boots
@@ -12596,7 +12596,7 @@ dccefcfa7db5	12007393:1	Cat Elemental Boots
 e6e14cbde3ad	12007398:1	Cat Fire Dragon Boots
 dba3076dc566	12007399:1	Cat Moon Seeker Boots
 e92e9d82a0d4	12007400:1	Cat Blue Abyss Boots
-ea8b7c27846b	12007401:1	Cat Leather - Shoes Lv
+ea8b7c27846b	12007401:1	Cat Leather Shoes Lv
 e319d3c6c1f8	12007410:1	Cat Heavy Boots
 23536b22b16a	12007411:1	Cat Heavy Copper Boots
 08edb228348f	12007412:1	Cat Mail Boots
@@ -12619,7 +12619,7 @@ a61becaa435a	12007428:1	Cat Grizzly Boots
 e9188296e2d1	12007429:1	Cat Berserk Boots
 089b80c50a41	12007430:1	Cat Yorlevgand Boots
 dfec4fb71ea2	12007431:1	Cat Evil Eye Boots
-f0140e658747	12007432:1	Cat Metal - Shoes Lv
+f0140e658747	12007432:1	Cat Metal Shoes Lv
 a43652c83b18	12007441:1	Cat Helmet
 29a0cc5a41ea	12007442:1	Cat Leather Helmet
 9873699aa699	12007443:1	Cat Thick Leather Helmet
@@ -12677,7 +12677,7 @@ ef00103c435b	12007520:1	Deer Azure Dragon - Robe
 c54d61a30dcd	12007522:1	Deer Little Planet Robe
 a5ea70dd8b54	12007523:1	Deer Stargazer Coat
 980727b069db	12007524:1	Deer Court Mage's Clothes
-c7b82cb3fc07	12007525:1	Deer Cloth - Armor Lv
+c7b82cb3fc07	12007525:1	Deer Cloth Armor Lv
 7d6dfb9350f9	12007534:1	Deer Worn Leather Armor
 16cb7bf32ebe	12007535:1	Deer Traveler's Leather
 c3fa60386505	12007536:1	Deer Sage's Leather Armor
@@ -12700,7 +12700,7 @@ d5b56cc851f3	12007552:1	Deer Veteran's Leather
 874a46b7b747	12007553:1	Deer Fire Dragon Armor
 d8ceb4ca4e06	12007554:1	Deer Moon Seeker Leather
 ea0687ffd9c0	12007555:1	Deer Blue Abyss Leather
-8ffef7dc946c	12007556:1	Deer Leather - Armor Lv
+8ffef7dc946c	12007556:1	Deer Leather Armor Lv
 00d325a6d000	12007565:1	Deer Bone Armor
 96c85c27527b	12007566:1	Deer Copper Armor
 baadae784c1a	12007567:1	Deer Mail Armor
@@ -12723,7 +12723,7 @@ fe136fe19c9a	12007580:1	Deer Phoenix Plate
 bd5df3c37ed0	12007584:1	Deer Berserk Plate
 80ee09e4abc2	12007585:1	Deer Yorlevgand Armor
 52cf9ebeb216	12007586:1	Deer Evil Eye Plate
-2d9dd7309d24	12007587:1	Deer Metal - Armor Lv
+2d9dd7309d24	12007587:1	Deer Metal Armor Lv
 bc428241eb8b	12007596:1	Deer Apprentice Gloves
 11610808ba7e	12007597:1	Deer Nameless Gloves
 30d2491ca1e5	12007598:1	Deer Elven Gloves
@@ -12746,7 +12746,7 @@ bf72eaabba07	12007613:1	Deer Azure Dragon - Gloves
 0fe21fff7870	12007615:1	Deer Little Planet Gloves
 f64a30e925de	12007616:1	Deer Stargazer Gloves
 9ea5d5c7eea4	12007617:1	Deer Court Mage's Gloves
-5ff01ee49ad9	12007618:1	Deer Cloth - Gloves Lv
+5ff01ee49ad9	12007618:1	Deer Cloth Gloves Lv
 c02fe1463c03	12007627:1	Deer Worn Leather Gloves
 2f5a458b766b	12007628:1	Deer Traveler's Gloves
 6db523a9d12e	12007629:1	Deer Sage's Leather Gloves
@@ -12769,7 +12769,7 @@ e1dc78c21a29	12007645:1	Deer Veteran's Gloves
 e0aa6e994971	12007646:1	Deer Fire Dragon Gloves
 d6152c42368c	12007647:1	Deer Moon Seeker Gloves
 8c5eaa7be6bf	12007648:1	Deer Blue Abyss Gloves
-028c1d543461	12007649:1	Deer Leather - Gloves Lv
+028c1d543461	12007649:1	Deer Leather Gloves Lv
 d4610ed50e2b	12007658:1	Deer Heavy Gauntlets
 699f023f11bd	12007659:1	Deer Copper Gauntlets
 8475c598e538	12007660:1	Deer Mail Gauntlets
@@ -12791,7 +12791,7 @@ e82734055bd8	12007665:1	Deer Steel Gauntlets
 1c3eaa656b02	12007677:1	Deer Berserk Gauntlets
 220247738cb7	12007678:1	Deer Yorlevgand Gauntlets
 8856b9c02a58	12007679:1	Deer Evil Eye Gauntlets
-a8391abc0bd0	12007680:1	Deer Metal - Gloves Lv
+a8391abc0bd0	12007680:1	Deer Metal Gloves Lv
 e2a90fed5660	12007689:1	Deer Apprentice Boots
 c2c382c6855d	12007690:1	Deer Nameless Boots
 d6a9bd03c75f	12007691:1	Deer Elven Boots
@@ -12814,7 +12814,7 @@ ce09b018a3bb	12007706:1	Deer Azure Dragon - Shoes
 a70b0f706367	12007708:1	Deer Little Planet Shoes
 39c976795acd	12007709:1	Deer Stargazer Shoes
 204be39f92f0	12007710:1	Deer Court Mage's Shoes
-f26b4048ddbb	12007711:1	Deer Cloth - Shoes Lv
+f26b4048ddbb	12007711:1	Deer Cloth Shoes Lv
 c3b8903765df	12007720:1	Deer Worn Leather Boots
 476a107c4337	12007721:1	Deer Traveler's Boots
 b75e8ea3ab3b	12007722:1	Deer Sage's Leather Boots
@@ -12837,7 +12837,7 @@ fba4eca960fb	12007737:1	Deer Fire Wolf Boots
 e31941ad8739	12007739:1	Deer Fire Dragon Boots
 a53b01285cf9	12007740:1	Deer Moon Seeker Boots
 699a1ac72918	12007741:1	Deer Blue Abyss Boots
-6921f8a3d8aa	12007742:1	Deer Leather - Shoes Lv
+6921f8a3d8aa	12007742:1	Deer Leather Shoes Lv
 b04e2d2bd10e	12007751:1	Deer Heavy Boots
 a8147083d5ca	12007752:1	Deer Heavy Copper Boots
 89adba21b722	12007753:1	Deer Mail Boots
@@ -12860,7 +12860,7 @@ b326bbee2ddb	12007768:1	Deer Crusader Boots
 ce594acf77a6	12007770:1	Deer Berserk Boots
 a3d4ce5a0dce	12007771:1	Deer Yorlevgand Boots
 6807d8be4b3f	12007772:1	Deer Evil Eye Boots
-94d6630475e4	12007773:1	Deer Metal - Shoes Lv
+94d6630475e4	12007773:1	Deer Metal Shoes Lv
 bf12c9e9168f	12007782:1	Deer Helmet
 920517e19418	12007783:1	Deer Leather Helmet
 a55d7c50e496	12007784:1	Deer Thick Leather Helmet
@@ -12918,7 +12918,7 @@ a0851b1ad6b3	12007858:1	Crow Eastern Sage's Robe
 d8a0be31ff71	12007863:1	Crow Little Planet Robe
 95f0d77f97ba	12007864:1	Crow Stargazer Coat
 5748c489196e	12007865:1	Crow Court Mage's Clothes
-a3eb953a5ee1	12007866:1	Crow Cloth - Armor Lv
+a3eb953a5ee1	12007866:1	Crow Cloth Armor Lv
 ab058078804f	12007875:1	Crow Worn Leather Armor
 c3ce87a5679b	12007876:1	Crow Traveler's Leather
 9b10bff110f1	12007877:1	Crow Sage's Leather Armor
@@ -12941,7 +12941,7 @@ aba8af88de75	12007892:1	Crow Fire Wolf Armor
 c26b37ffaf41	12007894:1	Crow Fire Dragon Armor
 da75f89ae490	12007895:1	Crow Moon Seeker Leather
 f1db0ef5a3f0	12007896:1	Crow Blue Abyss Leather
-b5adb0610717	12007897:1	Crow Leather - Armor Lv
+b5adb0610717	12007897:1	Crow Leather Armor Lv
 09e4a8a3822a	12007906:1	Crow Bone Armor
 661a3991cd54	12007907:1	Crow Copper Armor
 d27a93d563ba	12007908:1	Crow Mail Armor
@@ -12954,7 +12954,7 @@ af47a2bfaa5f	12007914:1	Crow Magic Bronze Armor
 98d0fc93a60c	12007915:1	Crow Aluminum Armor
 1f2853e7db45	12007916:1	Crow Silver Alum. Armor
 7dc0cc31714f	12007917:1	Crow Fighting Armor
-3523758123ba	12007918:1	Crow Metal - Armor Lv
+3523758123ba	12007918:1	Crow Metal Armor Lv
 4789c7b5fd94	12007937:1	Crow Apprentice Gloves
 ae37f92c83e0	12007938:1	Crow Nameless Gloves
 d35db6d15af8	12007939:1	Crow Elven Gloves
@@ -12977,7 +12977,7 @@ fcd1b6dd7af5	12007949:1	Crow Pyromancer's Gloves
 a410ecab5510	12007956:1	Crow Little Planet Gloves
 dabc72624880	12007957:1	Crow Stargazer Gloves
 1811fe265650	12007958:1	Crow Court Mage's Gloves
-892609a56a0f	12007959:1	Crow Cloth - Gloves Lv
+892609a56a0f	12007959:1	Crow Cloth Gloves Lv
 cd1baeb3717e	12007968:1	Crow Worn Leather Gloves
 4ddf1adbaa28	12007969:1	Crow Traveler's Gloves
 6aaf741a1b3a	12007970:1	Crow Sage's Leather Gloves
@@ -13000,7 +13000,7 @@ c1b7b3e85462	12007986:1	Crow Veteran's Gloves
 cb5d46df8b86	12007987:1	Crow Fire Dragon Gloves
 13d6a0548f04	12007988:1	Crow Moon Seeker Gloves
 af5d40d8a612	12007989:1	Crow Blue Abyss Gloves
-f0293f8a52db	12007990:1	Crow Leather - Gloves Lv
+f0293f8a52db	12007990:1	Crow Leather Gloves Lv
 03ceb097d338	12007999:1	Crow Heavy Gauntlets
 c4590fab91f3	12008000:1	Crow Copper Gauntlets
 1af1afe37802	12008001:1	Crow Mail Gauntlets
@@ -13012,7 +13012,7 @@ d5bf118bde80	12008005:1	Crow Gilded Gauntlets
 9e7e630197c8	12008007:1	Crow Magic Bronze Gauntlets
 38733e7e7733	12008009:1	Crow Silver Alum. Gauntlets
 e9d7260e7f02	12008010:1	Crow Fighting Gauntlets
-c33486ac4c2c	12008011:1	Crow Metal - Gloves Lv
+c33486ac4c2c	12008011:1	Crow Metal Gloves Lv
 c814a7b67731	12008030:1	Crow Apprentice Boots
 c9ea6661b114	12008031:1	Crow Nameless Boots
 9b503d36a5a1	12008032:1	Crow Elven Boots
@@ -13035,7 +13035,7 @@ c50dfb1251b1	12008048:1	Crow Wind Rider's Shoes
 1cb50ba5101b	12008049:1	Crow Little Planet Shoes
 febe3ce7fb0a	12008050:1	Crow Stargazer Shoes
 17c2ac6f56b6	12008051:1	Crow Court Mage's Shoes
-993b42c3f036	12008052:1	Crow Cloth - Shoes Lv
+993b42c3f036	12008052:1	Crow Cloth Shoes Lv
 4f0cda9206ef	12008061:1	Crow Worn Leather Boots
 4cfdfe8cc870	12008062:1	Crow Traveler's Boots
 55b6a7548027	12008063:1	Crow Sage's Leather Boots
@@ -13058,7 +13058,7 @@ a5b535c83bc1	12008079:1	Crow Veteran's Boots
 c298e91a6289	12008080:1	Crow Fire Dragon Boots
 d5a0be27bd04	12008081:1	Crow Moon Seeker Boots
 44eaa35b2771	12008082:1	Crow Blue Abyss Boots
-066ce8b03713	12008083:1	Crow Leather - Shoes Lv
+066ce8b03713	12008083:1	Crow Leather Shoes Lv
 2828b0a9d25c	12008092:1	Crow Heavy Boots
 20a4db243bf7	12008093:1	Crow Heavy Copper Boots
 77cd0eb88271	12008094:1	Crow Mail Boots
@@ -13071,7 +13071,7 @@ c4757b285943	12008098:1	Crow Gilded Boots
 7f54794e82c4	12008101:1	Crow Alum. Gilded Boots
 87ef8c4a04f2	12008102:1	Crow Silver Alum. Boots
 34c66d409a71	12008103:1	Crow Fighting Shoes
-2f85e8a5a107	12008104:1	Crow Metal - Shoes Lv
+2f85e8a5a107	12008104:1	Crow Metal Shoes Lv
 1633c538331e	12008123:1	Crow Helmet
 328ed0c45d8b	12008124:1	Crow Leather Helmet
 eb7aa2653f5d	12008125:1	Crow Thick Leather Helmet
@@ -13129,7 +13129,7 @@ dd3b52322eee	12008203:1	Klenus Wind Rider's Coat
 18e305931386	12008204:1	Klenus Little Planet Robe
 0198444c81ca	12008205:1	Klenus Stargazer Coat
 122767507357	12008206:1	Klenus Court Mage's Clothes
-0717a78d82b9	12008207:1	Klenus Cloth - Armor Lv
+0717a78d82b9	12008207:1	Klenus Cloth Armor Lv
 154e1b1e567c	12008216:1	Klenus Worn Leather Armor
 e53eb343ec0f	12008217:1	Klenus Traveler's Leather
 b4966342a40b	12008218:1	Klenus Sage's Leather Armor
@@ -13152,7 +13152,7 @@ a786770ca110	12008232:1	Klenus Zephyr Leather Armor
 c5c08f27583f	12008235:1	Klenus Fire Dragon Armor
 95ec71a407d0	12008236:1	Klenus Moon Seeker Leather
 7cdc39426240	12008237:1	Klenus Blue Abyss Leather
-24be133be6ca	12008238:1	Klenus Leather - Armor Lv
+24be133be6ca	12008238:1	Klenus Leather Armor Lv
 453318e8ed01	12008247:1	Klenus Bone Armor
 12cb8629d4f5	12008248:1	Klenus Copper Armor
 5dc7c12ecb44	12008249:1	Klenus Mail Armor
@@ -13175,7 +13175,7 @@ d03ab61872a7	12008265:1	Klenus Grizzly Plate
 1a7b6de260a2	12008266:1	Klenus Berserk Plate
 d774c4869665	12008267:1	Klenus Yorlevgand Armor
 61913ad378f2	12008268:1	Klenus Evil Eye Plate
-465bd0805831	12008269:1	Klenus Metal - Armor Lv
+465bd0805831	12008269:1	Klenus Metal Armor Lv
 40e8834f8078	12008278:1	Klenus Apprentice Gloves
 7031620aec0a	12008279:1	Klenus Nameless Gloves
 ea8bf10671e3	12008280:1	Klenus Elven Gloves
@@ -13198,7 +13198,7 @@ e45cf2f368ae	12008295:1	Klenus Azure Dragon - Gloves
 b920f126a74c	12008297:1	Klenus Little Planet Gloves
 7c11ece5c934	12008298:1	Klenus Stargazer Gloves
 ebf14af75319	12008299:1	Klenus Court Mage's Gloves
-3dc30c87664b	12008300:1	Klenus Cloth - Gloves Lv
+3dc30c87664b	12008300:1	Klenus Cloth Gloves Lv
 22bc729fe5bf	12008309:1	Klenus Worn Leather Gloves
 ef35d1757a7a	12008310:1	Klenus Traveler's Gloves
 3d380eaac89f	12008311:1	Klenus Sage's Leather Gloves
@@ -13221,7 +13221,7 @@ f349854fb4d3	12008326:1	Klenus Fire Wolf Gloves
 fbf4eaedd2b7	12008328:1	Klenus Fire Dragon Gloves
 d31ebf41b77f	12008329:1	Klenus Moon Seeker Gloves
 9ce2f219d97b	12008330:1	Klenus Blue Abyss Gloves
-119648903fbe	12008331:1	Klenus Leather - Gloves Lv
+119648903fbe	12008331:1	Klenus Leather Gloves Lv
 365f8b798e63	12008340:1	Klenus Heavy Gauntlets
 c228a520bc78	12008341:1	Klenus Copper Gauntlets
 825ac44e90d7	12008342:1	Klenus Mail Gauntlets
@@ -13243,7 +13243,7 @@ e4bdd0ca1011	12008355:1	Klenus Phoenix Gauntlets
 6ffdf6ac63ce	12008359:1	Klenus Berserk Gauntlets
 acaf50282d91	12008360:1	Klenus Yorlevgand Gauntlets
 54cc7e0fa675	12008361:1	Klenus Evil Eye Gauntlets
-74479a8e1074	12008362:1	Klenus Metal - Gloves Lv
+74479a8e1074	12008362:1	Klenus Metal Gloves Lv
 60019e890a0a	12008371:1	Klenus Apprentice Boots
 d236f0821bc3	12008372:1	Klenus Nameless Boots
 62c0f4a0d7c0	12008373:1	Klenus Elven Boots
@@ -13266,7 +13266,7 @@ dc7c1dbde465	12008386:1	Klenus Kokis Boots
 3c6424dd931d	12008390:1	Klenus Little Planet Shoes
 1a516cfffa3b	12008391:1	Klenus Stargazer Shoes
 2c3190802380	12008392:1	Klenus Court Mage's Shoes
-03e18e519ce7	12008393:1	Klenus Cloth - Shoes Lv
+03e18e519ce7	12008393:1	Klenus Cloth Shoes Lv
 f71ac2392016	12008402:1	Klenus Worn Leather Boots
 404cb54f4a90	12008403:1	Klenus Traveler's Boots
 591d05850faa	12008404:1	Klenus Sage's Leather Boots
@@ -13289,7 +13289,7 @@ f4fbe864e9b2	12008419:1	Klenus Fire Wolf Boots
 0940fdfd32f2	12008421:1	Klenus Fire Dragon Boots
 f1335c50ed1e	12008422:1	Klenus Moon Seeker Boots
 c2d04c7a9cc7	12008423:1	Klenus Blue Abyss Boots
-4db085f47180	12008424:1	Klenus Leather - Shoes Lv
+4db085f47180	12008424:1	Klenus Leather Shoes Lv
 4848d0fbb76d	12008433:1	Klenus Heavy Boots
 dce9d5fc42a7	12008434:1	Klenus Heavy Copper Boots
 5c830edcd7ef	12008435:1	Klenus Mail Boots
@@ -13312,7 +13312,7 @@ a36e8e606e4b	12008451:1	Klenus Grizzly Boots
 69364d4fbeb4	12008452:1	Klenus Berserk Boots
 3876720a5cbe	12008453:1	Klenus Yorlevgand Boots
 a1a58bccd367	12008454:1	Klenus Evil Eye Boots
-60bef5cab15d	12008455:1	Klenus Metal - Shoes Lv
+60bef5cab15d	12008455:1	Klenus Metal Shoes Lv
 676a206ccf00	12008464:1	Klenus Helmet
 8c3d0c2ab70c	12008465:1	Klenus Leather Helmet
 d0f7f2df101c	12008466:1	Klenus Thick Leather Helmet
@@ -13370,7 +13370,7 @@ ed23bb76b996	12008544:1	Feira Wind Rider's Coat
 fcc1bf331733	12008545:1	Feira Little Planet Robe
 89f222cf03e7	12008546:1	Feira Stargazer Coat
 ae76fd5bbbf5	12008547:1	Feira Court Mage's Clothes
-966d4cc30436	12008548:1	Feira Cloth - Armor Lv
+966d4cc30436	12008548:1	Feira Cloth Armor Lv
 7609dc33b252	12008557:1	Feira Worn Leather Armor
 3b501ae1b605	12008558:1	Feira Traveler's Leather
 0d0b5c88fb36	12008559:1	Feira Sage's Leather Armor
@@ -13393,7 +13393,7 @@ d3d337b24c7a	12008575:1	Feira Veteran's Leather
 edb3e4a50926	12008576:1	Feira Fire Dragon Armor
 9eb4045acafc	12008577:1	Feira Moon Seeker Leather
 5af418a6ce5b	12008578:1	Feira Blue Abyss Leather
-7e90b14d1239	12008579:1	Feira Leather - Armor Lv
+7e90b14d1239	12008579:1	Feira Leather Armor Lv
 81e7e905bbd3	12008588:1	Feira Bone Armor
 eda441dd365d	12008589:1	Feira Copper Armor
 a67001893e31	12008590:1	Feira Mail Armor
@@ -13416,7 +13416,7 @@ e5d83fef79c1	12008606:1	Feira Grizzly Plate
 c77f66931e34	12008607:1	Feira Berserk Plate
 0f4f4361fb40	12008608:1	Feira Yorlevgand Armor
 beb4f31ab424	12008609:1	Feira Evil Eye Plate
-68ff758495e4	12008610:1	Feira Metal - Armor Lv
+68ff758495e4	12008610:1	Feira Metal Armor Lv
 cb760b4e467e	12008619:1	Feira Apprentice Gloves
 e9d09b3501b6	12008620:1	Feira Nameless Gloves
 a099f0257a0e	12008621:1	Feira Elven Gloves
@@ -13439,7 +13439,7 @@ ffc45b1e5a42	12008635:1	Feira Cross Crown Gloves
 86cddcaaf07a	12008638:1	Feira Little Planet Gloves
 b54486c85316	12008639:1	Feira Stargazer Gloves
 ded147eab68e	12008640:1	Feira Court Mage's Gloves
-e2ef3436022c	12008641:1	Feira Cloth - Gloves Lv
+e2ef3436022c	12008641:1	Feira Cloth Gloves Lv
 413aa547ad94	12008650:1	Feira Worn Leather Gloves
 390b53050cda	12008651:1	Feira Traveler's Gloves
 4add23a27018	12008652:1	Feira Sage's Leather Gloves
@@ -13462,7 +13462,7 @@ cd3318ff3040	12008667:1	Feira Fire Wolf Gloves
 acd18b2aaee1	12008669:1	Feira Fire Dragon Gloves
 bc69178c684f	12008670:1	Feira Moon Seeker Gloves
 3abb253a7546	12008671:1	Feira Blue Abyss Gloves
-0a99aff52cad	12008672:1	Feira Leather - Gloves Lv
+0a99aff52cad	12008672:1	Feira Leather Gloves Lv
 ce2ba11a8a24	12008681:1	Feira Heavy Gauntlets
 6e08f0e0dd8a	12008682:1	Feira Copper Gauntlets
 812e9e69d0b5	12008683:1	Feira Mail Gauntlets
@@ -13484,7 +13484,7 @@ ee3b43e4e740	12008691:1	Feira Silver Alum. Gauntlets
 e27c819503e6	12008700:1	Feira Berserk Gauntlets
 e1f5f6a6b945	12008701:1	Feira Yorlevgand Gauntlets
 f360da84829f	12008702:1	Feira Evil Eye Gauntlets
-a3ec04540d7c	12008703:1	Feira Metal - Gloves Lv
+a3ec04540d7c	12008703:1	Feira Metal Gloves Lv
 66704ad2428e	12008712:1	Feira Apprentice Boots
 b95e3f12f94f	12008713:1	Feira Nameless Boots
 de485cfbe7a6	12008714:1	Feira Elven Boots
@@ -13507,7 +13507,7 @@ e30d561f9e89	12008730:1	Feira Wind Rider's Shoes
 ff2bdd48954e	12008731:1	Feira Little Planet Shoes
 e0092b0eeae6	12008732:1	Feira Stargazer Shoes
 ab5c22a3a66b	12008733:1	Feira Court Mage's Shoes
-e6a43eac73be	12008734:1	Feira Cloth - Shoes Lv
+e6a43eac73be	12008734:1	Feira Cloth Shoes Lv
 2b4d79fdc410	12008743:1	Feira Worn Leather Boots
 97ba92e9a20c	12008744:1	Feira Traveler's Boots
 689eedf9bbae	12008745:1	Feira Sage's Leather Boots
@@ -13530,7 +13530,7 @@ a899fd84a21b	12008760:1	Feira Fire Wolf Boots
 11e0c082a7f3	12008762:1	Feira Fire Dragon Boots
 2b9fb04f27fa	12008763:1	Feira Moon Seeker Boots
 a2735ce6cf7a	12008764:1	Feira Blue Abyss Boots
-33480428e09e	12008765:1	Feira Leather - Shoes Lv
+33480428e09e	12008765:1	Feira Leather Shoes Lv
 90e66f3ecfdd	12008774:1	Feira Heavy Boots
 e87fab7ccb25	12008775:1	Feira Heavy Copper Boots
 09c8b0f14cf6	12008776:1	Feira Mail Boots
@@ -13553,7 +13553,7 @@ ea557853a06d	12008792:1	Feira Grizzly Boots
 93876e58b84a	12008793:1	Feira Berserk Boots
 06d1eb882a00	12008794:1	Feira Yorlevgand Boots
 06cb747175fc	12008795:1	Feira Evil Eye Boots
-0443c64ecb96	12008796:1	Feira Metal - Shoes Lv
+0443c64ecb96	12008796:1	Feira Metal Shoes Lv
 887f94ef2950	12008805:1	Feira Helmet
 7fdacc025ec3	12008806:1	Feira Leather Helmet
 d7f9cae11b9c	12008807:1	Feira Thick Leather Helmet
@@ -13929,7 +13929,7 @@ a08510fcea75	13000013:1	Sealed Hero Ring
 2878e6c634da	13000014:1	Moonlight Ring
 c7970164163a	13000015:1	Ancient Mana Ring
 b31fcbee65c0	13000016:1	Bloodthirst Ring
-d2b0571fe0e8	13000017:1	Acc. - Ring Lv
+d2b0571fe0e8	13000017:1	Acc. Ring Lv
 66c71e044a92	13000032:1	Copper Necklace
 599a4301a508	13000033:1	Silver Necklace
 d0fa0f8272a0	13000034:1	Pearl Necklace
@@ -13946,7 +13946,7 @@ f825c5dcd72e	13000038:1	Mana Necklace
 90a93559a86e	13000045:1	Moonlight Necklace
 ce8d132e306c	13000046:1	Ancient Mana Necklace
 1b13850782bb	13000047:1	Bloodthirst Necklace
-dcd37b367136	13000048:1	Acc. - Necklace Lv
+dcd37b367136	13000048:1	Acc. Necklace Lv
 d263b7ac0898	13000063:1	Copper Earring
 1c494e5c99e7	13000064:1	Silver Earring
 e7d4078401ed	13000065:1	Pearl Earring
@@ -13963,7 +13963,7 @@ d7a7dc8cbe0b	13000074:1	Noble's Earring
 056059fb6b60	13000076:1	Moonlight Earring
 337ff9e178bf	13000077:1	Ancient Mana Earring
 dfff598b0d2f	13000078:1	Bloodthirst Earring
-54a960767115	13000079:1	Acc. - Earring Lv
+54a960767115	13000079:1	Acc. Earring Lv
 466d15000329	13000094:1	Dinosaur Bone
 6564292e32f5	13000095:1	Sharp Horn
 233554facd3b	13000096:1	Yellow Bug Hairpin
@@ -14116,7 +14116,7 @@ c53cfaeb0895	13000240:1	Stern Uniform Shoes (15d)
 a454dfa0a611	13000243:1	Phantom] Gloves (15d)
 185e20f0ef63	13000244:1	Phantom] Shoes (15d)
 5d809880fa76	13000245:1	Pirate] Skull Hat (15d)
-a0f904b275e2	13000246:1	Pirate] Captain's Outfit (15d)
+a0f904b275e2	13000246:1	Pirate] Captain Outfit (15d)
 7f18b3c9cad4	13000247:1	Pirate] Gloves (15d)
 dcfdbd5f84b2	13000248:1	Pirate] Shoes (15d)
 eb2656a00a09	13000249:1	Student Uniform (15d)
@@ -14162,7 +14162,7 @@ f8cb6f3405b4	13000287:1	Phantom] Half Mask (30d)
 d1a62123ea98	13000289:1	Phantom] Gloves (30d)
 7047b59c3676	13000290:1	Phantom] Shoes (30d)
 512f0d0c0c75	13000291:1	Pirate] Skull Hat (30d)
-16a50fb53546	13000292:1	Pirate] Captain's Outfit (30d)
+16a50fb53546	13000292:1	Pirate] Captain Outfit (30d)
 b3438f666b89	13000293:1	Pirate] Gloves (30d)
 a49214f4a833	13000294:1	Pirate] Shoes (30d)
 e71d8f6ff6ab	13000295:1	Student Uniform (30d)
@@ -14208,7 +14208,7 @@ e2bb6aea74b0	13000334:1	Phantom] Clothes (90d)
 ef072e2fe651	13000335:1	Phantom] Gloves (90d)
 a822aa5fa68c	13000336:1	Phantom] Shoes (90d)
 1bda84417e79	13000337:1	Pirate] Skull Hat (90d)
-c8c4a294b642	13000338:1	Pirate] Captain's Outfit (90d)
+c8c4a294b642	13000338:1	Pirate] Captain Outfit (90d)
 1fb462751647	13000339:1	Pirate] Gloves (90d)
 3ddfa318e5ea	13000340:1	Pirate] Shoes (90d)
 e39105171eb1	13000341:1	Student Uniform (90d)
@@ -14235,7 +14235,7 @@ b4d3ecbf9985	13000357:1	Hanbok] Rainbow Robe (Event)
 f33f3ddc5f29	13000362:1	Formal] Gloves (Event)
 771ce47fff82	13000363:1	Formal] Leather Shoes (Event)
 58d593515e2d	13000364:1	Pirate] Skull Hat (Event)
-134caa23ca47	13000365:1	Pirate] Captain's Outfit (Event)
+134caa23ca47	13000365:1	Pirate] Captain Outfit (Event)
 5e492e50db6f	13000366:1	Pirate] Gloves (Event)
 8a92aeee494a	13000367:1	Pirate] Shoes (Event)
 c7bd5a9bc7a1	13000368:1	Maid Headdress (Event)
@@ -14286,7 +14286,7 @@ bdb557e79365	13000412:1	Phantom] Clothes (365d)
 8429c6669639	13000413:1	Phantom] Gloves (365d)
 0a984fc239b4	13000414:1	Phantom] Shoes (365d)
 4c36a02bbe42	13000415:1	Pirate] Skull Hat (365d)
-22f3a191a892	13000416:1	Pirate] Captain's Outfit (365d)
+22f3a191a892	13000416:1	Pirate] Captain Outfit (365d)
 028ef829e815	13000417:1	Pirate] Gloves (365d)
 cf8861c1a2ee	13000418:1	Pirate] Shoes (365d)
 cf1363588be2	13000419:1	Student Uniform (365d)
@@ -14384,7 +14384,7 @@ e4e3abd171a3	13000510:1	Phantom] Clothes (3d)
 65331240d208	13000511:1	Phantom] Gloves (3d)
 2bd78ff4a81a	13000512:1	Phantom] Shoes (3d)
 d0dcfb319a25	13000513:1	Pirate] Skull Hat (3d)
-06aad44199cc	13000514:1	Pirate] Captain's Outfit (3d)
+06aad44199cc	13000514:1	Pirate] Captain Outfit (3d)
 47447b7e5061	13000515:1	Pirate] Gloves (3d)
 b16d778afedb	13000516:1	Pirate] Shoes (3d)
 a274a4e3d20a	13000517:1	Student Uniform (3d)
@@ -14459,7 +14459,7 @@ c7f52337f862	13000585:1	Bad Cat Mask (30d)
 aec709a3aced	13000586:1	Bad Cat Clothes (30d)
 fc5b8b171f5d	13000587:1	Bad Cat Gloves (30d)
 9c4f5f9d8863	13000588:1	Bad Cat Shoes (30d)
-0d6e8c17bded	13000589:1	Gold Drop Earring
+0d6e8c17bded	13000589:1	Gold Earring
 deabb8ade4da	13000590:1	Gold Hoop Earring
 e938e3c9fa77	13000591:1	Twinkle Star Balloon
 574cbfc945db	13000592:1	Icarus Wings
@@ -14483,22 +14483,22 @@ f1e7a6d2dbae	13000609:1	Panda Gloves (90d
 e3ca1bc616dd	13000610:1	Panda Mask (90d
 cbb6c8000c16	13000611:1	Panda Shoes (90d
 89a37c700151	13000612:1	Panda Clothes (90d
-5a13012b763f	13000613:1	Honor Student Glasses (30d
+5a13012b763f	13000613:1	Prefect Glasses (30d
 b27939603a4d	13000614:1	Fine Frame Glasses (30d
-67c128c586df	13000615:1	Fine Big Nose Glasses (30d
+67c128c586df	13000615:1	Fine Nose Glasses (30d
 cc97529ccd0b	13000616:1	Beeping Siren
 c04a43af586c	13000617:1	Wind Thread
 e355725c58d1	13000618:1	Event] Holy Child Necklace (3d
 5fd420059c43	13000619:1	Event] Gold Necklace (3d
 dea19132cf4b	13000620:1	Event] Lost Temple Earring (3d
-db1e5bcb1fd2	13000621:1	Event] Gold Drop Earring (3d
+db1e5bcb1fd2	13000621:1	Event] Gold Earring (3d
 1637126bae93	13000622:1	Event] Mini Crystal (3d
 7cd5d16c90d9	13000623:1	Event] Nibelung Ring (3d
 83961a7e549f	13000624:1	Event] Megingjord (3d
 01b2595df3f1	13000625:1	Event] Berserker Belt (3d
-511c5d6712a2	13000626:1	Event] Honor Student Glasses (3d
-b0ebb678acfe	13000627:1	Event] Fine Black Glasses (3d
-3204f0815245	13000628:1	Event] Fine Big Nose Glasses (3d
+511c5d6712a2	13000626:1	Event] Prefect Glasses (3d
+b0ebb678acfe	13000627:1	Event] Black Glasses (3d
+3204f0815245	13000628:1	Event] Fine Nose Glasses (3d
 999bdbd09f19	13000629:1	Legend: Templar Emblem
 1f4f4cf46637	13000630:1	Legend: Deadly Strike
 2175fd0da740	13000631:1	Legend: Pino's Water Orb
@@ -14562,7 +14562,7 @@ ab26c6b32411	13000688:1	Brigade Medic Boots (365d)
 556ec121696a	13000689:1	Lord of Darkness
 4e63315c8cf0	13000690:1	Angry Salamander
 a9c4d883effc	13000691:1	Honor Student Backpack
-e99dacfee3b4	13000692:1	Thick-Rim Glasses (Red
+e99dacfee3b4	13000692:1	Thick Glasses (Red
 49aa6b912214	13000693:1	All-Purpose Curls (1d)
 2625490e88c6	13000694:1	All-Purpose Curls (7d)
 55c3379e7efb	13000695:1	Novice Belt
@@ -14745,14 +14745,14 @@ d35ab01ec28c	13000920:1	Clown Hat
 f0c14060683c	13000922:1	Dancer's Ribbon
 02f0abb488a7	13000923:1	Gorgeous Feather Gem
 62bcb6647439	13000924:1	Chick Hat
-83593e28ea72	13000925:1	Vulture Feather
+83593e28ea72	13000925:1	Griffon Feather
 ee1577971a95	13000926:1	Pirate Hat
 2a4251828eb4	13000927:1	Sailor Hat
 cb0cbf9ce1ce	13000928:1	Bandit Mask
 ff4dee6253bc	13000929:1	Fan Hat
 7e63693c993b	13000930:1	Floating Stone Fragment
 71c5f847afbd	13000931:1	Floating Stone Shard
-5f8a0aeb5edb	13000932:1	Refined Floating Stone Fragment
+5f8a0aeb5edb	13000932:1	Refined Stone Fragment
 0b7e31c1c256	13000933:1	Refined Float Stone Shard
 e7106a2d2e54	13000934:1	Mana Core
 233976677ece	13000935:1	Swallow Slash
@@ -14858,9 +14858,9 @@ e6d5a893ecfa	13001098:1	Samurai] Gloves (365d)
 dfd50bf9137d	13001101:1	Samurai] Gloves
 96b437384fcc	13001102:1	Samurai] Wooden Clogs
 d28a9c879a10	13001103:1	Samurai] Exorcism Aura
-d11d0dca2e64	13001104:1	Thailand] Mother's Day - T-shirt
-5a7168defd34	13001105:1	Thailand] Mother's Day - Shoes
-d3ad3fc92d21	13001106:1	Thailand] Mother's Day - Sash
+d11d0dca2e64	13001104:1	TH] Mother's Day - T-shirt
+5a7168defd34	13001105:1	TH] Mother's Day - Shoes
+d3ad3fc92d21	13001106:1	TH] Mother's Day - Sash
 b25e257f55de	13001107:1	Royal Knights Cloak
 e608b111636b	13001108:1	Diving Regulator (7d)
 d418caacb44f	13001109:1	Wetsuit Top (7d)
@@ -15048,9 +15048,9 @@ f82515e2a0ac	13001297:1	Punk Lolita Hat
 186d1f5f2d38	13001299:1	Punk Lolita Gloves
 58c7eae35102	13001300:1	Punk Lolita Boots
 28dfa38f84b0	13001301:1	Punk Lolita Treasure
-5eae9d2a0529	13002077:1	Event] Thick-Rim Glasses (Red
+5eae9d2a0529	13002077:1	Event] Thick Glasses (Red
 7d1a00a8b4e4	13002078:1	Event] Tornado Glasses (3d
-7604ad029c99	13002080:1	Event] Drunkard Glasses (3d
+7604ad029c99	13002080:1	Event] Drunk Glasses (3d
 e4f59304745e	21000001:1	Lowest HP Potion
 ec234745985a	21000002:1	Minor HP Potion
 ecb938734243	21000003:1	HP Potion
@@ -15115,7 +15115,7 @@ b40e8dbb14de	21000059:1	Seed [Lv1]: Life Seed
 04559ac92eac	21000062:1	Seed [Lv2]: Crystal Seed
 f8d0980e6919	21000063:1	Seed [Lv2]: Magic Seed
 f54b1d6e35be	21000064:1	Seed [Lv3]: Fierce Beast Seed
-df0384029fda	21000065:1	Seed [Lv3]: Shining Crystal Seed
+df0384029fda	21000065:1	Seed [Lv3]: Shiny Crystal Seed
 5e4c39afe12d	21000066:1	Seed [Lv3]: Shining Magic Seed
 7a6643824aa3	21000067:1	Chemical Crop Fertilizer
 ca0d8dce2877	21000075:1	Organic Crop Fertilizer
@@ -15167,11 +15167,11 @@ d52c4d4222ea	21000127:1	Smooth Fierce Fruit
 ba3810246cdf	21000135:1	Shining Magic Fruit
 94b1fa6d66c6	21000136:1	Ripe Shining Magic Fruit
 12938fc88738	21000137:1	Smooth Shining Magic Fruit
-937f780a1342	21000138:1	Teleport Scroll: Alker Harbor
+937f780a1342	21000138:1	Teleport: Alker Harbor
 93774841bde4	21000139:1	Teleport: Gate of Alker
-6f26ba5d5bd7	21000140:1	Teleport Scroll: Zakandia
+6f26ba5d5bd7	21000140:1	Teleport: Zakandia
 a6f46de1c026	21000141:1	Teleport: Moon Blind Swamp
-67923831bcea	21000142:1	Teleport Scroll: Mont Blanc Port
+67923831bcea	21000142:1	Teleport: Mont Blanc Port
 6d6c694eb266	21000143:1	Army Backpack
 063020396881	21000144:1	Skull Ornament
 545db2c59c24	21000145:1	Demon Armor
@@ -15447,7 +15447,7 @@ c555880a7f74	21000444:1	Red Crazy Mushroom
 168151b1c847	21000446:1	Lucky Hunter [50%] Book (2h)
 68f10235b209	21000447:1	Sturdy Pet Gift Box
 0fd7a05e7ec8	21000448:1	Warm Pet Gift Box
-32f8a8ce3cfd	21000451:1	Thailand] Jasmine
+32f8a8ce3cfd	21000451:1	TH] Jasmine
 07c9641c2976	21000456:1	Minor Time Crystal
 f84ba51cfb47	21000457:1	Minor Battle Crystal
 b083712dc469	21000458:1	Mid Time Crystal
@@ -15464,7 +15464,7 @@ b6b7f893ddee	21000464:1	Pure Thunder Crystal
 8a8bbc1cc96f	21000469:1	Tamikai's Royal Gift
 2320e3162f35	21000470:1	Extra Scroll
 7f74a05c0903	21000471:1	Defensive Heal
-969604fa9499	21000472:1	Teleport Scroll: Nera Castletown
+969604fa9499	21000472:1	Teleport: Nera Castletown
 4ed568c3b724	21000473:1	Trendy Gift Pack
 ebf29a512840	21000509:1	EXP [50%] Up Scroll (1h)
 e6b3bb26b215	21000510:1	EXP [100%] Up Scroll (1h)
@@ -15770,9 +15770,9 @@ e5578e5feea5	30000295:1	Book of Barriers
 212890e1f938	30000297:1	Protection Orb
 d187dc65e399	30000298:1	Blessed Orb
 c3435d0e51aa	30000299:1	Mana Stone
-86e9d489d4d1	30000301:1	Reinforce Scroll: Weapon
-6acf8dab5ea0	30000306:1	Reinforce Scroll: Armor
-3e2413c3dc71	30000311:1	Reinforce Scroll: Accessory
+86e9d489d4d1	30000301:1	Reinforce: Weapon
+6acf8dab5ea0	30000306:1	Reinforce: Armor
+3e2413c3dc71	30000311:1	Reinforce: Accessory
 d27b20d78791	30000316:1	Beast Fruit Extract
 ecb267a3a746	30000317:1	Fierce Beast Fruit Extract
 cb58762b23d2	30000318:1	Fierce Beast Fruit Extract
@@ -15889,10 +15889,10 @@ c9968d8e85ce	30000425:1	Ascetic's Boots Prototype
 fb7779bb2976	30000430:1	Punished Mage Shoes Fragment
 ca86e818ee1c	30000431:1	Desert Lizard Essence
 7843e24944bc	30000432:1	Harpy Essence
-e8d35625c189	30000433:1	Vulture Essence
+e8d35625c189	30000433:1	Griffon Essence
 9ae94d0c6d2d	30000434:1	Desert Lizard Statue
 3445958fcad7	30000435:1	Harpy Statue
-c860055cdc38	30000436:1	Vulture Statue
+c860055cdc38	30000436:1	Griffon Statue
 f172f6a026d3	30000438:1	Red Glow Ore
 dee488a86b2f	30000439:1	Mixed Gem Ore
 03c7bd9a0baf	30000440:1	Mystic Ore Powder
@@ -15963,9 +15963,9 @@ d9f187671890	30000508:1	Ancient God Records
 7b67050a226e	30000509:1	Formal Fragment
 9abc554069f3	30000510:1	Wedding Ring Fragment
 6539d25615eb	30000511:1	Mystic Potion
-d685257e5a1e	30000512:1	Reinforce Scroll: Weapon
-57e0de987160	30000515:1	Reinforce Scroll: Armor
-682de57902bf	30000518:1	Reinforce Scroll: Accessory
+d685257e5a1e	30000512:1	Reinforce: Weapon
+57e0de987160	30000515:1	Reinforce: Armor
+682de57902bf	30000518:1	Reinforce: Accessory
 9de5448c92d4	30000521:1	Purified Ruby
 9bea17a32d9f	30000522:1	Purified Emerald
 fb18ff164649	30000523:1	Purified Pebble

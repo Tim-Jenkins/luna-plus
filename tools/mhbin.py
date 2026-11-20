@@ -4,7 +4,8 @@
 The game opens these files with CMHFile::Init(name, "rb") ([CC]ServerModule/MHFile.cpp,
 [Client]LUNA/MHFile.cpp). A file whose header version is 20040308 has an empty AES key
 in [CC]Header/AESFile.h, so the reader falls back to the old encoding, which this tool
-writes. Files encrypted with the newer AES key (version 20090506) are not supported.
+writes. decode also reads files encrypted with the newer key (version 20090506), such as
+the client's Data/Script/Direct/List_*.befl and Data/Interface/Windows/SystemMsg.bin.
 
 Layout:
     DWORD version  = 20040308 + type + size   (little-endian)
@@ -13,6 +14,15 @@ Layout:
     BYTE  crc1
     BYTE  data[size]
     BYTE  crc2     (same as crc1)
+
+AES layout (version 20090506):
+    DWORD version  = 20090506 + type + size
+    DWORD type, DWORD size
+    BYTE  crc1
+    BYTE  data[size rounded up to 16]   AES-256-ECB; the key is the hex string in
+                                        AESFile.h, as bytes, zero-padded to 32
+    BYTE  crc2
+crc = (type + sum(decrypted padded data)) modulo 256
 
 Encoding of plain byte p at offset i:
     e = p + i (+ type when i % type == 0), all modulo 256
@@ -28,8 +38,14 @@ Usage:
 import argparse
 import struct
 import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import aes  # noqa: E402
 
 LEGACY_VERSION = 20040308
+AES_VERSION = 20090506
+AES_KEY = bytes.fromhex("E76B2413958B00E193A1").ljust(32, b"\0")  # [CC]Header/AESFile.h
 HEADER = struct.Struct("<III")
 
 
@@ -53,8 +69,10 @@ def decode(blob: bytes) -> bytes:
     if len(blob) < HEADER.size + 2:
         raise ValueError("file too short")
     version, file_type, size = HEADER.unpack_from(blob)
+    if (version - (file_type + size)) & 0xFFFFFFFF == AES_VERSION:
+        return decode_aes(blob, file_type, size)
     if version - (file_type + size) != LEGACY_VERSION:
-        raise ValueError("not a legacy-format .bin (AES-encrypted or corrupt)")
+        raise ValueError("unknown header version (corrupt file?)")
     if file_type == 0:
         raise ValueError("header type is 0")
     crc1 = blob[HEADER.size]
@@ -71,6 +89,20 @@ def decode(blob: bytes) -> bytes:
             p -= file_type
         out[i] = p & 0xFF
     return bytes(out)
+
+
+def decode_aes(blob: bytes, file_type: int, size: int) -> bytes:
+    padded = (size + 15) // 16 * 16
+    start = HEADER.size + 1
+    data = blob[start:start + padded]
+    if len(data) != padded or len(blob) < start + padded + 1:
+        raise ValueError("file too short")
+    crc1, crc2 = blob[HEADER.size], blob[start + padded]
+    keys = aes.expand_key(AES_KEY)
+    out = b"".join(aes.decrypt_block(keys, data[i:i + 16]) for i in range(0, padded, 16))
+    if crc1 != crc2 or (file_type + sum(out)) & 0xFF != crc1:
+        raise ValueError("CRC check failed")
+    return out[:size]
 
 
 def main() -> int:

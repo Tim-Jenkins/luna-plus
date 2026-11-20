@@ -117,7 +117,7 @@ python3 tools/mhbin.py encode config/local/server/serverset/1/ChannelInfo.txt co
 python3 tools/mhbin.py decode some.bin some.txt
 ```
 
-Files from the original install that use the newer AES encoding can't be decoded by this tool.
+`decode` also reads the client's AES-encrypted files (the newer encoding, header version 20090506), for example the effect lists in `Data/Script/Direct/List_*.befl`, which map the effect ids used in `SkillList.bin` to effect files, and `Data/Interface/Windows/SystemMsg.bin`, the text of the client's system messages. `encode` still writes only the original encoding.
 
 ## Known gaps
 

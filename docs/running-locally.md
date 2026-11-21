@@ -27,7 +27,7 @@ docker run -d --name luna-sql --platform linux/amd64 --restart unless-stopped \
   mcr.microsoft.com/mssql/server:2022-latest
 ```
 
-Then create the databases with the Korean collation, run the three schema scripts, and run `db/seed/local-test.sql`. The exact commands are in `db/README.md`. The seed script creates:
+Then create the databases with the Korean collation, run the three schema scripts and the three `db/procs/` scripts (procedures missing from the export), and run `db/seed/local-test.sql`. If you set the databases up before the `db/procs/` scripts existed, just run those three. The exact commands are in `db/README.md`. The seed script creates:
 
 | Login | Password | Purpose |
 |---|---|---|

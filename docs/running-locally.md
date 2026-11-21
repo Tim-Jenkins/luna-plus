@@ -96,6 +96,8 @@ To run more maps, add a `3 <map> ...` line to `serverlist.txt` and a `$MAPNUM <m
 
 ## 6. Client
 
+Copy `LUNAClient.exe` and the DLLs from `C:\luna\bin` over the client install, replacing the original files with the same names. That includes `Network.dll`, the client's network library (`[Lib]BaseNetwork`). The other files the install needs, such as `mss32.dll`, `d3dx9_41.dll` and the game data, come from the original install.
+
 The client reads its server list from `system/ServerList.bin` in its install folder. Back up the original, then copy in `config/local/client/system/ServerList.bin`, which points at a Distribute server on `127.0.0.1:17001`. If the client runs on a different machine from the servers, edit `ServerList.txt` and the user addresses in `serverlist.txt`, then re-encode the client file.
 
 Copy the contents of `build/data/` into the client's install folder too, so its `System/Resource` matches the servers' exactly. Distribute checksums about 50 of those files at login and refuses a client whose copies differ ("Client files have been changed"). After that error, copy `config/local/client/LunaVerInfo.ver` back (the client resets it). (Servers built before #26 was fixed also leave the account's row in `LUNA_MEMBERDB.dbo.LoginTable`; delete it, or the next login fails with "The connection to the server has been lost".)

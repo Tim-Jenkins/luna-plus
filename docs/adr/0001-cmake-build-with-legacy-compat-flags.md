@@ -39,8 +39,25 @@ The code was written for the VS2003 compiler and runtime, and the servers and cl
 - `CIndexGenerator` exists only as a prebuilt VS2003 library (`[Lib]YHLibrary/IndexGenerator.lib`). Executables linking it need `/NODEFAULTLIB:libc.lib` and `/SAFESEH:NO`. Rewriting it from source would remove both.
 - `4DyuchiGXGFunc` is built as `SS3DGFunc.dll`, the name in the prebuilt import library the original servers linked against.
 - Servers load `DBThread` and `4DyuchiNET` as registered COM DLLs (`CoCreateInstance`), so running them still needs `regsvr32` on those DLLs. Not a build concern, but a deployment step.
+- The client's network library, `[Lib]BaseNetwork`, is a COM DLL too, but the client loads it by file name (`LoadLibrary("Network.dll")`) and calls its `DllGetClassObject` directly, so it doesn't need registering. The target is named `BaseNetwork` and its output `Network.dll`.
+- `LogReporter` (`LunaExecuter.exe`) is the first target that uses MFC. It links MFC statically (`CMAKE_MFC_FLAG 1`), because a static CRT can't be mixed with the MFC DLL.
 - `/MP` is on by default. Files that use `#import` can't compile with it, so `luna_legacy_target(... NO_MP)` turns it off; the client's four `cBrowser.h` users build as a separate `LUNAClientBrowser` object library for this reason.
 - The client is built without `_HACK_SHIELD_` and `_KOR_WEBLAUNCHER_`, so it needs neither `HShield.lib` nor the Korean web launcher (#5).
+
+### Prebuilt binaries
+
+Everything else the build produces comes from source in this repo. These are the exceptions:
+
+| Binary | Used by | Notes |
+|---|---|---|
+| `[Lib]YHLibrary/IndexGenerator.lib` | Every server, through `YHLibrary` | `CIndexGenerator`, VS2003, no source in the repo. See above |
+| `4DYUCHIGX_RENDER/d3d9/Lib/*.lib` | `Renderer.dll` | DirectX 9 SDK, March 2009 |
+| `SoundLib/mss/mss32.lib` | `SoundLib.dll` | Import library for Miles Sound System 6.5e |
+| `[Client]LUNA/FreeImage/FreeImage.lib` and `.dll` | `LUNAClient.exe` | FreeImage 2 |
+
+`lib/` holds nothing the build links. Its only contents are a prebuilt `PackingTool.exe` and `.pdb` in `lib/debug/`, from `[Tool]PackingTool`.
+
+The two patch launchers, which aren't built yet (#39), also depend on prebuilt libraries: VS2003 builds of CxImage (`[Client]Launcher/CxImage/`, `[Client]LUNALauncher/CxImage/`, with libjpeg, libtiff and zlib), ZipArchive (`[Client]LUNALauncher/ZipArchive/`; the source is in `[Lib]ZipArchive`), libcurl (`[Client]LUNALauncher/curl/`, loaded at runtime) and the XTrap anti-cheat (`XTrap4Launcher_mt.lib`, only with `_XTRAP_`).
 
 ### Client and engine runtime dependencies
 
@@ -49,6 +66,6 @@ These are third-party pieces that are not built from source:
 | Dependency | Where it comes from | Needed at runtime |
 |---|---|---|
 | DirectX 9 SDK (March 2009) headers and `d3d9.lib`/`d3dx9.lib` | Bundled in `4DYUCHIGX_RENDER/d3d9/` | `d3dx9_41.dll`, from the DirectX End-User Runtime (June 2010), not included in Windows |
-| Miles Sound System `mss32.lib` | Bundled in `SoundLib/mss/`; built without SafeSEH, so `SoundLib` links with `/SAFESEH:NO` | `mss32.dll` and its codec plug-ins, from the game install |
-| FreeImage | Bundled in `[Client]LUNA/FreeImage/` | `FreeImage.dll`, copied next to `LUNAClient.exe` by the build |
+| Miles Sound System 6.5e `mss32.lib` | Bundled in `SoundLib/mss/`; built without SafeSEH, so `SoundLib` links with `/SAFESEH:NO` | `mss32.dll` and its codec plug-ins, from the game install |
+| FreeImage 2 (the header gives no minor version) | Bundled in `[Client]LUNA/FreeImage/` | `FreeImage.dll`, copied next to `LUNAClient.exe` by the build |
 | IE WebBrowser control (`shdocvw.dll`) | Windows | Item shop and housing web pages; deprecated on Windows 10/11, may not work under Wine |

@@ -24,6 +24,15 @@
 #include <memory.h>
 #include <tchar.h>
 #include <stdio.h>
+// CommonDefine.h defines max() and abs() as macros, and CommonStruct.h includes these
+// after it, so include them first, as the Map server does.
+#include <cstdlib>
+#include <hash_map>
+#include <hash_set>
+#include <list>
+#include <map>
+#include <set>
+#include <string>
 
 struct VECTOR3	{float x,y,z;};
 extern DWORD gCurTime;

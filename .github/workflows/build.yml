@@ -8,7 +8,12 @@ on:
 
 jobs:
   windows-win32:
+    name: windows-win32 (${{ matrix.config }})
     runs-on: windows-2022
+    strategy:
+      fail-fast: false
+      matrix:
+        config: [release, debug]
     env:
       VCPKG_ROOT: C:\vcpkg
       VCPKG_BINARY_SOURCES: clear;x-gha,readwrite
@@ -16,6 +21,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Check every stored procedure the servers call exists in db/
+        if: matrix.config == 'release'
         run: python tools/check_db_procs.py
 
       - name: Export GitHub Actions cache variables for vcpkg
@@ -32,10 +38,10 @@ jobs:
         run: cmake --preset win32
 
       - name: Build
-        run: cmake --build --preset win32-release -- /p:CL_MPCount=4 /m
+        run: cmake --build --preset win32-${{ matrix.config }} -- /p:CL_MPCount=4 /m
 
       - name: Upload binaries
-        if: always()
+        if: always() && matrix.config == 'release'
         uses: actions/upload-artifact@v4
         with:
           name: luna-win32-release
@@ -45,7 +51,7 @@ jobs:
           if-no-files-found: ignore
 
       - name: Upload debug symbols
-        if: always()
+        if: always() && matrix.config == 'release'
         uses: actions/upload-artifact@v4
         with:
           name: luna-win32-release-pdb

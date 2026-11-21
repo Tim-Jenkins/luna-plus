@@ -24,13 +24,9 @@
 #include <tchar.h>
 #include <commdlg.h>
 #include <basetsd.h>
-#include <D3d8.h>
-#include <d3dx8.h>
-#include <D3d8types.h>
 #include <tchar.h>
 #include <ddraw.h>
 #include <mmreg.h>
-#include <dxerr8.h>
 #include <dsound.h>
 #include <process.h>
 #include <assert.h>

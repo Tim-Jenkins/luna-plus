@@ -238,7 +238,7 @@ void CGuildLevelUpDialog::SetLevel( DWORD level )
 				mIncompleteStaticList.end() != end_it;
 				++end_it )
 		{
-			cStatic* image = *it;
+			cStatic* image = *end_it;
 
 			image->SetActive( TRUE );
 		}
@@ -264,7 +264,7 @@ void CGuildLevelUpDialog::SetLevel( DWORD level )
 				mCompleteStaticList.end() != end_it;
 				++end_it )
 		{
-			cStatic* image = *it;
+			cStatic* image = *end_it;
 
 			image->SetActive( FALSE );
 		}

@@ -81,6 +81,15 @@ void cDialogueList::LoadScript()
 #define NPCDIALOG_TEXTWIDTH	305
 #endif
 
+#ifndef _TL_LOCAL_
+// Width of the first len bytes of str in the conversation list's font: pixels, or the
+// byte count when the NPC script dialog doesn't exist (compared with NPCDIALOG_TEXTLEN).
+static LONG MeasureText( cNpcScriptDialog* pNpcScriptDlg, WORD fontIdx, char* str, int len )
+{
+	return pNpcScriptDlg != NULL ? CFONT_OBJ->GetTextExtentEx( fontIdx, str, len ) : len;
+}
+#endif
+
 void cDialogueList::ParsingLine(DWORD dwId, LPCTSTR buf)
 {
 	DWORD dwColor = m_dwDefaultColor;
@@ -93,6 +102,15 @@ void cDialogueList::ParsingLine(DWORD dwId, LPCTSTR buf)
 	BYTE brk[512];
 	int nBrkNum = 0;
 	int nTextExtent = 0;
+#else
+	// 091202 ShinJS --- NPC Script Dialog 의 대화 List Dialog의 Text Width와 문자열의 Width를 비교한다.
+	// (NPC Script Dialog 를 못찾은 경우 기존방법 사용: 글자 수로 비교)
+	cNpcScriptDialog* pNpcScriptDlg	= GAMEIN->GetNpcScriptDialog();
+	const WORD wListFontIdx	= (pNpcScriptDlg != NULL ? pNpcScriptDlg->GetConversationListFontIdx() : 0);
+	const LONG listWidth	= (pNpcScriptDlg != NULL ? pNpcScriptDlg->GetConversationListTextWidth() : NPCDIALOG_TEXTLEN);
+	// Width of the segments already placed on the current line. A '$' color flag starts
+	// a new segment, but it is drawn on the same line after the earlier ones.
+	LONG lineWidth = 0;
 #endif
 
 	while( *buf )																	// 버퍼의 정보가 유효하면, while문을 돌린다.
@@ -101,11 +119,15 @@ void cDialogueList::ParsingLine(DWORD dwId, LPCTSTR buf)
 		{
 			if( nStrLen != 0 )														// 문자열 길이가 0과 같지 않으면,
 			{
+#ifndef _TL_LOCAL_
+				lineWidth += MeasureText( pNpcScriptDlg, wListFontIdx, wBuff, nStrLen );
+#endif
 				AddLine( dwId, wBuff, dwColor, wLine, emLink_Null );
 				ZeroMemory(
 					wBuff,
 					sizeof(wBuff));
 				nStrLen = 0;
+				nCut = 0;
 			}
 
 			buf += 2;																// 버퍼 포인터를 2증가한다.
@@ -172,11 +194,14 @@ void cDialogueList::ParsingLine(DWORD dwId, LPCTSTR buf)
 #else
 		wBuff[nStrLen] = *buf;														// 임시 버퍼의 문자열 길이의 위치에 버퍼의 값을 세팅한다.
 
+		int charLen = 1;
+
 		if( IsDBCSLeadByte( *buf ) )												// 버퍼의 값이 한글 바이트의 첫 바이트라면,
 		{
 			++buf;																	// 버퍼 포인터를 증가한다.
 			++nStrLen;																// 문자열 길이를 증가한다.
 			++nCut;																	// 컷팅 길이를 증가한다.
+			charLen = 2;
 			wBuff[nStrLen] = *buf;													// 임시 버퍼의 문자열 길이에 버퍼의 값을 세팅한다.
 		}
 
@@ -184,13 +209,9 @@ void cDialogueList::ParsingLine(DWORD dwId, LPCTSTR buf)
 		++buf;																		// 버퍼 포인터를 증가한다.
 		++nStrLen;																	// 문자열 길이를 증가한다.
 
-		// 091202 ShinJS --- NPC Script Dialog 의 대화 List Dialog의 Text Width와 문자열의 Width를 비교한다.
-		cNpcScriptDialog* pNpcScriptDlg	= GAMEIN->GetNpcScriptDialog();
-		WORD wListFontIdx	= (pNpcScriptDlg != NULL ? pNpcScriptDlg->GetConversationListFontIdx() : 0);
-		LONG textExtent		= (pNpcScriptDlg != NULL ? CFONT_OBJ->GetTextExtentEx( wListFontIdx, wBuff, nCut ) : nCut);
-		LONG listWidth		= (pNpcScriptDlg != NULL ? pNpcScriptDlg->GetConversationListTextWidth() : NPCDIALOG_TEXTLEN);
+		const LONG textExtent = lineWidth + MeasureText( pNpcScriptDlg, wListFontIdx, wBuff, nStrLen );
 
-		// 리스트의 문자열이 Text Width 보다 긴 경우 (NPC Script Dialog 를 못찾은 경우 기존방법 사용)
+		// 리스트의 문자열이 Text Width 보다 긴 경우
 		if( textExtent > listWidth )
 		{
 			// Break English text at the last space so words are not split: the start of the
@@ -198,24 +219,41 @@ void cDialogueList::ParsingLine(DWORD dwId, LPCTSTR buf)
 			char carry[512] = {0};
 			int carryLen = 0;
 			char* space = strrchr( wBuff, ' ' );
-			if( space && space != wBuff && *buf != ' ' && *buf != 0 )
+			if( space && (space != wBuff || lineWidth > 0) )
 			{
 				carryLen = int( strlen( space + 1 ) );
 				memcpy( carry, space + 1, carryLen );
 				*space = 0;
 			}
+			else if( !space && lineWidth > 0 )
+			{
+				// The segment (e.g. a highlighted name) holds no space and doesn't fit after
+				// the earlier segments: move all of it to the next line.
+				carryLen = nStrLen;
+				memcpy( carry, wBuff, carryLen );
+				wBuff[0] = 0;
+			}
+			else if( !space && nStrLen > charLen )
+			{
+				// One word wider than the whole line: break it before the character that
+				// overflowed, which starts the next line.
+				buf -= charLen;
+				nStrLen -= charLen;
+				wBuff[nStrLen] = 0;
+			}
 
-			if( nStrLen != 0 )
+			if( wBuff[0] != 0 )
 			{
 				AddLine( dwId, wBuff, dwColor, wLine, emLink_Null );
-				ZeroMemory(
-					wBuff,
-					sizeof(wBuff));
 			}
+			ZeroMemory(
+				wBuff,
+				sizeof(wBuff));
 
 			memcpy( wBuff, carry, carryLen );
 			nStrLen = carryLen;
 			nCut = carryLen;
+			lineWidth = 0;
 			++wLine;
 
 			// Don't start the new line with a space.

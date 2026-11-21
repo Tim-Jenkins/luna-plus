@@ -68,14 +68,12 @@ Run all three servers from one folder. Each server reads its config relative to 
    - **Minimal data.** Run `python3 tools/build_minimal_data.py`. This is the hand-written set from `data/minimal/` (#21): map 20 only, a few NPCs and monsters, no items or quests.
 
    Copy the contents of `build/data/` into the folder. Copy `System/Map/<map>.ttb` for each map you run (`20.ttb` at least) from the client install into `System\Map\` if the data didn't include it.
-4. Copy `MHConsole.dll` from the original server package (`Server/Dll/`) into the folder. It's the COM component behind the server console windows, and its source isn't in this repo. Without it, the servers stop with "Console initializing Failed".
-5. Register the three COM DLLs from an administrator prompt, using the 32-bit `regsvr32`:
+4. Register the two COM DLLs from an administrator prompt, using the 32-bit `regsvr32`:
    ```powershell
    C:\Windows\SysWOW64\regsvr32.exe C:\luna\server\DBThread.dll
    C:\Windows\SysWOW64\regsvr32.exe C:\luna\server\INetwork.dll
-   C:\Windows\SysWOW64\regsvr32.exe C:\luna\server\MHConsole.dll
    ```
-   `INetwork.dll` is the `4DyuchiNET_Latest` network library. Without this step, the servers fail with "unregistered Component".
+   `INetwork.dll` is the `4DyuchiNET_Latest` network library. Without this step, the servers fail with "unregistered Component". (Servers built before #24 also needed `MHConsole.dll` from the original server package, registered the same way. The console window is now part of each server.)
 
 ## 5. Start the servers
 

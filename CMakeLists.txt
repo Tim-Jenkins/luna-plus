@@ -30,6 +30,7 @@ set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/lib")
 # Libraries
 add_subdirectory("[Lib]YHLibrary")
 add_subdirectory("[Lib]DBThread")
+add_subdirectory("[Lib]BaseNetwork")
 add_subdirectory("4DyuchiNET_Latest")
 add_subdirectory("4DyuchiGXGFunc")
 add_subdirectory("4DyuchiFileStorage")
@@ -42,6 +43,8 @@ add_subdirectory("SoundLib")
 add_subdirectory("[Server]Agent")
 add_subdirectory("[Server]Distribute")
 add_subdirectory("[Server]Map")
+add_subdirectory("[Monitoring]Server")
 
 # Client
 add_subdirectory("[Client]LUNA")
+add_subdirectory("[Client]LogReporter")

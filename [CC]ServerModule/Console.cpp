@@ -18,6 +18,7 @@ namespace
 	const int kMaxLines = 1000;
 	const UINT kRefreshTimer = 1;
 	const UINT kRefreshMs = 200;
+	const UINT kSourceCodePage = 949;
 
 	const UINT kIdExit = 1000;
 	const UINT kIdCustomMenu = 2000;
@@ -70,25 +71,35 @@ namespace
 			return;
 		}
 
-		SendMessageA(state.list, WM_SETREDRAW, FALSE, 0);
+		SendMessageW(state.list, WM_SETREDRAW, FALSE, 0);
 
 		for(size_t i = 0; i < lines.size(); ++i)
 		{
 			char text[kMessageSize + 16];
 			_snprintf(text, sizeof(text), "%u\t%s", state.lineNumber++, lines[i].c_str());
 			text[sizeof(text) - 1] = 0;
-			SendMessageA(state.list, LB_ADDSTRING, 0, (LPARAM)text);
+
+			// The servers' messages are CP949 (Korean). Convert them here rather than letting
+			// the ANSI list box use the system code page, so they read correctly on
+			// non-Korean Windows too.
+			wchar_t wideText[kMessageSize + 16] = {0};
+			if(0 == MultiByteToWideChar(kSourceCodePage, 0, text, -1, wideText, _countof(wideText)))
+			{
+				MultiByteToWideChar(CP_ACP, 0, text, -1, wideText, _countof(wideText));
+			}
+			wideText[_countof(wideText) - 1] = 0;
+			SendMessageW(state.list, LB_ADDSTRING, 0, (LPARAM)wideText);
 		}
 
-		LRESULT count = SendMessageA(state.list, LB_GETCOUNT, 0, 0);
+		LRESULT count = SendMessageW(state.list, LB_GETCOUNT, 0, 0);
 		while(count > kMaxLines)
 		{
-			SendMessageA(state.list, LB_DELETESTRING, 0, 0);
+			SendMessageW(state.list, LB_DELETESTRING, 0, 0);
 			--count;
 		}
 
-		SendMessageA(state.list, LB_SETTOPINDEX, (WPARAM)(count - 1), 0);
-		SendMessageA(state.list, WM_SETREDRAW, TRUE, 0);
+		SendMessageW(state.list, LB_SETTOPINDEX, (WPARAM)(count - 1), 0);
+		SendMessageW(state.list, WM_SETREDRAW, TRUE, 0);
 		InvalidateRect(state.list, 0, TRUE);
 	}
 
@@ -311,9 +322,10 @@ BOOL CConsole::Init(int MaxButton,MENU_CUSTOM_INFO* pMenuInfo, cbRetrnFunc comma
 
 	SetWindowLongPtrA(state.window, GWLP_USERDATA, (LONG_PTR)&state);
 
-	state.list = CreateWindowExA(
+	// A Unicode list box, so Korean shows correctly whatever the system code page is.
+	state.list = CreateWindowExW(
 		WS_EX_CLIENTEDGE,
-		"LISTBOX",
+		L"LISTBOX",
 		0,
 		WS_CHILD | WS_VISIBLE | WS_VSCROLL | LBS_NOINTEGRALHEIGHT | LBS_NOSEL | LBS_USETABSTOPS,
 		0, 0, 0, 0,
@@ -341,21 +353,22 @@ BOOL CConsole::Init(int MaxButton,MENU_CUSTOM_INFO* pMenuInfo, cbRetrnFunc comma
 
 	state.editProc = (WNDPROC)SetWindowLongPtrA(state.edit, GWLP_WNDPROC, (LONG_PTR)EditProc);
 
-	// The same font the servers asked MHConsole.dll for (Gulim, bold, Korean character set).
-	LOGFONTA logFont = {0};
+	// MHConsole.dll was asked for bold 17 px Gulim. Gulim only comes with the Korean
+	// supplemental fonts, while Malgun Gothic ships with every Windows since Vista.
+	LOGFONTW logFont = {0};
 	logFont.lfHeight = 17;
 	logFont.lfWeight = FW_BOLD;
-	logFont.lfCharSet = HANGUL_CHARSET;
-	strcpy(logFont.lfFaceName, "Gulim");
-	state.font = CreateFontIndirectA(&logFont);
+	logFont.lfCharSet = DEFAULT_CHARSET;
+	wcscpy(logFont.lfFaceName, L"Malgun Gothic");
+	state.font = CreateFontIndirectW(&logFont);
 	state.background = CreateSolidBrush(kBackground);
 
-	SendMessageA(state.list, WM_SETFONT, (WPARAM)state.font, FALSE);
+	SendMessageW(state.list, WM_SETFONT, (WPARAM)state.font, FALSE);
 	SendMessageA(state.edit, WM_SETFONT, (WPARAM)state.font, FALSE);
 
 	// One tab stop after the line number column (in dialog units).
 	const int tabStop = 24;
-	SendMessageA(state.list, LB_SETTABSTOPS, 1, (LPARAM)&tabStop);
+	SendMessageW(state.list, LB_SETTABSTOPS, 1, (LPARAM)&tabStop);
 
 	Layout(state);
 	ShowWindow(state.window, SW_SHOW);

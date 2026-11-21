@@ -1,6 +1,7 @@
 # Converted from BaseNetwork.vcproj (Release|Win32). The client's network layer: an in-process
 # COM server that [Client]LUNA/MHNetwork.cpp loads by name with LoadLibrary("Network.dll") and
-# DllGetClassObject, so it doesn't need registering.
+# DllGetClassObject, so it doesn't need registering. Its .def still names it BASENETWORK, the
+# original project's output name, which only causes a harmless LNK4070 warning.
 add_library(BaseNetwork SHARED
   "accept.cpp"
   "BaseNetwork.cpp"
@@ -20,7 +21,4 @@ add_library(BaseNetwork SHARED
 )
 set_target_properties(BaseNetwork PROPERTIES OUTPUT_NAME "Network")
 luna_legacy_target(BaseNetwork)
-target_compile_definitions(BaseNetwork PRIVATE
-  _DLLEXPORT_     # stdafx.h otherwise declares DllRegisterServer as dllimport, clashing with the SDK
-)
 target_link_libraries(BaseNetwork PRIVATE ws2_32)

@@ -1,6 +1,6 @@
 # Running locally
 
-How to run the Distribute, Agent and Map servers against a local database, and point the client at them. Nobody has got all the way into the game this way yet (#6), so expect gaps. Please record what you find.
+How to run the Distribute, Agent and Map servers against a local database, and point the client at them. This gets you through login and character creation into map 20, but not everything works yet (#6), so expect gaps. Please record what you find.
 
 The setup this was written for is a Mac running SQL Server in Docker, plus an x86 Windows VM in UTM (emulated, not ARM) that runs the servers and client. The steps are the same on a Windows PC: just run SQL Server wherever is convenient.
 
@@ -144,7 +144,6 @@ python3 tools/mhbin.py decode some.bin some.txt
 ## Known gaps
 
 - Without original data, the game data is a minimal hand-written set (`data/minimal/`): map 20 has eight NPCs and fifteen monsters, but there are no items or quests, and the only skills are the unarmed basic attack and one melee attack per monster.
-- 22 stored procedures the servers call don't exist yet (see `db/README.md`, #3). Anything that calls one fails.
 - Deleting a character fails: `MP_CHARACTER_DeleteCharacter` calls a linked server that doesn't exist.
 - No billing server is configured, so Distribute keeps retrying a connection to an empty address. This should be harmless.
 - With UTM's emulated graphics there's no 3D acceleration, so the DirectX 9 client renders in software and is very slow.

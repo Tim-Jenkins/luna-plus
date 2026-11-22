@@ -1,6 +1,8 @@
-// Unarmed basic attacks (1000101-1000103) are not in any skill tree, so skip the server's
-// "player has no skill" check for them.
-skill 10001**
+// Basic attacks are not in any skill tree, so skip the server's "player has no skill" check
+// for them. The client picks one by weapon: 1000000 + weapon * 100 + combo
+// (cSkillManager::GetComboSkillIdx). 1000000-1009999 holds only those combos
+// (1000101-1001003) and Rest (1000901), which isn't in a skill tree either.
+skill 100****
 {
 	noCheck
 	{
